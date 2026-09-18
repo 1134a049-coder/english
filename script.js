@@ -22,8 +22,72 @@
   let examTimeLeft = examDuration;
   let examTimerInterval = null;
 
-  // LocalStorage Key for Mistakes
+  // LocalStorage Keys
   const STORAGE_MISTAKES_KEY = 'toeic_pro_mistakes_v1';
+  const STORAGE_ANSWERS_PREFIX = 'toeic_pro_answers_v1_';
+  const STORAGE_FLAGS_PREFIX = 'toeic_pro_flags_v1_';
+  const STORAGE_INDEX_PREFIX = 'toeic_pro_index_v1_';
+  const STORAGE_CURRENT_TEST_KEY = 'toeic_pro_current_test_v1';
+  const STORAGE_FILTER_KEY = 'toeic_pro_filter_v1';
+  const STORAGE_MODE_KEY = 'toeic_pro_mode_v1';
+
+  // State Persistence Helpers
+  function saveCurrentState() {
+    try {
+      if (currentMode !== 'mistakes') {
+        localStorage.setItem(STORAGE_CURRENT_TEST_KEY, currentTestId);
+      }
+      localStorage.setItem(STORAGE_MODE_KEY, currentMode);
+      localStorage.setItem(STORAGE_FILTER_KEY, currentFilter);
+
+      const storageKey = (currentMode === 'mistakes') ? 'mistakes' : currentTestId;
+      localStorage.setItem(STORAGE_ANSWERS_PREFIX + storageKey, JSON.stringify(userAnswers));
+      localStorage.setItem(STORAGE_FLAGS_PREFIX + storageKey, JSON.stringify(Array.from(flaggedQuestions)));
+      localStorage.setItem(STORAGE_INDEX_PREFIX + storageKey, String(currentIndex));
+    } catch (e) {
+      console.error('Failed to save state to localStorage:', e);
+    }
+  }
+
+  function loadSavedStateForTest(testId) {
+    try {
+      const storageKey = (currentMode === 'mistakes') ? 'mistakes' : testId;
+      const rawAns = localStorage.getItem(STORAGE_ANSWERS_PREFIX + storageKey);
+      userAnswers = rawAns ? JSON.parse(rawAns) : {};
+
+      const rawFlags = localStorage.getItem(STORAGE_FLAGS_PREFIX + storageKey);
+      flaggedQuestions = rawFlags ? new Set(JSON.parse(rawFlags)) : new Set();
+
+      const savedIdx = parseInt(localStorage.getItem(STORAGE_INDEX_PREFIX + storageKey), 10);
+      if (!isNaN(savedIdx) && savedIdx >= 0) {
+        currentIndex = savedIdx;
+      } else {
+        currentIndex = 0;
+      }
+    } catch (e) {
+      userAnswers = {};
+      flaggedQuestions = new Set();
+      currentIndex = 0;
+    }
+  }
+
+  function recalculatePracticeStats() {
+    let correct = 0;
+    let wrong = 0;
+    const qList = (rawQuestions && rawQuestions.length > 0) ? rawQuestions : questions;
+    qList.forEach(q => {
+      const ans = userAnswers[q.id];
+      if (ans) {
+        if (ans === q.answer) {
+          correct++;
+        } else {
+          wrong++;
+        }
+      }
+    });
+    practiceStats = { correct, wrong };
+    updatePracticeStats();
+  }
 
   // DOM Elements
   const testSelect = document.getElementById('testSelect');
@@ -49,6 +113,7 @@
   const answerToggleText = document.getElementById('answerToggleText');
   const btnToggleExplain = document.getElementById('btnToggleExplain');
   const explainToggleText = document.getElementById('explainToggleText');
+  const btnResetTest = document.getElementById('btnResetTest');
   const practiceFilterGroup = document.getElementById('practiceFilterGroup');
   const filterBtns = practiceFilterGroup ? practiceFilterGroup.querySelectorAll('.filter-btn') : [];
 
@@ -90,10 +155,46 @@
 
   // Initialize
   function init() {
+    try {
+      const savedTest = localStorage.getItem(STORAGE_CURRENT_TEST_KEY);
+      if (savedTest) {
+        currentTestId = savedTest;
+        if (testSelect) testSelect.value = savedTest;
+      }
+      const savedMode = localStorage.getItem(STORAGE_MODE_KEY);
+      if (savedMode && ['practice', 'exam', 'mistakes'].includes(savedMode)) {
+        currentMode = savedMode;
+      }
+      const savedFilter = localStorage.getItem(STORAGE_FILTER_KEY);
+      if (savedFilter && ['all', 'part5', 'part6', 'part7'].includes(savedFilter)) {
+        currentFilter = savedFilter;
+      }
+    } catch (e) {}
+
     loadMistakesCount();
     updateToggleButtonsUI();
     setupEventListeners();
-    loadTest(currentTestId);
+
+    btnModePractice.classList.toggle('active', currentMode === 'practice');
+    btnModeExam.classList.toggle('active', currentMode === 'exam');
+    btnModeMistakes.classList.toggle('active', currentMode === 'mistakes');
+    if (filterBtns && filterBtns.length > 0) {
+      filterBtns.forEach(b => b.classList.toggle('active', b.dataset.filter === currentFilter));
+    }
+
+    if (currentMode === 'exam') {
+      practiceBanner.style.display = 'none';
+      examControls.style.display = 'flex';
+      loadTest(currentTestId);
+    } else if (currentMode === 'mistakes') {
+      practiceBanner.style.display = 'none';
+      examControls.style.display = 'none';
+      loadMistakesMode();
+    } else {
+      practiceBanner.style.display = 'flex';
+      examControls.style.display = 'none';
+      loadTest(currentTestId);
+    }
   }
 
   // Determine Question Part (Part 5: 句子填空, Part 6: 段落填空, Part 7: 閱讀理解)
@@ -144,15 +245,15 @@
     currentIndex = 0;
     renderPalette();
     renderQuestion(currentIndex);
+    saveCurrentState();
   }
 
   // Load Test Data
   function loadTest(testId) {
     currentTestId = testId;
-    userAnswers = {};
-    flaggedQuestions.clear();
-    practiceStats = { correct: 0, wrong: 0 };
-    updatePracticeStats();
+    if (testSelect && testSelect.value !== testId) {
+      testSelect.value = testId;
+    }
 
     if (currentMode === 'mistakes') {
       loadMistakesMode();
@@ -171,6 +272,10 @@
       return;
     }
 
+    // Load saved answers, flags, and index for this test
+    loadSavedStateForTest(testId);
+    recalculatePracticeStats();
+
     // Apply active filter (or default to 'all' if in exam mode)
     if (currentMode === 'exam') {
       questions = [...rawQuestions];
@@ -183,9 +288,13 @@
       }
     }
 
-    currentIndex = 0;
+    if (currentIndex >= questions.length || currentIndex < 0) {
+      currentIndex = 0;
+    }
+
     renderPalette();
     renderQuestion(currentIndex);
+    saveCurrentState();
 
     if (currentMode === 'exam') {
       startExamTimer();
@@ -263,6 +372,8 @@
   // Render Current Question
   function renderQuestion(index) {
     if (index < 0 || index >= questions.length) return;
+    currentIndex = index;
+    saveCurrentState();
     const q = questions[index];
 
     // Card Header
@@ -375,23 +486,42 @@
 
   // Handle Option Click
   function selectOption(q, optKey) {
-    const prevAnswer = userAnswers[q.id];
     userAnswers[q.id] = optKey;
 
     if (currentMode === 'practice') {
       const isCorrect = (optKey === q.answer);
-      if (!prevAnswer) {
-        if (isCorrect) {
-          practiceStats.correct++;
-        } else {
-          practiceStats.wrong++;
-          saveMistake(q);
-        }
-        updatePracticeStats();
+      if (!isCorrect) {
+        saveMistake(q);
       }
+      recalculatePracticeStats();
     }
 
+    saveCurrentState();
     renderQuestion(currentIndex);
+    updatePaletteStatus();
+  }
+
+  // Clear current test answers & reset progress
+  function clearCurrentTestAnswers() {
+    const testTitle = currentTest ? currentTest.title : currentTestId;
+    if (!confirm(`確定要清除【${testTitle}】的所有作答紀錄並重新練習嗎？`)) {
+      return;
+    }
+
+    const storageKey = (currentMode === 'mistakes') ? 'mistakes' : currentTestId;
+    userAnswers = {};
+    flaggedQuestions.clear();
+    currentIndex = 0;
+    try {
+      localStorage.removeItem(STORAGE_ANSWERS_PREFIX + storageKey);
+      localStorage.removeItem(STORAGE_FLAGS_PREFIX + storageKey);
+      localStorage.removeItem(STORAGE_INDEX_PREFIX + storageKey);
+    } catch (e) {}
+
+    recalculatePracticeStats();
+    renderPalette();
+    renderQuestion(0);
+    showToast(`🧹 已清除【${testTitle}】的作答紀錄！`);
   }
 
   // Update Practice Stats Banner
@@ -444,7 +574,10 @@
         switchMode('practice');
         return;
       }
-      currentIndex = 0;
+      loadSavedStateForTest('mistakes');
+      if (currentIndex >= questions.length || currentIndex < 0) {
+        currentIndex = 0;
+      }
       renderPalette();
       renderQuestion(currentIndex);
     } catch (e) {
@@ -458,6 +591,8 @@
     btnModePractice.classList.toggle('active', currentMode === 'practice');
     btnModeExam.classList.toggle('active', currentMode === 'exam');
     btnModeMistakes.classList.toggle('active', currentMode === 'mistakes');
+
+    saveCurrentState();
 
     if (currentMode === 'exam') {
       practiceBanner.style.display = 'none';
@@ -629,6 +764,7 @@
         btnFlag.classList.add('flagged');
         showToast(`🚩 已標記第 ${q.id} 題稍後檢查`);
       }
+      saveCurrentState();
       updatePaletteStatus();
     });
 
@@ -662,8 +798,16 @@
 
     btnRetakeTest.addEventListener('click', () => {
       resultModal.style.display = 'none';
+      const storageKey = (currentMode === 'mistakes') ? 'mistakes' : currentTestId;
       userAnswers = {};
       flaggedQuestions.clear();
+      currentIndex = 0;
+      try {
+        localStorage.removeItem(STORAGE_ANSWERS_PREFIX + storageKey);
+        localStorage.removeItem(STORAGE_FLAGS_PREFIX + storageKey);
+        localStorage.removeItem(STORAGE_INDEX_PREFIX + storageKey);
+      } catch (e) {}
+      recalculatePracticeStats();
       if (currentMode === 'exam') startExamTimer();
       renderPalette();
       renderQuestion(0);
@@ -673,6 +817,13 @@
       resultModal.style.display = 'none';
       switchMode('mistakes');
     });
+
+    // Reset Test Button (Practice Mode)
+    if (btnResetTest) {
+      btnResetTest.addEventListener('click', () => {
+        clearCurrentTestAnswers();
+      });
+    }
 
     // Toggle Answer Display Button (Practice Mode)
     if (btnToggleAnswer) {
@@ -743,15 +894,22 @@
 
   // Generate Rich Explanation
   function generateExplanation(q, isCorrect) {
-    const ansText = q.options[q.answer] || '';
-    let completeSentence = escapeHtml(q.question).replace(/_{3,}|＿＿＿+/g, `<strong>${escapeHtml(ansText)}</strong>`);
-
     const exp = q.explanation || {};
     const focus = exp.focus || '多益核心文法與語意測驗';
     const type = exp.type || '句型結構與詞彙運用';
     const translation = exp.translation || '';
     const grammar = exp.grammar || '';
     const optionsAnalysis = exp.options_analysis || {};
+
+    const ansText = q.options[q.answer] || '';
+    const ansInfo = optionsAnalysis[q.answer] || {};
+    const ansMeaning = ansInfo.meaning || '';
+
+    let replacement = `<strong>${escapeHtml(ansText)}</strong>`;
+    if (ansMeaning) {
+      replacement = `<strong>${escapeHtml(ansText)}</strong> <span class="ans-hint-bubble" title="正解單字中文翻譯">（${escapeHtml(ansMeaning)}）</span>`;
+    }
+    let completeSentence = escapeHtml(q.question).replace(/_{3,}|＿＿＿+/g, replacement);
 
     const optionKeys = ['A', 'B', 'C', 'D'];
     let optionsGridHtml = '';

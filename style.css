@@ -768,6 +768,28 @@ body {
   padding: 0 4px;
 }
 
+.ans-hint-bubble {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 500;
+  color: #34d399;
+  background: rgba(16, 185, 129, 0.12);
+  border: 1px solid rgba(16, 185, 129, 0.3);
+  border-radius: 5px;
+  padding: 1px 8px;
+  margin: 0 4px;
+  vertical-align: 1px;
+  text-decoration: none !important;
+  line-height: 1.45;
+  white-space: normal;
+  transition: all 0.2s ease;
+}
+
+.ans-hint-bubble:hover {
+  background: rgba(16, 185, 129, 0.22);
+  border-color: rgba(16, 185, 129, 0.55);
+}
+
 .explain-translation-text {
   font-size: 14px;
   color: #e2e8f0;

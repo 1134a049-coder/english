@@ -804,32 +804,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "被動語態與時態判斷",
             "type": "動詞語態 (Passive Voice)",
-            "translation": "完整句子意指：After abusing his newly given authority by being very rude to the other employees, Daniel has fallen from the boss's good graces.",
+            "translation": "丹尼爾濫用了新授予的權力，對其他員工非常粗魯，從此失去了老闆的好感。",
             "grammar": "主詞與動作執行者具有被動承受關係，需根據主詞人稱與時間提示選出符合之被動態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "abuses",
+                "meaning": "濫權",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「濫權」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v.-ing 現在分詞/動名詞",
-                "meaning": "abusing",
+                "meaning": "濫用",
                 "correct": true,
-                "reason": "【正確】v.-ing 現在分詞/動名詞。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v.-ing 現在分詞/動名詞。意為「濫用」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "C": {
                 "pos": "v.-ed 過去式/過去分詞",
-                "meaning": "abused",
+                "meaning": "被虐待",
                 "correct": false,
-                "reason": "【錯誤】v.-ed 過去式/過去分詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v.-ed 過去式/過去分詞。意為「被虐待」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v.-ing 現在分詞/動名詞",
-                "meaning": "was abusing",
+                "meaning": "正在濫用",
                 "correct": false,
-                "reason": "【錯誤】v.-ing 現在分詞/動名詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v.-ing 現在分詞/動名詞。意為「正在濫用」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -849,32 +849,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：The guests availed themselves of the free champagne at the exhibition opening.",
+            "translation": "展覽開幕時，賓客們享用了免費香檳。",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "themselves",
+                "meaning": "他們自己",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「他們自己」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "their",
+                "meaning": "他們的",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「他們的」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "them",
+                "meaning": "他們",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「他們」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "they",
+                "meaning": "他們",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「他們」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -894,32 +894,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "商務情境核心字彙與語意辨析",
             "type": "詞彙與商務語境 (Business Vocabulary & Collocation)",
-            "translation": "完整句子意指：Because my professor understands that I have been very busy, he mercifully extended the deadline on my research paper.",
+            "translation": "因為我的教授知道我一直很忙，所以他仁慈地延長了我研究論文的截止日期。",
             "grammar": "需結合前後文商業溝通脈絡與專業搭配詞，辨析各選項含義並挑選最精準用詞。",
             "options_analysis": {
               "A": {
                 "pos": "adv. 副詞",
-                "meaning": "callously",
+                "meaning": "冷酷無情地",
                 "correct": false,
-                "reason": "【錯誤】adv. 副詞。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】adv. 副詞。意為「冷酷無情地」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "adv. 副詞",
-                "meaning": "mercifully",
+                "meaning": "仁慈地",
                 "correct": true,
-                "reason": "【正確】adv. 副詞。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】adv. 副詞。意為「仁慈地」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "C": {
                 "pos": "adv. 副詞",
-                "meaning": "maliciously",
+                "meaning": "惡意地",
                 "correct": false,
-                "reason": "【錯誤】adv. 副詞。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】adv. 副詞。意為「惡意地」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "adv. 副詞",
-                "meaning": "frenetically",
+                "meaning": "瘋狂地",
                 "correct": false,
-                "reason": "【錯誤】adv. 副詞。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】adv. 副詞。意為「瘋狂地」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -939,32 +939,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "商務情境核心字彙與語意辨析",
             "type": "詞彙與商務語境 (Business Vocabulary & Collocation)",
-            "translation": "完整句子意指：We are looking for a male character actor to play the funny, but not attractive best friend of the leading role in our upcoming film.",
+            "translation": "我們正在尋找一位男性演員來扮演我們即將上映的電影中主角的有趣但不有吸引力的最好的朋友。",
             "grammar": "需結合前後文商業溝通脈絡與專業搭配詞，辨析各選項含義並挑選最精準用詞。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "fresh",
+                "meaning": "新鮮的",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「新鮮的」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "female",
+                "meaning": "女性",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「女性」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "adj. 形容詞",
-                "meaning": "attractive",
+                "meaning": "吸引人的",
                 "correct": true,
-                "reason": "【正確】adj. 形容詞。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】adj. 形容詞。意為「吸引人的」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "D": {
                 "pos": "adj. 形容詞",
-                "meaning": "geometric",
+                "meaning": "幾何的",
                 "correct": false,
-                "reason": "【錯誤】adj. 形容詞。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】adj. 形容詞。意為「幾何的」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -984,32 +984,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：We want someone who looks friendly, but not intimidating .",
+            "translation": "我們想要一個看起來友善但不令人生畏的人。",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v.-ing 現在分詞/動名詞",
-                "meaning": "intimidating",
+                "meaning": "令人生畏的",
                 "correct": true,
-                "reason": "【正確】v.-ing 現在分詞/動名詞。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v.-ing 現在分詞/動名詞。意為「令人生畏的」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "intimidates",
+                "meaning": "恐嚇",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「恐嚇」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v.-ed 過去式/過去分詞",
-                "meaning": "intimidated",
+                "meaning": "受到恐嚇",
                 "correct": false,
-                "reason": "【錯誤】v.-ed 過去式/過去分詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v.-ed 過去式/過去分詞。意為「受到恐嚇」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "n. 名詞",
-                "meaning": "intimidation",
+                "meaning": "恐嚇",
                 "correct": false,
-                "reason": "【錯誤】n. 名詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】n. 名詞。意為「恐嚇」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -1029,32 +1029,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：Normally I don't write in to advice columns, but lately I feel I have no direction .",
+            "translation": "通常我不會寫建議專欄，但最近我覺得自己沒有方向。",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "service",
+                "meaning": "服務",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「服務」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v.-ing 現在分詞/動名詞",
-                "meaning": "nothing",
+                "meaning": "沒有什麼",
                 "correct": false,
-                "reason": "【錯誤】v.-ing 現在分詞/動名詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v.-ing 現在分詞/動名詞。意為「沒有什麼」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "n. 名詞",
-                "meaning": "direction",
+                "meaning": "方向",
                 "correct": true,
-                "reason": "【正確】n. 名詞。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】n. 名詞。意為「方向」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "D": {
                 "pos": "n. 名詞",
-                "meaning": "possibility",
+                "meaning": "可能性",
                 "correct": false,
-                "reason": "【錯誤】n. 名詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】n. 名詞。意為「可能性」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -1074,32 +1074,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "商務情境核心字彙與語意辨析",
             "type": "詞彙與商務語境 (Business Vocabulary & Collocation)",
-            "translation": "完整句子意指：",
+            "translation": "本題為段落填空，依上下文商務語境選出最適當之形容詞「歷史性的 (historical)」。",
             "grammar": "需結合前後文商業溝通脈絡與專業搭配詞，辨析各選項含義並挑選最精準用詞。",
             "options_analysis": {
               "A": {
                 "pos": "adv. 副詞",
-                "meaning": "ghostly",
+                "meaning": "幽靈般的",
                 "correct": false,
-                "reason": "【錯誤】adv. 副詞。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】adv. 副詞。意為「幽靈般的」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "adj. 形容詞",
-                "meaning": "musical",
+                "meaning": "音樂",
                 "correct": false,
-                "reason": "【錯誤】adj. 形容詞。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】adj. 形容詞。意為「音樂」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "adj. 形容詞",
-                "meaning": "fictional",
+                "meaning": "虛構的",
                 "correct": false,
-                "reason": "【錯誤】adj. 形容詞。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】adj. 形容詞。意為「虛構的」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "adj. 形容詞",
-                "meaning": "historical",
+                "meaning": "歷史的",
                 "correct": true,
-                "reason": "【正確】adj. 形容詞。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】adj. 形容詞。意為「歷史的」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
           }
@@ -1119,32 +1119,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：",
+            "translation": "本題為段落填空，依據句子主詞與動詞時態被動語態要求，選出符合句構之動詞型態。",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "belief",
+                "meaning": "信仰",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「信仰」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v.-ed 過去式/過去分詞",
-                "meaning": "believed",
+                "meaning": "相信",
                 "correct": false,
-                "reason": "【錯誤】v.-ed 過去式/過去分詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v.-ed 過去式/過去分詞。意為「相信」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "believes",
+                "meaning": "相信",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「相信」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v.-ed 過去式/過去分詞",
-                "meaning": "is believed",
+                "meaning": "被相信",
                 "correct": true,
-                "reason": "【正確】v.-ed 過去式/過去分詞。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v.-ed 過去式/過去分詞。意為「被相信」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
           }
@@ -1164,32 +1164,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：",
+            "translation": "本題為段落填空，依據句中謂語動詞搭配，選出正確之非謂語動詞形態 (to incorporate)。",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v.-ed 過去式/過去分詞",
-                "meaning": "incorporated",
+                "meaning": "合併",
                 "correct": true,
-                "reason": "【正確】v.-ed 過去式/過去分詞。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v.-ed 過去式/過去分詞。意為「合併」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "B": {
                 "pos": "v.-ing 現在分詞/動名詞",
-                "meaning": "incorporating",
+                "meaning": "併入",
                 "correct": false,
-                "reason": "【錯誤】v.-ing 現在分詞/動名詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v.-ing 現在分詞/動名詞。意為「併入」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "n. 名詞",
-                "meaning": "incorporation",
+                "meaning": "合併",
                 "correct": false,
-                "reason": "【錯誤】n. 名詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】n. 名詞。意為「合併」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "to incorporate",
+                "meaning": "合併",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「合併」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -1209,32 +1209,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：area which is now part ot Turkey Claus. Christian cultuire well-behaved children on Christmas Eve.",
+            "translation": "現在是土耳其克勞斯的一部分的地區。基督教文化要求孩子在平安夜表現良好。",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Saint Nicholas was born in the village ot Palara, an",
+                "meaning": "聖尼古拉斯出生於帕拉拉村，",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「聖尼古拉斯出生於帕拉拉村，」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "This ovonlually ovolvod Into the anglicized Sann",
+                "meaning": "這完全是ovolvod 進入英語化的Sann",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「這完全是ovolvod 進入英語化的Sann」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Santa Claus is a logendary ligure of Western",
+                "meaning": "聖誕老人是西方傳說中的利古里亞人",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「聖誕老人是西方傳說中的利古里亞人」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Accordingto tradition,SantaClausbringsgifts to",
+                "meaning": "按照傳統，聖誕老人會帶給人們禮物",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「按照傳統，聖誕老人會帶給人們禮物」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -1252,20 +1252,20 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "同源詞詞性辨析",
             "type": "詞性選擇 (Parts of Speech)",
-            "translation": "完整句子意指：Doris May (18:56 Saturday,Aprll 6) I need some advice on managing my team. No matter what project I give them, they seem to have a lot of difficulty finishing It on time. What can 1 do? Susan Reynolds (10:01 Sunday,Aprill 7) It sounds like you're not giving them enough structure. Break the project Into smaller pleces. Mike Hays (13:15 Sunday, April 7) I agree with Susan. I'd also add that you should make sure you avoid leaving larger tasks towards the end. Your team will run out of time. Doris May (14:07 Sunday, April 7) @Mike I hear you. How do I set hard limits without babysitting them? Patricia Wells (18:54 Sunday, April 7) @Doris Some employees will underperform no matter what. I would suggest praising/rewarding the most productive team member. Soon others will follow suit. Doris May (19:17 Sunday, April 7) @Patricia Great,thanks! Send Mrs. Kendra Lipnisky's Banana Walnut Muffins 2 eggs 1/2 cup of butter,softened 1and1/2cupsofbrownsugar 4 tablespoons of buttermilk -1 teaspoon of baking soda 1 teaspoon of vanilla extract 1 and 1/2 cups of flour (preferably sifted) .2bananas,mashed 1 cup of walnuts or any other nut you like (break into larger chunks) Baking Directions 2. Grease muffin tin. 4. Add buttermilk, blend, and then mix in the eggs followed by the mashed banana. 5. Add flour and baking soda, stir to combine. 8. Stir in walnut chunks. I 7.Pour batter into muffin Un until each mold is about 213 full. 8. Bake at 350'F for 20-25 minutes, or until lops are brown. 9. Additionally, a toothpick may be Inserted into the center of the muffin as a test. If it comes out cleanly. then the muffins are done. Nutritional info (per muffin): Calorles-238; Fat-11g: Carbs-32g: Fiber-1g: Proteln-3g",
+            "translation": "Doris May (4 月 6 日星期六 18:56) 我需要一些關於管理我的團隊的建議。無論我給他們什麼項目，他們似乎都很難按時完成。 1能做什麼？ Susan Reynolds (4 月 7 日星期日 10:01) 聽起來你沒有給他們足夠的結構。將項目分成更小的部分。 Mike Hays（4 月 7 日星期日 13:15） 我同意 Susan 的觀點。我還想補充一點，你應該確保避免把更大的任務留到最後。你的團隊將沒有時間了。 Doris May（4 月 7 日星期日 14:07）@Mike 我聽到你的聲音了。如何在不照顧他們的情況下設定硬性限制？ Patricia Wells（4 月 7 日星期日 18:54）@Doris 有些員工無論如何都會表現不佳。我建議表揚/獎勵最有生產力的團隊成員。很快其他人也會跟著做。 Doris May（4 月 7 日星期日 19:17）@Patricia 太棒了，謝謝！寄送 肯德拉·利普尼斯基夫人的香蕉核桃鬆餅 2 個雞蛋 1/2 杯軟化黃油 1 和 1/2 杯紅糖 4 湯匙酪乳 -1 茶匙小蘇打 1 茶匙香草精 1 又 1/2 杯麵粉（最好過篩） .2 根，碎，搗碎 1 杯或碎油脂罐上 1 杯堅果（您喜歡的篩）塊。 4.加入酪乳，攪拌，然後加入雞蛋，然後加入香蕉泥。 5.加入麵粉和小蘇打，攪拌混合。 8.加入核桃塊攪拌。 I 7.將麵糊倒入鬆餅Un中，直到每個模具約213滿。 8. 在 350'F 下烘烤 20-25 分鐘，或直到垂耳肉變成棕色。 9. 另外，可以將牙籤插入鬆餅的中心作為測試。如果出來的乾淨的話。然後鬆餅就做好了。營養資訊（每個鬆餅）：Calorles-238；脂肪-11g：碳水化合物-32g：纖維-1g：蛋白質-3g",
             "grammar": "空格在句子中所屬成分（主詞、動詞、受詞或修飾語）決定所需正確詞性。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Preheat oven to 350*F (175°C).",
+                "meaning": "將烤箱預熱至 350*F (175°C)。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。詞性不符此處空格之句法功能要求，無法作正確之修飾或擔任句子主要成分。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「將烤箱預熱至 350*F (175°C)。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Cream the butter and sugar.",
+                "meaning": "將奶油和糖打成奶油狀。",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「將奶油和糖打成奶油狀。」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
           }
@@ -1285,32 +1285,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：On April 7 at 14:07, what does Doris May mean when she writes, \"I hear you\"?",
+            "translation": "4 月 7 日 14:07，多麗絲·梅 (Doris May) 寫道“我聽到你的聲音”是什麼意思？",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "She received a voice mail",
+                "meaning": "她收到一封語音郵件",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「她收到一封語音郵件」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "She understands.",
+                "meaning": "她明白。",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「她明白。」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "She disagrees",
+                "meaning": "她不同意",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「她不同意」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "n. 名詞",
-                "meaning": "She wants them to explain further",
+                "meaning": "她希望他們進一步解釋",
                 "correct": false,
-                "reason": "【錯誤】n. 名詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】n. 名詞。意為「她希望他們進一步解釋」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -1330,32 +1330,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "商務情境核心字彙與語意辨析",
             "type": "詞彙與商務語境 (Business Vocabulary & Collocation)",
-            "translation": "完整句子意指：What is one method the recipe does NOT suggest could be used to check if the muffins are done?",
+            "translation": "食譜中沒有建議的一種方法可以用來檢查鬆餅是否熟了？",
             "grammar": "需結合前後文商業溝通脈絡與專業搭配詞，辨析各選項含義並挑選最精準用詞。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Considering the total baking time",
+                "meaning": "考慮到總的烘烤時間",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「考慮到總的烘烤時間」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Poking the muffin with a toothpick",
+                "meaning": "用牙籤戳鬆餅",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「用牙籤戳鬆餅」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Looking at the color of the muffin top",
+                "meaning": "觀察鬆餅頂部的顏色",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「觀察鬆餅頂部的顏色」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Touching the muffin to see if it's soft",
+                "meaning": "用手觸摸鬆餅，看看鬆餅是否鬆軟",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「用手觸摸鬆餅，看看鬆餅是否鬆軟」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
           }
@@ -1375,32 +1375,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：Which of the following ingredient substitutions would NOT ruin the recipe?",
+            "translation": "下列哪一種成分替代不會破壞食譜？",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Adding salt instead of sugar",
+                "meaning": "加鹽代替糖",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「加鹽代替糖」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "n. 名詞",
-                "meaning": "Adding olive oil instead of butter",
+                "meaning": "加入橄欖油代替奶油",
                 "correct": false,
-                "reason": "【錯誤】n. 名詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】n. 名詞。意為「加入橄欖油代替奶油」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Adding icing sugar instead offlour",
+                "meaning": "加入糖粉代替麵粉",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「加入糖粉代替麵粉」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Addingpeanutsinsteadofwalnuts",
+                "meaning": "添加花生代替核桃",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「添加花生代替核桃」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
           }
@@ -1417,14 +1417,14 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "同源詞詞性辨析",
             "type": "詞性選擇 (Parts of Speech)",
-            "translation": "完整句子意指：Seminars on Small Business Available at Bowmonte City Hall Originally Posted: 11/15 11:54:44 PM MDT I Updated: 5 Hours Ago Tomomow marks the first anniversary of the Bowmonte City Business Association's continuing series of free small business semlnars.The city is pleased to announce the retum of its series of workshops aimed at sman business owners or anyone who wishes to start their own company in Bowmonte. The workshops will occur on the thlrd Weanesday of each month. Tme first will be hosted tomorrow on Nov. 21 at city hall and is scheduled to feature numerous success stones about local businesses, as told by their founders, managers. and innovating employees. Each free session will begin at 7 p.m.and go until 9 p.m. The sessions are generated in.collaboration with the Bowmonte Financial Expansion Partnership and 'Business Besties, a networking group based in Bowmonte. Can't make it in person? This year. we are also pleased to offer the webinar option. We will be streaming the seminars with an integrated chat function where viewers may post their questions during the Q&A section of the seminar in real time. To join, simply visit: bowmonteaityall.com/ive Unlike last year,this wave of seminars wil be recorded, so you can check out our online database and review previous seminars at: bowmontecityhau.com/seminars/archives Registration is not required. Carmen's Cupcakes Order Form MDC - 2085 Order Number Wrigh! Fielder Full Name: Last name First name 1992 16 11 Birth Date: Day Year Month E-mail:*f.wnight@crestwalkfoundation.com Mobile/PhoneNumber.01-555-222-5258 Cupcake Flavors (2 dozen minimum) Vanilla 10 Chocolate Coconut Carrot Cake Peanut Butter Icing (Optional): 12 Peanut Butter Cream Cheese Dark Chocolate Milk Chocolate Strawbey Mint 2016 30 PickupDate/mme:10 Year Day Month 30 11 Minutes JNOH Special Detalls: Though peanuts are fine.please onsure that no aimonds or cashews are added lo the cupcakes Note: Cancellation of orders withln 48 hours of the pickup dale wll still result In the customer being chargod the full amount.",
+            "translation": "鲍蒙特市政厅举办的小型企业研讨会最初发布：11/15 11:54:44 PM MDT I 更新：5 小时前 明天是鲍蒙特市商业协会持续举办的一系列免费小型企业研讨会一周年纪念日。該市很高興地宣布，針對中小企業主或任何希望在鮑蒙特創辦自己公司的人的系列研討會將重新舉辦。研討會將於每月的第三個斷奶日舉行。 Tme First 将于明天 11 月 21 日在市政厅举办，据当地企业的创始人、经理介绍，预计将展出大量有关当地企业的成功宝石。和創新員工。每場免費課程將於晚上 7 點開始，一直持續到晚上 9 點。這些會議是與 Bowmonte Financial Expansion Partnership 和位於 Bowmonte 的網路組織「Business Besties」合作舉辦的。不能親自去嗎？今年。我們也很高興提供網路研討會選項。我們將透過整合的聊天功能對研討會進行直播，觀眾可以在研討會的問答部分即時發布他們的問題。要加入，只需访问：bowmonteaityall.com/ive 与去年不同的是，这波研讨会将被记录下来，因此您可以查看我们的在线数据库并回顾以前的研讨会：bowmontecityhau.com/seminars/archives 不需要注册。卡門紙杯蛋糕訂單表 MDC - 2085 訂單號 Wright！ Fielder 全名： 姓 名 1992 16 11 出生日期： 日 年 月 电子邮件：*f.wnight@crestwalkfoundation.com 手机/电话号码.01-555-222-5258 纸杯蛋糕口味（至少 2 打） 香草 10 巧克力 椰子胡萝卜蛋糕 花生酱糖霜（可选）： 12 花生酱 奶油奶酪 黑巧克力 牛奶巧克力Strawbey Mint 2016 30 取貨日期/月：10 年 日 月 30 11 分鐘 JNOH 特別說明：雖然花生很好。請確保紙杯蛋糕中沒有添加杏仁或腰果 注意：提貨後 48 小時內取消訂單仍將導致客戶被全額扣款。",
             "grammar": "空格在句子中所屬成分（主詞、動詞、受詞或修飾語）決定所需正確詞性。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "M. I P.M.",
+                "meaning": "上午 / 下午（時間標記）",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「M.I.P.M.」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
           }
@@ -1444,32 +1444,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：What will Fielder likely haveto dobefore his order will be filled?",
+            "translation": "在滿足他的訂單之前，菲爾德可能需要做什麼？",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "He'll have to buy more cupcakes.",
+                "meaning": "他得買更多的紙杯蛋糕。",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「他得買更多的紙杯蛋糕。」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "He'll have to change the icing types.",
+                "meaning": "他必須改變糖衣類型。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「他必須改變糖衣類型。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "He'll have to change the pickup time.",
+                "meaning": "他必須更改接機時間。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「他必須更改接機時間。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "He'll have to provide more personal information.",
+                "meaning": "他必須提供更多個人資訊。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「他必須提供更多個人資訊。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -1487,20 +1487,20 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "被動語態與時態判斷",
             "type": "動詞語態 (Passive Voice)",
-            "translation": "完整句子意指：The octopus (in any form of subspecies) is a fasdinating creature. 1ll's common knowledge thal it has elghttentacles-hence the octo'prefix in its name but lt also has three heans. a beak, venom, Ink which it can excrele for defense, and no bones. Being boneless allows the octopus to squeeze inlo incredbly smat spaces. 2)-- he octopus can also propel itselt by taking In and expelling water from its body. ll can even regenerate lost limbs. But pehaps most lmpressively. the octopus possesses far and away the mosl rapid physical camouflage ability of any animal ln the worid.-f3j The .octopus is also believed.to be the most intelligent of all Invertebrate creatures. demonstrating shon-term and long:tem memory as well as complex directional and problem solving skills. Many who study octopuses assert that they also play,use tools. leam lessons from experience. and are capable of distinguishing belween people. Octopuses even show preference, swimming up to people they like and ★,-th',uop Kon aidoad e jajem soniur Buninbs Date (m/d/y):June 16.2016 Cass:Entrepreneurship101 [11213 Why? Although I learned a lot, I feel that I could have studied more in the amount of time given, or the same amount in less time. 2. How wouid you rate your professor? 1234 Why? Though knowledgeable, he spoke too quietly, and sometimes he was late to dlass. The hands-on work where we were given problems to solve in the field was very informative. 4. What do you feel needs to be improved? Some of the lectures were based only on theory and so did not seem relevant lo the real wond. As a result, I had trouble rermembening what was taught. 5.Additional comments or suggestions? r'd really prefer fewer leclures and less theory-based reading. If the course could have more hands-on prolects, that would be great.",
+            "translation": "章魚（任何形式的亞種）是一種令人著迷的生物。眾所周知，它有 elghtentacles，因此它的名字中有 octo' 前綴，但它也有 3 個 heans。喙、毒液、可以排出用於防禦的墨水，但沒有骨頭。由於沒有骨頭，章魚可以擠進極度狹小的空間。 2)--章魚也可以透過吸收和排出體內的水來推動自己。甚至可以使失去的肢體再生。但也許最令人印象深刻。章魚擁有世界上任何動物中最快速的物理偽裝能力。 -f3j 章魚也被認為是所有無脊椎動物中最聰明的。展現短期和長期記憶以及複雜的定向和解決問題的能力。許多研究章魚的人聲稱它們也會玩耍、使用工具。從經驗中學習。並且能夠區分人與人。章魚甚至會表現出偏好，游向它們喜歡的人，並且 ★,-th',uop Kon aidoad e jajem soniur Buninbs 日期（月/日/年）：2016 年 6 月 16 日 Cass：Entrepreneurship101 [11213 為什麼？雖然我學到了很多東西，但我覺得我可以在給定的時間內學習更多的內容，或者在更少的時間內學習相同的內容。 2.您如何評價您的教授？第1234章 為什麼？他雖然知識淵博，但說話太小聲，有時甚至遲到。我們在現場解決問題的實踐工作提供了非常豐富的資訊。 4、您認為哪些方面需要改進？有些講座僅基於理論，因此似乎與真正的奇蹟無關。結果，我很難記住所教的內容。 5.還有其他意見或建議嗎？我真的更喜歡更少的講座和更少基於理論的閱讀。如果課程能有更多實作的項目，那就太好了。",
             "grammar": "主詞與動作執行者具有被動承受關係，需根據主詞人稱與時間提示選出符合之被動態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "How would you rate this class?",
+                "meaning": "您如何評價這門課？",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「您如何評價這門課？」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "What did you like best about the class?",
+                "meaning": "你最喜歡這門課的什麼？",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「你最喜歡這門課的什麼？」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -1520,32 +1520,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "商務情境核心字彙與語意辨析",
             "type": "詞彙與商務語境 (Business Vocabulary & Collocation)",
-            "translation": "完整句子意指：What is most likely to be the student's learning style?",
+            "translation": "學生最有可能的學習方式是什麼？",
             "grammar": "需結合前後文商業溝通脈絡與專業搭配詞，辨析各選項含義並挑選最精準用詞。",
             "options_analysis": {
               "A": {
                 "pos": "adj. 形容詞",
-                "meaning": "Visual",
+                "meaning": "視覺的",
                 "correct": false,
-                "reason": "【錯誤】adj. 形容詞。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】adj. 形容詞。意為「視覺的」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "adj. 形容詞",
-                "meaning": "Kinesthetic",
+                "meaning": "動覺",
                 "correct": true,
-                "reason": "【正確】adj. 形容詞。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】adj. 形容詞。意為「動覺」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Auditory",
+                "meaning": "聽覺",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「聽覺」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "adj. 形容詞",
-                "meaning": "Negative",
+                "meaning": "消極的",
                 "correct": false,
-                "reason": "【錯誤】adj. 形容詞。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】adj. 形容詞。意為「消極的」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -1565,32 +1565,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：How does the student seem to feel about theory- based learning?",
+            "translation": "學生對基於理論的學習有何感受？",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "It has little practical application.",
+                "meaning": "它的實際應用很少。",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「它的實際應用很少。」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Being abstract, it is easy to remember.",
+                "meaning": "因為抽象，所以很容易記住。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「因為抽象，所以很容易記住。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "It is necessary for learning real-world skills",
+                "meaning": "學習現實世界技能是必要的",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「學習現實世界技能是必要的」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "None of the above",
+                "meaning": "以上都不是",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「以上都不是」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -1610,32 +1610,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：What best summarizes the student's feelings towards the class? sometimes late Wasto ot tirne",
+            "translation": "什麼最能概括學生對班級的感受？有時晚了 Wasto ot tirne",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "adj. 形容詞",
-                "meaning": "Mostly satlsfled but still critical",
+                "meaning": "基本滿意，但仍持批評態度",
                 "correct": true,
-                "reason": "【正確】adj. 形容詞。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】adj. 形容詞。意為「基本滿意，但仍持批評態度」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "B": {
                 "pos": "adj. 形容詞",
-                "meaning": "Mostly unsatistied but still hopeful",
+                "meaning": "大部分不滿意，但仍充滿希望",
                 "correct": false,
-                "reason": "【錯誤】adj. 形容詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】adj. 形容詞。意為「大部分不滿意，但仍充滿希望」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Extremaly angry because the piofessorwas",
+                "meaning": "非常生氣，因為老師是",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「非常生氣，因為老師是」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Completely unsatistied because the class was a",
+                "meaning": "完全不滿意，因為這門課是",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「完全不滿意，因為這門課是」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -1655,32 +1655,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：According to this article.what is something Cunha's opponents accuse him of?",
+            "translation": "根據這篇文章，庫尼亞的反對者指責他什麼？",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "n. 名詞",
-                "meaning": "Being a chauvinist",
+                "meaning": "成為沙文主義者",
                 "correct": false,
-                "reason": "【錯誤】n. 名詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】n. 名詞。意為「成為沙文主義者」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "n. 名詞",
-                "meaning": "Unethically taking advantage of a situation",
+                "meaning": "不道德地利用某種情況",
                 "correct": true,
-                "reason": "【正確】n. 名詞。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】n. 名詞。意為「不道德地利用某種情況」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Movingfunds to fill deficits",
+                "meaning": "轉移資金填補赤字",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「轉移資金填補赤字」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "adv. 副詞",
-                "meaning": "Winningthe presidency illegally",
+                "meaning": "非法贏得總統職位",
                 "correct": false,
-                "reason": "【錯誤】adv. 副詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】adv. 副詞。意為「非法贏得總統職位」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -1700,32 +1700,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：According to this article, what can be assumed about Rousseff? gender. reasons.",
+            "translation": "根據這篇文章，我們可以對羅塞夫做出什麼假設？性別。原因。",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "She is currently unpopular in her own country",
+                "meaning": "她目前在自己的國家不受歡迎",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「她目前在自己的國家不受歡迎」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "B": {
                 "pos": "n. 名詞",
-                "meaning": "She has definitely been proven guilty of corruption",
+                "meaning": "她確實已被證明犯有腐敗罪",
                 "correct": false,
-                "reason": "【錯誤】n. 名詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】n. 名詞。意為「她確實已被證明犯有腐敗罪」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "n. 名詞",
-                "meaning": "She has been unjustly removed because of her",
+                "meaning": "她因為她的行為而被不公正地除名",
                 "correct": false,
-                "reason": "【錯誤】n. 名詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】n. 名詞。意為「她因為她的行為而被不公正地除名」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "adj. 形容詞",
-                "meaning": "She has been ousted by the public for political",
+                "meaning": "她因政治原因被公眾驅逐",
                 "correct": false,
-                "reason": "【錯誤】adj. 形容詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】adj. 形容詞。意為「她因政治原因被公眾驅逐」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -1745,32 +1745,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：Who or what most likely are the speakers?",
+            "translation": "誰或什麼最有可能是發言者？",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Office workers",
+                "meaning": "辦公室職員",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「辦公室職員」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "University students",
+                "meaning": "大學生",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「大學生」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "High school students",
+                "meaning": "高中生",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「高中生」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "adv. 副詞",
-                "meaning": "Members of a family",
+                "meaning": "家庭成員",
                 "correct": false,
-                "reason": "【錯誤】adv. 副詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】adv. 副詞。意為「家庭成員」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -1790,32 +1790,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：At 10:39 p.m., what does M.Borton lmply when he wrltes, \"Dldn't you see how he reacted when Alex mlssed hls deadline\"?",
+            "translation": "晚上 10 點 39 分，M.Borton 寫道：「難道你沒看到 Alex 錯過最後期限時他的反應嗎？」他暗示了什麼？",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Pater gol angry at an enmployee.",
+                "meaning": "帕特·戈爾對一名員工感到憤怒。",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「帕特·戈爾對一名員工感到憤怒。」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Chiang doasn't pay attention at work.",
+                "meaning": "蔣工作時不專心。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「蔣工作時不專心。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v.-ed 過去式/過去分詞",
-                "meaning": "M.Borton wants to know how Peterreacted",
+                "meaning": "博頓先生想知道彼得的反應",
                 "correct": false,
-                "reason": "【錯誤】v.-ed 過去式/過去分詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v.-ed 過去式/過去分詞。意為「博頓先生想知道彼得的反應」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "M. Borton wasn't sure ll his colleagues were at work.",
+                "meaning": "博頓先生不確定他的同事是否都在工作。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「博頓先生不確定他的同事是否都在工作。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -1835,32 +1835,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：What can be assumed about the location of the retreat?",
+            "translation": "關於撤退地點可以假設什麼？",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "It is accessible by car.",
+                "meaning": "開車即可抵達。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「開車即可抵達。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "It is in a desert.",
+                "meaning": "這是在沙漠中。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「這是在沙漠中。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "It is on an island.",
+                "meaning": "它在一個島上。",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「它在一個島上。」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "It is in the mountains.",
+                "meaning": "它在山裡。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「它在山裡。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -1880,32 +1880,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "商務情境核心字彙與語意辨析",
             "type": "詞彙與商務語境 (Business Vocabulary & Collocation)",
-            "translation": "完整句子意指：Where did Brian leave his note?",
+            "translation": "布萊恩在哪裡留下了他的便條？",
             "grammar": "需結合前後文商業溝通脈絡與專業搭配詞，辨析各選項含義並挑選最精準用詞。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "In his office",
+                "meaning": "在他的辦公室裡",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「在他的辦公室裡」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "On the recycling bin",
+                "meaning": "在回收箱上",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「在回收箱上」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "C": {
                 "pos": "n. 名詞",
-                "meaning": "Ontheperson'sdoor",
+                "meaning": "在人家門口",
                 "correct": false,
-                "reason": "【錯誤】n. 名詞。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】n. 名詞。意為「在人家門口」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "On top of the garbage",
+                "meaning": "在垃圾上面",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「在垃圾上面」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -1925,32 +1925,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "商務情境核心字彙與語意辨析",
             "type": "詞彙與商務語境 (Business Vocabulary & Collocation)",
-            "translation": "完整句子意指：How does Brian intend to find out who has been throwing garbage in the bin if he doesn't know who they are? personal information.",
+            "translation": "如果布萊恩不知道誰在垃圾桶裡丟垃圾，他打算如何找出他們是誰？個人資訊。",
             "grammar": "需結合前後文商業溝通脈絡與專業搭配詞，辨析各選項含義並挑選最精準用詞。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "He'il wait bythe bin",
+                "meaning": "他會在垃圾桶旁邊等著",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「他會在垃圾桶旁邊等著」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "He'll ask the building's owners.",
+                "meaning": "他會詢問大樓的業主。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「他會詢問大樓的業主。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "He'll consult his hidden camera.",
+                "meaning": "他會查閱他隱藏的攝影機。",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「他會查閱他隱藏的攝影機。」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "He'll look through the garbage to discover their",
+                "meaning": "他會翻遍垃圾來發現他們的",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「他會翻遍垃圾來發現他們的」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -1970,32 +1970,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：What does Brian think is the most irritating detail about this situation?",
+            "translation": "布萊恩認為這種情況最惱人的細節是什麼？",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Thathe has to write rude notes",
+                "meaning": "他必須寫粗魯的筆記",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「他必須寫粗魯的筆記」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "That he has to sort through garbage",
+                "meaning": "他必須對垃圾進行分類",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「他必須對垃圾進行分類」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v.-ed 過去式/過去分詞",
-                "meaning": "That he may have to get someone evicted",
+                "meaning": "他可能不得不驅逐某人",
                 "correct": false,
-                "reason": "【錯誤】v.-ed 過去式/過去分詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v.-ed 過去式/過去分詞。意為「他可能不得不驅逐某人」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "n. 名詞",
-                "meaning": "That the person doesn't care about the environment",
+                "meaning": "這個人不關心環境",
                 "correct": true,
-                "reason": "【正確】n. 名詞。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】n. 名詞。意為「這個人不關心環境」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
           }
@@ -2015,32 +2015,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "同源詞詞性辨析",
             "type": "詞性選擇 (Parts of Speech)",
-            "translation": "完整句子意指：In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? \"Every time you do this, it is my responsibility to go through the recycling and sort it.\"",
+            "translation": "以下句子最適合標記為 [1]、[2]、[3] 和 [4] 的位置中的哪一個？ “每次這樣做時，我都有責任進行回收並分類。”",
             "grammar": "空格在句子中所屬成分（主詞、動詞、受詞或修飾語）決定所需正確詞性。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "[1]",
+                "meaning": "位置標記 [1]",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「[1] 的含義」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "[2]",
+                "meaning": "位置標記 [2]",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。詞性不符此處空格之句法功能要求，無法作正確之修飾或擔任句子主要成分。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「[2] 的含義」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "[3]",
+                "meaning": "位置標記 [3]",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。詞性不符此處空格之句法功能要求，無法作正確之修飾或擔任句子主要成分。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「[3] 的含義」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "[4]",
+                "meaning": "位置標記 [4]",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。詞性不符此處空格之句法功能要求，無法作正確之修飾或擔任句子主要成分。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「[4] 的含義」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -2060,32 +2060,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：What wasKal McKay's overall impression of the movie?",
+            "translation": "卡爾麥凱對這部電影的整體印像如何？",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Well done,despite its flaws",
+                "meaning": "做得很好，儘管有缺陷",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「做得很好，儘管有缺陷」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Not as good as others in the same genre",
+                "meaning": "不如同一類型的其他人",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「不如同一類型的其他人」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Too sarcastic for the story",
+                "meaning": "對故事來說太諷刺了",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「對故事來說太諷刺了」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Overly serious for a superhero movie",
+                "meaning": "對於超級英雄電影來說太嚴肅",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「對於超級英雄電影來說太嚴肅」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -2105,32 +2105,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：What can we infer from the passages? Batman's persona",
+            "translation": "從段落我們可以推論出什麼？蝙蝠俠的人物",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "The reviewers both hate comic books",
+                "meaning": "評論家都討厭漫畫書",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「評論家都討厭漫畫書」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "The reviewers write for different mediums",
+                "meaning": "審稿人為不同的媒體撰寫文章",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「審稿人為不同的媒體撰寫文章」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "C": {
                 "pos": "n. 名詞",
-                "meaning": "The reviewers likely write for the news section",
+                "meaning": "審稿者可能會為新聞部分撰寫文章",
                 "correct": false,
-                "reason": "【錯誤】n. 名詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】n. 名詞。意為「審稿者可能會為新聞部分撰寫文章」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "The reviewers share the same opinion about",
+                "meaning": "審稿者的觀點一致",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「審稿者的觀點一致」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -2150,32 +2150,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：Whydid Katelynwant ProfessorBloomsbury asher secondary advisor? her thesis.",
+            "translation": "為什麼凱特琳想要布魯姆斯伯里教授擔任第二顧問？她的論文。",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "adj. 形容詞",
-                "meaning": "The professorwil bringa differentperspective",
+                "meaning": "教授將帶來不同的觀點",
                 "correct": false,
-                "reason": "【錯誤】adj. 形容詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】adj. 形容詞。意為「教授將帶來不同的觀點」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "The professor's reputation would increase interest in",
+                "meaning": "教授的聲譽會增加人們的興趣",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「教授的聲譽會增加人們的興趣」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "The professor could help her analyze data",
+                "meaning": "教授可以幫她分析數據",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「教授可以幫她分析數據」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Ail of the above",
+                "meaning": "以上所有",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「以上所有」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
           }
@@ -2195,32 +2195,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "商務情境核心字彙與語意辨析",
             "type": "詞彙與商務語境 (Business Vocabulary & Collocation)",
-            "translation": "完整句子意指：Which of the following substitutions js most synonymous with\"to my satisfaction\"in this context? discipline)",
+            "translation": "在這種情況下，以下哪一個替換最接近“令我滿意”的同義詞？紀律）",
             "grammar": "需結合前後文商業溝通脈絡與專業搭配詞，辨析各選項含義並挑選最精準用詞。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "If you can explain (and I am gleeful)",
+                "meaning": "如果你能解釋一下（我很高興）",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「如果你能解釋一下（我很高興）」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "If you can explain (and I am flattered)",
+                "meaning": "如果你能解釋一下（我很受寵若驚）",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「如果你能解釋一下（我很受寵若驚）」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "If you can explain (and I am convinced)",
+                "meaning": "如果你能解釋一下（我確信）",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「如果你能解釋一下（我確信）」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "If you can explain (using the rhetoric proper to my",
+                "meaning": "如果你能解釋一下（使用適合我的修辭",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「如果你能解釋一下（使用適合我的修辭」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -2240,32 +2240,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "商務情境核心字彙與語意辨析",
             "type": "詞彙與商務語境 (Business Vocabulary & Collocation)",
-            "translation": "完整句子意指：Which user likely attends Barkley High School?",
+            "translation": "哪個使用者可能就讀於巴克利高中？",
             "grammar": "需結合前後文商業溝通脈絡與專業搭配詞，辨析各選項含義並挑選最精準用詞。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "ILoveCats99",
+                "meaning": "我愛貓99",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「我愛貓99」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "KimmyStardust29",
+                "meaning": "吉米星塵29",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「吉米星塵29」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "StevenHasPowers55",
+                "meaning": "史蒂文哈斯權力55",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「史蒂文哈斯權力55」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "JennyLovesSwimming11",
+                "meaning": "珍妮愛游泳11",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「珍妮愛游泳11」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -2285,32 +2285,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：According to both users in the \"Against it\" section, what is really to blame for the obesity of chidren?",
+            "translation": "根據「反對它」部分的兩位網友的說法，到底是什麼導致了兒童肥胖呢？",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Changing biology",
+                "meaning": "改變生物學",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「改變生物學」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Sugarandtransfat",
+                "meaning": "糖和反式脂肪",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「糖和反式脂肪」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "lrresponsibleparents",
+                "meaning": "不負責任的父母",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「不負責任的父母」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "A broken education system",
+                "meaning": "破碎的教育體系",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「破碎的教育體系」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -2330,32 +2330,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "被動語態與時態判斷",
             "type": "動詞語態 (Passive Voice)",
-            "translation": "完整句子意指：Which of the following statements best encapsulates the argument made by the user JennyLovesSwimming11? more irresponsible. learned responsibility does. policies can be manipulated",
+            "translation": "下列哪一項敘述最能概括使用者 JennyLovesSwimming11 所提出的論點？更不負責任。習得的責任確實如此。政策可以被操縱",
             "grammar": "主詞與動作執行者具有被動承受關係，需根據主詞人稱與時間提示選出符合之被動態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Obesity is an unstoppable generational problem.",
+                "meaning": "肥胖是一個不可阻擋的世代問題。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「肥胖是一個不可阻擋的世代問題。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v.-ing 現在分詞/動名詞",
-                "meaning": "Americans will not admit that they are becoming",
+                "meaning": "美國人不會承認他們正在成為",
                 "correct": false,
-                "reason": "【錯誤】v.-ing 現在分詞/動名詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v.-ing 現在分詞/動名詞。意為「美國人不會承認他們正在成為」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Restriction doesn't stop undesirable behavior,",
+                "meaning": "限制並不能阻止不良行為，",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「限制並不能阻止不良行為，」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "D": {
                 "pos": "n. 名詞",
-                "meaning": "By changing the parental zeitgeist, government",
+                "meaning": "透過改變父母的時代精神，政府",
                 "correct": false,
-                "reason": "【錯誤】n. 名詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】n. 名詞。意為「透過改變父母的時代精神，政府」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -2382,32 +2382,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "商務情境核心字彙與語意辨析",
             "type": "詞彙與商務語境 (Business Vocabulary & Collocation)",
-            "translation": "完整句子意指：We are going to gather in the morning to go over our strategy for the following days.",
+            "translation": "我們將在早上聚集在一起，討論接下來幾天的策略。",
             "grammar": "需結合前後文商業溝通脈絡與專業搭配詞，辨析各選項含義並挑選最精準用詞。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "engage",
+                "meaning": "從事",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「從事」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "n. 名詞",
-                "meaning": "gather",
+                "meaning": "收集",
                 "correct": true,
-                "reason": "【正確】n. 名詞。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】n. 名詞。意為「收集」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "explain",
+                "meaning": "解釋",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「解釋」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "wait",
+                "meaning": "等待",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「等待」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -2427,32 +2427,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：The man was so engaged in the television program that he didn't hear someone call his name.",
+            "translation": "該男子太專注於電視節目，以至於沒有聽到有人叫他的名字。",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v.-ed 過去式/過去分詞",
-                "meaning": "relaxed",
+                "meaning": "輕鬆",
                 "correct": false,
-                "reason": "【錯誤】v.-ed 過去式/過去分詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v.-ed 過去式/過去分詞。意為「輕鬆」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v.-ed 過去式/過去分詞",
-                "meaning": "engaged",
+                "meaning": "已訂婚的",
                 "correct": true,
-                "reason": "【正確】v.-ed 過去式/過去分詞。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v.-ed 過去式/過去分詞。意為「已訂婚的」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "C": {
                 "pos": "v.-ing 現在分詞/動名詞",
-                "meaning": "engaging",
+                "meaning": "吸引人的",
                 "correct": false,
-                "reason": "【錯誤】v.-ing 現在分詞/動名詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v.-ing 現在分詞/動名詞。意為「吸引人的」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "n. 名詞",
-                "meaning": "engagement",
+                "meaning": "訂婚",
                 "correct": false,
-                "reason": "【錯誤】n. 名詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】n. 名詞。意為「訂婚」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -2840,32 +2840,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "商務情境核心字彙與語意辨析",
             "type": "詞彙與商務語境 (Business Vocabulary & Collocation)",
-            "translation": "完整句子意指：I'm in need of a(n) reputable contractor who can repair our leaking pool in the backyard.",
+            "translation": "我需要一個信譽良好的承包商來修理我們後院漏水的游泳池。",
             "grammar": "需結合前後文商業溝通脈絡與專業搭配詞，辨析各選項含義並挑選最精準用詞。",
             "options_analysis": {
               "A": {
                 "pos": "adj. 形容詞",
-                "meaning": "arguable",
+                "meaning": "有爭議的",
                 "correct": false,
-                "reason": "【錯誤】adj. 形容詞。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】adj. 形容詞。意為「有爭議的」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "adj. 形容詞",
-                "meaning": "reputable",
+                "meaning": "有信譽的",
                 "correct": true,
-                "reason": "【正確】adj. 形容詞。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】adj. 形容詞。意為「有信譽的」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "C": {
                 "pos": "adj. 形容詞",
-                "meaning": "opposable",
+                "meaning": "對立的",
                 "correct": false,
-                "reason": "【錯誤】adj. 形容詞。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】adj. 形容詞。意為「對立的」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "adj. 形容詞",
-                "meaning": "perceivable",
+                "meaning": "可感知的",
                 "correct": false,
-                "reason": "【錯誤】adj. 形容詞。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】adj. 形容詞。意為「可感知的」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -2885,32 +2885,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：The store will be closing in 15 minutes. Please select the items you wish to purchase and make your way to the cashier.",
+            "translation": "商店將在 15 分鐘後關門。請選擇您要購買的商品並前往收銀台。",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "select",
+                "meaning": "選擇",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「選擇」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "be select",
+                "meaning": "被選擇",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「被選擇」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v.-ing 現在分詞/動名詞",
-                "meaning": "selecting",
+                "meaning": "選擇",
                 "correct": false,
-                "reason": "【錯誤】v.-ing 現在分詞/動名詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v.-ing 現在分詞/動名詞。意為「選擇」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "going to select",
+                "meaning": "將要選擇",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「將要選擇」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -2930,32 +2930,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：Letitia has been getting so much spam in her inbox that she missed important e-mails.",
+            "translation": "Letitia 的收件匣中收到了大量垃圾郵件，以至於她錯過了重要的電子郵件。",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "spam",
+                "meaning": "垃圾郵件",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「垃圾郵件」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "cram",
+                "meaning": "補習班",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「補習班」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "clues",
+                "meaning": "線索",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「線索」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "whim",
+                "meaning": "一時興起",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「一時興起」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -2975,32 +2975,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：Starting January 1, Best Airlines will be flying from Tokyo to Singapore, Kuala Lumpur, Auckland, and Sydney.",
+            "translation": "從 1 月 1 日開始，百思達航空將開通從東京飛往新加坡、吉隆坡、奧克蘭和雪梨的航班。",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "has flown",
+                "meaning": "已經飛了",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「已經飛了」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v.-ing 現在分詞/動名詞",
-                "meaning": "will be flying",
+                "meaning": "將會飛翔",
                 "correct": true,
-                "reason": "【正確】v.-ing 現在分詞/動名詞。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v.-ing 現在分詞/動名詞。意為「將會飛翔」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "flew",
+                "meaning": "飛了",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「飛了」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "adv. 副詞",
-                "meaning": "would fly",
+                "meaning": "會飛",
                 "correct": false,
-                "reason": "【錯誤】adv. 副詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】adv. 副詞。意為「會飛」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -3020,32 +3020,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：Throughout the month of January, all economy -class passengers will receive the premium service package at 50 percent off.",
+            "translation": "整個 1 月份，所有經濟艙乘客都將享有 50% 折扣的優質服務套餐。",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "ticket",
+                "meaning": "票",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「票」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "adj. 形容詞",
-                "meaning": "financial",
+                "meaning": "金融的",
                 "correct": false,
-                "reason": "【錯誤】adj. 形容詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】adj. 形容詞。意為「金融的」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "economy",
+                "meaning": "經濟",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「經濟」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "D": {
                 "pos": "v.-ed 過去式/過去分詞",
-                "meaning": "estimated",
+                "meaning": "估計的",
                 "correct": false,
-                "reason": "【錯誤】v.-ed 過去式/過去分詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v.-ed 過去式/過去分詞。意為「估計的」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -3065,32 +3065,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：[Promotion detail] Just enter the discount code BEST50JAL16 at check-in.",
+            "translation": "【促銷詳情】只需在入住時輸入折扣碼BEST50JAL16即可。",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Just enter the discount code BEST50JAL16 at check-in.",
+                "meaning": "只需在辦理入住時輸入折扣代碼 BEST50JAL16 即可。",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「只需在辦理入住時輸入折扣代碼 BEST50JAL16 即可。」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Price increases will be based on the date of purchase.",
+                "meaning": "價格上漲將根據購買日期而定。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「價格上漲將根據購買日期而定。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Take advantage of this special during the Christmas holiday.",
+                "meaning": "在聖誕假期期間充分利用這項特別優惠。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「在聖誕假期期間充分利用這項特別優惠。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Seats for the new bus lines will be limited, so buy now.",
+                "meaning": "新公車路線的座位有限，所以請立即購買。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「新公車路線的座位有限，所以請立即購買。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -3110,32 +3110,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：ATTENTION: There are pickpockets operating in this area. Please take care of your valuables and do not leave your belongings unattended.",
+            "translation": "注意：該區域有扒手活動。請保管好您的貴重物品，不要讓您的物品無人看管。",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "It is customary to first ask them before offering them money.",
+                "meaning": "通常在給錢之前先詢問他們。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「通常在給錢之前先詢問他們。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Early birds can be the first to experience it.",
+                "meaning": "早起的鳥兒可以先體驗它。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「早起的鳥兒可以先體驗它。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "There are pickpockets operating in this area.",
+                "meaning": "該地區有扒手活動。",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「該地區有扒手活動。」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Travelers might have a chance to snap a picture of this rare sight.",
+                "meaning": "旅行者可能有機會拍下這一罕見景象的照片。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「旅行者可能有機會拍下這一罕見景象的照片。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -3155,32 +3155,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：Please take care of your valuables and do not leave your belongings unattended .",
+            "translation": "請保管好您的貴重物品，不要讓您的物品無人看管。",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "adj. 形容詞",
-                "meaning": "attendant",
+                "meaning": "服務生",
                 "correct": false,
-                "reason": "【錯誤】adj. 形容詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】adj. 形容詞。意為「服務生」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "adj. 形容詞",
-                "meaning": "inattentive",
+                "meaning": "不專心",
                 "correct": false,
-                "reason": "【錯誤】adj. 形容詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】adj. 形容詞。意為「不專心」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v.-ing 現在分詞/動名詞",
-                "meaning": "attending",
+                "meaning": "出席",
                 "correct": false,
-                "reason": "【錯誤】v.-ing 現在分詞/動名詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v.-ing 現在分詞/動名詞。意為「出席」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v.-ed 過去式/過去分詞",
-                "meaning": "unattended",
+                "meaning": "無人看管的",
                 "correct": true,
-                "reason": "【正確】v.-ed 過去式/過去分詞。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v.-ed 過去式/過去分詞。意為「無人看管的」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
           }
@@ -3200,32 +3200,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：...stranding more than 600 ticket holders for the day and affecting 24 domestic and international routes.",
+            "translation": "當日超過600名持票人滯留，影響24條國內及國際航線。",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "holders",
+                "meaning": "持有者",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「持有者」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "planners",
+                "meaning": "規劃者",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「規劃者」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "travelers",
+                "meaning": "旅行者",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「旅行者」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "consumers",
+                "meaning": "消費者",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「消費者」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -3245,32 +3245,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：[Airline history] The first was in 2014, and the other two months and a year later.",
+            "translation": "【航空公司歷史】第一次是在2014年，第二次是兩個月後和一年後。",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "The airline had never experienced this type of event before.",
+                "meaning": "該航空公司此前從未經歷過此類事件。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「該航空公司此前從未經歷過此類事件。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "People were left wondering how four crashes could have occurred.",
+                "meaning": "人們不禁想知道四起事故是如何發生的。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「人們不禁想知道四起事故是如何發生的。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "The first was in 2014, and the other two months and a year later.",
+                "meaning": "第一次是在2014年，另一次是兩個月後和一年後。",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「第一次是在2014年，另一次是兩個月後和一年後。」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "This was deemed unacceptable for a three-year span.",
+                "meaning": "這在三年的時間裡被認為是不可接受的。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「這在三年的時間裡被認為是不可接受的。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -3290,32 +3290,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "商務情境核心字彙與語意辨析",
             "type": "詞彙與商務語境 (Business Vocabulary & Collocation)",
-            "translation": "完整句子意指：",
+            "translation": "本題為段落填空，依前後文句意之轉折與補充邏輯，選出最貼切之副詞連接詞。",
             "grammar": "需結合前後文商業溝通脈絡與專業搭配詞，辨析各選項含義並挑選最精準用詞。",
             "options_analysis": {
               "A": {
                 "pos": "adv. 副詞",
-                "meaning": "Actually",
+                "meaning": "實際上",
                 "correct": false,
-                "reason": "【錯誤】adv. 副詞。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】adv. 副詞。意為「實際上」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "adv. 副詞",
-                "meaning": "Similarly",
+                "meaning": "相似地",
                 "correct": false,
-                "reason": "【錯誤】adv. 副詞。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】adv. 副詞。意為「相似地」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "adv. 副詞",
-                "meaning": "Addilionally",
+                "meaning": "另外",
                 "correct": true,
-                "reason": "【正確】adv. 副詞。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】adv. 副詞。意為「另外」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "D": {
                 "pos": "adv. 副詞",
-                "meaning": "Consequently",
+                "meaning": "最後",
                 "correct": false,
-                "reason": "【錯誤】adv. 副詞。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】adv. 副詞。意為「最後」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -3335,32 +3335,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：",
+            "translation": "本題為段落填空，依引導名詞子句或比較句型之結構選出正確連接詞。",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "pron./conj. 關係詞/代名詞",
-                "meaning": "that",
+                "meaning": "那",
                 "correct": true,
-                "reason": "【正確】pron./conj. 關係詞/代名詞。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】pron./conj. 關係詞/代名詞。意為「那」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "than",
+                "meaning": "比",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「比」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "conj. 連接詞",
-                "meaning": "though",
+                "meaning": "儘管",
                 "correct": false,
-                "reason": "【錯誤】conj. 連接詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】conj. 連接詞。意為「儘管」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "thus",
+                "meaning": "因此",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「因此」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -3380,32 +3380,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：What do we know about Evan Blackmore?",
+            "translation": "我們對埃文·布萊克莫爾了解多少？",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "He is a criminal.",
+                "meaning": "他是一個罪犯。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「他是一個罪犯。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "He works at a library.",
+                "meaning": "他在圖書館工作。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「他在圖書館工作。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v.-ed 過去式/過去分詞",
-                "meaning": "His library card has expired",
+                "meaning": "他的借書證已過期",
                 "correct": false,
-                "reason": "【錯誤】v.-ed 過去式/過去分詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v.-ed 過去式/過去分詞。意為「他的借書證已過期」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "He's forgotten to return library materials",
+                "meaning": "他忘記歸還圖書館資料",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「他忘記歸還圖書館資料」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
           }
@@ -3425,32 +3425,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "商務情境核心字彙與語意辨析",
             "type": "詞彙與商務語境 (Business Vocabulary & Collocation)",
-            "translation": "完整句子意指：When is the return date for the overdue books?",
+            "translation": "逾期圖書的歸還日期是什麼時候？",
             "grammar": "需結合前後文商業溝通脈絡與專業搭配詞，辨析各選項含義並挑選最精準用詞。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "December2",
+                "meaning": "12月2日",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「12月2日」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "December13",
+                "meaning": "12月13日",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「12月13日」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "February28",
+                "meaning": "2月28日",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「2月28日」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "February 18",
+                "meaning": "2月18日",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「2月18日」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -3467,14 +3467,14 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "同源詞詞性辨析",
             "type": "詞性選擇 (Parts of Speech)",
-            "translation": "完整句子意指：From: penny@pennyanecom To. Subject: Looking for the digital version of A Story of Sirings Dear Ms. Lane. I recentty read your wondertul book A Story ol Strings and thoroughly enjoyed the way you wove so much historical maleral inlo an enjoyable personal narrative. I leamed so much aboul the hlstory of string instruments through your interviews with musidans and nistorians. I see thal you aiso made a documentary film of the same name: nowever. I can only find it on Dvo Is il possible to buy and download it as a digital file? As I am traveling abroad exlensively at the moment it's rather inconvenient to get physical mail or packages. Many thanks for your reply. Andrew Garison Announcing the 1Oth Annual Ensberg Film Festival! June 2017 marks the retum of the popular Ensberg Film Festival. Buy your month-long pass now and receive access to every showing for the entirety of the festival, with a total of eight films each weekend for the entire month. This year, the theme of the festival is family. As usual, every film must involve the annual theme in some way in order to be eligible for screening. However, just because the theme is family doesn't mean that every film shown will be famity friendly. See below for additional details. Festival Time: Every Saturday and Sunday of June 2017, from 2:00 p.m. to 11:00 p.m. Price per Pass: CS200 Location: The Grace Dougherty Theater 112Oxford Road,Ensberg British Columbia, Canada If you wish to submit a film for consideratlon,please send a physical copy to: 145UniblabStreet,Ensberg British Columbla, Canada T5466E Or, upload your digltal copy to our Dropbox folder Folder name:\"Ensbergfilm\" Accessible through the following -mail address: enserbergfilm@cinephlle.com We hope to see you alltherel",
+            "translation": "來自：penny@pennyanecom 至。主題：尋找《親愛的萊恩女士》的數位版《賽林斯的故事》。我最近讀了你的精彩著作《弦樂故事》，我非常喜歡你將如此多的歷史男性故事編織成令人愉快的個人敘述的方式。透過您對音樂家和歷史學家的採訪，我了解了很多弦樂器的歷史。我看到你也製作了一部同名紀錄片：永遠。我只能在 Dvo 上找到它 可以購買並下載它的數位檔案嗎？由於我目前經常出國旅行，因此取得實體郵件或包裹相當不方便。非常感謝您的回覆。安德魯加里森宣布舉辦第一屆恩斯伯格年度電影節！ 2017 年 6 月標誌著廣受歡迎的恩斯伯格影展的回歸。立即購買一個月的通行證，即可觀看整個電影節的每場放映，整個月每個週末總共有八部電影。今年節日的主題是家庭。像往常一樣，每部電影都必須以某種方式涉及年度主題才能獲得放映資格。然而，僅僅因為主題是家庭並不意味著每部電影都適合家庭觀看。請參閱下文以了解更多詳細資訊。節慶時間：2017年6月每週六、日下午2:00開始至晚上 11:00每張通票價格：CS200 地點：The Grace Dougherty Theatre 112Oxford Road,Ensberg British Columbia, Canada 如果您希望提交電影供考慮，請將實體副本發送至：14556E或者，將您的數位副本上傳到我們的 Dropbox 資料夾資料夾名稱：「Ensbergfilm」可透過以下郵件地址存取： enserbergfilm@cinephlle.com 我們希望見到您",
             "grammar": "空格在句子中所屬成分（主詞、動詞、受詞或修飾語）決定所需正確詞性。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "gamson@mail.com",
+                "meaning": "gamson@mail.com 的含義",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「gamson@mail.com 的含義」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
           }
@@ -3494,32 +3494,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "商務情境核心字彙與語意辨析",
             "type": "詞彙與商務語境 (Business Vocabulary & Collocation)",
-            "translation": "完整句子意指：Where does the film festival take place?",
+            "translation": "電影節在哪裡舉行？",
             "grammar": "需結合前後文商業溝通脈絡與專業搭配詞，辨析各選項含義並挑選最精準用詞。",
             "options_analysis": {
               "A": {
                 "pos": "n. 名詞",
-                "meaning": "At the Ensberg Theater",
+                "meaning": "在恩斯伯格劇院",
                 "correct": false,
-                "reason": "【錯誤】n. 名詞。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】n. 名詞。意為「在恩斯伯格劇院」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "At a theater on Oxford Road",
+                "meaning": "在牛津路的一家劇院",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「在牛津路的一家劇院」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "C": {
                 "pos": "n. 名詞",
-                "meaning": "At theBritishColumbiaTheater",
+                "meaning": "在不列顛哥倫比亞劇院",
                 "correct": false,
-                "reason": "【錯誤】n. 名詞。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】n. 名詞。意為「在不列顛哥倫比亞劇院」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "At a theateron Uniblab Street",
+                "meaning": "在 Uniblab 街的一家劇院",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「在 Uniblab 街的一家劇院」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -3539,32 +3539,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：How long will this promotion last?",
+            "translation": "此次促銷活動將持續多久？",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "1 month",
+                "meaning": "1個月",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「1個月」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "2 months",
+                "meaning": "2個月",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「2個月」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "3 months",
+                "meaning": "3個月",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「3個月」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "adv. 副詞",
-                "meaning": "Indefinitely",
+                "meaning": "無限期",
                 "correct": false,
-                "reason": "【錯誤】adv. 副詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】adv. 副詞。意為「無限期」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -3584,32 +3584,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：Based on their titles,whlch of the following books would NOT be subject to the promotion? Wizards Kinkade",
+            "translation": "根據書名，以下哪一本書不屬於促銷範圍？奇才金凱德",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "TheDragonKing'sJoumeyAscenson",
+                "meaning": "龍王之旅提升",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「龍王之旅提升」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "CyborgFuture 22?t:TheAge oithe Singulant)",
+                "meaning": "CyborgFuture 22?t:TheAge oithe Singulant) 的含義",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「CyborgFuture 22?t:TheAge oithe Singulant) 的含義」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "The Savago Crystal ChroniclesThe Quest rorAtore",
+                "meaning": "薩瓦戈水晶編年史The Quest rorAtore",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「薩瓦戈水晶編年史The Quest rorAtore」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "APainterof LightABlographyottheArtis!movnas",
+                "meaning": "光之畫家ABlographyottheArtis! movnas",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「光之畫家ABlographyottheArtis! movnas」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
           }
@@ -3629,32 +3629,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "商務情境核心字彙與語意辨析",
             "type": "詞彙與商務語境 (Business Vocabulary & Collocation)",
-            "translation": "完整句子意指：What are the speakers mainly talking about?",
+            "translation": "演講者主要講什麼？",
             "grammar": "需結合前後文商業溝通脈絡與專業搭配詞，辨析各選項含義並挑選最精準用詞。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "The employeehandbook",
+                "meaning": "員工手冊",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「員工手冊」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "A problem with unpaid overtime",
+                "meaning": "無薪加班問題",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「無薪加班問題」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "An issue withapaycheck",
+                "meaning": "薪資問題",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「薪資問題」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "The status of a project",
+                "meaning": "專案狀態",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「專案狀態」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
           }
@@ -3674,32 +3674,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：What does Miranda imply when she says, \"We did a good job managing our resources this time around\"?",
+            "translation": "米蘭達說“這次我們在資源管理方面做得很好”，這意味著什麼？",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "The team needs a new manager.",
+                "meaning": "球隊需要一位新的經理。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「球隊需要一位新的經理。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "The team didn't have enough resources.",
+                "meaning": "團隊沒有足夠的資源。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「團隊沒有足夠的資源。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "The team learned from previous mistakes.",
+                "meaning": "團隊從先前的錯誤中吸取了教訓。",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「團隊從先前的錯誤中吸取了教訓。」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "She wants to take credit for the team's success.",
+                "meaning": "她希望將團隊的成功歸功於自己。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「她希望將團隊的成功歸功於自己。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -3719,32 +3719,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：What is the purpose of this letter?",
+            "translation": "這封信的目的是什麼？",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "To accompany a payment for a purchase",
+                "meaning": "伴隨購買付款",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「伴隨購買付款」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v.-ing 現在分詞/動名詞",
-                "meaning": "To complain about a delay in shipping",
+                "meaning": "投訴運送延誤",
                 "correct": false,
-                "reason": "【錯誤】v.-ing 現在分詞/動名詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v.-ing 現在分詞/動名詞。意為「投訴運送延誤」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "To inquire into a possible overcharge",
+                "meaning": "查詢可能的多收費用",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「查詢可能的多收費用」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "To request action on a complaint",
+                "meaning": "請求對投訴採取行動",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「請求對投訴採取行動」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
           }
@@ -3764,32 +3764,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：How does the text describe handwritten messages?",
+            "translation": "文字如何描述手寫訊息？",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Earnest",
+                "meaning": "認真",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「認真」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "B": {
                 "pos": "v.-ed 過去式/過去分詞",
-                "meaning": "Hurried",
+                "meaning": "慌忙",
                 "correct": false,
-                "reason": "【錯誤】v.-ed 過去式/過去分詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v.-ed 過去式/過去分詞。意為「慌忙」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v.-ed 過去式/過去分詞",
-                "meaning": "Outdated",
+                "meaning": "過時的",
                 "correct": false,
-                "reason": "【錯誤】v.-ed 過去式/過去分詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v.-ed 過去式/過去分詞。意為「過時的」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Commonplace",
+                "meaning": "平凡",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「平凡」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -3809,32 +3809,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：Whatcanone learnfromGenevieve?",
+            "translation": "從吉納維芙身上可以學到什麼？",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "How to plan weddings",
+                "meaning": "如何策劃婚禮",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「如何策劃婚禮」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "How to throw a dinnerparty",
+                "meaning": "如何舉辦晚宴",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「如何舉辦晚宴」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "How to make stationery",
+                "meaning": "文具的製作方法",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「文具的製作方法」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Howto producecalligraphy",
+                "meaning": "如何創作書法",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「如何創作書法」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
           }
@@ -3854,32 +3854,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "商務情境核心字彙與語意辨析",
             "type": "詞彙與商務語境 (Business Vocabulary & Collocation)",
-            "translation": "完整句子意指：Which is most likely to be one of Genevieve's products?",
+            "translation": "哪一個最有可能是 Genevieve 的產品之一？",
             "grammar": "需結合前後文商業溝通脈絡與專業搭配詞，辨析各選項含義並挑選最精準用詞。",
             "options_analysis": {
               "A": {
                 "pos": "n. 名詞",
-                "meaning": "A legal letter",
+                "meaning": "一封法律信函",
                 "correct": false,
-                "reason": "【錯誤】n. 名詞。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】n. 名詞。意為「一封法律信函」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "adj. 形容詞",
-                "meaning": "Agrantproposal",
+                "meaning": "資助提案",
                 "correct": false,
-                "reason": "【錯誤】adj. 形容詞。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】adj. 形容詞。意為「資助提案」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "n. 名詞",
-                "meaning": "Aparty invitation",
+                "meaning": "派對邀請函",
                 "correct": true,
-                "reason": "【正確】n. 名詞。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】n. 名詞。意為「派對邀請函」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "An application form",
+                "meaning": "申請表",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「申請表」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -3899,32 +3899,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：What do we know about Miranda?",
+            "translation": "我們對米蘭達了解多少？",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "She is still in Taiwan.",
+                "meaning": "她還在台灣。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「她還在台灣。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "She likely did not receive her jacket.",
+                "meaning": "她很可能沒有收到她的夾克。",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「她很可能沒有收到她的夾克。」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "She can receive her item through the mail",
+                "meaning": "她可以透過郵件收到她的物品",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「她可以透過郵件收到她的物品」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "She will spend Christmas with her friend in Taipei",
+                "meaning": "她將和她的朋友在台北過聖誕節",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「她將和她的朋友在台北過聖誕節」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -3944,32 +3944,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：How can Miranda reclaim her jacket?",
+            "translation": "米蘭達怎麼才能拿回她的夾克呢？",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "n. 名詞",
-                "meaning": "Call and leave herfriend's number",
+                "meaning": "打電話並留下她朋友的電話號碼",
                 "correct": false,
-                "reason": "【錯誤】n. 名詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】n. 名詞。意為「打電話並留下她朋友的電話號碼」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Fill out a form and fax or bring it in",
+                "meaning": "填寫表格並傳真或攜帶",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「填寫表格並傳真或攜帶」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Go to the office before 6:00 p.m. any day",
+                "meaning": "下午 6:00 前到辦公室任何一天",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「下午 6:00 前到辦公室任何一天」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v.-ing 現在分詞/動名詞",
-                "meaning": "Go to the office on a weekday morning",
+                "meaning": "平日早上去辦公室",
                 "correct": true,
-                "reason": "【正確】v.-ing 現在分詞/動名詞。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v.-ing 現在分詞/動名詞。意為「平日早上去辦公室」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
           }
@@ -3989,32 +3989,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "商務情境核心字彙與語意辨析",
             "type": "詞彙與商務語境 (Business Vocabulary & Collocation)",
-            "translation": "完整句子意指：Who most likely is Adele Wang?",
+            "translation": "阿黛爾·王最有可能是誰？",
             "grammar": "需結合前後文商業溝通脈絡與專業搭配詞，辨析各選項含義並挑選最精準用詞。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "A train driver on the MRT",
+                "meaning": "地鐵上的火車司機",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「地鐵上的火車司機」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Miranda Smithers's friend in Taipei",
+                "meaning": "米蘭達史密瑟斯在台北的朋友",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「米蘭達史密瑟斯在台北的朋友」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Miranda Smithers's friend in Hong Kong",
+                "meaning": "米蘭達史密瑟斯在香港的朋友",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「米蘭達史密瑟斯在香港的朋友」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "An employee at the Lost and Found office",
+                "meaning": "失物招領處的一名員工",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「失物招領處的一名員工」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
           }
@@ -4034,32 +4034,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：Which is the closest in meaning to \"in nature\" in the first e-mail?",
+            "translation": "第一封電子郵件中哪一個與「本質上」的意思最接近？",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Outdoors",
+                "meaning": "戶外活動",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「戶外活動」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "n. 名詞",
-                "meaning": "Inessence",
+                "meaning": "本質",
                 "correct": true,
-                "reason": "【正確】n. 名詞。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】n. 名詞。意為「本質」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Instead of",
+                "meaning": "而不是",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「而不是」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "As of now",
+                "meaning": "截至目前",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「截至目前」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -4079,32 +4079,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：What kind of work will the position most likely require?",
+            "translation": "該職位最有可能需要什麼樣的工作？",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Writing resumes",
+                "meaning": "撰寫履歷",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「撰寫履歷」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Managing projects",
+                "meaning": "管理專案",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「管理專案」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Lifting heavy objects",
+                "meaning": "舉起重物",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「舉起重物」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "n. 名詞",
-                "meaning": "Finding Jackie's replacement",
+                "meaning": "尋找傑基的替代者",
                 "correct": false,
-                "reason": "【錯誤】n. 名詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】n. 名詞。意為「尋找傑基的替代者」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -4124,32 +4124,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：What is true about Mr. Pinkman?",
+            "translation": "平克曼先生的真實情況是什麼？",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v.-ed 過去式/過去分詞",
-                "meaning": "His device malfunctioned",
+                "meaning": "他的設備故障",
                 "correct": false,
-                "reason": "【錯誤】v.-ed 過去式/過去分詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v.-ed 過去式/過去分詞。意為「他的設備故障」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "He used the scale incorrectly.",
+                "meaning": "他錯誤地使用了秤。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「他錯誤地使用了秤。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "He didn't actually use the scale",
+                "meaning": "他其實並沒有使用秤",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「他其實並沒有使用秤」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "He ordered the scale beforeFebruary 1.",
+                "meaning": "他在 2 月 1 日之前訂購了秤。",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「他在 2 月 1 日之前訂購了秤。」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
           }
@@ -4176,32 +4176,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：We're the first line of defense when it comes to preventing cybercrimes.",
+            "translation": "我們是預防網路犯罪的第一道防線。",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v.-ing 現在分詞/動名詞",
-                "meaning": "preventing",
+                "meaning": "預防",
                 "correct": true,
-                "reason": "【正確】v.-ing 現在分詞/動名詞。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v.-ing 現在分詞/動名詞。意為「預防」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "B": {
                 "pos": "adj. 形容詞",
-                "meaning": "prevent",
+                "meaning": "防止",
                 "correct": false,
-                "reason": "【錯誤】adj. 形容詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】adj. 形容詞。意為「防止」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "n. 名詞",
-                "meaning": "prevention",
+                "meaning": "預防",
                 "correct": false,
-                "reason": "【錯誤】n. 名詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】n. 名詞。意為「預防」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "adj. 形容詞",
-                "meaning": "preventive",
+                "meaning": "預防性的",
                 "correct": false,
-                "reason": "【錯誤】adj. 形容詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】adj. 形容詞。意為「預防性的」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -4221,32 +4221,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "商務情境核心字彙與語意辨析",
             "type": "詞彙與商務語境 (Business Vocabulary & Collocation)",
-            "translation": "完整句子意指：You may not see it when you first meet him, but Bill has a(n) fiery temper.",
+            "translation": "當你第一次見到他時你可能看不到這一點，但比爾脾氣暴躁。",
             "grammar": "需結合前後文商業溝通脈絡與專業搭配詞，辨析各選項含義並挑選最精準用詞。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "fiery",
+                "meaning": "火熱",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「火熱」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "windy",
+                "meaning": "有風的",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「有風的」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "earthy",
+                "meaning": "土質的",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「土質的」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "watery",
+                "meaning": "水汪汪的",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「水汪汪的」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -4404,32 +4404,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "連接詞與主從子句邏輯",
             "type": "副詞/對等連接詞 (Conjunctions)",
-            "translation": "完整句子意指：Can you tell me why you've been acting so strangely of late?",
+            "translation": "你能告訴我為什麼你最近表現得這麼奇怪嗎？",
             "grammar": "需依據前後兩子句間之語意邏輯（因果、讓步轉折、條件或時間）挑選正確連接詞。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "why",
+                "meaning": "為什麼",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「為什麼」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "B": {
                 "pos": "pron./conj. 關係詞/代名詞",
-                "meaning": "who",
+                "meaning": "世界衛生組織",
                 "correct": false,
-                "reason": "【錯誤】pron./conj. 關係詞/代名詞。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】pron./conj. 關係詞/代名詞。意為「世界衛生組織」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "pron./conj. 關係詞/代名詞",
-                "meaning": "what",
+                "meaning": "什麼",
                 "correct": false,
-                "reason": "【錯誤】pron./conj. 關係詞/代名詞。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】pron./conj. 關係詞/代名詞。意為「什麼」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "conj. 連接詞",
-                "meaning": "when",
+                "meaning": "什麼時候",
                 "correct": false,
-                "reason": "【錯誤】conj. 連接詞。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】conj. 連接詞。意為「什麼時候」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -4449,32 +4449,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：Jason is looking for a new job because he feels he is overworked and underpaid here.",
+            "translation": "傑森正在尋找新工作，因為他覺得自己在這裡工作過度且工資過低。",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "underpaid",
+                "meaning": "工資過低",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「工資過低」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "underpays",
+                "meaning": "少付薪資",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「少付薪資」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "underpay",
+                "meaning": "少付薪資",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「少付薪資」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v.-ing 現在分詞/動名詞",
-                "meaning": "underpaying",
+                "meaning": "少付錢",
                 "correct": false,
-                "reason": "【錯誤】v.-ing 現在分詞/動名詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v.-ing 現在分詞/動名詞。意為「少付錢」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -4494,32 +4494,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "同源詞詞性辨析",
             "type": "詞性選擇 (Parts of Speech)",
-            "translation": "完整句子意指：Once I get some time off from work, I'll finally be able to run a few errands and clean my house.",
+            "translation": "一旦我下班休息一段時間，我終於可以做一些事情並打掃我的房子了。",
             "grammar": "空格在句子中所屬成分（主詞、動詞、受詞或修飾語）決定所需正確詞性。",
             "options_analysis": {
               "A": {
                 "pos": "prep. 介系詞",
-                "meaning": "in",
+                "meaning": "在",
                 "correct": false,
-                "reason": "【錯誤】prep. 介系詞。詞性不符此處空格之句法功能要求，無法作正確之修飾或擔任句子主要成分。"
+                "reason": "【錯誤】prep. 介系詞。意為「在」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "prep. 介系詞",
-                "meaning": "by",
+                "meaning": "經過",
                 "correct": false,
-                "reason": "【錯誤】prep. 介系詞。詞性不符此處空格之句法功能要求，無法作正確之修飾或擔任句子主要成分。"
+                "reason": "【錯誤】prep. 介系詞。意為「經過」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "off",
+                "meaning": "離開",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「離開」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "D": {
                 "pos": "prep. 介系詞",
-                "meaning": "with",
+                "meaning": "和",
                 "correct": false,
-                "reason": "【錯誤】prep. 介系詞。詞性不符此處空格之句法功能要求，無法作正確之修飾或擔任句子主要成分。"
+                "reason": "【錯誤】prep. 介系詞。意為「和」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -4539,32 +4539,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：It is important to stay on top of current events if you want to have informed conversations about contemporary international politics.",
+            "translation": "如果您想就當代國際政治進行有見地的對話，那麼了解時事就很重要。",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "adj. 形容詞",
-                "meaning": "informant",
+                "meaning": "線人",
                 "correct": false,
-                "reason": "【錯誤】adj. 形容詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】adj. 形容詞。意為「線人」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v.-ed 過去式/過去分詞",
-                "meaning": "informed",
+                "meaning": "知情的",
                 "correct": true,
-                "reason": "【正確】v.-ed 過去式/過去分詞。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v.-ed 過去式/過去分詞。意為「知情的」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "C": {
                 "pos": "n. 名詞",
-                "meaning": "information",
+                "meaning": "資訊",
                 "correct": false,
-                "reason": "【錯誤】n. 名詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】n. 名詞。意為「資訊」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "inform",
+                "meaning": "通知",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「通知」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -4584,32 +4584,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "商務情境核心字彙與語意辨析",
             "type": "詞彙與商務語境 (Business Vocabulary & Collocation)",
-            "translation": "完整句子意指：Courtney believes that the payment didn't go through due to a processing error.",
+            "translation": "考特尼認為，由於處理錯誤，付款未能完成。",
             "grammar": "需結合前後文商業溝通脈絡與專業搭配詞，辨析各選項含義並挑選最精準用詞。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "apart from",
+                "meaning": "除了",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「除了」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "due to",
+                "meaning": "由於",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「由於」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "in terms of",
+                "meaning": "按照",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「按照」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "with regard to",
+                "meaning": "關於",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「關於」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -4629,32 +4629,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "商務情境核心字彙與語意辨析",
             "type": "詞彙與商務語境 (Business Vocabulary & Collocation)",
-            "translation": "完整句子意指：I don't like to multitask , so I devote all my thought and energy to tackling one major project at a time.",
+            "translation": "我不喜歡同時處理多項任務，所以我每次都會投入所有的心思和精力來處理一個重大專案。",
             "grammar": "需結合前後文商業溝通脈絡與專業搭配詞，辨析各選項含義並挑選最精準用詞。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "think",
+                "meaning": "思考",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「思考」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "direct",
+                "meaning": "直接的",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「直接的」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "complete",
+                "meaning": "完全的",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「完全的」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "multitask",
+                "meaning": "多工處理",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「多工處理」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
           }
@@ -4674,32 +4674,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "商務情境核心字彙與語意辨析",
             "type": "詞彙與商務語境 (Business Vocabulary & Collocation)",
-            "translation": "完整句子意指：Don't you think that finishing this workload within such a short time frame is too heavy a burden for most employees to bear?",
+            "translation": "您不認為在這麼短的時間內完成這項工作對大多數員工來說是一個難以承受的負擔嗎？",
             "grammar": "需結合前後文商業溝通脈絡與專業搭配詞，辨析各選項含義並挑選最精準用詞。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "burden",
+                "meaning": "負擔",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「負擔」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "resource",
+                "meaning": "資源",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「資源」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "n. 名詞",
-                "meaning": "preference",
+                "meaning": "偏好、優先權",
                 "correct": false,
-                "reason": "【錯誤】n. 名詞。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】n. 名詞。意為「偏好、優先權」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "n. 名詞",
-                "meaning": "performance",
+                "meaning": "表現",
                 "correct": false,
-                "reason": "【錯誤】n. 名詞。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】n. 名詞。意為「表現」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -4719,32 +4719,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：My goodness! What a horrible accident. It's a miracle that everyone is completely uninjured!",
+            "translation": "天啊！多麼可怕的事故。大家竟然毫髮無傷，簡直就是奇蹟！",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "no one",
+                "meaning": "沒有人",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「沒有人」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "myself",
+                "meaning": "我",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「我」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v.-ing 現在分詞/動名詞",
-                "meaning": "everything",
+                "meaning": "一切",
                 "correct": false,
-                "reason": "【錯誤】v.-ing 現在分詞/動名詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v.-ing 現在分詞/動名詞。意為「一切」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "everyone",
+                "meaning": "每個人",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「每個人」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
           }
@@ -4764,32 +4764,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "連接詞與主從子句邏輯",
             "type": "副詞/對等連接詞 (Conjunctions)",
-            "translation": "完整句子意指：Surprisingly, Tesla has yet to turn a profit as of 2016.",
+            "translation": "令人驚訝的是，截至 2016 年，特斯拉尚未獲利。",
             "grammar": "需依據前後兩子句間之語意邏輯（因果、讓步轉折、條件或時間）挑選正確連接詞。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "already",
+                "meaning": "已經",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「已經」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "then",
+                "meaning": "然後",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「然後」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "conj. 連接詞",
-                "meaning": "yet",
+                "meaning": "然而",
                 "correct": true,
-                "reason": "【正確】conj. 連接詞。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】conj. 連接詞。意為「然而」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "far",
+                "meaning": "遠的",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「遠的」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -4809,32 +4809,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：Chinese researchers demonstrated that the car could be hacked when they opened the car's doors without a key and controlled its brakes remotely .",
+            "translation": "中國研究人員證明，當他們在沒有鑰匙的情況下打開車門並遠端控制煞車時，汽車可能會被駭客入侵。",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "remote",
+                "meaning": "偏僻的",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「偏僻的」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "adv. 副詞",
-                "meaning": "remotely",
+                "meaning": "遠端",
                 "correct": true,
-                "reason": "【正確】adv. 副詞。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】adv. 副詞。意為「遠端」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "C": {
                 "pos": "n. 名詞",
-                "meaning": "remoteness",
+                "meaning": "偏遠",
                 "correct": false,
-                "reason": "【錯誤】n. 名詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】n. 名詞。意為「偏遠」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "remotes",
+                "meaning": "遙控器",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「遙控器」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -4854,32 +4854,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "商務情境核心字彙與語意辨析",
             "type": "詞彙與商務語境 (Business Vocabulary & Collocation)",
-            "translation": "完整句子意指：Despite these setbacks, Tesla has seen a(n) spike in deliveries during its third sales quarter of 2016, shipping 24,500 cars.",
+            "translation": "儘管遭遇這些挫折，特斯拉在 2016 年第三銷售季度的交付量仍大幅成長，交付了 24,500 輛汽車。",
             "grammar": "需結合前後文商業溝通脈絡與專業搭配詞，辨析各選項含義並挑選最精準用詞。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "echo",
+                "meaning": "迴音",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「迴音」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "spike",
+                "meaning": "長釘",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「長釘」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "decay",
+                "meaning": "衰變",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「衰變」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "n. 名詞",
-                "meaning": "reflection",
+                "meaning": "反射",
                 "correct": false,
-                "reason": "【錯誤】n. 名詞。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】n. 名詞。意為「反射」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -4899,32 +4899,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：[Context ending] This is more than double the amount delivered in the same quarter the year prior.",
+            "translation": "[上下文結尾] 這是去年同季交付量的兩倍以上。",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "This is more than double the amount delivered in the same quarter the year prior.",
+                "meaning": "這是去年同期交貨量的兩倍多。",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「這是去年同期交貨量的兩倍多。」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "The company blames this decline on bad press it has received over the years.",
+                "meaning": "該公司將這種下滑歸咎於多年來受到的負面報導。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「該公司將這種下滑歸咎於多年來受到的負面報導。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "This number is expected to rise dramatically in 2015, when new laws take effect.",
+                "meaning": "2015 年新法生效後，這一數字預計將大幅上升。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「2015 年新法生效後，這一數字預計將大幅上升。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "These numbers have led some analysts to believe that this year could be their last.",
+                "meaning": "這些數字讓一些分析師相信今年可能是他們的最後一年。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「這些數字讓一些分析師相信今年可能是他們的最後一年。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -4944,32 +4944,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：Butcher asserts that women are also more likely to be perfectionists, and though this is helpful , it can prevent things from getting done.",
+            "translation": "布徹斷言，女性也更有可能成為完美主義者，儘管這很有幫助，但它可能會阻礙事情的完成。",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "adj. 形容詞",
-                "meaning": "helpful",
+                "meaning": "有幫助的",
                 "correct": true,
-                "reason": "【正確】adj. 形容詞。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】adj. 形容詞。意為「有幫助的」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "B": {
                 "pos": "v.-ing 現在分詞/動名詞",
-                "meaning": "assisting",
+                "meaning": "協助",
                 "correct": false,
-                "reason": "【錯誤】v.-ing 現在分詞/動名詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v.-ing 現在分詞/動名詞。意為「協助」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "adj. 形容詞",
-                "meaning": "convenient",
+                "meaning": "方便的",
                 "correct": false,
-                "reason": "【錯誤】adj. 形容詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】adj. 形容詞。意為「方便的」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "adj. 形容詞",
-                "meaning": "cooperative",
+                "meaning": "合作社",
                 "correct": false,
-                "reason": "【錯誤】adj. 形容詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】adj. 形容詞。意為「合作社」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -4989,32 +4989,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：[Conclusion] She now practices her current approach to business: talking, getting one's ideas out there, and making progress.",
+            "translation": "[結論] 她現在正在實踐她目前的經商之道：交談、提出想法、取得進展。",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "She now practices her current approach to business: talking, getting one's ideas out there, and making progress.",
+                "meaning": "她現在正在實踐她目前的商業方法：交談、提出想法並取得進展。",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「她現在正在實踐她目前的商業方法：交談、提出想法並取得進展。」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "With this knowledge in hand, Butcher is focused on making people more aware of this little-known disease.",
+                "meaning": "在掌握了這些知識後，布徹致力於讓人們更了解這種鮮為人知的疾病。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「在掌握了這些知識後，布徹致力於讓人們更了解這種鮮為人知的疾病。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Butcher is now refining her skills in the hopes of someday landing the job of her dreams.",
+                "meaning": "布徹現在正在提升自己的技能，希望有一天能找到她夢想的工作。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「布徹現在正在提升自己的技能，希望有一天能找到她夢想的工作。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Butcher believes that women--not men--will be the driving forces in agriculture now.",
+                "meaning": "布徹相信女性——而不是男性——現在將成為農業的驅動力。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「布徹相信女性——而不是男性——現在將成為農業的驅動力。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -5034,32 +5034,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：[HR memo ending] The following outlines why this style will benefit our company.",
+            "translation": "[HR備忘錄結尾] 以下概述了為什麼這種風格將使我們公司受益。",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "One-on-one interviews have proven to be the most effective style.",
+                "meaning": "事實證明，一對一訪談是最有效的方式。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「事實證明，一對一訪談是最有效的方式。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "It's best for the prospective employee to feel at ease during the interview.",
+                "meaning": "未來的員工最好在面試過程中感到輕鬆。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「未來的員工最好在面試過程中感到輕鬆。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "We'll go over the several intended purposes of this format.",
+                "meaning": "我們將討論這種格式的幾個預期目的。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「我們將討論這種格式的幾個預期目的。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "The following outlines why this style will benefit our company.",
+                "meaning": "以下概述了為什麼這種風格將使我們公司受益。",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「以下概述了為什麼這種風格將使我們公司受益。」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
           }
@@ -5079,32 +5079,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "連接詞與主從子句邏輯",
             "type": "副詞/對等連接詞 (Conjunctions)",
-            "translation": "完整句子意指：Since the structure of a panel interview may be more intimidating to a candidate than a one-on-one interview, this can be a useful way of determining how candidates fare under pressure.",
+            "translation": "由於小組面試的結構可能比一對一面試對候選人來說更令人生畏，因此這可能是確定候選人在壓力下表現如何的有用方法。",
             "grammar": "需依據前後兩子句間之語意邏輯（因果、讓步轉折、條件或時間）挑選正確連接詞。",
             "options_analysis": {
               "A": {
                 "pos": "conj. 連接詞",
-                "meaning": "Since",
+                "meaning": "自從",
                 "correct": true,
-                "reason": "【正確】conj. 連接詞。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】conj. 連接詞。意為「自從」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Until",
+                "meaning": "直到",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「直到」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "n. 名詞",
-                "meaning": "Whenever",
+                "meaning": "每當",
                 "correct": false,
-                "reason": "【錯誤】n. 名詞。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】n. 名詞。意為「每當」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Only if",
+                "meaning": "僅當",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「僅當」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -5124,32 +5124,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：",
+            "translation": "本題為段落填空詞性選擇題，依空格所在之句法功能位置選出相應詞性。",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v.-ed 過去式/過去分詞",
-                "meaning": "identified",
+                "meaning": "已確定",
                 "correct": false,
-                "reason": "【錯誤】v.-ed 過去式/過去分詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v.-ed 過去式/過去分詞。意為「已確定」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "n. 名詞",
-                "meaning": "identification",
+                "meaning": "鑑別",
                 "correct": false,
-                "reason": "【錯誤】n. 名詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】n. 名詞。意為「鑑別」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "identifies",
+                "meaning": "識別",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「識別」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v.-ing 現在分詞/動名詞",
-                "meaning": "identitying",
+                "meaning": "識別",
                 "correct": true,
-                "reason": "【正確】v.-ing 現在分詞/動名詞。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v.-ing 現在分詞/動名詞。意為「識別」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
           }
@@ -5169,32 +5169,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "商務情境核心字彙與語意辨析",
             "type": "詞彙與商務語境 (Business Vocabulary & Collocation)",
-            "translation": "完整句子意指：",
+            "translation": "本題為段落填空動詞片語題，依前後文時態與主被動語態選出符合規範之動詞形式。",
             "grammar": "需結合前後文商業溝通脈絡與專業搭配詞，辨析各選項含義並挑選最精準用詞。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "back up",
+                "meaning": "備份",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「備份」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "having backed up",
+                "meaning": "已備份",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「已備份」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "backing up",
+                "meaning": "備份",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「備份」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "backed up",
+                "meaning": "備份",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「備份」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
           }
@@ -5214,32 +5214,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "商務情境核心字彙與語意辨析",
             "type": "詞彙與商務語境 (Business Vocabulary & Collocation)",
-            "translation": "完整句子意指：Who or what is Bower?",
+            "translation": "鮑爾是誰或什麼？",
             "grammar": "需結合前後文商業溝通脈絡與專業搭配詞，辨析各選項含義並挑選最精準用詞。",
             "options_analysis": {
               "A": {
                 "pos": "adj. 形容詞",
-                "meaning": "The speakers'client",
+                "meaning": "演講者的客戶",
                 "correct": false,
-                "reason": "【錯誤】adj. 形容詞。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】adj. 形容詞。意為「演講者的客戶」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Ashippingcompany",
+                "meaning": "阿航運公司",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「阿航運公司」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "The speakers'colleague",
+                "meaning": "演講者的同事",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「演講者的同事」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "n. 名詞",
-                "meaning": "Asportinggoods manutacturer",
+                "meaning": "運動用品製造商",
                 "correct": true,
-                "reason": "【正確】n. 名詞。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】n. 名詞。意為「運動用品製造商」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
           }
@@ -5259,32 +5259,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：ated According to the article, why might more Americans be buying Singaporean luxury real estate? an buyers.",
+            "translation": "根據這篇文章，為什麼更多的美國人會購買新加坡的豪華房地產？一個買家。",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "They are exempl from paying certain taxes.",
+                "meaning": "它們就是繳納某些稅金的例子。",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「它們就是繳納某些稅金的例子。」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "New York luxury real estate prices are now too low.",
+                "meaning": "紐約豪華房地產價格現在太低了。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「紐約豪華房地產價格現在太低了。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Most American businesses are based in Singapore",
+                "meaning": "大多數美國企業都位於新加坡",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「大多數美國企業都位於新加坡」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "They wish to own more real estate than Chinese",
+                "meaning": "他們希望擁有比中國人更多的房地產",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「他們希望擁有比中國人更多的房地產」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -5304,32 +5304,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：Which of the following is NOT an asset the passage men describes as a potential source of income once you are retired? long as",
+            "translation": "下列哪一項不是過道人士所描述的退休後潛在收入來源的資產？只要",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Property",
+                "meaning": "財產",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「財產」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Pensions",
+                "meaning": "退休金",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「退休金」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Investments",
+                "meaning": "投資",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「投資」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "n. 名詞",
-                "meaning": "State assistance",
+                "meaning": "國家援助",
                 "correct": true,
-                "reason": "【正確】n. 名詞。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】n. 名詞。意為「國家援助」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
           }
@@ -5349,32 +5349,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：When should one stop making high-risk Investments?",
+            "translation": "什麼時候該停止進行高風險投資？",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "ln one's early 40s",
+                "meaning": "40歲出頭",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「40歲出頭」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "B": {
                 "pos": "n. 名詞",
-                "meaning": "In the middle of one's career",
+                "meaning": "在一個人的職業生涯中期",
                 "correct": false,
-                "reason": "【錯誤】n. 名詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】n. 名詞。意為「在一個人的職業生涯中期」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Inone's senioryears",
+                "meaning": "Inone的晚年",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「Inone的晚年」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "n. 名詞",
-                "meaning": "Early in one's career",
+                "meaning": "在職業生涯的早期",
                 "correct": false,
-                "reason": "【錯誤】n. 名詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】n. 名詞。意為「在職業生涯的早期」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -5394,32 +5394,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：What is at the core of America's lumber dispute with nt. Canada? act American lumber. capitalist trade ally. tumberbusinesses. price than America pays for Canadian lumber.",
+            "translation": "美國與NT的木材爭端的核心是什麼？加拿大？代理美國木材。資本主義貿易盟友。木材企業。比美國購買加拿大木材的價格還要高。",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Canadian lumber is of an inferior quality to",
+                "meaning": "加拿大木材的品質較差",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「加拿大木材的品質較差」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Canada refuses to admit its socialist traits to its",
+                "meaning": "加拿大拒絕承認其社會主義特徵",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「加拿大拒絕承認其社會主義特徵」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Importing Canadian lumberis hurtingAmerca's",
+                "meaning": "進口加拿大木材損害美國木材",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「進口加拿大木材損害美國木材」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "D": {
                 "pos": "n. 名詞",
-                "meaning": "Canada is buying American lumber at a cheaper",
+                "meaning": "加拿大正在以更便宜的價格購買美國木材",
                 "correct": false,
-                "reason": "【錯誤】n. 名詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】n. 名詞。意為「加拿大正在以更便宜的價格購買美國木材」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -5439,32 +5439,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "商務情境核心字彙與語意辨析",
             "type": "詞彙與商務語境 (Business Vocabulary & Collocation)",
-            "translation": "完整句子意指：What happened in 2015? Canadian lumber.",
+            "translation": "2015年發生了什麼事？加拿大木材。",
             "grammar": "需結合前後文商業溝通脈絡與專業搭配詞，辨析各選項含義並挑選最精準用詞。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Canada entered NAFTA.",
+                "meaning": "加拿大加入北美自由貿易協定。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「加拿大加入北美自由貿易協定。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "The soft lumberagreement ended.",
+                "meaning": "軟木材協議結束。",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「軟木材協議結束。」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Canada won the soft lumber dispute.",
+                "meaning": "加拿大贏得了軟木材糾紛。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「加拿大贏得了軟木材糾紛。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "America employed countervailing duties on",
+                "meaning": "美國徵收反補貼稅",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「美國徵收反補貼稅」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -5484,32 +5484,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "被動語態與時態判斷",
             "type": "動詞語態 (Passive Voice)",
-            "translation": "完整句子意指：Which of the following thematic statements is most closely expressed by this article? have long disputes. partner,even to its allies economic edge internationally allies,they are secretly enemies",
+            "translation": "本文最貼切地表達了下列哪一項主題陳述？長期有爭執。夥伴，即使是對其盟友有經濟優勢的國際盟友，他們也是暗地裡的敵人",
             "grammar": "主詞與動作執行者具有被動承受關係，需根據主詞人稱與時間提示選出符合之被動態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Evenallied nationsand close trading partners can",
+                "meaning": "均衡的國家和密切的貿易夥伴可以",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「均衡的國家和密切的貿易夥伴可以」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "B": {
                 "pos": "v.-ing 現在分詞/動名詞",
-                "meaning": "America is always an unfair international trading",
+                "meaning": "美國始終是不公平的國際貿易",
                 "correct": false,
-                "reason": "【錯誤】v.-ing 現在分詞/動名詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v.-ing 現在分詞/動名詞。意為「美國始終是不公平的國際貿易」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Canada's socialist tendencies grant it an unfair",
+                "meaning": "加拿大的社會主義傾向賦予它不公平的待遇",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「加拿大的社會主義傾向賦予它不公平的待遇」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "adj. 形容詞",
-                "meaning": "Though two countriesappear tobe international",
+                "meaning": "儘管兩個國家看似國際化",
                 "correct": false,
-                "reason": "【錯誤】adj. 形容詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】adj. 形容詞。意為「儘管兩個國家看似國際化」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -5526,14 +5526,14 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "同源詞詞性辨析",
             "type": "詞性選擇 (Parts of Speech)",
-            "translation": "完整句子意指：Liberty Air 450 Main Street NewYork,NY10024 DearLibertyAircustomers. 1]- I'd like to take this time to say to all our valued customers th we at Libery Air are deeply somy and embarassed for our pertormance overthe Christmas season. Last week was the worst operational week in Liberty Air's eleven-ye nistory. -2— The fact is we let you down. Nothing is more important than regainin your trust. 3]-- All of us here hope you will give us the opportunit to once again welcome you on board and provide you with the positi Liberty Air experience you have come to expect.-4]- Sincerely. David Cannon Chief ExecutiveOfficer",
+            "translation": "自由航空 450 Main Street NewYork,NY10024 尊敬的自由航空客戶。 1]- 我想藉此機會向我們所有尊貴的客戶表示，我們 Libery Air 對聖誕節期間的表現深感遺憾和尷尬。上週是自由航空十一年來營運最糟的一周。 -2－事實是我們讓您失望了。沒有什麼比重新獲得您的信任更重要的了。 3]-- 我們所有人都希望您能給我們機會，再次歡迎您登機，並為您提供您所期望的積極的自由航空體驗。 -4]- 此致。大衛坎農 首席執行官",
             "grammar": "空格在句子中所屬成分（主詞、動詞、受詞或修飾語）決定所需正確詞性。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "800-565-6000",
+                "meaning": "800-565-6000 的含義",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「800-565-6000 的含義」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
           }
@@ -5553,32 +5553,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：How long has Liberty Air been in operation? ar ve",
+            "translation": "自由航空營運多久了？到達",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "One season",
+                "meaning": "一季",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「一季」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "One year",
+                "meaning": "一年",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「一年」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Over a decade",
+                "meaning": "十多年來",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「十多年來」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Twenty years",
+                "meaning": "二十年",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「二十年」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -5598,32 +5598,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "同源詞詞性辨析",
             "type": "詞性選擇 (Parts of Speech)",
-            "translation": "完整句子意指：In which of the positions marked [1], [2]. [3], and [4] does the following sentence best belong? \"Many of you were either stranded, delayed or had flights canceled following the severe winter storm in the Southwest.\"",
+            "translation": "其中哪個位置標示為[1]、[2]。 [3]、[4]下面的句子最適合嗎？ 「在西南地區遭遇嚴重的冬季風暴後，你們中的許多人要么滯留、延誤，要么航班取消。”",
             "grammar": "空格在句子中所屬成分（主詞、動詞、受詞或修飾語）決定所需正確詞性。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "[1]",
+                "meaning": "位置標記 [1]",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。詞性不符此處空格之句法功能要求，無法作正確之修飾或擔任句子主要成分。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「[1] 的含義」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "[2]",
+                "meaning": "位置標記 [2]",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「[2] 的含義」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "[3]",
+                "meaning": "位置標記 [3]",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。詞性不符此處空格之句法功能要求，無法作正確之修飾或擔任句子主要成分。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「[3] 的含義」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "[4]",
+                "meaning": "位置標記 [4]",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。詞性不符此處空格之句法功能要求，無法作正確之修飾或擔任句子主要成分。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「[4] 的含義」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -5643,32 +5643,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：Which of the following shares the closest meaning with \"pet-friendly\" in this context?",
+            "translation": "在這種情況下，下列哪一項與「寵物友善」的含義最接近？",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "The landlord likes pets.",
+                "meaning": "樓主喜歡養寵物。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「樓主喜歡養寵物。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "All of the neighbors love pets.",
+                "meaning": "所有的鄰居都喜歡養寵物。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「所有的鄰居都喜歡養寵物。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Pets are allowed in this apartment.",
+                "meaning": "這間公寓允許攜帶寵物入住。",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「這間公寓允許攜帶寵物入住。」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "This apartment is completely pet-proof.",
+                "meaning": "這間公寓完全禁止攜帶寵物。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「這間公寓完全禁止攜帶寵物。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -5688,32 +5688,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：Which response might satisfactorily answer Steven's fourth question?",
+            "translation": "哪一個回答可以滿意地回答史蒂文的第四個問題？",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "\"I don't know my neighbors.\"",
+                "meaning": "“我不認識我的鄰居。”",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「“我不認識我的鄰居。”」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "\"No one in the building is allergic.\"",
+                "meaning": "“大樓裡沒有人過敏。”",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「“大樓裡沒有人過敏。”」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "\"The apartment is completely soundproot.\"",
+                "meaning": "“公寓完全隔音。”",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「“公寓完全隔音。”」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "\"The furniture is completely indestructible.\"",
+                "meaning": "“家具是完全堅不可摧的。”",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「“家具是完全堅不可摧的。”」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -5733,32 +5733,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：What can be most safely assumed about the survey? ur",
+            "translation": "關於調查可以最安全地假設什麼？你的",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "It only exists online.",
+                "meaning": "它只存在於網路上。",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「它只存在於網路上。」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "It was designed by Mildred Pierce.",
+                "meaning": "它是由米爾德里德·皮爾斯設計的。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「它是由米爾德里德·皮爾斯設計的。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "It will take at least 40 minutes to compiete",
+                "meaning": "至少需要 40 分鐘才能完成",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「至少需要 40 分鐘才能完成」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "It contains both written and multiple choice elements",
+                "meaning": "它包含書面和多項選擇元素",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「它包含書面和多項選擇元素」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -5778,32 +5778,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：What will Paula talk about during her follow-up telephone call? MountainViewmarket Mountain View",
+            "translation": "寶拉在後續電話中會談論什麼？山景市集山景城",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Advice on designing newspaperads",
+                "meaning": "報紙廣告設計的建議",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「報紙廣告設計的建議」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "How Barnycan best pronote his business in the",
+                "meaning": "巴尼如何最好地在這個領域推廣他的業務",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「巴尼如何最好地在這個領域推廣他的業務」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Whether Barry should expandhis businessto",
+                "meaning": "巴里是否應該將他的業務擴展到",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「巴里是否應該將他的業務擴展到」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "The cost of expanding to Mountain View",
+                "meaning": "擴展到山景城的成本",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「擴展到山景城的成本」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -5830,32 +5830,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：The product will be successful; I stake my reputation as an analyst on it.",
+            "translation": "產品一定會成功；我把自己作為分析師的聲譽押在了上面。",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "analyst",
+                "meaning": "分析師",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「分析師」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "analyze",
+                "meaning": "分析、研析",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「分析、研析」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "analysis",
+                "meaning": "分析、分析報告",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「分析、分析報告」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "analyses",
+                "meaning": "分析（複數）",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「分析（複數）」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -5875,32 +5875,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "商務情境核心字彙與語意辨析",
             "type": "詞彙與商務語境 (Business Vocabulary & Collocation)",
-            "translation": "完整句子意指：Bethany found out via e-mail that she had been accepted for the position.",
+            "translation": "貝瑟尼透過電子郵件得知她已被接受該職位。",
             "grammar": "需結合前後文商業溝通脈絡與專業搭配詞，辨析各選項含義並挑選最精準用詞。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "out",
+                "meaning": "出來、得知（found out）",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「出來、得知（found out）」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "B": {
                 "pos": "prep. 介系詞",
-                "meaning": "with",
+                "meaning": "和",
                 "correct": false,
-                "reason": "【錯誤】prep. 介系詞。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】prep. 介系詞。意為「和」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "prep. 介系詞",
-                "meaning": "about",
+                "meaning": "關於",
                 "correct": false,
-                "reason": "【錯誤】prep. 介系詞。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】prep. 介系詞。意為「關於」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "prep. 介系詞",
-                "meaning": "through",
+                "meaning": "透過",
                 "correct": false,
-                "reason": "【錯誤】prep. 介系詞。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】prep. 介系詞。意為「透過」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -6104,32 +6104,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：Small businesses have been popping up all over the country.",
+            "translation": "小型企業在全國各地湧現。",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "up",
+                "meaning": "向上、冒出（popping up）",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「向上、冒出（popping up）」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "B": {
                 "pos": "prep. 介系詞",
-                "meaning": "on",
+                "meaning": "在",
                 "correct": false,
-                "reason": "【錯誤】prep. 介系詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】prep. 介系詞。意為「在」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "down",
+                "meaning": "向下",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「向下」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "across",
+                "meaning": "穿過",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「穿過」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -6149,32 +6149,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "商務情境核心字彙與語意辨析",
             "type": "詞彙與商務語境 (Business Vocabulary & Collocation)",
-            "translation": "完整句子意指：Due to a lack of concrete data, Catalina was only able to offer a series of rough estimates at the end of her presentation.",
+            "translation": "由於缺乏具體數據，卡塔琳娜只能在演講的最後提供一系列粗略的估計。",
             "grammar": "需結合前後文商業溝通脈絡與專業搭配詞，辨析各選項含義並挑選最精準用詞。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "rocky",
+                "meaning": "搖擺不定的、困難的",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「搖擺不定的、困難的」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "rough",
+                "meaning": "粗略的、概括的",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「粗略的、概括的」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "C": {
                 "pos": "adj. 形容詞",
-                "meaning": "rampant",
+                "meaning": "猖獗的、蔓延的",
                 "correct": false,
-                "reason": "【錯誤】adj. 形容詞。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】adj. 形容詞。意為「猖獗的、蔓延的」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "adj. 形容詞",
-                "meaning": "resurgent",
+                "meaning": "復甦的、重新抬頭的",
                 "correct": false,
-                "reason": "【錯誤】adj. 形容詞。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】adj. 形容詞。意為「復甦的、重新抬頭的」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -6194,32 +6194,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：The company's New York branch, which has been the most profitable, is composed entirely of experienced personnel.",
+            "translation": "該公司利潤最高的紐約分公司全部由經驗豐富的人員組成。",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v.-ed 過去式/過去分詞",
-                "meaning": "is composed",
+                "meaning": "由...組成",
                 "correct": true,
-                "reason": "【正確】v.-ed 過去式/過去分詞。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v.-ed 過去式/過去分詞。意為「由...組成」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "B": {
                 "pos": "v.-ed 過去式/過去分詞",
-                "meaning": "composed",
+                "meaning": "組成、沈著的",
                 "correct": false,
-                "reason": "【錯誤】v.-ed 過去式/過去分詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v.-ed 過去式/過去分詞。意為「組成、沈著的」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "composes",
+                "meaning": "組成、創作",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「組成、創作」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v.-ing 現在分詞/動名詞",
-                "meaning": "is composing",
+                "meaning": "正在創作/組成",
                 "correct": false,
-                "reason": "【錯誤】v.-ing 現在分詞/動名詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v.-ing 現在分詞/動名詞。意為「正在創作/組成」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -6239,32 +6239,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：I just want to say that yesterday, you handled that troublesome situation admirably. Great job!",
+            "translation": "我只想說，昨天你把那個麻煩事處理得很好。幹得好！",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "handle",
+                "meaning": "處理",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「處理」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v.-ed 過去式/過去分詞",
-                "meaning": "handled",
+                "meaning": "妥善處理了",
                 "correct": true,
-                "reason": "【正確】v.-ed 過去式/過去分詞。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v.-ed 過去式/過去分詞。意為「妥善處理了」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "C": {
                 "pos": "v.-ed 過去式/過去分詞",
-                "meaning": "have handled",
+                "meaning": "已經處理了",
                 "correct": false,
-                "reason": "【錯誤】v.-ed 過去式/過去分詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v.-ed 過去式/過去分詞。意為「已經處理了」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v.-ing 現在分詞/動名詞",
-                "meaning": "have been handling",
+                "meaning": "一直在處理",
                 "correct": false,
-                "reason": "【錯誤】v.-ing 現在分詞/動名詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v.-ing 現在分詞/動名詞。意為「一直在處理」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -6284,32 +6284,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：Inspired by influential entrepreneurs, Mark decided to invest in the tech industry, and he made a fortune .",
+            "translation": "受到有影響力的企業家的啟發，馬克決定投資科技業，並因此發了財。",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "fortune",
+                "meaning": "巨款、大筆財富",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「巨款、大筆財富」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "B": {
                 "pos": "n. 名詞",
-                "meaning": "richness",
+                "meaning": "豐富、富饒",
                 "correct": false,
-                "reason": "【錯誤】n. 名詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】n. 名詞。意為「豐富、富饒」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "n. 名詞",
-                "meaning": "opulence",
+                "meaning": "奢華、富麗",
                 "correct": false,
-                "reason": "【錯誤】n. 名詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】n. 名詞。意為「奢華、富麗」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "n. 名詞",
-                "meaning": "extravagance",
+                "meaning": "鋪張、揮霍",
                 "correct": false,
-                "reason": "【錯誤】n. 名詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】n. 名詞。意為「鋪張、揮霍」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -6329,32 +6329,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：It is a commonly believed myth that the Great Wall of China can be seen from space.",
+            "translation": "人們普遍相信，從太空可以看到中國的長城。",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "saw",
+                "meaning": "鋸",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「鋸」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "sees",
+                "meaning": "看到",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「看到」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "can see",
+                "meaning": "可以看見（主動）",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「可以看見（主動）」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "can be seen",
+                "meaning": "可以被看見",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「可以被看見」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
           }
@@ -6374,32 +6374,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "商務情境核心字彙與語意辨析",
             "type": "詞彙與商務語境 (Business Vocabulary & Collocation)",
-            "translation": "完整句子意指：Feel free to voice your opinions during the Q&A session after the presentation.",
+            "translation": "歡迎在演講結束後的問答環節中表達您的意見。",
             "grammar": "需結合前後文商業溝通脈絡與專業搭配詞，辨析各選項含義並挑選最精準用詞。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "veto",
+                "meaning": "否決、反對",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「否決、反對」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "voice",
+                "meaning": "表達、陳述",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「表達、陳述」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "view",
+                "meaning": "看待、檢視",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「看待、檢視」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "vacate",
+                "meaning": "空出、騰出（職位/空間）",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「空出、騰出（職位/空間）」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -6419,32 +6419,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：If we subcontract a few of these projects, we will be able to stay on schedule.",
+            "translation": "如果我們分包其中一些項目，我們將能夠按計劃進行。",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "conj. 連接詞",
-                "meaning": "If",
+                "meaning": "如果",
                 "correct": true,
-                "reason": "【正確】conj. 連接詞。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】conj. 連接詞。意為「如果」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "B": {
                 "pos": "conj. 連接詞",
-                "meaning": "Whereas",
+                "meaning": "然而",
                 "correct": false,
-                "reason": "【錯誤】conj. 連接詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】conj. 連接詞。意為「然而」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Till",
+                "meaning": "直到",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「直到」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "n. 名詞",
-                "meaning": "Whether",
+                "meaning": "無論",
                 "correct": false,
-                "reason": "【錯誤】n. 名詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】n. 名詞。意為「無論」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -6464,32 +6464,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：Though the competition was stiff, I managed to secure the administration position through hard work.",
+            "translation": "儘管競爭很激烈，但我透過努力還是保住了行政職位。",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v.-ing 現在分詞/動名詞",
-                "meaning": "securing",
+                "meaning": "爭取、獲得",
                 "correct": false,
-                "reason": "【錯誤】v.-ing 現在分詞/動名詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v.-ing 現在分詞/動名詞。意為「爭取、獲得」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "to secure",
+                "meaning": "爭取、獲得（不定詞）",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「爭取、獲得（不定詞）」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "C": {
                 "pos": "v.-ed 過去式/過去分詞",
-                "meaning": "secured",
+                "meaning": "已獲得、有保障的",
                 "correct": false,
-                "reason": "【錯誤】v.-ed 過去式/過去分詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v.-ed 過去式/過去分詞。意為「已獲得、有保障的」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "securest",
+                "meaning": "最牢固的、最安全的",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「最牢固的、最安全的」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -6509,32 +6509,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：Considering this is a very important decision, we haven't made up our minds yet, so we still need time to think it over.",
+            "translation": "考慮到這是一個非常重要的決定，我們還沒有下定決心，所以我們還需要時間來考慮。",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "didn't make",
+                "meaning": "過去沒有做出",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「過去沒有做出」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "made",
+                "meaning": "做出了",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「做出了」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "haven't made",
+                "meaning": "尚未做出（決定）",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「尚未做出（決定）」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "D": {
                 "pos": "v.-ing 現在分詞/動名詞",
-                "meaning": "hadn't been making",
+                "meaning": "過去一直未做",
                 "correct": false,
-                "reason": "【錯誤】v.-ing 現在分詞/動名詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v.-ing 現在分詞/動名詞。意為「過去一直未做」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -6554,32 +6554,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：At this job, you'll need to cope with multiple projects simultaneously, so multitasking is a necessary skill if you want to be successful.",
+            "translation": "在這份工作中，您需要同時處理多個項目，因此如果您想取得成功，同時處理多項任務是一項必要技能。",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "multitasks",
+                "meaning": "多工處理（第三人稱）",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「多工處理（第三人稱）」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v.-ed 過去式/過去分詞",
-                "meaning": "multitasked",
+                "meaning": "多工處理（過去式）",
                 "correct": false,
-                "reason": "【錯誤】v.-ed 過去式/過去分詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v.-ed 過去式/過去分詞。意為「多工處理（過去式）」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "multitask",
+                "meaning": "多工處理",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「多工處理」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v.-ing 現在分詞/動名詞",
-                "meaning": "multitasking",
+                "meaning": "多工處理能力",
                 "correct": true,
-                "reason": "【正確】v.-ing 現在分詞/動名詞。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v.-ing 現在分詞/動名詞。意為「多工處理能力」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
           }
@@ -6599,32 +6599,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "商務情境核心字彙與語意辨析",
             "type": "詞彙與商務語境 (Business Vocabulary & Collocation)",
-            "translation": "完整句子意指：We have two dogs and a cat, as we are really fond of animals in our household.",
+            "translation": "我們有兩隻狗和一隻貓，因為我們非常喜歡家裡的動物。",
             "grammar": "需結合前後文商業溝通脈絡與專業搭配詞，辨析各選項含義並挑選最精準用詞。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "keen to",
+                "meaning": "熱切於、渴望",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「熱切於、渴望」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "fond of",
+                "meaning": "喜愛、偏好",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「喜愛、偏好」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "far from",
+                "meaning": "遠非、絕非",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「遠非、絕非」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "passed by",
+                "meaning": "經過、路過",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「經過、路過」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -6644,32 +6644,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：Have we contacted the warehouse about the problem with the recent shipments?",
+            "translation": "我們是否就最近出貨的問題聯絡過倉庫？",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v.-ed 過去式/過去分詞",
-                "meaning": "contacted",
+                "meaning": "已聯繫、已聯絡",
                 "correct": true,
-                "reason": "【正確】v.-ed 過去式/過去分詞。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v.-ed 過去式/過去分詞。意為「已聯繫、已聯絡」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "B": {
                 "pos": "v.-ed 過去式/過去分詞",
-                "meaning": "contented",
+                "meaning": "使滿意、滿足的",
                 "correct": false,
-                "reason": "【錯誤】v.-ed 過去式/過去分詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v.-ed 過去式/過去分詞。意為「使滿意、滿足的」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v.-ed 過去式/過去分詞",
-                "meaning": "connected",
+                "meaning": "連接的、相關的",
                 "correct": false,
-                "reason": "【錯誤】v.-ed 過去式/過去分詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v.-ed 過去式/過去分詞。意為「連接的、相關的」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v.-ed 過去式/過去分詞",
-                "meaning": "contracted",
+                "meaning": "簽約、收縮",
                 "correct": false,
-                "reason": "【錯誤】v.-ed 過去式/過去分詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v.-ed 過去式/過去分詞。意為「簽約、收縮」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -6689,32 +6689,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "被動語態與時態判斷",
             "type": "動詞語態 (Passive Voice)",
-            "translation": "完整句子意指：Thus, these investors have rushed to fortify their wealth by diversifying their assets via international investments.",
+            "translation": "因此，這些投資者紛紛透過國際投資實現資產多元化，以鞏固自己的財富。",
             "grammar": "主詞與動作執行者具有被動承受關係，需根據主詞人稱與時間提示選出符合之被動態。",
             "options_analysis": {
               "A": {
                 "pos": "v.-ing 現在分詞/動名詞",
-                "meaning": "divesting",
+                "meaning": "撤資、處分資產",
                 "correct": false,
-                "reason": "【錯誤】v.-ing 現在分詞/動名詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v.-ing 現在分詞/動名詞。意為「撤資、處分資產」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v.-ing 現在分詞/動名詞",
-                "meaning": "diverging",
+                "meaning": "分歧、偏離",
                 "correct": false,
-                "reason": "【錯誤】v.-ing 現在分詞/動名詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v.-ing 現在分詞/動名詞。意為「分歧、偏離」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v.-ing 現在分詞/動名詞",
-                "meaning": "dispelling",
+                "meaning": "消除、驅散",
                 "correct": false,
-                "reason": "【錯誤】v.-ing 現在分詞/動名詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v.-ing 現在分詞/動名詞。意為「消除、驅散」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v.-ing 現在分詞/動名詞",
-                "meaning": "diversifying",
+                "meaning": "多角化經營、分散投資",
                 "correct": true,
-                "reason": "【正確】v.-ing 現在分詞/動名詞。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v.-ing 現在分詞/動名詞。意為「多角化經營、分散投資」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
           }
@@ -6734,32 +6734,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：[Context paragraph] However, the Chinese government has recently implemented additional capital controls in an attempt to encourage domestic investments. Despite these recent efforts on the government's part, many analysts predict that the flood of international Chinese investments will only ebb temporarily...",
+            "translation": "然而，中國政府最近實施了額外的資本管制，以鼓勵國內投資。儘管政府最近做出了這些努力，但許多分析人士預測，中國的國際投資洪流只會暫時消退...",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "These rising commodity prices have led to more than a few countries instituting strict limits on foreign investment.",
+                "meaning": "大宗商品價格上漲導致不少國家對外國投資實施嚴格限制。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「大宗商品價格上漲導致不少國家對外國投資實施嚴格限制。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "However, the Chinese government has recently implemented additional capital controls in an attempt to encourage domestic investments.",
+                "meaning": "然而，中國政府最近實施了額外的資本管制，以鼓勵國內投資。",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「然而，中國政府最近實施了額外的資本管制，以鼓勵國內投資。」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Fortunately, the predicted prosperity China will enjoy as the currency gains strength will fuel a bright future for the economic giant.",
+                "meaning": "幸運的是，隨著人民幣走強，中國預計將迎來繁榮，這將為這個經濟巨人帶來光明的未來。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「幸運的是，隨著人民幣走強，中國預計將迎來繁榮，這將為這個經濟巨人帶來光明的未來。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Despite losing everything, many investors say they remain undeterred in their pursuit of building their wealth in the real estate market.",
+                "meaning": "儘管失去了一切，許多投資者表示，他們仍然毫不猶豫地追求在房地產市場累積財富。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「儘管失去了一切，許多投資者表示，他們仍然毫不猶豫地追求在房地產市場累積財富。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -6779,32 +6779,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "商務情境核心字彙與語意辨析",
             "type": "詞彙與商務語境 (Business Vocabulary & Collocation)",
-            "translation": "完整句子意指：...many analysts predict that the flood of international Chinese investments will only ebb temporarily, meaning a more effective long-term solution is needed.",
+            "translation": "許多分析師預測，中國的國際投資潮只會暫時消退，這意味著需要更有效的長期解決方案。",
             "grammar": "需結合前後文商業溝通脈絡與專業搭配詞，辨析各選項含義並挑選最精準用詞。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "predict",
+                "meaning": "預測、預告",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「預測、預告」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "B": {
                 "pos": "n. 名詞",
-                "meaning": "prediction",
+                "meaning": "預測（名詞）",
                 "correct": false,
-                "reason": "【錯誤】n. 名詞。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】n. 名詞。意為「預測（名詞）」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "adj. 形容詞",
-                "meaning": "predictable",
+                "meaning": "可預測的",
                 "correct": false,
-                "reason": "【錯誤】adj. 形容詞。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】adj. 形容詞。意為「可預測的」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "adv. 副詞",
-                "meaning": "predictably",
+                "meaning": "不出所料地",
                 "correct": false,
-                "reason": "【錯誤】adv. 副詞。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】adv. 副詞。意為「不出所料地」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -6824,32 +6824,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：Although it may seem counterproductive, an hour of exercise a day may allow you to accomplish more than if you had simply sat for that hour and continued trying to get work done.",
+            "translation": "儘管這看起來可能適得其反，但每天運動一小時可能比僅僅坐著一小時並繼續努力完成工作能讓你完成更多的事情。",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "assess",
+                "meaning": "評估、核定",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「評估、核定」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "oversee",
+                "meaning": "監督、指導",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「監督、指導」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "sustain",
+                "meaning": "維持、承受",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「維持、承受」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "accomplish",
+                "meaning": "達成、完成",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「達成、完成」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
           }
@@ -6869,32 +6869,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：[Paragraph opening] According to many medical and psychological studies, the effects of exercise on one's mental capacity are beneficial and numerous. For one, exercise reduces stress and causes your brain to release endorphins and dopamine.",
+            "translation": "根據許多醫學和心理學研究，運動對人的心智能力的影響是有益且眾多的。其一，運動可以減輕壓力，使大腦釋放內啡肽和多巴胺。",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "If you have a large amount of work to do, portioning it off into smaller groups of tasks may help you get it done sooner and better.",
+                "meaning": "如果您有大量工作要做，將其分成較小的任務組可能會幫助您更快更好地完成工作。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「如果您有大量工作要做，將其分成較小的任務組可能會幫助您更快更好地完成工作。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "According to many medical and psychological studies, the effects of exercise on one's mental capacity are beneficial and numerous.",
+                "meaning": "根據許多醫學和心理學研究，運動對人的心智能力的影響是有益且眾多的。",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「根據許多醫學和心理學研究，運動對人的心智能力的影響是有益且眾多的。」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Flexing your wrists, hands, and fingers is key to preventing repetitive stress injuries.",
+                "meaning": "彎曲手腕、手和手指是防止重複性壓力傷害的關鍵。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「彎曲手腕、手和手指是防止重複性壓力傷害的關鍵。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "One strategy is to alternate between a standing and squatting position at your desk until your muscles warm up.",
+                "meaning": "一種策略是在辦公桌前交替站立和蹲下，直到肌肉變暖。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「一種策略是在辦公桌前交替站立和蹲下，直到肌肉變暖。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -6914,32 +6914,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "同源詞詞性辨析",
             "type": "詞性選擇 (Parts of Speech)",
-            "translation": "完整句子意指：Additionally, working out has been proven to increase creativity, focus, and memory capacity.",
+            "translation": "此外，運動已被證明可以提高創造力、注意力和記憶力。",
             "grammar": "空格在句子中所屬成分（主詞、動詞、受詞或修飾語）決定所需正確詞性。",
             "options_analysis": {
               "A": {
                 "pos": "prep. 介系詞",
-                "meaning": "in",
+                "meaning": "在",
                 "correct": false,
-                "reason": "【錯誤】prep. 介系詞。詞性不符此處空格之句法功能要求，無法作正確之修飾或擔任句子主要成分。"
+                "reason": "【錯誤】prep. 介系詞。意為「在」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "out",
+                "meaning": "出來、得知（found out）",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「出來、得知（found out）」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "down",
+                "meaning": "向下",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。詞性不符此處空格之句法功能要求，無法作正確之修飾或擔任句子主要成分。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「向下」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "up",
+                "meaning": "向上、冒出（popping up）",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。詞性不符此處空格之句法功能要求，無法作正確之修飾或擔任句子主要成分。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「向上、冒出（popping up）」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -6959,32 +6959,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：So the next time you're feeling uninspired or ground down, take some time (an hour or so) to run, do some push-ups, or tone that stomach.",
+            "translation": "因此，下次當您感到沒有靈感或沮喪時，請花一些時間（一個小時左右）跑步，做一些俯臥撐，或調理腹部。",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v.-ing 現在分詞/動名詞",
-                "meaning": "grinding",
+                "meaning": "磨損、研磨",
                 "correct": false,
-                "reason": "【錯誤】v.-ing 現在分詞/動名詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v.-ing 現在分詞/動名詞。意為「磨損、研磨」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "grinds",
+                "meaning": "研磨（單數）",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「研磨（單數）」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "grind",
+                "meaning": "研磨、苦工",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「研磨、苦工」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "ground",
+                "meaning": "磨損、壓垮（ground down）",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「磨損、壓垮（ground down）」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
           }
@@ -7004,32 +7004,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：A degree in mass communications, media, or a similar field is preferable .",
+            "translation": "擁有大眾傳播、媒體或類似領域的學位者優先。",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v.-ing 現在分詞/動名詞",
-                "meaning": "preferring",
+                "meaning": "偏好（分詞）",
                 "correct": false,
-                "reason": "【錯誤】v.-ing 現在分詞/動名詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v.-ing 現在分詞/動名詞。意為「偏好（分詞）」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "prefers",
+                "meaning": "偏好（第三人稱）",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「偏好（第三人稱）」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "adj. 形容詞",
-                "meaning": "preferable",
+                "meaning": "較合適的、更可取的",
                 "correct": true,
-                "reason": "【正確】adj. 形容詞。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】adj. 形容詞。意為「較合適的、更可取的」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "D": {
                 "pos": "n. 名詞",
-                "meaning": "preference",
+                "meaning": "偏好、優先權",
                 "correct": false,
-                "reason": "【錯誤】n. 名詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】n. 名詞。意為「偏好、優先權」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -7049,32 +7049,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：",
+            "translation": "本題為段落填空時間副詞片語，依語境要求選出「隨時、始終 (at all times)」。",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "at all times",
+                "meaning": "隨時、始終",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「隨時、始終」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "in good time",
+                "meaning": "及時、儘早",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「及時、提早」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "ahead of time",
+                "meaning": "提前、預先",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「提前、預先」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "in real time",
+                "meaning": "即時、實時",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「即時、實時」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
           }
@@ -7094,32 +7094,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：ghly",
+            "translation": "本題為段落填空介系詞片語，依列舉說明之語境選出「包含 (including)」。",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v.-ed 過去式/過去分詞",
-                "meaning": "included",
+                "meaning": "包括",
                 "correct": false,
-                "reason": "【錯誤】v.-ed 過去式/過去分詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v.-ed 過去式/過去分詞。意為「包括」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "n. 名詞",
-                "meaning": "inclusion",
+                "meaning": "包容性",
                 "correct": false,
-                "reason": "【錯誤】n. 名詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】n. 名詞。意為「包容性」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v.-ing 現在分詞/動名詞",
-                "meaning": "including",
+                "meaning": "包括",
                 "correct": true,
-                "reason": "【正確】v.-ing 現在分詞/動名詞。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v.-ing 現在分詞/動名詞。意為「包括」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "to include",
+                "meaning": "包括",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「包括」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -7139,32 +7139,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "商務情境核心字彙與語意辨析",
             "type": "詞彙與商務語境 (Business Vocabulary & Collocation)",
-            "translation": "完整句子意指：dare",
+            "translation": "本題為段落填空商務字彙題，依合約授權語意選出「自由裁量權 (discretion)」。",
             "grammar": "需結合前後文商業溝通脈絡與專業搭配詞，辨析各選項含義並挑選最精準用詞。",
             "options_analysis": {
               "A": {
                 "pos": "n. 名詞",
-                "meaning": "discretion",
+                "meaning": "裁量權、謹慎",
                 "correct": false,
-                "reason": "【錯誤】n. 名詞。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】n. 名詞。意為「裁量權、謹慎」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "n. 名詞",
-                "meaning": "deduction",
+                "meaning": "扣除、推論",
                 "correct": false,
-                "reason": "【錯誤】n. 名詞。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】n. 名詞。意為「扣除、推論」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "n. 名詞",
-                "meaning": "transaction",
+                "meaning": "交易、業務",
                 "correct": false,
-                "reason": "【錯誤】n. 名詞。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】n. 名詞。意為「交易、業務」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "complelion",
+                "meaning": "完成",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「完成」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
           }
@@ -7184,32 +7184,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：revisions.",
+            "translation": "本題為段落填空完整句插入題，正確選項為「所有修改均不保證額外付款 (All fixes do not warrant additional payment)」。",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Fixes will be made on the day of recording.",
+                "meaning": "修復將在錄製當天進行。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「修復將在錄製當天進行。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Fixes will not require additional performance.",
+                "meaning": "修復不需要額外的性能。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「修復不需要額外的性能。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "All fixes do not warrant additional payment.",
+                "meaning": "所有修復均不保證額外付款。",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「所有修復均不保證額外付款。」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "The freelancer may choose lo forgo any and all",
+                "meaning": "自由工作者可以選擇放棄任何和全部",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「自由工作者可以選擇放棄任何和全部」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -7229,32 +7229,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：What is the reason for the recall?",
+            "translation": "召回原因是什麼？",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "It is too expensive.",
+                "meaning": "太貴了。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「太貴了。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "It is dangerous.",
+                "meaning": "這是危險的。",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「這是危險的。」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "They are out of stock.",
+                "meaning": "它們缺貨了。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「它們缺貨了。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "They want to upgrade the products.",
+                "meaning": "他們想要升級產品。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「他們想要升級產品。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -7274,32 +7274,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：What does Jesse V.mean when he writes,\"Let me make sure I get it\"? possible. announcement.",
+            "translation": "傑西V.（Jesse V.）寫道「讓我確保我明白了」是什麼意思？可能的。公告。",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "He wants to receive the replacement as soon as",
+                "meaning": "他希望盡快收到替代品",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「他希望盡快收到替代品」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "He wants to clarify something about the",
+                "meaning": "他想澄清一些關於",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「他想澄清一些關於」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "He wants to be sure the company refunds the model",
+                "meaning": "他希望確保公司退還模型費用",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「他希望確保公司退還模型費用」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "He wants to order a new product from the company.",
+                "meaning": "他想從該公司訂購一種新產品。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「他想從該公司訂購一種新產品。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -7319,32 +7319,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：Based on his reimbursementclaims above,how could Edgar Newbower's company most effectively cut costs in the future? airport",
+            "translation": "根據他上述的報銷要求，埃德加·紐鮑爾的公司未來如何最有效地削減成本？飛機場",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Only send him to local conferences",
+                "meaning": "只派他參加當地會議",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「只派他參加當地會議」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Restrict him to only the cheapest hotels",
+                "meaning": "限制他只入住最便宜的飯店",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「限制他只入住最便宜的飯店」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Stop sending him on corporate luncheons",
+                "meaning": "別再派他參加公司午餐會了",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「別再派他參加公司午餐會了」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Have him use his own vehicle to meet clients at the",
+                "meaning": "讓他用自己的車輛去見客戶",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「讓他用自己的車輛去見客戶」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -7364,32 +7364,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "商務情境核心字彙與語意辨析",
             "type": "詞彙與商務語境 (Business Vocabulary & Collocation)",
-            "translation": "完整句子意指：What service is NOT provided by HostBoard? al te",
+            "translation": "HostBoard 不提供哪些服務？阿爾特",
             "grammar": "需結合前後文商業溝通脈絡與專業搭配詞，辨析各選項含義並挑選最精準用詞。",
             "options_analysis": {
               "A": {
                 "pos": "n. 名詞",
-                "meaning": "Automated payment",
+                "meaning": "自動付款",
                 "correct": false,
-                "reason": "【錯誤】n. 名詞。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】n. 名詞。意為「自動付款」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Customer support",
+                "meaning": "客戶支援",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「客戶支援」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "n. 名詞",
-                "meaning": "Web site domain registration",
+                "meaning": "網站網域註冊",
                 "correct": false,
-                "reason": "【錯誤】n. 名詞。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】n. 名詞。意為「網站網域註冊」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "n. 名詞",
-                "meaning": "Domain monetization",
+                "meaning": "域名貨幣化",
                 "correct": true,
-                "reason": "【正確】n. 名詞。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】n. 名詞。意為「域名貨幣化」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
           }
@@ -7409,32 +7409,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：What is NOT a change put forth by the city?",
+            "translation": "什麼不是城市提出的改變？",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Garbage collection days",
+                "meaning": "垃圾收集日",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「垃圾收集日」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Bin collection time",
+                "meaning": "垃圾箱收集時間",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「垃圾箱收集時間」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Recycling collection routes",
+                "meaning": "回收收集路線",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「回收收集路線」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Cart collection time",
+                "meaning": "購物車領取時間",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「購物車領取時間」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -7454,32 +7454,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：What does Hamid imply when he writes, \"Hopefully they don't burn down the whole city\"?",
+            "translation": "哈米德寫道：“希望他們不要燒毀整座城市”，這意味著什麼？",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "The fire department will be needed.",
+                "meaning": "將需要消防隊。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「將需要消防隊。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "There is an issue with fire prevention.",
+                "meaning": "防火方面存在問題。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「防火方面存在問題。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "The new employees might get themselves hurt.",
+                "meaning": "新員工可能會受傷。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「新員工可能會受傷。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "The new employees have little to no experience.",
+                "meaning": "新員工幾乎沒有經驗。",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「新員工幾乎沒有經驗。」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
           }
@@ -7499,32 +7499,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：Where must carts be located under the new guidelines?",
+            "translation": "根據新準則，手推車必須放置在哪裡？",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "1.5 meters from other objects",
+                "meaning": "距離其他物體 1.5 米",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「距離其他物體 1.5 米」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "One meter from other objects",
+                "meaning": "距離其他物體一公尺",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「距離其他物體一公尺」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "2.5 meters fromother objects",
+                "meaning": "距離其他物體 2.5 米",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「距離其他物體 2.5 米」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Two meters from other objects",
+                "meaning": "距離其他物體兩米",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「距離其他物體兩米」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -7544,32 +7544,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：What can be inferred to have happened? country. supplier.",
+            "translation": "可以推斷發生了什麼事？國家。供應商。",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Frank's company needs an advance on a loan.",
+                "meaning": "弗蘭克的公司需要預付貸款。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「弗蘭克的公司需要預付貸款。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Frank's cornpany haseiperignced an accident.",
+                "meaning": "弗蘭克的公司發生了一場事故。",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「弗蘭克的公司發生了一場事故。」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Frank's company has fost stock in the south of the",
+                "meaning": "弗蘭克的公司在美國南部擁有大量庫存",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「弗蘭克的公司在美國南部擁有大量庫存」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "adj. 形容詞",
-                "meaning": "Frank's company is now purchasing from a different",
+                "meaning": "弗蘭克的公司現在正在從另一個地方採購",
                 "correct": false,
-                "reason": "【錯誤】adj. 形容詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】adj. 形容詞。意為「弗蘭克的公司現在正在從另一個地方採購」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -7589,32 +7589,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：What is going to happen at the end of the next quarter? discount. company. from Frank's company.",
+            "translation": "下個季度末會發生什麼事？折扣。公司。來自弗蘭克的公司。",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Harriet's company will move to Montana.",
+                "meaning": "哈麗特的公司將搬到蒙大拿州。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「哈麗特的公司將搬到蒙大拿州。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Harriet's company will offer Frank's company a",
+                "meaning": "哈麗特的公司將為弗蘭克的公司提供",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「哈麗特的公司將為弗蘭克的公司提供」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Harriet's company will stop working with Frank's",
+                "meaning": "哈里特的公司將停止與法蘭克的合作",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「哈里特的公司將停止與法蘭克的合作」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Harriet's company will stop purchasing dental floss",
+                "meaning": "哈里特的公司將停止購買牙線",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「哈里特的公司將停止購買牙線」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
           }
@@ -7634,32 +7634,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：What does the reviewer imply about this movie? sic",
+            "translation": "評論家對這部電影有何暗示？原文如此",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v.-ed 過去式/過去分詞",
-                "meaning": "It is very well acted",
+                "meaning": "演得很好",
                 "correct": false,
-                "reason": "【錯誤】v.-ed 過去式/過去分詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v.-ed 過去式/過去分詞。意為「演得很好」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "It won several awards",
+                "meaning": "它獲得了多個獎項",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「它獲得了多個獎項」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "It should not be on television.",
+                "meaning": "它不應該出現在電視上。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「它不應該出現在電視上。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "It is so bad that it is enjoyable.",
+                "meaning": "它是如此糟糕，以至於它是令人愉快的。",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「它是如此糟糕，以至於它是令人愉快的。」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
           }
@@ -7679,32 +7679,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：go, What best describes the reviewor's opinion of the e, plot of this movie?",
+            "translation": "去，什麼最能描述評論家對這部電影情節的看法？",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Complex",
+                "meaning": "複雜的",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「複雜的」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v.-ing 現在分詞/動名詞",
-                "meaning": "Saddening",
+                "meaning": "令人悲傷",
                 "correct": false,
-                "reason": "【錯誤】v.-ing 現在分詞/動名詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v.-ing 現在分詞/動名詞。意為「令人悲傷」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Unbolievabte",
+                "meaning": "翁博利瓦布特",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「翁博利瓦布特」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Disrespecttul",
+                "meaning": "不尊重",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「不尊重」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -7724,32 +7724,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：Why does tha revlewer think Victoria Rule's situation Is 6ad?",
+            "translation": "為什麼那位網友認為維多利亞·魯爾的情況是6ad？",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "She has never been successtut",
+                "meaning": "她從來沒有成功過",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「她從來沒有成功過」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Shnused tobearespected nctiess",
+                "meaning": "迴避受人尊敬的關係",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「迴避受人尊敬的關係」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "C": {
                 "pos": "adj. 形容詞",
-                "meaning": "She was once the wite of a president",
+                "meaning": "她曾經是總統的夫人",
                 "correct": false,
-                "reason": "【錯誤】adj. 形容詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】adj. 形容詞。意為「她曾經是總統的夫人」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "She contintues to play similar characters.",
+                "meaning": "她繼續扮演類似的角色。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「她繼續扮演類似的角色。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -7769,32 +7769,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：What seems to be Sue Doenim's scheme?",
+            "translation": "蘇·多尼姆的計畫似乎是什麼？",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "n. 名詞",
-                "meaning": "Getting people to pay her rent for her",
+                "meaning": "讓人們替她付房租",
                 "correct": false,
-                "reason": "【錯誤】n. 名詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】n. 名詞。意為「讓人們替她付房租」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "n. 名詞",
-                "meaning": "Overcharging people to stay in a bad apartment",
+                "meaning": "向人們收取過高的費用讓他們住在糟糕的公寓裡",
                 "correct": false,
-                "reason": "【錯誤】n. 名詞。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】n. 名詞。意為「向人們收取過高的費用讓他們住在糟糕的公寓裡」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Luring people into her apartment and robbing them",
+                "meaning": "引誘人們進入她的公寓並搶劫他們",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「引誘人們進入她的公寓並搶劫他們」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v.-ing 現在分詞/動名詞",
-                "meaning": "Tricking people into sending her money for nothing",
+                "meaning": "誘騙人們無償寄錢",
                 "correct": true,
-                "reason": "【正確】v.-ing 現在分詞/動名詞。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v.-ing 現在分詞/動名詞。意為「誘騙人們無償寄錢」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
           }
@@ -7814,32 +7814,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "商務情境核心字彙與語意辨析",
             "type": "詞彙與商務語境 (Business Vocabulary & Collocation)",
-            "translation": "完整句子意指：Who did Michelle contact before responding to Sue Doenim?",
+            "translation": "米歇爾在回覆蘇·多尼姆之前聯繫了誰？",
             "grammar": "需結合前後文商業溝通脈絡與專業搭配詞，辨析各選項含義並挑選最精準用詞。",
             "options_analysis": {
               "A": {
                 "pos": "n. 名詞",
-                "meaning": "A lawyer",
+                "meaning": "律師",
                 "correct": false,
-                "reason": "【錯誤】n. 名詞。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】n. 名詞。意為「律師」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Her bank",
+                "meaning": "她的銀行",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「她的銀行」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "The police",
+                "meaning": "警察",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「警察」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Her current landlord",
+                "meaning": "她現在的房東",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「她現在的房東」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -7859,32 +7859,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "商務情境核心字彙與語意辨析",
             "type": "詞彙與商務語境 (Business Vocabulary & Collocation)",
-            "translation": "完整句子意指：Why did Glen lose his wedding ring?",
+            "translation": "格倫為什麼丟了結婚戒指？",
             "grammar": "需結合前後文商業溝通脈絡與專業搭配詞，辨析各選項含義並挑選最精準用詞。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "He dropped it while playing with it.",
+                "meaning": "他在玩的時候把它掉了。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「他在玩的時候把它掉了。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "He lost it while reeling in a big fish.",
+                "meaning": "他在釣大魚時把它弄丟了。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「他在釣大魚時把它弄丟了。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "He threw it into the lake while angry.",
+                "meaning": "他一氣之下把它丟進湖裡了。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「他一氣之下把它丟進湖裡了。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "He lost it while practicing a martial art.",
+                "meaning": "他在練習武術時失去了它。",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「他在練習武術時失去了它。」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
           }
@@ -7904,32 +7904,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "商務情境核心字彙與語意辨析",
             "type": "詞彙與商務語境 (Business Vocabulary & Collocation)",
-            "translation": "完整句子意指：In the advertisement, the word \"demo\" in paragraph 1 is closest in meaning to",
+            "translation": "在廣告中，第 1 段中的「demo」一詞的意思最接近",
             "grammar": "需結合前後文商業溝通脈絡與專業搭配詞，辨析各選項含義並挑選最精準用詞。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "best",
+                "meaning": "最好的",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「最好的」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "first",
+                "meaning": "第一的",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「第一的」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "example",
+                "meaning": "例子",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「例子」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "D": {
                 "pos": "adv. 副詞",
-                "meaning": "only",
+                "meaning": "僅有的",
                 "correct": false,
-                "reason": "【錯誤】adv. 副詞。放入句中語意不合邏輯，或與前後文字不構成標準慣用搭配。"
+                "reason": "【錯誤】adv. 副詞。意為「僅有的」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -7949,32 +7949,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：What really surprised Janice about the estimate? ck ate t is,",
+            "translation": "是什麼讓珍妮絲對這個估算感到驚訝？ ck吃了t，",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "How expensive the retaining wall will be",
+                "meaning": "擋土牆要多少錢",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「擋土牆要多少錢」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "How cheap the fence will be",
+                "meaning": "護欄有多便宜",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「護欄有多便宜」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "How long it took to get the estimate",
+                "meaning": "需要多長時間才能得到估價",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「需要多長時間才能得到估價」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v.-ed 過去式/過去分詞",
-                "meaning": "How few people wll be needed",
+                "meaning": "需要多少人",
                 "correct": true,
-                "reason": "【正確】v.-ed 過去式/過去分詞。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v.-ed 過去式/過去分詞。意為「需要多少人」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
           }
@@ -7994,32 +7994,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：Who might this product be aimed at?",
+            "translation": "該產品可能針對誰？",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "An artist with a heavy workload",
+                "meaning": "一個工作量很大的藝術家",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「一個工作量很大的藝術家」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "A traveler who has a lot of luggage",
+                "meaning": "一位攜帶大量行李的旅客",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「一位攜帶大量行李的旅客」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Aperson who engages in fighting sports",
+                "meaning": "從事格鬥運動的人",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「從事格鬥運動的人」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "A jewelry designer facing challenging conditions",
+                "meaning": "面臨嚴峻挑戰的珠寶設計師",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「面臨嚴峻挑戰的珠寶設計師」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
@@ -8039,32 +8039,32 @@ const TOEIC_DATA = {
           "explanation": {
             "focus": "動詞時態與主詞一致性",
             "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "完整句子意指：What do we know about Wilma? SS.",
+            "translation": "我們對威瑪了解多少？ SS。",
             "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
             "options_analysis": {
               "A": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Her e-mail was accompanied by an attachment.",
+                "meaning": "她的電子郵件附有一個附件。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「她的電子郵件附有一個附件。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "B": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "She contacted the wrong department.",
+                "meaning": "她聯繫錯了部門。",
                 "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。語意完全吻合題目上下文商務脈絡，在文法結構、詞性要求與時態搭配上均完全符合規範。"
+                "reason": "【正確】v./adj./n. 核心詞彙。意為「她聯繫錯了部門。」。符合題幹文法句構，商務語境搭配最為精準通順。"
               },
               "C": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "She e-mailed Keith directly.",
+                "meaning": "她直接給基斯發了電子郵件。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「她直接給基斯發了電子郵件。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               },
               "D": {
                 "pos": "v./adj./n. 核心詞彙",
-                "meaning": "Her message was ignored by Fighting Spirit.",
+                "meaning": "她的訊息被鬥魂忽略了。",
                 "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。時態或動詞形態與前後句不一致，產生時態矛盾或主謂不一致。"
+                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「她的訊息被鬥魂忽略了。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
           }
