@@ -147,23 +147,14 @@
             <!-- Dynamically populated options -->
           </div>
 
-          <!-- Immediate Feedback (Practice Mode) -->
-          <div class="feedback-card" id="feedbackCard" style="display: none;">
-            <div class="feedback-header">
-              <span class="feedback-icon" id="feedbackIcon"></span>
-              <span class="feedback-status" id="feedbackStatus">作答正確！</span>
-            </div>
-            <div class="feedback-detail">
-              <p><strong>正確答案：</strong><span class="correct-ans-tag" id="feedbackCorrectOpt">(A)</span></p>
-              <div class="feedback-notes" id="feedbackNotes">
-                <!-- Word explanation or tips -->
-              </div>
-            </div>
-          </div>
-
         </div>
 
-        <!-- Stage Bottom Navigation Actions -->
+        <!-- Reading Group Container (for Part 6 & Part 7 連貫題組) -->
+        <div class="reading-group-stage" id="readingGroupStage" style="display: none;">
+          <!-- 動態渲染：左側文章卡片 (Passage Pane) + 右側連貫子題清單 (Subquestions Pane) -->
+        </div>
+
+        <!-- Stage Bottom Navigation Actions (題目切換按鈕) -->
         <div class="stage-nav">
           <button class="btn-nav btn-prev" id="btnPrevQ">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
@@ -179,6 +170,20 @@
             <span>下一題</span>
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 6 15 12 9 18"/></svg>
           </button>
+        </div>
+
+        <!-- Immediate Feedback / 題目說明與詳細解析 (Practice Mode) - 放置於題目切換按鈕之下 -->
+        <div class="feedback-card" id="feedbackCard" style="display: none;">
+          <div class="feedback-header">
+            <span class="feedback-icon" id="feedbackIcon"></span>
+            <span class="feedback-status" id="feedbackStatus">作答正確！</span>
+          </div>
+          <div class="feedback-detail">
+            <p><strong>正確答案：</strong><span class="correct-ans-tag" id="feedbackCorrectOpt">(A)</span></p>
+            <div class="feedback-notes" id="feedbackNotes">
+              <!-- Word explanation or tips -->
+            </div>
+          </div>
         </div>
 
       </section>

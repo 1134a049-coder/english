@@ -125,6 +125,8 @@
   const btnFlag = document.getElementById('btnFlag');
   const questionPrompt = document.getElementById('questionPrompt');
   const optionsContainer = document.getElementById('optionsContainer');
+  const questionCard = document.getElementById('questionCard');
+  const readingGroupStage = document.getElementById('readingGroupStage');
   const feedbackCard = document.getElementById('feedbackCard');
   const feedbackHeader = feedbackCard ? feedbackCard.querySelector('.feedback-header') : null;
   const feedbackStatus = document.getElementById('feedbackStatus');
@@ -369,14 +371,14 @@
     progressText.textContent = `Question ${currentIndex + 1} of ${questions.length}`;
   }
 
-  // Render Current Question
+  // Render Current Question (支援單題與題組同頁連貫閱讀)
   function renderQuestion(index) {
     if (index < 0 || index >= questions.length) return;
     currentIndex = index;
     saveCurrentState();
     const q = questions[index];
 
-    // Card Header
+    // Card Header Info
     cardQNum.textContent = `Question ${q.id}`;
     cardQPart.textContent = getQuestionPartLabel(q);
 
@@ -387,7 +389,31 @@
       btnFlag.classList.remove('flagged');
     }
 
-    // Question Prompt (Format underscores nicely as interactive blank slot)
+    // 檢查是否為題組題 (Reading Group)
+    if (q.type === 'group' && q.passages && q.passages.length > 0) {
+      // 隱藏單題卡片，顯示題組舞台
+      if (questionCard) questionCard.style.display = 'none';
+      if (feedbackCard) feedbackCard.style.display = 'none';
+      if (readingGroupStage) {
+        readingGroupStage.style.display = 'grid';
+        renderReadingGroupStage(q);
+      }
+    } else {
+      // 顯示單題卡片，隱藏題組舞台
+      if (readingGroupStage) readingGroupStage.style.display = 'none';
+      if (questionCard) questionCard.style.display = 'block';
+      renderSingleQuestionStage(q);
+    }
+
+    // Navigation Buttons State
+    btnPrevQ.disabled = (index === 0);
+    btnNextQ.disabled = (index === questions.length - 1);
+
+    updatePaletteStatus();
+  }
+
+  // 渲染單題視窗
+  function renderSingleQuestionStage(q) {
     const chosen = userAnswers[q.id];
     let promptHtml = escapeHtml(q.question);
     const blankRegex = /_{3,}|＿＿＿+/g;
@@ -403,7 +429,6 @@
     }
     questionPrompt.innerHTML = promptHtml;
 
-    // Options Container
     optionsContainer.innerHTML = '';
     const optionKeys = ['A', 'B', 'C', 'D'];
 
@@ -431,7 +456,7 @@
 
       btn.innerHTML = `
         <span class="opt-badge">${optKey}</span>
-        <span class="opt-text">${optVal}</span>
+        <span class="opt-text">${escapeHtml(optVal)}</span>
       `;
 
       btn.addEventListener('click', () => {
@@ -472,17 +497,198 @@
         }, 0);
       }
 
-      feedbackNotes.innerHTML = generateExplanation(q, isCorrect);
+      feedbackNotes.innerHTML = generateMentorCard(q, isCorrect);
     } else {
       feedbackCard.style.display = 'none';
     }
-
-    // Navigation Buttons State
-    btnPrevQ.disabled = (index === 0);
-    btnNextQ.disabled = (index === questions.length - 1);
-
-    updatePaletteStatus();
   }
+
+  // 渲染題組連貫同頁視窗 (Reading Group Stage)
+  function renderReadingGroupStage(currentQ) {
+    if (!readingGroupStage) return;
+
+    // 取得同一題組的所有小題
+    const groupQuestions = questions.filter(item => item.group_id === currentQ.group_id);
+
+    // 1. 組裝左側文章面板 (Passage Pane)
+    let passageHtml = `
+      <div class="passage-pane">
+        <div class="passage-header-badge">
+          📌 ${escapeHtml(currentQ.group_range || '閱讀理解題組')} · ${escapeHtml(currentQ.group_part || 'Part 7 閱讀理解')}
+        </div>
+    `;
+
+    currentQ.passages.forEach(p => {
+      passageHtml += `
+        <div class="passage-item-box">
+          <h2 class="passage-title-main">${escapeHtml(p.title || '閱讀文章')}</h2>
+      `;
+
+      if (p.type === 'chat' && p.messages) {
+        // 即時通訊聊天室主題
+        passageHtml += `<div class="chat-room-container">`;
+        p.messages.forEach(msg => {
+          passageHtml += `
+            <div class="chat-bubble-item">
+              <div class="chat-meta">
+                <span class="chat-sender">${escapeHtml(msg.sender)}</span>
+                <span class="chat-time">${escapeHtml(msg.time)}</span>
+              </div>
+              <div class="chat-msg">${escapeHtml(msg.text)}</div>
+            </div>
+          `;
+        });
+        passageHtml += `</div>`;
+      } else if (p.type === 'recipe') {
+        // 食譜指引主題
+        passageHtml += `
+          <div class="recipe-box">
+            <div class="section-label">🥣 食材清單 (Ingredients)</div>
+            <ul class="ingredient-list">
+              ${(p.ingredients || []).map(ing => `<li>${escapeHtml(ing)}</li>`).join('')}
+            </ul>
+            <div class="section-label">👨‍🍳 烘焙步驟 (Directions)</div>
+            <ol class="instruction-list">
+              ${(p.instructions || []).map(ins => `<li>${escapeHtml(ins)}</li>`).join('')}
+            </ol>
+            ${p.nutrition ? `<div style="font-size:12.5px;color:#94a3b8;margin-top:10px;">📊 營養標示：${escapeHtml(p.nutrition)}</div>` : ''}
+          </div>
+        `;
+      } else if (p.type === 'form') {
+        // 訂單/表單主題
+        passageHtml += `
+          <div class="form-box">
+            ${p.order_number ? `<div style="font-weight:700;color:var(--gold);margin-bottom:8px;">訂單編號：${escapeHtml(p.order_number)}</div>` : ''}
+            ${p.customer ? `
+              <div style="font-size:13.5px;color:#cbd5e1;margin-bottom:12px;padding:8px;background:rgba(255,255,255,0.04);border-radius:8px;">
+                <strong>顧客姓名：</strong>${escapeHtml(p.customer.name || '')} | <strong>Email：</strong>${escapeHtml(p.customer.email || '')}
+              </div>
+            ` : ''}
+            ${p.flavors ? `
+              <div class="section-label">📋 訂購品項與數量</div>
+              <ul class="ingredient-list">
+                ${p.flavors.map(f => `<li><strong>${escapeHtml(f.flavor)}:</strong> ${f.qty} 顆</li>`).join('')}
+              </ul>
+            ` : ''}
+            ${p.sections ? `
+              <div class="evaluation-sections">
+                ${p.sections.map(sec => `
+                  <div style="margin-bottom:12px;padding:10px;background:rgba(255,255,255,0.03);border-radius:8px;">
+                    <div style="font-weight:700;color:#93c5fd;">${escapeHtml(sec.q)}</div>
+                    <div style="font-size:13.5px;color:#e2e8f0;margin-top:4px;">${escapeHtml(sec.why || sec.answer || '')}</div>
+                  </div>
+                `).join('')}
+              </div>
+            ` : ''}
+            ${p.requirement ? `<div style="font-size:13px;color:#f59e0b;margin-bottom:6px;">⚠️ <strong>起訂限制：</strong>${escapeHtml(p.requirement)}</div>` : ''}
+            ${p.special_details ? `<div style="font-size:13px;color:#60a5fa;margin-bottom:6px;">📝 <strong>特殊備註：</strong>${escapeHtml(p.special_details)}</div>` : ''}
+            ${p.note ? `<div style="font-size:12px;color:#ef4444;margin-top:8px;">📌 <strong>取消政策：</strong>${escapeHtml(p.note)}</div>` : ''}
+          </div>
+        `;
+      } else {
+        // 一般文章、公告、信件
+        passageHtml += `
+          <div class="passage-text-content">${escapeHtml(p.content || '')}</div>
+        `;
+      }
+
+      passageHtml += `</div>`;
+    });
+
+    passageHtml += `</div>`; // 結束 passage-pane
+
+    // 2. 組裝右側小題面板 (Subquestions Pane)
+    let subqHtml = `<div class="subquestions-pane">`;
+
+    groupQuestions.forEach(subQ => {
+      const isCurrentActive = (subQ.id === currentQ.id);
+      const chosen = userAnswers[subQ.id];
+      const isAnswered = Boolean(chosen);
+      const isCorrect = (chosen === subQ.answer);
+
+      subqHtml += `
+        <div class="subquestion-card ${isCurrentActive ? 'active-subq' : ''}" id="subqCard_${subQ.id}">
+          <div class="subq-header">
+            <span class="subq-num-badge">Question ${subQ.id}</span>
+            <button class="btn-flag ${flaggedQuestions.has(subQ.id) ? 'flagged' : ''}" data-subqid="${subQ.id}" title="標記稍後檢查">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <span>${flaggedQuestions.has(subQ.id) ? '已標記' : '標記'}</span>
+            </button>
+          </div>
+
+          <div class="subq-prompt">${escapeHtml(subQ.question)}</div>
+
+          <div class="subq-options">
+      `;
+
+      const optionKeys = ['A', 'B', 'C', 'D'];
+      optionKeys.forEach(optKey => {
+        const optVal = subQ.options[optKey];
+        if (!optVal && optVal !== '') return;
+
+        let optClass = 'opt-btn';
+        if (chosen === optKey) optClass += ' selected';
+
+        if (currentMode === 'practice' && chosen && showAnswerInPractice) {
+          if (optKey === subQ.answer) optClass += ' correct-choice';
+          else if (chosen === optKey) optClass += ' wrong-choice';
+        }
+
+        subqHtml += `
+          <button class="${optClass}" data-subqid="${subQ.id}" data-opt="${optKey}">
+            <span class="opt-badge">${optKey}</span>
+            <span class="opt-text">${escapeHtml(optVal)}</span>
+          </button>
+        `;
+      });
+
+      subqHtml += `</div>`; // 結束 subq-options
+
+      // 刷題模式下若已作答且開啟解析，立即顯示導師解析卡片
+      if (currentMode === 'practice' && isAnswered && showExplainInPractice) {
+        subqHtml += generateMentorCard(subQ, isCorrect);
+      }
+
+      subqHtml += `</div>`; // 結束 subquestion-card
+    });
+
+    subqHtml += `</div>`; // 結束 subquestions-pane
+
+    readingGroupStage.innerHTML = passageHtml + subqHtml;
+
+    // 綁定小題卡片事件
+    readingGroupStage.querySelectorAll('.subq-options button').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        const targetSubQId = parseInt(btn.dataset.subqid, 10);
+        const optKey = btn.dataset.opt;
+        const targetQ = questions.find(item => item.id === targetSubQId);
+        if (targetQ) {
+          selectOption(targetQ, optKey);
+        }
+      });
+    });
+
+    readingGroupStage.querySelectorAll('.subq-header .btn-flag').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const targetSubQId = parseInt(btn.dataset.subqid, 10);
+        if (flaggedQuestions.has(targetSubQId)) {
+          flaggedQuestions.delete(targetSubQId);
+        } else {
+          flaggedQuestions.add(targetSubQId);
+        }
+        saveCurrentState();
+        updatePaletteStatus();
+        renderReadingGroupStage(currentQ);
+      });
+    });
+
+    // 自動聚焦捲動至當前子題
+    const currentSubqEl = document.getElementById(`subqCard_${currentQ.id}`);
+    if (currentSubqEl) {
+      currentSubqEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+  }
+
 
   // Handle Option Click
   function selectOption(q, optKey) {
@@ -864,6 +1070,54 @@
         });
       });
     }
+
+    // Global Tooltip Mobile Long-press & Tap Handlers
+    let longPressTimer = null;
+    let touchMoved = false;
+
+    document.addEventListener('touchstart', (e) => {
+      const trigger = e.target.closest('.word-tooltip-trigger');
+      if (!trigger) {
+        document.querySelectorAll('.word-tooltip-trigger.active').forEach(t => t.classList.remove('active'));
+        return;
+      }
+      touchMoved = false;
+      clearTimeout(longPressTimer);
+      longPressTimer = setTimeout(() => {
+        if (!touchMoved) {
+          document.querySelectorAll('.word-tooltip-trigger.active').forEach(t => {
+            if (t !== trigger) t.classList.remove('active');
+          });
+          trigger.classList.toggle('active');
+          if (navigator.vibrate) {
+            try { navigator.vibrate(25); } catch (err) {}
+          }
+        }
+      }, 350);
+    }, { passive: true });
+
+    document.addEventListener('touchmove', () => {
+      touchMoved = true;
+      clearTimeout(longPressTimer);
+    }, { passive: true });
+
+    document.addEventListener('touchend', () => {
+      clearTimeout(longPressTimer);
+    }, { passive: true });
+
+    // Tap to toggle tooltip on mobile/desktop
+    document.addEventListener('click', (e) => {
+      const trigger = e.target.closest('.word-tooltip-trigger');
+      if (trigger) {
+        const wasActive = trigger.classList.contains('active');
+        document.querySelectorAll('.word-tooltip-trigger.active').forEach(t => t.classList.remove('active'));
+        if (!wasActive) {
+          trigger.classList.add('active');
+        }
+      } else {
+        document.querySelectorAll('.word-tooltip-trigger.active').forEach(t => t.classList.remove('active'));
+      }
+    });
   }
 
   // Update Practice Toggles UI
@@ -893,6 +1147,100 @@
   }
 
   // Generate Rich Explanation
+  
+  // Generate High-Pedagogy Mentor Card (專業導師生活化譬喻解析)
+  function generateMentorCard(q, isCorrect) {
+    const exp = q.explanation || {};
+    const takeaway = exp.mentor_takeaway || exp.focus || '💡 掌握多益核心考點與上下文關鍵線索';
+    const analogy = exp.mentor_analogy || '';
+    const translation = exp.context_translation || exp.translation || '';
+    const evidence = exp.evidence || '';
+    const trapAnalysis = exp.trap_analysis || {};
+    const keyVocab = exp.key_vocab || [];
+
+    // 若具備升級版的導師解析欄位
+    if (analogy || trapAnalysis['A'] || trapAnalysis['B']) {
+      let trapsHtml = '';
+      const optionKeys = ['A', 'B', 'C', 'D'];
+      optionKeys.forEach(optKey => {
+        const itemText = trapAnalysis[optKey];
+        if (!itemText) return;
+        const isOptCorrect = (optKey === q.answer);
+        trapsHtml += `
+          <div class="trap-item">
+            <span class="trap-opt-badge ${isOptCorrect ? 'correct' : 'wrong'}">選項 (${optKey})</span>
+            ${escapeHtml(itemText)}
+          </div>
+        `;
+      });
+
+      let vocabHtml = '';
+      if (keyVocab && keyVocab.length > 0) {
+        vocabHtml = `
+          <div class="mentor-block">
+            <div class="section-label">🔑 職場實戰高頻必備詞彙</div>
+            <div class="vocab-container">
+              ${keyVocab.map(v => `
+                <div class="vocab-pill">
+                  <span class="vocab-word">${escapeHtml(v.word)}</span>
+                  <span class="vocab-meaning">${escapeHtml(v.meaning)}</span>
+                  ${v.note ? `<span style="font-size:11px;color:#94a3b8;">(${escapeHtml(v.note)})</span>` : ''}
+                </div>
+              `).join('')}
+            </div>
+          </div>
+        `;
+      }
+
+      return `
+        <div class="mentor-pedagogy-card">
+          <!-- 1. 秒懂核心 -->
+          <div class="takeaway-box">
+            <div class="takeaway-text">${escapeHtml(takeaway)}</div>
+          </div>
+
+          <!-- 2. 導師生活化譬喻 -->
+          ${analogy ? `
+            <div class="analogy-box">
+              <div class="analogy-title">🎯 導師生動譬喻（為什麼選它？）</div>
+              <div class="analogy-content">${escapeHtml(analogy)}</div>
+            </div>
+          ` : ''}
+
+          <!-- 3. 前後文情境流暢翻譯 -->
+          ${translation ? `
+            <div class="translation-box">
+              <div class="translation-title">📖 前後文情境流暢翻譯</div>
+              <div class="translation-content">${escapeHtml(translation)}</div>
+            </div>
+          ` : ''}
+
+          <!-- 4. 原文關鍵線索定位 -->
+          ${evidence ? `
+            <div class="evidence-box">
+              <div class="evidence-title">🎯【原文破題關鍵線索】</div>
+              <div class="evidence-content">${escapeHtml(evidence)}</div>
+            </div>
+          ` : ''}
+
+          <!-- 5. 避坑防雷指南 -->
+          ${trapsHtml ? `
+            <div class="traps-container">
+              <div class="traps-title">🚨 避坑防雷指南（選項為何錯誤？）</div>
+              ${trapsHtml}
+            </div>
+          ` : ''}
+
+          <!-- 6. 職場高頻詞彙 -->
+          ${vocabHtml}
+        </div>
+      `;
+    }
+
+    // 舊版回退相容渲染
+    return generateExplanation(q, isCorrect);
+  }
+
   function generateExplanation(q, isCorrect) {
     const exp = q.explanation || {};
     const focus = exp.focus || '多益核心文法與語意測驗';
@@ -907,7 +1255,7 @@
 
     let replacement = `<strong>${escapeHtml(ansText)}</strong>`;
     if (ansMeaning) {
-      replacement = `<strong>${escapeHtml(ansText)}</strong> <span class="ans-hint-bubble" title="正解單字中文翻譯">（${escapeHtml(ansMeaning)}）</span>`;
+      replacement = `<span class="word-tooltip-trigger" tabindex="0" data-meaning="${escapeHtml(ansMeaning)}" title="懸停或長按查看中文翻譯"><strong class="highlight-ans">${escapeHtml(ansText)}</strong><span class="word-tooltip-box" role="tooltip"><span class="tooltip-header"><span class="tooltip-badge">中文翻譯</span><span class="tooltip-word">${escapeHtml(ansText)}</span></span><span class="tooltip-body">${escapeHtml(ansMeaning)}</span><span class="tooltip-arrow"></span></span></span>`;
     }
     let completeSentence = escapeHtml(q.question).replace(/_{3,}|＿＿＿+/g, replacement);
 

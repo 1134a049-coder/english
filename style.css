@@ -650,13 +650,16 @@ body {
   color: #fff;
 }
 
-/* Feedback Card */
+/* Feedback Card (Placed below stage navigation buttons) */
 .feedback-card {
-  margin-top: 28px;
-  padding: 20px;
-  border-radius: var(--radius-md);
-  background: rgba(255, 255, 255, 0.04);
+  margin-top: 4px;
+  padding: 32px 36px;
+  border-radius: var(--radius-lg);
+  background: var(--bg-card);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
   border: 1px solid var(--border-subtle);
+  box-shadow: var(--shadow-card);
   animation: fadeIn 0.3s ease;
 }
 
@@ -768,26 +771,125 @@ body {
   padding: 0 4px;
 }
 
-.ans-hint-bubble {
+/* Tooltip Trigger & Floating Popup Box for Word Translation */
+.word-tooltip-trigger {
+  position: relative;
   display: inline-block;
-  font-size: 13px;
-  font-weight: 500;
-  color: #34d399;
-  background: rgba(16, 185, 129, 0.12);
-  border: 1px solid rgba(16, 185, 129, 0.3);
-  border-radius: 5px;
-  padding: 1px 8px;
-  margin: 0 4px;
-  vertical-align: 1px;
-  text-decoration: none !important;
-  line-height: 1.45;
-  white-space: normal;
-  transition: all 0.2s ease;
+  cursor: pointer;
+  vertical-align: baseline;
+  user-select: text;
+  -webkit-user-select: text;
 }
 
-.ans-hint-bubble:hover {
-  background: rgba(16, 185, 129, 0.22);
-  border-color: rgba(16, 185, 129, 0.55);
+.word-tooltip-trigger strong,
+.word-tooltip-trigger .highlight-ans {
+  color: var(--green, #10b981);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  padding: 0 3px;
+  transition: all 0.2s ease;
+  border-radius: 4px;
+}
+
+.word-tooltip-trigger:hover strong,
+.word-tooltip-trigger:hover .highlight-ans,
+.word-tooltip-trigger.active strong,
+.word-tooltip-trigger.active .highlight-ans {
+  background: rgba(16, 185, 129, 0.18);
+  color: #34d399;
+}
+
+/* Floating Tooltip Box */
+.word-tooltip-box {
+  position: absolute;
+  bottom: calc(100% + 9px);
+  left: 50%;
+  transform: translateX(-50%) translateY(4px);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  background: rgba(15, 23, 42, 0.96);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(52, 211, 153, 0.45);
+  box-shadow: 0 10px 25px -4px rgba(0, 0, 0, 0.6), 0 0 15px rgba(16, 185, 129, 0.25);
+  border-radius: 8px;
+  padding: 8px 12px;
+  min-width: 140px;
+  max-width: 280px;
+  width: max-content;
+  z-index: 9999;
+  transition: opacity 0.22s cubic-bezier(0.16, 1, 0.3, 1), transform 0.22s cubic-bezier(0.16, 1, 0.3, 1), visibility 0.22s;
+  text-align: left;
+  line-height: 1.4;
+}
+
+/* Downward Arrow */
+.tooltip-arrow {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 6px 6px 0 6px;
+  border-style: solid;
+  border-color: rgba(52, 211, 153, 0.45) transparent transparent transparent;
+  width: 0;
+  height: 0;
+}
+
+.tooltip-arrow::after {
+  content: '';
+  position: absolute;
+  bottom: 1px;
+  left: -5px;
+  border-width: 5px 5px 0 5px;
+  border-style: solid;
+  border-color: rgba(15, 23, 42, 0.96) transparent transparent transparent;
+  width: 0;
+  height: 0;
+}
+
+/* Tooltip Header & Typography */
+.tooltip-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 4px;
+}
+
+.tooltip-badge {
+  font-size: 11px;
+  font-weight: 700;
+  color: #10b981;
+  background: rgba(16, 185, 129, 0.16);
+  border: 1px solid rgba(16, 185, 129, 0.3);
+  padding: 1px 5px;
+  border-radius: 4px;
+  letter-spacing: 0.3px;
+}
+
+.tooltip-word {
+  font-size: 12px;
+  font-weight: 600;
+  color: #94a3b8;
+}
+
+.tooltip-body {
+  font-size: 13.5px;
+  font-weight: 600;
+  color: #f8fafc;
+  line-height: 1.45;
+  display: block;
+}
+
+/* Hover & Active States */
+.word-tooltip-trigger:hover .word-tooltip-box,
+.word-tooltip-trigger:focus-within .word-tooltip-box,
+.word-tooltip-trigger.active .word-tooltip-box {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translateX(-50%) translateY(0);
 }
 
 .explain-translation-text {
@@ -1315,6 +1417,10 @@ body {
     padding: 24px 20px;
   }
 
+  .feedback-card {
+    padding: 24px 20px;
+  }
+
   .question-body p {
     font-size: 17.5px;
   }
@@ -1356,3 +1462,416 @@ body {
     font-size: 12px;
   }
 }
+
+/* ==========================================================================
+   TOEIC Pro Reading Group (題組同頁連貫閱讀) & Mentor Pedagogical Cards
+   ========================================================================== */
+
+/* Reading Group Stage Container */
+.reading-group-stage {
+  display: grid;
+  grid-template-columns: minmax(340px, 1fr) minmax(380px, 1.15fr);
+  gap: 24px;
+  align-items: start;
+  width: 100%;
+}
+
+@media (max-width: 1100px) {
+  .reading-group-stage {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
+/* Left / Top: Passage Pane */
+.passage-pane {
+  background: var(--bg-card);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  box-shadow: var(--shadow-card);
+  position: sticky;
+  top: 86px;
+  max-height: calc(100vh - 110px);
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--primary-light) transparent;
+}
+
+.passage-pane::-webkit-scrollbar {
+  width: 6px;
+}
+.passage-pane::-webkit-scrollbar-thumb {
+  background: rgba(59, 130, 246, 0.4);
+  border-radius: 4px;
+}
+
+.passage-header-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  background: rgba(59, 130, 246, 0.15);
+  border: 1px solid rgba(59, 130, 246, 0.3);
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--primary-light);
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.passage-title-main {
+  font-size: 19px;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1.4;
+  margin-bottom: 18px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+/* Passage Components Themes */
+.passage-text-content {
+  font-size: 15px;
+  line-height: 1.75;
+  color: #e2e8f0;
+  white-space: pre-line;
+}
+
+/* Chat Room Theme */
+.chat-room-container {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 10px;
+}
+
+.chat-bubble-item {
+  background: rgba(30, 41, 67, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  padding: 12px 16px;
+  transition: border-color 0.2s;
+}
+
+.chat-bubble-item:hover {
+  border-color: rgba(59, 130, 246, 0.35);
+}
+
+.chat-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+  font-size: 12px;
+}
+
+.chat-sender {
+  font-weight: 700;
+  color: #60a5fa;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.chat-sender::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #10b981;
+}
+
+.chat-time {
+  color: var(--text-muted);
+  font-size: 11px;
+}
+
+.chat-msg {
+  font-size: 14.5px;
+  color: #f1f5f9;
+  line-height: 1.6;
+}
+
+/* Recipe & Form Box */
+.recipe-box, .form-box, .email-box {
+  background: rgba(18, 24, 39, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  padding: 18px;
+  margin-bottom: 16px;
+}
+
+.section-label {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--gold);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin: 12px 0 6px 0;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.ingredient-list, .instruction-list {
+  padding-left: 20px;
+  margin-bottom: 12px;
+  font-size: 14px;
+  color: #cbd5e1;
+  line-height: 1.65;
+}
+
+/* Right / Bottom: Subquestions Pane */
+.subquestions-pane {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.subquestion-card {
+  background: var(--bg-card);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  box-shadow: var(--shadow-card);
+  transition: transform 0.2s, border-color 0.2s;
+  scroll-margin-top: 100px;
+}
+
+.subquestion-card.active-subq {
+  border-color: var(--border-glow);
+  box-shadow: 0 12px 36px -8px rgba(59, 130, 246, 0.25), 0 0 0 1px var(--primary-glow);
+}
+
+.subq-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.subq-num-badge {
+  font-size: 14px;
+  font-weight: 800;
+  color: var(--primary-light);
+  background: rgba(59, 130, 246, 0.12);
+  padding: 4px 12px;
+  border-radius: 20px;
+  border: 1px solid rgba(59, 130, 246, 0.25);
+}
+
+.subq-prompt {
+  font-size: 16.5px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 1.55;
+  margin-bottom: 18px;
+}
+
+/* Options for Subquestion */
+.subq-options {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+/* ==========================================================================
+   Professional Mentor Card (專業導師解析卡片)
+   ========================================================================== */
+.mentor-pedagogy-card {
+  margin-top: 18px;
+  background: linear-gradient(145deg, rgba(22, 30, 49, 0.98), rgba(15, 23, 42, 0.98));
+  border: 1px solid rgba(59, 130, 246, 0.35);
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.5);
+  animation: fadeInMentor 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes fadeInMentor {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.mentor-block {
+  margin-bottom: 16px;
+}
+
+.mentor-block:last-child {
+  margin-bottom: 0;
+}
+
+/* 1. 秒懂核心 Takeaway */
+.takeaway-box {
+  background: rgba(245, 158, 11, 0.12);
+  border-left: 4px solid var(--gold);
+  border-radius: 8px;
+  padding: 10px 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.takeaway-text {
+  font-size: 15px;
+  font-weight: 700;
+  color: #fbbf24;
+  line-height: 1.45;
+}
+
+/* 2. 導師生活化譬喻 Analogy */
+.analogy-box {
+  background: rgba(59, 130, 246, 0.08);
+  border: 1px solid rgba(59, 130, 246, 0.25);
+  border-radius: 12px;
+  padding: 14px 16px;
+  margin-bottom: 14px;
+}
+
+.analogy-title {
+  font-size: 13px;
+  font-weight: 800;
+  color: #93c5fd;
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.analogy-content {
+  font-size: 14px;
+  color: #e2e8f0;
+  line-height: 1.65;
+}
+
+/* 3. 前後文情境流暢翻譯 Context Translation */
+.translation-box {
+  background: rgba(16, 185, 129, 0.08);
+  border-left: 3px solid var(--green);
+  border-radius: 6px;
+  padding: 10px 14px;
+  margin-bottom: 14px;
+}
+
+.translation-title {
+  font-size: 12px;
+  font-weight: 700;
+  color: #34d399;
+  margin-bottom: 4px;
+}
+
+.translation-content {
+  font-size: 14px;
+  color: #f1f5f9;
+  line-height: 1.6;
+}
+
+/* 原文破題關鍵線索 Evidence Box */
+.evidence-box {
+  background: rgba(139, 92, 246, 0.1);
+  border: 1px dashed rgba(139, 92, 246, 0.4);
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin-bottom: 14px;
+}
+
+.evidence-title {
+  font-size: 12px;
+  font-weight: 800;
+  color: #c4b5fd;
+  margin-bottom: 4px;
+}
+
+.evidence-content {
+  font-size: 13.5px;
+  color: #ede9fe;
+  line-height: 1.55;
+  font-style: italic;
+}
+
+/* 4. 避坑防雷指南 Trap Guide */
+.traps-container {
+  background: rgba(239, 68, 68, 0.06);
+  border: 1px solid rgba(239, 68, 68, 0.2);
+  border-radius: 12px;
+  padding: 14px 16px;
+  margin-bottom: 14px;
+}
+
+.traps-title {
+  font-size: 13px;
+  font-weight: 800;
+  color: #f87171;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.trap-item {
+  font-size: 13.5px;
+  line-height: 1.6;
+  margin-bottom: 6px;
+  color: #e2e8f0;
+}
+
+.trap-item:last-child {
+  margin-bottom: 0;
+}
+
+.trap-opt-badge {
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: 4px;
+  margin-right: 6px;
+  font-size: 12px;
+}
+
+.trap-opt-badge.correct {
+  background: rgba(16, 185, 129, 0.25);
+  color: #34d399;
+}
+
+.trap-opt-badge.wrong {
+  background: rgba(239, 68, 68, 0.25);
+  color: #f87171;
+}
+
+/* 5. 職場高頻詞彙 Vocab Pills */
+.vocab-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.vocab-pill {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 20px;
+  padding: 5px 12px;
+  font-size: 12.5px;
+  color: #e2e8f0;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.vocab-word {
+  font-weight: 700;
+  color: #60a5fa;
+}
+
+.vocab-meaning {
+  color: #94a3b8;
+}
+

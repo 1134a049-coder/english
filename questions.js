@@ -5,7 +5,7 @@ const TOEIC_DATA = {
     {
       "test_id": "多益1",
       "title": "多益模擬測驗一 (Test 1)",
-      "total_questions": 53,
+      "total_questions": 62,
       "questions": [
         {
           "id": 1,
@@ -20,38 +20,31 @@ const TOEIC_DATA = {
           },
           "answer": "A",
           "explanation": {
-            "focus": "介系詞用法與語意對比",
-            "type": "介系詞片語修飾全句",
-            "translation": "不同於新進員工，資深員工往往對公司懷有深厚的忠誠度。",
-            "grammar": "句首空格後接名詞片語 newer employees，逗號後全句主詞為 senior workers，動詞為 tend to。兩者形成「新進員工 vs. 資深員工」的對比，需選擇具有對照含義的介系詞。",
-            "options_analysis": {
-              "A": {
-                "pos": "prep. 介系詞",
-                "meaning": "不同於、不像",
-                "correct": true,
-                "reason": "Unlike 後接名詞表示與主詞相反之特徵，精準呈現新舊員工忠誠度的強烈對照。",
-                "example": "Unlike her sister, Emily is fond of sports."
+            "mentor_takeaway": "💡【秒懂核心】資深老鳥 vs 新手菜鳥，前後強烈對照，鎖定『對照介系詞』！",
+            "mentor_analogy": "想像你在拿黑咖啡和珍珠奶茶做對比：『不同於珍奶甜膩，黑咖啡帶著微苦』。英文也是一樣，Unlike A, B... 就是拿 A 的特質來襯托出 B 的與眾不同！",
+            "context_translation": "不同於剛入職的新進員工，資深員工往往對公司懷有更深厚的情感與忠誠度。",
+            "trap_analysis": {
+              "A": "【正解】Unlike 後接名詞表示『不像、不同於』，完美形成新舊員工忠誠度的強烈對照！",
+              "B": "【避坑】Through 表手段或空間穿透（如 through effort）。若選 Through，整句變成『透過新進員工，資深員工才忠誠』，邏輯直接大翻車！",
+              "C": "【避坑】Until 表時間持續的截止點（如 until midnight），不能接人稱名詞來表示對象，時間跟人物完全搭不上！",
+              "D": "【避坑】Among 表『在三者或群體之中』。若用 Among newer employees，後面的主詞也必須屬於新員工之一，但後面是資深員工，前後自我打架！"
+            },
+            "key_vocab": [
+              {
+                "word": "harbor loyalty",
+                "meaning": "phr. 懷有忠誠心",
+                "note": "harbor 作動詞時指在心中懷有情感或庇護"
               },
-              "B": {
-                "pos": "prep. 介系詞",
-                "meaning": "透過、穿過",
-                "correct": false,
-                "reason": "表手段或空間穿越（如 through effort），放入句首「透過新進員工，資深員工往往忠誠」語意不通。"
-              },
-              "C": {
-                "pos": "prep./conj. 介系詞/連接詞",
-                "meaning": "直到...為止",
-                "correct": false,
-                "reason": "表時間持續的截止點（如 until midnight），不能接人稱名詞表示對象。"
-              },
-              "D": {
-                "pos": "prep. 介系詞",
-                "meaning": "在...之中",
-                "correct": false,
-                "reason": "表在三者或群體之中（如 among peers），若用 Among newer employees 則主詞也應屬於其中之一，語法邏輯矛盾。"
+              {
+                "word": "senior worker",
+                "meaning": "n. 資深員工、前輩",
+                "note": "與 entry-level / junior 形成對比"
               }
-            }
-          }
+            ],
+            "focus": "💡【秒懂核心】資深老鳥 vs 新手菜鳥，前後強烈對照，鎖定『對照介系詞』！",
+            "translation": "不同於剛入職的新進員工，資深員工往往對公司懷有更深厚的情感與忠誠度。"
+          },
+          "type": "single"
         },
         {
           "id": 2,
@@ -66,38 +59,31 @@ const TOEIC_DATA = {
           },
           "answer": "B",
           "explanation": {
-            "focus": "動詞時態（過去式）與被動語態",
-            "type": "過去被動態 (was + p.p.)",
-            "translation": "上週有一百多位高階管理主管出席了這場會議。",
-            "grammar": "主詞 The conference（會議）為不可自主執行出席動作的無生命名詞，必須使用被動態（be + p.p.）；句尾有明確過去時間副詞 last week，故限定使用過去被動態 was attended。",
-            "options_analysis": {
-              "A": {
-                "pos": "n. 名詞",
-                "meaning": "出席、出席人數",
-                "correct": false,
-                "reason": "空格在主詞後方，需要謂語動詞，不可直接填入名詞 attendance。"
+            "mentor_takeaway": "💡【秒懂核心】會議自己不會走動，一定要『被參加』；看到 last week，時態鎖定過去式！",
+            "mentor_analogy": "就像走進一間會議室，會議桌椅本身是無生命的，不會自己站起來去參加別人，只有主管們走進去坐滿它！所以會議必須是『被出席（was attended）』的！",
+            "context_translation": "上週有一百多位高階管理主管出席了這場會議。",
+            "trap_analysis": {
+              "A": "【避坑】attendance 是名詞（出席人數）。主詞後面直接缺了動詞，整句話會變成沒有靈魂的破碎火星文！",
+              "B": "【正解】過去被動態 (was + p.p.)，完美對應單數主詞 The conference、過去時間 last week 與被動語態！",
+              "C": "【避坑】attends 是現在式主動動詞。選了它，整句話變成『這場會議上週自己長腳去參加別人』，直接上演驚悚靈異事件！",
+              "D": "【避坑】is attended 雖然是被動，但 is 是現在式，跟句尾明確的 last week（上週）時態直接打架！"
+            },
+            "key_vocab": [
+              {
+                "word": "attend",
+                "meaning": "v. 出席、參加",
+                "note": "常考被動態：The event was attended by..."
               },
-              "B": {
-                "pos": "v. 動詞過去被動態",
-                "meaning": "被出席、有人參加",
-                "correct": true,
-                "reason": "符合主詞單數、過去時態（last week）與被動語態要求，搭配介系詞 by 引導主動執行者。",
-                "example": "The lecture was attended by hundreds of students."
-              },
-              "C": {
-                "pos": "v. 動詞現在式單數",
-                "meaning": "出席、參加",
-                "correct": false,
-                "reason": "現在式與 last week 時態矛盾，且為主動語態，會議無法主動參加他人。"
-              },
-              "D": {
-                "pos": "v. 動詞現在被動態",
-                "meaning": "被出席",
-                "correct": false,
-                "reason": "雖為被動態，但 is 為現在式，與句尾過去時間副詞 last week 產生時態衝突。"
+              {
+                "word": "management executive",
+                "meaning": "n. 管理高層、高階主管",
+                "note": "商業多益常考職位稱呼"
               }
-            }
-          }
+            ],
+            "focus": "💡【秒懂核心】會議自己不會走動，一定要『被參加』；看到 last week，時態鎖定過去式！",
+            "translation": "上週有一百多位高階管理主管出席了這場會議。"
+          },
+          "type": "single"
         },
         {
           "id": 3,
@@ -112,38 +98,31 @@ const TOEIC_DATA = {
           },
           "answer": "B",
           "explanation": {
-            "focus": "動詞片語搭配（固定片語）",
-            "type": "情態助動詞 would + 原形動詞",
-            "translation": "這位政客承諾當選之後，將會開創一個和平的新時代。",
-            "grammar": "空格前為助動詞 would，後接副詞 in。需挑選能與 in 搭配並表達「宣告/引領進入新紀元」的動詞片語。",
-            "options_analysis": {
-              "A": {
-                "pos": "v. 動詞原形",
-                "meaning": "拿取、帶領",
-                "correct": false,
-                "reason": "take in 常見含義為「吸收、收留、欺騙」，無法與 a new age of peace 構成開創新時代之意。"
+            "mentor_takeaway": "💡【秒懂核心】看到空格後的介系詞 in，立刻鎖定多益黃金商業片語 usher in！",
+            "mentor_analogy": "就像劇院裡的引座員（usher）優雅地推開大門、把觀眾迎進華麗的大廳，usher in 就是把一個嶄新的時代、繁榮或改革『引領進來、迎向新局面』！",
+            "context_translation": "這位政客承諾當選之後，將會開創新局，引領國家迎來一個和平的新時代。",
+            "trap_analysis": {
+              "A": "【避坑】take in 常見意思是『欺騙、收留或吸收』。take in an age 完全沒有迎向新時代的意思！",
+              "B": "【正解】usher in 是商業政經題型的超高頻片語，專門搭配 an era / an age，意為『迎接、開創（新紀元）』！",
+              "C": "【避坑】consider 是及物動詞，後面直接接受詞或動名詞，絕對不會多此一舉加個 in！",
+              "D": "【避坑】generate 是及物動詞（產生電力、獲取利潤 generate revenue），也不與 in 搭配！"
+            },
+            "key_vocab": [
+              {
+                "word": "usher in",
+                "meaning": "phr. 引領...的到來、開創新紀元",
+                "note": "常搭配 a new era / a period of growth"
               },
-              "B": {
-                "pos": "v. 動詞原形",
-                "meaning": "引領、迎接",
-                "correct": true,
-                "reason": "固定片語 usher in 表「引領...的到來、開創新局」，為多益政經變革題型之高頻核心用詞。",
-                "example": "The technological breakthrough ushered in a new era."
-              },
-              "C": {
-                "pos": "v. 動詞原形",
-                "meaning": "考慮、認為",
-                "correct": false,
-                "reason": "及物動詞，後直接接受詞或動名詞，不接副詞 in。"
-              },
-              "D": {
-                "pos": "v. 動詞原形",
-                "meaning": "產生、引起",
-                "correct": false,
-                "reason": "及物動詞，表示產生能源或利潤（generate profit），不與 in 搭配使用。"
+              {
+                "word": "elect",
+                "meaning": "v. 選舉、當選",
+                "note": "be elected 被選上"
               }
-            }
-          }
+            ],
+            "focus": "💡【秒懂核心】看到空格後的介系詞 in，立刻鎖定多益黃金商業片語 usher in！",
+            "translation": "這位政客承諾當選之後，將會開創新局，引領國家迎來一個和平的新時代。"
+          },
+          "type": "single"
         },
         {
           "id": 4,
@@ -158,38 +137,31 @@ const TOEIC_DATA = {
           },
           "answer": "D",
           "explanation": {
-            "focus": "對等連接詞與語意轉折",
-            "type": "對等連接詞 (Coordinating Conjunction)",
-            "translation": "事務所合夥人深入討論了目前情況，然而會議結束時對組織的未來依舊感到不明朗。",
-            "grammar": "前半句「深入討論 (discussed thoroughly)」與後半句「依舊不明朗 (still unclear)」語意形成強烈轉折對照，空格需填入能連接兩謂語動詞的轉折連接詞。",
-            "options_analysis": {
-              "A": {
-                "pos": "prep. 介系詞",
-                "meaning": "沒有、缺乏",
-                "correct": false,
-                "reason": "介系詞後面必須接名詞或動名詞（V-ing），不可直接連接動詞過去式 left。"
+            "mentor_takeaway": "💡【秒懂核心】開了半天會（深入討論）卻毫無收穫（依舊不明朗），語意急轉彎，需要轉折連接詞！",
+            "mentor_analogy": "就像你跟團隊熬夜討論了一整晚，結果天亮散會時大家臉上依然滿是黑人問號！前半句看似有努力，後半句結果卻相反，這種『然而/但是』的情緒，正是 yet 的最佳舞台！",
+            "context_translation": "事務所合夥人深入討論了目前局勢，然而會議結束時對組織未來的方向依舊感到迷茫不明。",
+            "trap_analysis": {
+              "A": "【避坑】without 是介系詞，後面必須接名詞或 V-ing，絕對不能直接硬接動詞過去式 left！",
+              "B": "【避坑】therefore 是副詞，表『因果推論（所以）』，但開完會還是不清楚並不是討論的必然成果，而且副詞不能單獨作對等連接詞！",
+              "C": "【避坑】including 是介系詞，表示包含某個項目，放在動詞 left 前面語法直接破裂！",
+              "D": "【正解】yet 作對等連接詞相當於 but，能夠優雅地連接兩個前後對立的謂語動詞（discussed..., yet left...）！"
+            },
+            "key_vocab": [
+              {
+                "word": "thoroughly",
+                "meaning": "adv. 澈底地、詳盡地",
+                "note": "商業多益極高頻副詞"
               },
-              "B": {
-                "pos": "adv. 副詞",
-                "meaning": "因此",
-                "correct": false,
-                "reason": "副詞不能當對等連接詞連接兩個獨立動詞短語，且表示因果關係而非轉折。"
-              },
-              "C": {
-                "pos": "prep. 介系詞",
-                "meaning": "包括",
-                "correct": false,
-                "reason": "介系詞，後面需接包含之項目名詞，文法不符。"
-              },
-              "D": {
-                "pos": "conj. 對等連接詞",
-                "meaning": "然而、但是",
-                "correct": true,
-                "reason": "yet 作對等連接詞相當於 but，可連接具有轉折語意的兩個謂語動詞（discussed..., yet left...）。",
-                "example": "He worked hard, yet he failed the test."
+              {
+                "word": "unclear as to",
+                "meaning": "phr. 對於...尚不明確",
+                "note": "as to 相當於 about / regarding"
               }
-            }
-          }
+            ],
+            "focus": "💡【秒懂核心】開了半天會（深入討論）卻毫無收穫（依舊不明朗），語意急轉彎，需要轉折連接詞！",
+            "translation": "事務所合夥人深入討論了目前局勢，然而會議結束時對組織未來的方向依舊感到迷茫不明。"
+          },
+          "type": "single"
         },
         {
           "id": 5,
@@ -204,38 +176,31 @@ const TOEIC_DATA = {
           },
           "answer": "D",
           "explanation": {
-            "focus": "疑問形容詞引導之名詞子句",
-            "type": "疑問形容詞 (Interrogative Adjective)",
-            "translation": "有時候我很難分辨哪一個便當盒才是我的。",
-            "grammar": "telling 後接名詞子句作受詞。空格後緊接單數名詞 lunchbox，需填入能在有限範圍內指涉「哪一個」的疑問形容詞。",
-            "options_analysis": {
-              "A": {
-                "pos": "adv. 疑問副詞",
-                "meaning": "何時",
-                "correct": false,
-                "reason": "when 是副詞，不能直接修飾名詞 lunchbox，telling when lunchbox 文法不通。"
+            "mentor_takeaway": "💡【秒懂核心】冰箱裡有一堆長得一樣的便當，要分辨『哪一個』才是我自己的！",
+            "mentor_analogy": "就像你去取餐區拿外送，桌上排了五六個透明塑膠袋，你不知道『到底哪一個（which）』才是你的便當！which 在這裡擔任疑問形容詞修飾 lunchbox，指在特定幾項中做挑選！",
+            "context_translation": "有時候，我很難分辨出到底哪一個便當盒才是我的。",
+            "trap_analysis": {
+              "A": "【避坑】when 是疑問副詞（何時），不能直接放在名詞 lunchbox 前面當修飾詞，telling when lunchbox 文法完全不通！",
+              "B": "【避坑】若填 my，後半句又有 mine（我的），語意變成『我很難分辨我的便當盒是我的』，像在繞口令！",
+              "C": "【避坑】that 引導名詞子句時陳述確定事實，無法表達『不知道是哪一個』的挑選疑問語氣！",
+              "D": "【正解】which 作疑問形容詞修飾單數名詞 lunchbox，完美表達在有限目標中挑選『哪一個』的語意！"
+            },
+            "key_vocab": [
+              {
+                "word": "have trouble doing",
+                "meaning": "phr. 做...有困難",
+                "note": "後接 V-ing 動名詞"
               },
-              "B": {
-                "pos": "pron. 代名詞",
-                "meaning": "我的",
-                "correct": false,
-                "reason": "若填 my lunchbox 則與後文 mine（我的）語意重疊矛盾，且缺少引導名詞子句之疑問詞。"
-              },
-              "C": {
-                "pos": "conj. 連接詞",
-                "meaning": "那個/引導詞",
-                "correct": false,
-                "reason": "that 引導名詞子句時陳述確定事實，無法表達「分辨是哪一個」的疑問語氣。"
-              },
-              "D": {
-                "pos": "adj./pron. 疑問形容詞",
-                "meaning": "哪一個",
-                "correct": true,
-                "reason": "which 作疑問形容詞修飾 lunchbox，表達在若干便當盒中辨別「哪一個」，文法與語意皆完備。",
-                "example": "I don't know which bus goes downtown."
+              {
+                "word": "tell",
+                "meaning": "v. 分辨、辨別",
+                "note": "tell A from B 或 tell which... 意為辨識"
               }
-            }
-          }
+            ],
+            "focus": "💡【秒懂核心】冰箱裡有一堆長得一樣的便當，要分辨『哪一個』才是我自己的！",
+            "translation": "有時候，我很難分辨出到底哪一個便當盒才是我的。"
+          },
+          "type": "single"
         },
         {
           "id": 6,
@@ -250,38 +215,31 @@ const TOEIC_DATA = {
           },
           "answer": "D",
           "explanation": {
-            "focus": "現在分詞轉形容詞（慣用片語）",
-            "type": "現在分詞作定語修飾名詞",
-            "translation": "每次電話一響，我就覺得可能是壞消息，胃裡就泛起一陣不祥下沉的難受感。",
-            "grammar": "空格位於指示代名詞 this 與名詞 feeling 之間，需選擇修飾 feeling 的形容詞。英文中 a sinking feeling 為固定成語。",
-            "options_analysis": {
-              "A": {
-                "pos": "v./n. 動詞原形/名詞",
-                "meaning": "下沉/水槽",
-                "correct": false,
-                "reason": "動詞原形不可直接置於 this 與名詞 feeling 之間作定語。"
+            "mentor_takeaway": "💡【秒懂核心】母語者專屬生活成語：形容害怕或大難臨頭時『心頭一沉』！",
+            "mentor_analogy": "就像你在公司突然接到老闆電話，胃部瞬間像是坐大怒神突然往下墜一樣抽搐！英文裡描述這種『預感大事不妙、胃裡一陣翻騰下墜』的感覺，固定片語就是 a sinking feeling！",
+            "context_translation": "每次電話一響，我就直覺可能是壞消息，胃裡立刻泛起一陣不祥、往下沉的揪心難受感。",
+            "trap_analysis": {
+              "A": "【避坑】sink 是動詞原形或名詞（水槽），不能塞在 this 和名詞 feeling 之間當修飾形容詞！",
+              "B": "【避坑】sunk 是過去分詞，通常用在船沉沒的狀態（a sunk ship），不會用來修飾當下心裡的下墜感！",
+              "C": "【避坑】sank 是過去式動詞，只能當句子的主動詞，不能放在名詞前面當形容詞！",
+              "D": "【正解】sinking feeling 是英文成語固定搭配，指『大事不好的預兆、心頭一沉』，多益生活情境題高頻必考！"
+            },
+            "key_vocab": [
+              {
+                "word": "a sinking feeling",
+                "meaning": "phr. 心頭一沉、不祥的預感",
+                "note": "多益生活情境高頻習慣用語"
               },
-              "B": {
-                "pos": "v. 過去分詞",
-                "meaning": "沉沒的",
-                "correct": false,
-                "reason": "通常形容實體沈入水中的物體（如 a sunk vessel），不用於形容心情。"
-              },
-              "C": {
-                "pos": "v. 過去式動詞",
-                "meaning": "下沉了",
-                "correct": false,
-                "reason": "動詞過去式只能作謂語動詞，不可置於名詞前作修飾詞。"
-              },
-              "D": {
-                "pos": "adj./V-ing 現在分詞",
-                "meaning": "往下跌落的、下沉的",
-                "correct": true,
-                "reason": "a sinking feeling 為高頻英美慣用語，指「（預感不祥或大難臨頭時）心頭一沉的感受」。",
-                "example": "She had a sinking feeling that she forgot her passport."
+              {
+                "word": "might",
+                "meaning": "aux. 可能",
+                "note": "表輕微或不確定的猜測"
               }
-            }
-          }
+            ],
+            "focus": "💡【秒懂核心】母語者專屬生活成語：形容害怕或大難臨頭時『心頭一沉』！",
+            "translation": "每次電話一響，我就直覺可能是壞消息，胃裡立刻泛起一陣不祥、往下沉的揪心難受感。"
+          },
+          "type": "single"
         },
         {
           "id": 7,
@@ -296,38 +254,31 @@ const TOEIC_DATA = {
           },
           "answer": "C",
           "explanation": {
-            "focus": "介系詞與組織團隊搭配",
-            "type": "固定介系詞片語 (on staff)",
-            "translation": "在事故發生之前，芭芭拉加入員工團隊才僅僅三週。",
-            "grammar": "空格與後方名詞 staff 搭配。表示「屬於...的職員/員工編制」使用固定介系詞 on staff。",
-            "options_analysis": {
-              "A": {
-                "pos": "prep. 介系詞",
-                "meaning": "在...之內",
-                "correct": false,
-                "reason": "英文習慣不說 in staff，而說 on staff 或 on the team。"
+            "mentor_takeaway": "💡【秒懂核心】公司正式員工編制，固定搭配介系詞 on staff！",
+            "mentor_analogy": "想像公司的組織架構名冊是一張長長的清單（roster），你的名字被列在名冊上方，這就是『on staff / on the team』！英文慣用 on 來表達屬於某個組織名單的編制！",
+            "context_translation": "在意外事故發生之前，芭芭拉加入公司員工團隊其實才短短三個星期。",
+            "trap_analysis": {
+              "A": "【避坑】中文雖然會說『在員工裡面』，但英文習慣絕對不說 in staff！就像我們不會說『在名冊裡面』而是『在冊』一樣！",
+              "B": "【避坑】at 通常指具體地點或時間（at the office / at noon），不能與 staff 搭配表達職務隸屬！",
+              "C": "【正解】on staff 是商務英文的標準道地用法，指『列入正式職員編制』！",
+              "D": "【避坑】後面已經有了 for three weeks 表時間長度，前面再用 for staff 就完全重複且語意破碎！"
+            },
+            "key_vocab": [
+              {
+                "word": "on staff",
+                "meaning": "phr. 在職、列入員工編制",
+                "note": "相當於 employed as a staff member"
               },
-              "B": {
-                "pos": "prep. 介系詞",
-                "meaning": "在...地點",
-                "correct": false,
-                "reason": "at 表具體地點或時間，不能與 staff 搭配表達職務隸屬。"
-              },
-              "C": {
-                "pos": "prep. 介系詞",
-                "meaning": "在...之上/隸屬",
-                "correct": true,
-                "reason": "on staff 為商業英文標準用法，表示「受聘為正式職員/在編人員」。",
-                "example": "We currently have five doctors on staff."
-              },
-              "D": {
-                "pos": "prep. 介系詞",
-                "meaning": "為了/長達",
-                "correct": false,
-                "reason": "後文已有 for three weeks 表時間長度，若前面再用 for staff 語意重複且不符搭配習慣。"
+              {
+                "word": "occur",
+                "meaning": "v. 發生",
+                "note": "不及物動詞，無被動態"
               }
-            }
-          }
+            ],
+            "focus": "💡【秒懂核心】公司正式員工編制，固定搭配介系詞 on staff！",
+            "translation": "在意外事故發生之前，芭芭拉加入公司員工團隊其實才短短三個星期。"
+          },
+          "type": "single"
         },
         {
           "id": 8,
@@ -342,38 +293,31 @@ const TOEIC_DATA = {
           },
           "answer": "C",
           "explanation": {
-            "focus": "不定代名詞之雙重肯定否定",
-            "type": "慣用句型 (have it both ways)",
-            "translation": "你不可能兩全其美；不是選這個，就是選那個。",
-            "grammar": "後文 it's either one or the other（二擇一）提示前句表示「不能兩者兼得」，英文慣用片語為 have it both ways。",
-            "options_analysis": {
-              "A": {
-                "pos": "adj./adv. 形容詞/副詞",
-                "meaning": "沒有",
-                "correct": false,
-                "reason": "have it no ways 語法錯誤，且句首已有否定詞 can't，形成雙重否定致語意混亂。"
+            "mentor_takeaway": "💡【秒懂核心】俗話說魚與熊掌不可兼得！英文成語就是 have it both ways！",
+            "mentor_analogy": "就像你想大吃炸雞排又不願意發胖，老闆一定會對你說：『天底下哪有這麼好的事！』後半句 either one or the other（二擇一）已經把答案直接寫在臉上了，不能兩全其美就是 have it both ways！",
+            "context_translation": "你不可能兩全其美、魚與熊掌兼得；事情總得二選一，不是選這個就是選那個。",
+            "trap_analysis": {
+              "A": "【避坑】can't 配 no 就成了雙重否定，語意完全走味！",
+              "B": "【避坑】have it your way 意思是『隨你的便、依你的意思』，但後面接著『二擇一』，放進去邏輯前後矛盾！",
+              "C": "【正解】have it both ways 是固定成語，意為『兩者兼得、占盡所有好處』！",
+              "D": "【避坑】neither 本身帶否定含義，與前面的 can't 搭配語法衝突！"
+            },
+            "key_vocab": [
+              {
+                "word": "have it both ways",
+                "meaning": "phr. 兩全其美、魚與熊掌兼得",
+                "note": "常出現在否定句：You can't have it both ways"
               },
-              "B": {
-                "pos": "pron. 代名詞",
-                "meaning": "你的",
-                "correct": false,
-                "reason": "have it your way 意思是「隨你的便」，但後面是二選一條件，語意不相容。"
-              },
-              "C": {
-                "pos": "pron./adj. 不定代名詞",
-                "meaning": "兩者都",
-                "correct": true,
-                "reason": "can't have it both ways 為常見成語，意指「魚與熊掌不可兼得、不能妄想雙重好處」。",
-                "example": "You cannot have it both ways: you must choose."
-              },
-              "D": {
-                "pos": "pron. 不定代名詞",
-                "meaning": "兩者皆非",
-                "correct": false,
-                "reason": "neither 與 can't 搭配會造成雙重否定，句義反轉。"
+              {
+                "word": "either... or...",
+                "meaning": "phr. 不是...就是...",
+                "note": "表示二選一"
               }
-            }
-          }
+            ],
+            "focus": "💡【秒懂核心】俗話說魚與熊掌不可兼得！英文成語就是 have it both ways！",
+            "translation": "你不可能兩全其美、魚與熊掌兼得；事情總得二選一，不是選這個就是選那個。"
+          },
+          "type": "single"
         },
         {
           "id": 9,
@@ -388,38 +332,31 @@ const TOEIC_DATA = {
           },
           "answer": "A",
           "explanation": {
-            "focus": "形容詞最高級之詞性與語意",
-            "type": "最高級形容詞 (lowest)",
-            "translation": "談判的時候我絕不妥協。我要以最低的成本爭取最高的價值。",
-            "grammar": "空格位於定冠詞 the 與單數名詞 cost 之間，前文有 highest value（最高價值），形成 the highest... for the lowest... 的對仗最高級修飾。",
-            "options_analysis": {
-              "A": {
-                "pos": "adj. 最高級形容詞",
-                "meaning": "最低的",
-                "correct": true,
-                "reason": "lowest 符合 the + 最高級 + 名詞 cost 的語法結構，與 highest value 完美呼應。",
-                "example": "We offer the best service at the lowest cost."
+            "mentor_takeaway": "💡【秒懂核心】做生意談判講求極致性價比：要最高的價值 (highest)，自然要最低的成本 (lowest)！",
+            "mentor_analogy": "這就像我們去菜市場買菜或公司採購，心態一定是『用最便宜的價錢買到最頂級的好料』！前半句用了最高級 the highest value，後半句為了對仗與邏輯呼應，當然也要用最高級 the lowest cost！",
+            "context_translation": "說到商業談判，我從不輕易妥協。我追求的是用最低廉的成本換取最高的價值回報。",
+            "trap_analysis": {
+              "A": "【正解】最高級 lowest 搭配定冠詞 the，與前半句 the highest value 形成完美的修辭對仗！",
+              "B": "【避坑】原級 low 放在 the 後面修飾 cost 缺乏最高程度的對比感，語氣軟弱無力！",
+              "C": "【避坑】lowering 是分詞，意思是『正在降低中的』，不能直接作為成本的固定修飾！",
+              "D": "【避坑】lowly 意思是『地位卑微的、卑下的』，拿來修飾成本就像說『地位卑下的成本』，大鬧笑話！"
+            },
+            "key_vocab": [
+              {
+                "word": "when it comes to",
+                "meaning": "phr. 說到...、談及...",
+                "note": "to 為介系詞，後接名詞或 V-ing"
               },
-              "B": {
-                "pos": "adj. 原級形容詞",
-                "meaning": "低的",
-                "correct": false,
-                "reason": "原級與 the highest 的強烈對比修辭不匹配，商業談判追求最極致效益。"
-              },
-              "C": {
-                "pos": "v./adj. 現在分詞",
-                "meaning": "正在降低的",
-                "correct": false,
-                "reason": "lowering cost 語義為「使成本降低中」，不合此處靜態名詞修飾。"
-              },
-              "D": {
-                "pos": "adv./adj. 副詞/地位低的",
-                "meaning": "卑微地",
-                "correct": false,
-                "reason": "lowly 表地位卑下，不能修飾金額成本 cost。"
+              {
+                "word": "compromise",
+                "meaning": "v./n. 妥協、讓步",
+                "note": "商業多益談判核心詞彙"
               }
-            }
-          }
+            ],
+            "focus": "💡【秒懂核心】做生意談判講求極致性價比：要最高的價值 (highest)，自然要最低的成本 (lowest)！",
+            "translation": "說到商業談判，我從不輕易妥協。我追求的是用最低廉的成本換取最高的價值回報。"
+          },
+          "type": "single"
         },
         {
           "id": 10,
@@ -434,38 +371,31 @@ const TOEIC_DATA = {
           },
           "answer": "C",
           "explanation": {
-            "focus": "形容詞語意選擇（飲食評價）",
-            "type": "too + adj. + to V 句型",
-            "translation": "我偏好重口味辣食，所以我覺得這裡的食物太索然無味，難以享受。",
-            "grammar": "因果關係句：前半句說明偏好 spicy food（辛辣重口味），故在 too ______ to be enjoyable 結構中，需填入代表缺乏味道的負面形容詞。",
-            "options_analysis": {
-              "A": {
-                "pos": "adj. 形容詞",
-                "meaning": "古老的",
-                "correct": false,
-                "reason": "ancient 用於指古代歷史文明，不能形容當下的菜餚口味。"
+            "mentor_takeaway": "💡【秒懂核心】重口味愛好者（prefer spicy）遇到清淡菜餚，吃起來就像在嚼白開水一樣沒味道！",
+            "mentor_analogy": "想像一個天天吃麻辣鍋的重口味老饕，突然被請去吃完全沒加鹽巴的燙青菜，他一定會皺著眉頭抱怨：『這根本淡而無味（tasteless），完全吃不下去！』句中的 too... to... 就是『太...以致於無法...』！",
+            "context_translation": "我個人偏好重口味的辛辣食物，所以我總覺得這裡的料理太過淡而無味，實在讓人難以享受。",
+            "trap_analysis": {
+              "A": "【避坑】ancient 是『古老的、遠古的』，食物太古老就變成發霉化石了！",
+              "B": "【避坑】delicate 是『精緻的、清雅的』，通常是正面褒義詞，不會接在 too... to be enjoyable（太...以致不能享受）後面！",
+              "C": "【正解】tasteless 表『淡而無味、難吃』，完美對應前半句喜歡吃辣卻無法享受的抱怨情境！",
+              "D": "【避坑】flavorful 是『風味濃郁的』，如果又香又濃，喜歡吃辣的人早就大快朵頤了，怎麼會覺得痛苦？"
+            },
+            "key_vocab": [
+              {
+                "word": "tasteless",
+                "meaning": "adj. 沒味道的、索然無味的",
+                "note": "字尾 -less 表示缺乏"
               },
-              "B": {
-                "pos": "adj. 形容詞",
-                "meaning": "精緻清淡的",
-                "correct": false,
-                "reason": "delicate 表細緻高雅，通常為正面褒義詞，不符合無法享受的抱怨語氣。"
-              },
-              "C": {
-                "pos": "adj. 形容詞",
-                "meaning": "索然無味的、淡而無味的",
-                "correct": true,
-                "reason": "tasteless 直接與 spicy food 形成對立，完美契合 too tasteless to be enjoyable（無味至極無法下嚥）。",
-                "example": "The soup was bland and tasteless."
-              },
-              "D": {
-                "pos": "adj. 形容詞",
-                "meaning": "美味可口的、香氣濃郁的",
-                "correct": false,
-                "reason": "flavorful 是正面美味之意，若太美味不可能導致 not enjoyable。"
+              {
+                "word": "too... to...",
+                "meaning": "phr. 太...以致於無法...",
+                "note": "本身自帶否定意味"
               }
-            }
-          }
+            ],
+            "focus": "💡【秒懂核心】重口味愛好者（prefer spicy）遇到清淡菜餚，吃起來就像在嚼白開水一樣沒味道！",
+            "translation": "我個人偏好重口味的辛辣食物，所以我總覺得這裡的料理太過淡而無味，實在讓人難以享受。"
+          },
+          "type": "single"
         },
         {
           "id": 11,
@@ -1243,32 +1173,81 @@ const TOEIC_DATA = {
           "id": 47,
           "range": "",
           "page": 5,
-          "question": "Doris May (18:56 Saturday,Aprll 6) I need some advice on managing my team. No matter what project I give them, they seem to have a lot of difficulty finishing It on time. What can 1 do? Susan Reynolds (10:01 Sunday,Aprill 7) It sounds like you're not giving them enough structure. Break the project Into smaller pleces. Mike Hays (13:15 Sunday, April 7) I agree with Susan. I'd also add that you should make sure you avoid leaving larger tasks towards the end. Your team will run out of time. Doris May (14:07 Sunday, April 7) @Mike I hear you. How do I set hard limits without babysitting them? Patricia Wells (18:54 Sunday, April 7) @Doris Some employees will underperform no matter what. I would suggest praising/rewarding the most productive team member. Soon others will follow suit. Doris May (19:17 Sunday, April 7) @Patricia Great,thanks! Send Mrs. Kendra Lipnisky's Banana Walnut Muffins 2 eggs 1/2 cup of butter,softened 1and1/2cupsofbrownsugar 4 tablespoons of buttermilk -1 teaspoon of baking soda 1 teaspoon of vanilla extract 1 and 1/2 cups of flour (preferably sifted) .2bananas,mashed 1 cup of walnuts or any other nut you like (break into larger chunks) Baking Directions 2. Grease muffin tin. 4. Add buttermilk, blend, and then mix in the eggs followed by the mashed banana. 5. Add flour and baking soda, stir to combine. 8. Stir in walnut chunks. I 7.Pour batter into muffin Un until each mold is about 213 full. 8. Bake at 350'F for 20-25 minutes, or until lops are brown. 9. Additionally, a toothpick may be Inserted into the center of the muffin as a test. If it comes out cleanly. then the muffins are done. Nutritional info (per muffin): Calorles-238; Fat-11g: Carbs-32g: Fiber-1g: Proteln-3g",
+          "question": "What is implied about Doris May?",
           "options": {
-            "A": "Preheat oven to 350*F (175°C).",
-            "B": "Cream the butter and sugar."
+            "A": "She is not fit to be a manager.",
+            "B": "No one likes her.",
+            "C": "She is new to managing.",
+            "D": "Her projects are very difficult."
           },
-          "answer": "B",
+          "answer": "C",
           "explanation": {
-            "focus": "同源詞詞性辨析",
-            "type": "詞性選擇 (Parts of Speech)",
-            "translation": "Doris May (4 月 6 日星期六 18:56) 我需要一些關於管理我的團隊的建議。無論我給他們什麼項目，他們似乎都很難按時完成。 1能做什麼？ Susan Reynolds (4 月 7 日星期日 10:01) 聽起來你沒有給他們足夠的結構。將項目分成更小的部分。 Mike Hays（4 月 7 日星期日 13:15） 我同意 Susan 的觀點。我還想補充一點，你應該確保避免把更大的任務留到最後。你的團隊將沒有時間了。 Doris May（4 月 7 日星期日 14:07）@Mike 我聽到你的聲音了。如何在不照顧他們的情況下設定硬性限制？ Patricia Wells（4 月 7 日星期日 18:54）@Doris 有些員工無論如何都會表現不佳。我建議表揚/獎勵最有生產力的團隊成員。很快其他人也會跟著做。 Doris May（4 月 7 日星期日 19:17）@Patricia 太棒了，謝謝！寄送 肯德拉·利普尼斯基夫人的香蕉核桃鬆餅 2 個雞蛋 1/2 杯軟化黃油 1 和 1/2 杯紅糖 4 湯匙酪乳 -1 茶匙小蘇打 1 茶匙香草精 1 又 1/2 杯麵粉（最好過篩） .2 根，碎，搗碎 1 杯或碎油脂罐上 1 杯堅果（您喜歡的篩）塊。 4.加入酪乳，攪拌，然後加入雞蛋，然後加入香蕉泥。 5.加入麵粉和小蘇打，攪拌混合。 8.加入核桃塊攪拌。 I 7.將麵糊倒入鬆餅Un中，直到每個模具約213滿。 8. 在 350'F 下烘烤 20-25 分鐘，或直到垂耳肉變成棕色。 9. 另外，可以將牙籤插入鬆餅的中心作為測試。如果出來的乾淨的話。然後鬆餅就做好了。營養資訊（每個鬆餅）：Calorles-238；脂肪-11g：碳水化合物-32g：纖維-1g：蛋白質-3g",
-            "grammar": "空格在句子中所屬成分（主詞、動詞、受詞或修飾語）決定所需正確詞性。",
-            "options_analysis": {
-              "A": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "將烤箱預熱至 350*F (175°C)。",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「將烤箱預熱至 350*F (175°C)。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
+            "mentor_takeaway": "💡【秒懂核心】新手主管剛上路，遇到專案老是拖延，趕緊上線向老前輩們求救！",
+            "mentor_analogy": "就像剛拿到駕照的新手司機上高速公路，遇到突發狀況趕緊打電話問老司機『方向盤怎麼抓才穩』。Doris 詢問基本團隊管理與時程安排，言談中處處顯露新手管理者的生疏！",
+            "context_translation": "關於 Doris May，可以推論出什麼？——答案是：她剛接任主管不久，對管理缺乏經驗。",
+            "trap_analysis": {
+              "A": "【避坑】選項 A 太過極端惡意！Doris 只是主動尋求建議精進自己，並沒有證據顯示她『不適任做主管』！",
+              "B": "【避坑】通訊錄裡根本沒人攻擊她的人緣，說『沒人喜歡她』純屬腦補八卦！",
+              "C": "【正解】從她開頭說『無論派什麼案子團隊都做不完』，以及問『如何在不當保姆的情況下設定底線』，皆透露她是管理新手 (new to managing)！",
+              "D": "【避坑】專案延宕是因為缺乏拆解架構（structure），並不是專案本身有多麼高難度。"
+            },
+            "key_vocab": [
+              {
+                "word": "manage a team",
+                "meaning": "phr. 管理團隊",
+                "note": "多益職場溝通基礎用語"
               },
-              "B": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "將奶油和糖打成奶油狀。",
-                "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。意為「將奶油和糖打成奶油狀。」。符合題幹文法句構，商務語境搭配最為精準通順。"
+              {
+                "word": "babysit",
+                "meaning": "v. 當保姆、過度看護監督",
+                "note": "在職場中指微觀管理 (micromanage)"
               }
+            ],
+            "focus": "💡【秒懂核心】新手主管剛上路，遇到專案老是拖延，趕緊上線向老前輩們求救！",
+            "translation": "關於 Doris May，可以推論出什麼？——答案是：她剛接任主管不久，對管理缺乏經驗。"
+          },
+          "type": "group",
+          "group_id": "test1_g47_48",
+          "group_range": "Questions 47 - 48",
+          "group_part": "Part 7 閱讀理解（即時通訊對話）",
+          "passages": [
+            {
+              "type": "chat",
+              "title": "📱 專案管理即時通訊群組 (Project Management Chat)",
+              "messages": [
+                {
+                  "sender": "Doris May",
+                  "time": "18:56 Saturday, April 6",
+                  "text": "I need some advice on managing my team. No matter what project I give them, they seem to have a lot of difficulty finishing it on time. What can I do?"
+                },
+                {
+                  "sender": "Susan Reynolds",
+                  "time": "10:01 Sunday, April 7",
+                  "text": "It sounds like you're not giving them enough structure. Break the project into smaller pieces."
+                },
+                {
+                  "sender": "Mike Hays",
+                  "time": "13:15 Sunday, April 7",
+                  "text": "I agree with Susan. I'd also add that you should make sure you avoid leaving larger tasks towards the end. Your team will run out of time."
+                },
+                {
+                  "sender": "Doris May",
+                  "time": "14:07 Sunday, April 7",
+                  "text": "@Mike I hear you. How do I set hard limits without babysitting them?"
+                },
+                {
+                  "sender": "Patricia Wells",
+                  "time": "18:54 Sunday, April 7",
+                  "text": "@Doris Some employees will underperform no matter what. I would suggest praising/rewarding the most productive team member. Soon others will follow suit."
+                },
+                {
+                  "sender": "Doris May",
+                  "time": "19:17 Sunday, April 7",
+                  "text": "@Patricia Great, thanks!"
+                }
+              ]
             }
-          }
+          ]
         },
         {
           "id": 48,
@@ -1276,44 +1255,79 @@ const TOEIC_DATA = {
           "page": 5,
           "question": "On April 7 at 14:07, what does Doris May mean when she writes, \"I hear you\"?",
           "options": {
-            "A": "She received a voice mail",
+            "A": "She received a voice mail.",
             "B": "She understands.",
-            "C": "She disagrees",
-            "D": "She wants them to explain further"
+            "C": "She disagrees.",
+            "D": "She wants them to explain further."
           },
           "answer": "B",
           "explanation": {
-            "focus": "動詞時態與主詞一致性",
-            "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "4 月 7 日 14:07，多麗絲·梅 (Doris May) 寫道“我聽到你的聲音”是什麼意思？",
-            "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
-            "options_analysis": {
-              "A": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "她收到一封語音郵件",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「她收到一封語音郵件」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
+            "mentor_takeaway": "💡【秒懂核心】母語者日常口頭禪：'I hear you' 意思不是耳朵聽到聲音，而是『我懂你的意思、我領會了』！",
+            "mentor_analogy": "就像朋友跟你分享過來人經驗，你點頭說：『我懂、我完全明白你在說什麼！』在文字通訊裡，I hear you 就是感同身受、完全理解對方的觀點！",
+            "context_translation": "在 4 月 7 日 14:07，Doris May 寫下『I hear you』這句話是什麼意思？——答案是：她充分理解對方的建議。",
+            "trap_analysis": {
+              "A": "【避坑】這是打字聊天的文字群組！如果選『收到語音留言』，代表被字面上的 hear（聽）直接騙進坑裡了！",
+              "B": "【正解】I hear you 在商務與生活對話中是極為道地的成語，意指『我完全明白／我理解你的看法 (She understands)』！",
+              "C": "【避坑】她隨後接著請教後續操作細節，是贊同採納而非反對（disagrees）！",
+              "D": "【避坑】她後面問的是『具體如何執行不當保姆』，而不是要求對方重複解釋上一段話。"
+            },
+            "key_vocab": [
+              {
+                "word": "I hear you",
+                "meaning": "phr. 我懂你/我明白你的意思",
+                "note": "多益簡訊題高頻考點"
               },
-              "B": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "她明白。",
-                "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。意為「她明白。」。符合題幹文法句構，商務語境搭配最為精準通順。"
-              },
-              "C": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "她不同意",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「她不同意」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
-              },
-              "D": {
-                "pos": "n. 名詞",
-                "meaning": "她希望他們進一步解釋",
-                "correct": false,
-                "reason": "【錯誤】n. 名詞。意為「她希望他們進一步解釋」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
+              {
+                "word": "follow suit",
+                "meaning": "phr. 仿效、跟進",
+                "note": "源自紙牌術語，指跟著出同花色"
               }
+            ],
+            "focus": "💡【秒懂核心】母語者日常口頭禪：'I hear you' 意思不是耳朵聽到聲音，而是『我懂你的意思、我領會了』！",
+            "translation": "在 4 月 7 日 14:07，Doris May 寫下『I hear you』這句話是什麼意思？——答案是：她充分理解對方的建議。"
+          },
+          "type": "group",
+          "group_id": "test1_g47_48",
+          "group_range": "Questions 47 - 48",
+          "group_part": "Part 7 閱讀理解（即時通訊對話）",
+          "passages": [
+            {
+              "type": "chat",
+              "title": "📱 專案管理即時通訊群組 (Project Management Chat)",
+              "messages": [
+                {
+                  "sender": "Doris May",
+                  "time": "18:56 Saturday, April 6",
+                  "text": "I need some advice on managing my team. No matter what project I give them, they seem to have a lot of difficulty finishing it on time. What can I do?"
+                },
+                {
+                  "sender": "Susan Reynolds",
+                  "time": "10:01 Sunday, April 7",
+                  "text": "It sounds like you're not giving them enough structure. Break the project into smaller pieces."
+                },
+                {
+                  "sender": "Mike Hays",
+                  "time": "13:15 Sunday, April 7",
+                  "text": "I agree with Susan. I'd also add that you should make sure you avoid leaving larger tasks towards the end. Your team will run out of time."
+                },
+                {
+                  "sender": "Doris May",
+                  "time": "14:07 Sunday, April 7",
+                  "text": "@Mike I hear you. How do I set hard limits without babysitting them?"
+                },
+                {
+                  "sender": "Patricia Wells",
+                  "time": "18:54 Sunday, April 7",
+                  "text": "@Doris Some employees will underperform no matter what. I would suggest praising/rewarding the most productive team member. Soon others will follow suit."
+                },
+                {
+                  "sender": "Doris May",
+                  "time": "19:17 Sunday, April 7",
+                  "text": "@Patricia Great, thanks!"
+                }
+              ]
             }
-          }
+          ]
         },
         {
           "id": 49,
@@ -1328,37 +1342,63 @@ const TOEIC_DATA = {
           },
           "answer": "D",
           "explanation": {
-            "focus": "商務情境核心字彙與語意辨析",
-            "type": "詞彙與商務語境 (Business Vocabulary & Collocation)",
-            "translation": "食譜中沒有建議的一種方法可以用來檢查鬆餅是否熟了？",
-            "grammar": "需結合前後文商業溝通脈絡與專業搭配詞，辨析各選項含義並挑選最精準用詞。",
-            "options_analysis": {
-              "A": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "考慮到總的烘烤時間",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「考慮到總的烘烤時間」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
+            "mentor_takeaway": "💡【秒懂核心】仔細核對食譜第 8、9 步驟的三種出爐判斷法，排除未提及的手觸捏壓法！",
+            "mentor_analogy": "烤箱裡的馬芬剛出爐溫度高達 175 度，食譜教你用牙籤戳、眼睛看表面金黃或看計時器，千萬別直接伸手去捏！食譜完全沒有提到用手摸軟硬！",
+            "context_translation": "根據食譜，下列哪一項『不是』食譜建議用來確認馬芬是否烤熟的方法？——答案是：用手觸摸看看是否鬆軟。",
+            "trap_analysis": {
+              "A": "【避坑】步驟 8 明確寫了烤 20-25 分鐘 (baking time)，食譜有建議！",
+              "B": "【避坑】步驟 9 明確寫了用牙籤插入中心測試 (toothpick test)，食譜有建議！",
+              "C": "【避坑】步驟 8 明確寫了看頂部是否烤成金黃棕色 (until tops are brown)，食譜有建議！",
+              "D": "【正解】食譜通篇未提及用手去摸 (Touching the muffin)，符合題目要求的 NOT 否定細節！"
+            },
+            "key_vocab": [
+              {
+                "word": "toothpick",
+                "meaning": "n. 牙籤",
+                "note": "烘焙中常用牙籤檢驗熟度"
               },
-              "B": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "用牙籤戳鬆餅",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「用牙籤戳鬆餅」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
-              },
-              "C": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "觀察鬆餅頂部的顏色",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「觀察鬆餅頂部的顏色」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
-              },
-              "D": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "用手觸摸鬆餅，看看鬆餅是否鬆軟",
-                "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。意為「用手觸摸鬆餅，看看鬆餅是否鬆軟」。符合題幹文法句構，商務語境搭配最為精準通順。"
+              {
+                "word": "preheat",
+                "meaning": "v. 預熱烤箱",
+                "note": "pre- 字首表預先"
               }
+            ],
+            "focus": "💡【秒懂核心】仔細核對食譜第 8、9 步驟的三種出爐判斷法，排除未提及的手觸捏壓法！",
+            "translation": "根據食譜，下列哪一項『不是』食譜建議用來確認馬芬是否烤熟的方法？——答案是：用手觸摸看看是否鬆軟。"
+          },
+          "type": "group",
+          "group_id": "test1_g49_50",
+          "group_range": "Questions 49 - 50",
+          "group_part": "Part 7 閱讀理解（食譜指引）",
+          "passages": [
+            {
+              "type": "recipe",
+              "title": "🧁 Kendra Lipnisky 太太的經典香蕉核桃馬芬食譜 (Mrs. Kendra Lipnisky's Banana Walnut Muffins)",
+              "ingredients": [
+                "2 eggs",
+                "1/2 cup of butter, softened",
+                "1 and 1/2 cups of brown sugar",
+                "4 tablespoons of buttermilk",
+                "1 teaspoon of baking soda",
+                "1 teaspoon of vanilla extract",
+                "1 and 1/2 cups of flour (preferably sifted)",
+                "2 bananas, mashed",
+                "1 cup of walnuts or any other nut you like (break into larger chunks)"
+              ],
+              "instructions": [
+                "1. Preheat oven to 350°F (175°C).",
+                "2. Grease muffin tin.",
+                "3. Cream the butter and sugar.",
+                "4. Add buttermilk, blend, and then mix in the eggs followed by the mashed banana.",
+                "5. Add flour and baking soda, stir to combine.",
+                "6. Stir in walnut chunks.",
+                "7. Pour batter into muffin tin until each mold is about 2/3 full.",
+                "8. Bake at 350°F for 20-25 minutes, or until tops are brown.",
+                "9. Additionally, a toothpick may be inserted into the center of the muffin as a test. If it comes out cleanly, then the muffins are done."
+              ],
+              "nutrition": "Calories: 238; Fat: 11g; Carbs: 32g; Fiber: 1g; Protein: 3g"
             }
-          }
+          ]
         },
         {
           "id": 50,
@@ -1368,72 +1408,250 @@ const TOEIC_DATA = {
           "options": {
             "A": "Adding salt instead of sugar",
             "B": "Adding olive oil instead of butter",
-            "C": "Adding icing sugar instead offlour",
-            "D": "Addingpeanutsinsteadofwalnuts"
+            "C": "Adding icing sugar instead of flour",
+            "D": "Adding peanuts instead of walnuts"
           },
           "answer": "D",
           "explanation": {
-            "focus": "動詞時態與主詞一致性",
-            "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "下列哪一種成分替代不會破壞食譜？",
-            "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
-            "options_analysis": {
-              "A": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "加鹽代替糖",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「加鹽代替糖」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
+            "mentor_takeaway": "💡【秒懂核心】食材清單特別備註：核桃或『任何你喜歡的堅果』都可以替換！",
+            "mentor_analogy": "做甜點如果把糖換成鹽、把麵粉換成糖霜，整盤點心就直接報銷變成地獄料理了！但材料清單寫得很寬鬆：'walnuts or any other nut you like'，所以把核桃換成花生，依然是一顆美味的堅果馬芬！",
+            "context_translation": "下列哪一種食材替代方案『不會』破壞這份食譜的成品品質？——答案是：把核桃替換成花生。",
+            "trap_analysis": {
+              "A": "【避坑】糖換成鹽巴，馬芬直接變成鹹苦怪味，徹底毀掉食譜！",
+              "B": "【避坑】固態奶油是馬芬膨脹定型的關鍵，換成橄欖油結構會崩塌！",
+              "C": "【避坑】麵粉是主體結構，換成糖霜整顆會化成焦糖糖漿！",
+              "D": "【正解】食材原文明確標明 '1 cup of walnuts or any other nut you like'（核桃或任何你喜歡的堅果皆可），花生完全符合！"
+            },
+            "key_vocab": [
+              {
+                "word": "substitution",
+                "meaning": "n. 替代、替換品",
+                "note": "substitute A for B 以 A 代替 B"
               },
-              "B": {
-                "pos": "n. 名詞",
-                "meaning": "加入橄欖油代替奶油",
-                "correct": false,
-                "reason": "【錯誤】n. 名詞。意為「加入橄欖油代替奶油」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
-              },
-              "C": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "加入糖粉代替麵粉",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「加入糖粉代替麵粉」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
-              },
-              "D": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "添加花生代替核桃",
-                "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。意為「添加花生代替核桃」。符合題幹文法句構，商務語境搭配最為精準通順。"
+              {
+                "word": "softened butter",
+                "meaning": "n. 軟化奶油",
+                "note": "烘焙高頻名詞"
               }
+            ],
+            "focus": "💡【秒懂核心】食材清單特別備註：核桃或『任何你喜歡的堅果』都可以替換！",
+            "translation": "下列哪一種食材替代方案『不會』破壞這份食譜的成品品質？——答案是：把核桃替換成花生。"
+          },
+          "type": "group",
+          "group_id": "test1_g49_50",
+          "group_range": "Questions 49 - 50",
+          "group_part": "Part 7 閱讀理解（食譜指引）",
+          "passages": [
+            {
+              "type": "recipe",
+              "title": "🧁 Kendra Lipnisky 太太的經典香蕉核桃馬芬食譜 (Mrs. Kendra Lipnisky's Banana Walnut Muffins)",
+              "ingredients": [
+                "2 eggs",
+                "1/2 cup of butter, softened",
+                "1 and 1/2 cups of brown sugar",
+                "4 tablespoons of buttermilk",
+                "1 teaspoon of baking soda",
+                "1 teaspoon of vanilla extract",
+                "1 and 1/2 cups of flour (preferably sifted)",
+                "2 bananas, mashed",
+                "1 cup of walnuts or any other nut you like (break into larger chunks)"
+              ],
+              "instructions": [
+                "1. Preheat oven to 350°F (175°C).",
+                "2. Grease muffin tin.",
+                "3. Cream the butter and sugar.",
+                "4. Add buttermilk, blend, and then mix in the eggs followed by the mashed banana.",
+                "5. Add flour and baking soda, stir to combine.",
+                "6. Stir in walnut chunks.",
+                "7. Pour batter into muffin tin until each mold is about 2/3 full.",
+                "8. Bake at 350°F for 20-25 minutes, or until tops are brown.",
+                "9. Additionally, a toothpick may be inserted into the center of the muffin as a test. If it comes out cleanly, then the muffins are done."
+              ],
+              "nutrition": "Calories: 238; Fat: 11g; Carbs: 32g; Fiber: 1g; Protein: 3g"
             }
-          }
+          ]
         },
         {
           "id": 51,
           "range": "",
           "page": 6,
-          "question": "Seminars on Small Business Available at Bowmonte City Hall Originally Posted: 11/15 11:54:44 PM MDT I Updated: 5 Hours Ago Tomomow marks the first anniversary of the Bowmonte City Business Association's continuing series of free small business semlnars.The city is pleased to announce the retum of its series of workshops aimed at sman business owners or anyone who wishes to start their own company in Bowmonte. The workshops will occur on the thlrd Weanesday of each month. Tme first will be hosted tomorrow on Nov. 21 at city hall and is scheduled to feature numerous success stones about local businesses, as told by their founders, managers. and innovating employees. Each free session will begin at 7 p.m.and go until 9 p.m. The sessions are generated in.collaboration with the Bowmonte Financial Expansion Partnership and 'Business Besties, a networking group based in Bowmonte. Can't make it in person? This year. we are also pleased to offer the webinar option. We will be streaming the seminars with an integrated chat function where viewers may post their questions during the Q&A section of the seminar in real time. To join, simply visit: bowmonteaityall.com/ive Unlike last year,this wave of seminars wil be recorded, so you can check out our online database and review previous seminars at: bowmontecityhau.com/seminars/archives Registration is not required. Carmen's Cupcakes Order Form MDC - 2085 Order Number Wrigh! Fielder Full Name: Last name First name 1992 16 11 Birth Date: Day Year Month E-mail:*f.wnight@crestwalkfoundation.com Mobile/PhoneNumber.01-555-222-5258 Cupcake Flavors (2 dozen minimum) Vanilla 10 Chocolate Coconut Carrot Cake Peanut Butter Icing (Optional): 12 Peanut Butter Cream Cheese Dark Chocolate Milk Chocolate Strawbey Mint 2016 30 PickupDate/mme:10 Year Day Month 30 11 Minutes JNOH Special Detalls: Though peanuts are fine.please onsure that no aimonds or cashews are added lo the cupcakes Note: Cancellation of orders withln 48 hours of the pickup dale wll still result In the customer being chargod the full amount.",
+          "question": "What can be assumed about this online advertisement?",
           "options": {
-            "A": "M. I P.M."
+            "A": "There is not much interest in the seminars.",
+            "B": "There was not an online option last year.",
+            "C": "It is intended for people living outside of Bowmonte.",
+            "D": "It advises that those interested in the seminars make reservations."
           },
-          "answer": "A",
+          "answer": "B",
           "explanation": {
-            "focus": "同源詞詞性辨析",
-            "type": "詞性選擇 (Parts of Speech)",
-            "translation": "鲍蒙特市政厅举办的小型企业研讨会最初发布：11/15 11:54:44 PM MDT I 更新：5 小时前 明天是鲍蒙特市商业协会持续举办的一系列免费小型企业研讨会一周年纪念日。該市很高興地宣布，針對中小企業主或任何希望在鮑蒙特創辦自己公司的人的系列研討會將重新舉辦。研討會將於每月的第三個斷奶日舉行。 Tme First 将于明天 11 月 21 日在市政厅举办，据当地企业的创始人、经理介绍，预计将展出大量有关当地企业的成功宝石。和創新員工。每場免費課程將於晚上 7 點開始，一直持續到晚上 9 點。這些會議是與 Bowmonte Financial Expansion Partnership 和位於 Bowmonte 的網路組織「Business Besties」合作舉辦的。不能親自去嗎？今年。我們也很高興提供網路研討會選項。我們將透過整合的聊天功能對研討會進行直播，觀眾可以在研討會的問答部分即時發布他們的問題。要加入，只需访问：bowmonteaityall.com/ive 与去年不同的是，这波研讨会将被记录下来，因此您可以查看我们的在线数据库并回顾以前的研讨会：bowmontecityhau.com/seminars/archives 不需要注册。卡門紙杯蛋糕訂單表 MDC - 2085 訂單號 Wright！ Fielder 全名： 姓 名 1992 16 11 出生日期： 日 年 月 电子邮件：*f.wnight@crestwalkfoundation.com 手机/电话号码.01-555-222-5258 纸杯蛋糕口味（至少 2 打） 香草 10 巧克力 椰子胡萝卜蛋糕 花生酱糖霜（可选）： 12 花生酱 奶油奶酪 黑巧克力 牛奶巧克力Strawbey Mint 2016 30 取貨日期/月：10 年 日 月 30 11 分鐘 JNOH 特別說明：雖然花生很好。請確保紙杯蛋糕中沒有添加杏仁或腰果 注意：提貨後 48 小時內取消訂單仍將導致客戶被全額扣款。",
-            "grammar": "空格在句子中所屬成分（主詞、動詞、受詞或修飾語）決定所需正確詞性。",
-            "options_analysis": {
-              "A": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "上午 / 下午（時間標記）",
-                "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。意為「M.I.P.M.」。符合題幹文法句構，商務語境搭配最為精準通順。"
+            "mentor_takeaway": "💡【秒懂核心】文章特別強調『This year, we are ALSO pleased to offer the webinar option』，推論去年只有實體！",
+            "mentor_analogy": "就像實體補習班今年歡欣鼓舞地發傳單說：『今年我們隆重加開線上直播班喔！』這句話的潛台詞就是：去年根本沒有線上直播，只能親自到場！",
+            "context_translation": "關於這則網路廣告公告，可以做出何種合理推論？——答案是：去年並未提供線上參加的選項。",
+            "trap_analysis": {
+              "A": "【避坑】講座迎來一週年且規模擴大，說明受歡迎，並非缺乏興趣！",
+              "B": "【正解】內文強調『This year, we are also pleased to offer the webinar option（今年我們也很高興提供線上研討會選項）』，顯見去年沒有！",
+              "C": "【避坑】講座是針對在本地（Bowmonte）創業的人士，而非外地居民！",
+              "D": "【避坑】最後一句清楚載明『Registration is not required（無須事前預約登記）』，與建議預約完全相反！"
+            },
+            "key_vocab": [
+              {
+                "word": "webinar",
+                "meaning": "n. 線上研討會/網絡研討會",
+                "note": "web + seminar 的合成詞"
+              },
+              {
+                "word": "registration is not required",
+                "meaning": "phr. 免預約、自由入場",
+                "note": "多益公告高頻句"
               }
+            ],
+            "focus": "💡【秒懂核心】文章特別強調『This year, we are ALSO pleased to offer the webinar option』，推論去年只有實體！",
+            "translation": "關於這則網路廣告公告，可以做出何種合理推論？——答案是：去年並未提供線上參加的選項。"
+          },
+          "type": "group",
+          "group_id": "test1_g51_52",
+          "group_range": "Questions 51 - 52",
+          "group_part": "Part 7 閱讀理解（活動公告）",
+          "passages": [
+            {
+              "type": "notice",
+              "title": "🏛️ 鮑蒙特市政廳免費小型企業研討會公告 (Seminars on Small Business Available at Bowmonte City Hall)",
+              "meta": "Originally Posted: 11/15 11:54:44 PM MDT | Updated: 5 Hours Ago",
+              "content": "Tomorrow marks the first anniversary of the Bowmonte City Business Association's continuing series of free small business seminars. The city is pleased to announce the return of its series of workshops aimed at small business owners or anyone who wishes to start their own company in Bowmonte.\n\nThe workshops will occur on the third Wednesday of each month. The first will be hosted tomorrow on Nov. 21 at city hall and is scheduled to feature numerous success stories about local businesses, as told by their founders, managers, and innovating employees. Each free session will begin at 7 p.m. and go until 9 p.m. The sessions are generated in collaboration with the Bowmonte Financial Expansion Partnership and 'Business Besties,' a networking group based in Bowmonte.\n\nCan't make it in person? This year, we are also pleased to offer the \"webinar\" option. We will be streaming the seminars with an integrated chat function where viewers may post their questions during the Q&A section of the seminar in real time. To join, simply visit: bowmontecityhall.com/live\n\nUnlike last year, this wave of seminars will be recorded, so you can check out our online database and review previous seminars at: bowmontecityhall.com/seminars/archives\n\nRegistration is not required."
             }
+          ]
+        },
+        {
+          "id": 52,
+          "question": "How can people watch last year's seminars?",
+          "options": {
+            "A": "Go to bowmontecityhall.com/live to access them",
+            "B": "Go to bowmontecityhall.com/seminars/archives to access them",
+            "C": "Go to the Bowmonte city hall and request the recordings",
+            "D": "None of the above"
+          },
+          "answer": "D",
+          "type": "group",
+          "group_id": "test1_g51_52",
+          "group_range": "Questions 51 - 52",
+          "group_part": "Part 7 閱讀理解（活動公告）",
+          "passages": [
+            {
+              "type": "notice",
+              "title": "🏛️ 鮑蒙特市政廳免費小型企業研討會公告 (Seminars on Small Business Available at Bowmonte City Hall)",
+              "meta": "Originally Posted: 11/15 11:54:44 PM MDT | Updated: 5 Hours Ago",
+              "content": "Tomorrow marks the first anniversary of the Bowmonte City Business Association's continuing series of free small business seminars. The city is pleased to announce the return of its series of workshops aimed at small business owners or anyone who wishes to start their own company in Bowmonte.\n\nThe workshops will occur on the third Wednesday of each month. The first will be hosted tomorrow on Nov. 21 at city hall and is scheduled to feature numerous success stories about local businesses, as told by their founders, managers, and innovating employees. Each free session will begin at 7 p.m. and go until 9 p.m. The sessions are generated in collaboration with the Bowmonte Financial Expansion Partnership and 'Business Besties,' a networking group based in Bowmonte.\n\nCan't make it in person? This year, we are also pleased to offer the \"webinar\" option. We will be streaming the seminars with an integrated chat function where viewers may post their questions during the Q&A section of the seminar in real time. To join, simply visit: bowmontecityhall.com/live\n\nUnlike last year, this wave of seminars will be recorded, so you can check out our online database and review previous seminars at: bowmontecityhall.com/seminars/archives\n\nRegistration is not required."
+            }
+          ],
+          "explanation": {
+            "mentor_takeaway": "💡【秒懂核心】關鍵字『Unlike last year, this wave will be recorded』——去年根本沒有錄影！",
+            "mentor_analogy": "公告說：『跟去年不同的是，今年的講座會有錄影存檔！』這說明去年的講座壓根就沒有錄影帶存在這世界上，所以無論你上網找、打電話或去市政廳，都絕對看不到去年的錄影！",
+            "context_translation": "民眾該如何觀看『去年』的研討會錄影？——答案是：以上皆非（因為去年根本未曾錄影存檔）。",
+            "trap_analysis": {
+              "A": "【避坑】bowmontecityhall.com/live 是看『今年的即時線上直播』！",
+              "B": "【避坑】archives 存檔區只會放『今年這波有錄影的場次』，文章明確說 Unlike last year, this wave will be recorded！",
+              "C": "【避坑】市政廳也沒有去年的錄音錄影存檔可調閱！",
+              "D": "【正解】因為去年完全沒有錄影，所以任何觀看管道都不存在，選 None of the above 才是邏輯大師！"
+            },
+            "key_vocab": [
+              {
+                "word": "unlike last year",
+                "meaning": "phr. 有別於去年",
+                "note": "極重要推論信號詞"
+              },
+              {
+                "word": "archive",
+                "meaning": "n. 檔案庫、歷史存檔",
+                "note": "多益網站導航常用詞"
+              }
+            ],
+            "focus": "💡【秒懂核心】關鍵字『Unlike last year, this wave will be recorded』——去年根本沒有錄影！",
+            "translation": "民眾該如何觀看『去年』的研討會錄影？——答案是：以上皆非（因為去年根本未曾錄影存檔）。"
+          }
+        },
+        {
+          "id": 53,
+          "question": "What can be assumed about Fielder Wright?",
+          "options": {
+            "A": "He is not a legal adult.",
+            "B": "\"Fielder Wright\" is his pen name.",
+            "C": "He will eat all of these cupcakes himself.",
+            "D": "He or someone he knows has a nut allergy."
+          },
+          "answer": "D",
+          "type": "group",
+          "group_id": "test1_g53_54",
+          "group_range": "Questions 53 - 54",
+          "group_part": "Part 7 閱讀理解（商業訂購單）",
+          "passages": [
+            {
+              "type": "form",
+              "title": "🧁 卡門杯子蛋糕訂單明細 (Carmen's Cupcakes Order Form)",
+              "order_number": "MDC - 2085",
+              "customer": {
+                "name": "Fielder Wright",
+                "birth_date": "16/11/1992 (Day/Month/Year)",
+                "email": "f.wright@crestwalkfoundation.com",
+                "phone": "01-555-222-5258"
+              },
+              "flavors": [
+                {
+                  "flavor": "Vanilla (香草)",
+                  "qty": 2
+                },
+                {
+                  "flavor": "Chocolate (巧克力)",
+                  "qty": 10
+                },
+                {
+                  "flavor": "Coconut (椰子)",
+                  "qty": 0
+                },
+                {
+                  "flavor": "Carrot Cake (胡蘿蔔蛋糕)",
+                  "qty": 5
+                },
+                {
+                  "flavor": "Peanut Butter (花生醬)",
+                  "qty": 2
+                }
+              ],
+              "requirement": "Cupcake Flavors (2 dozen minimum / 至少兩打24顆起訂)",
+              "special_details": "Though peanuts are fine, please ensure that no almonds or cashews are added to the cupcakes.",
+              "note": "Cancellation of orders within 48 hours of the pickup date will still result in the customer being charged the full amount."
+            }
+          ],
+          "explanation": {
+            "mentor_takeaway": "💡【秒懂核心】備註欄特別叮囑：千萬不能加入杏仁或腰果！這是有堅果過敏的經典信號！",
+            "mentor_analogy": "你在飲料店特別交代店員：『雖然我喝牛奶沒事，但千萬不能加任何燕麥或堅果碎喔！』這絕對是因為你自己或同行要吃的人對特定堅果過敏，怕吃了休克送急診！",
+            "context_translation": "關於訂購人 Fielder Wright，可以推論出什麼？——答案是：他本人或其認識的親友有堅果過敏問題。",
+            "trap_analysis": {
+              "A": "【避坑】出生年份是 1992 年，到 2016 年訂購時已經 24 歲，早已是完全成年人！",
+              "B": "【避坑】這是基金會工作郵箱與正式商業訂單，並非投稿小說，毫無筆名根據！",
+              "C": "【避坑】訂了一大批杯子蛋糕，很有可能是基金會活動聚會食用，說他自己一人全吃光純屬無稽之談！",
+              "D": "【正解】特別交代『no almonds or cashews（禁止添加杏仁與腰果）』，是典型的食物過敏 (allergy) 預防要求！"
+            },
+            "key_vocab": [
+              {
+                "word": "nut allergy",
+                "meaning": "n. 堅果過敏",
+                "note": "多益餐飲服務題型核心詞彙"
+              },
+              {
+                "word": "special details",
+                "meaning": "n. 特殊要求備註",
+                "note": "表單常見欄位"
+              }
+            ],
+            "focus": "💡【秒懂核心】備註欄特別叮囑：千萬不能加入杏仁或腰果！這是有堅果過敏的經典信號！",
+            "translation": "關於訂購人 Fielder Wright，可以推論出什麼？——答案是：他本人或其認識的親友有堅果過敏問題。"
           }
         },
         {
           "id": 54,
           "range": "53",
           "page": 6,
-          "question": "What will Fielder likely haveto dobefore his order will be filled?",
+          "question": "What will Fielder likely have to do before his order will be filled?",
           "options": {
             "A": "He'll have to buy more cupcakes.",
             "B": "He'll have to change the icing types.",
@@ -1442,67 +1660,214 @@ const TOEIC_DATA = {
           },
           "answer": "A",
           "explanation": {
-            "focus": "動詞時態與主詞一致性",
-            "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "在滿足他的訂單之前，菲爾德可能需要做什麼？",
-            "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
-            "options_analysis": {
-              "A": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "他得買更多的紙杯蛋糕。",
-                "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。意為「他得買更多的紙杯蛋糕。」。符合題幹文法句構，商務語境搭配最為精準通順。"
+            "mentor_takeaway": "💡【秒懂核心】加法心算題：訂單數量 2 + 10 + 0 + 5 + 2 = 19 顆，未達門檻 24 顆（兩打）！",
+            "mentor_analogy": "好市多規定每車至少要買 24 瓶可樂，結果你推車裡東拼西湊只有 19 瓶，結帳店員一定會微笑攔下你說：『先生，不好意思，我們最低起訂量是兩打（24顆），您還差 5 顆才能幫您製作出貨喔！』",
+            "context_translation": "在訂單能夠被正式製作執行前，Fielder 很可能必須先做什麼？——答案是：他必須加購更多杯子蛋糕以湊足低消數量。",
+            "trap_analysis": {
+              "A": "【正解】店內明確規定『2 dozen minimum（兩打起訂，即 24 顆）』，Fielder 目前只選了 19 顆，必須加買湊滿低消！",
+              "B": "【避坑】糖霜（icing）是選填配件（Optional），不需要因此更換！",
+              "C": "【避坑】取貨時間已經寫得十分明確，並不需要更改！",
+              "D": "【避坑】他的全名、電話、電子郵件、生日皆已完整填寫，個人資料非常齊全！"
+            },
+            "key_vocab": [
+              {
+                "word": "dozen",
+                "meaning": "n. 一打（12個）",
+                "note": "2 dozen = 24 個"
               },
-              "B": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "他必須改變糖衣類型。",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「他必須改變糖衣類型。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
-              },
-              "C": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "他必須更改接機時間。",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「他必須更改接機時間。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
-              },
-              "D": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "他必須提供更多個人資訊。",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「他必須提供更多個人資訊。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
+              {
+                "word": "fill an order",
+                "meaning": "phr. 執行/完成訂單",
+                "note": "商業多益極高頻片語"
               }
+            ],
+            "focus": "💡【秒懂核心】加法心算題：訂單數量 2 + 10 + 0 + 5 + 2 = 19 顆，未達門檻 24 顆（兩打）！",
+            "translation": "在訂單能夠被正式製作執行前，Fielder 很可能必須先做什麼？——答案是：他必須加購更多杯子蛋糕以湊足低消數量。"
+          },
+          "type": "group",
+          "group_id": "test1_g53_54",
+          "group_range": "Questions 53 - 54",
+          "group_part": "Part 7 閱讀理解（商業訂購單）",
+          "passages": [
+            {
+              "type": "form",
+              "title": "🧁 卡門杯子蛋糕訂單明細 (Carmen's Cupcakes Order Form)",
+              "order_number": "MDC - 2085",
+              "customer": {
+                "name": "Fielder Wright",
+                "birth_date": "16/11/1992 (Day/Month/Year)",
+                "email": "f.wright@crestwalkfoundation.com",
+                "phone": "01-555-222-5258"
+              },
+              "flavors": [
+                {
+                  "flavor": "Vanilla (香草)",
+                  "qty": 2
+                },
+                {
+                  "flavor": "Chocolate (巧克力)",
+                  "qty": 10
+                },
+                {
+                  "flavor": "Coconut (椰子)",
+                  "qty": 0
+                },
+                {
+                  "flavor": "Carrot Cake (胡蘿蔔蛋糕)",
+                  "qty": 5
+                },
+                {
+                  "flavor": "Peanut Butter (花生醬)",
+                  "qty": 2
+                }
+              ],
+              "requirement": "Cupcake Flavors (2 dozen minimum / 至少兩打24顆起訂)",
+              "special_details": "Though peanuts are fine, please ensure that no almonds or cashews are added to the cupcakes.",
+              "note": "Cancellation of orders within 48 hours of the pickup date will still result in the customer being charged the full amount."
             }
-          }
+          ]
         },
         {
           "id": 55,
           "range": "",
           "page": 7,
-          "question": "The octopus (in any form of subspecies) is a fasdinating creature. 1ll's common knowledge thal it has elghttentacles-hence the octo'prefix in its name but lt also has three heans. a beak, venom, Ink which it can excrele for defense, and no bones. Being boneless allows the octopus to squeeze inlo incredbly smat spaces. 2)-- he octopus can also propel itselt by taking In and expelling water from its body. ll can even regenerate lost limbs. But pehaps most lmpressively. the octopus possesses far and away the mosl rapid physical camouflage ability of any animal ln the worid.-f3j The .octopus is also believed.to be the most intelligent of all Invertebrate creatures. demonstrating shon-term and long:tem memory as well as complex directional and problem solving skills. Many who study octopuses assert that they also play,use tools. leam lessons from experience. and are capable of distinguishing belween people. Octopuses even show preference, swimming up to people they like and ★,-th',uop Kon aidoad e jajem soniur Buninbs Date (m/d/y):June 16.2016 Cass:Entrepreneurship101 [11213 Why? Although I learned a lot, I feel that I could have studied more in the amount of time given, or the same amount in less time. 2. How wouid you rate your professor? 1234 Why? Though knowledgeable, he spoke too quietly, and sometimes he was late to dlass. The hands-on work where we were given problems to solve in the field was very informative. 4. What do you feel needs to be improved? Some of the lectures were based only on theory and so did not seem relevant lo the real wond. As a result, I had trouble rermembening what was taught. 5.Additional comments or suggestions? r'd really prefer fewer leclures and less theory-based reading. If the course could have more hands-on prolects, that would be great.",
+          "question": "What is NOT something the article implies an octopus is capable of doing?",
           "options": {
-            "A": "How would you rate this class?",
-            "B": "What did you like best about the class?"
+            "A": "Befriending a human",
+            "B": "Navigating through a maze",
+            "C": "Regenerating broken bones",
+            "D": "Blending in with its surroundings"
+          },
+          "answer": "C",
+          "explanation": {
+            "mentor_takeaway": "💡【秒懂核心】章魚是完全沒有骨頭的軟體動物（no bones），根本沒有骨頭可以再生！",
+            "mentor_analogy": "這就像題目問你『哪件事不是特斯拉電動車能做的事？』選項寫『更換機油』，電動車連引擎跟機油都沒有，怎麼可能換機油！章魚全身上下壓根沒骨頭，骨折再生根本是無稽之談！",
+            "context_translation": "下列哪一件事『不是』文章暗示章魚有能力做到的？——答案是：使折斷的骨骼重新再生。",
+            "trap_analysis": {
+              "A": "【避坑】文章說章魚會游向喜歡的人，表示能與人類建立友好互動！",
+              "B": "【避坑】文章提及具備複雜方向感與解難能力（directional skills），能穿越迷宮！",
+              "C": "【正解】文章第一段明確寫道章魚『no bones（無骨骼）』，既然無骨，就絕不可能有『regenerating broken bones（骨骼再生）』這回事！",
+              "D": "【避坑】文章強調章魚擁有全世界動物中最頂尖迅速的偽裝變色能力 (camouflage / blending in)！"
+            },
+            "key_vocab": [
+              {
+                "word": "invertebrate",
+                "meaning": "n./adj. 無脊椎動物",
+                "note": "多益生物科普高頻字彙"
+              },
+              {
+                "word": "regenerate",
+                "meaning": "v. 再生、重建",
+                "note": "re- (再) + generate (產生)"
+              }
+            ],
+            "focus": "💡【秒懂核心】章魚是完全沒有骨頭的軟體動物（no bones），根本沒有骨頭可以再生！",
+            "translation": "下列哪一件事『不是』文章暗示章魚有能力做到的？——答案是：使折斷的骨骼重新再生。"
+          },
+          "type": "group",
+          "group_id": "test1_g55_57",
+          "group_range": "Questions 55 - 57",
+          "group_part": "Part 7 閱讀理解（科普專題報導）",
+          "passages": [
+            {
+              "type": "article",
+              "title": "🐙 神奇的深海智者：章魚生理奧秘 (The Fascinating Biology of Octopuses)",
+              "content": "The octopus (in any form of subspecies) is a fascinating creature. [1] It's common knowledge that it has eight tentacles — hence the \"octo\" prefix in its name — but it also has three hearts, a beak, venom, ink which it can excrete for defense, and no bones. Being boneless allows the octopus to squeeze into incredibly small spaces. [2] The octopus can also propel itself by taking in and expelling water from its body. It can even regenerate lost limbs. But perhaps most impressively, the octopus possesses far and away the most rapid physical camouflage ability of any animal in the world. [3]\n\nThe octopus is also believed to be the most intelligent of all invertebrate creatures, demonstrating short-term and long-term memory as well as complex directional and problem-solving skills. Many who study octopuses assert that they also play, use tools, learn lessons from experience, and are capable of distinguishing between people. Octopuses even show preference, swimming up to people they like and squirting ink or water at people they don't. [4]"
+            }
+          ]
+        },
+        {
+          "id": 56,
+          "question": "Based on the article, which of the following is true about octopuses?",
+          "options": {
+            "A": "They have multiple hearts.",
+            "B": "They have a very long life span.",
+            "C": "They have not been studied by humans.",
+            "D": "They are the least intelligent invertebrate animals."
           },
           "answer": "A",
-          "explanation": {
-            "focus": "被動語態與時態判斷",
-            "type": "動詞語態 (Passive Voice)",
-            "translation": "章魚（任何形式的亞種）是一種令人著迷的生物。眾所周知，它有 elghtentacles，因此它的名字中有 octo' 前綴，但它也有 3 個 heans。喙、毒液、可以排出用於防禦的墨水，但沒有骨頭。由於沒有骨頭，章魚可以擠進極度狹小的空間。 2)--章魚也可以透過吸收和排出體內的水來推動自己。甚至可以使失去的肢體再生。但也許最令人印象深刻。章魚擁有世界上任何動物中最快速的物理偽裝能力。 -f3j 章魚也被認為是所有無脊椎動物中最聰明的。展現短期和長期記憶以及複雜的定向和解決問題的能力。許多研究章魚的人聲稱它們也會玩耍、使用工具。從經驗中學習。並且能夠區分人與人。章魚甚至會表現出偏好，游向它們喜歡的人，並且 ★,-th',uop Kon aidoad e jajem soniur Buninbs 日期（月/日/年）：2016 年 6 月 16 日 Cass：Entrepreneurship101 [11213 為什麼？雖然我學到了很多東西，但我覺得我可以在給定的時間內學習更多的內容，或者在更少的時間內學習相同的內容。 2.您如何評價您的教授？第1234章 為什麼？他雖然知識淵博，但說話太小聲，有時甚至遲到。我們在現場解決問題的實踐工作提供了非常豐富的資訊。 4、您認為哪些方面需要改進？有些講座僅基於理論，因此似乎與真正的奇蹟無關。結果，我很難記住所教的內容。 5.還有其他意見或建議嗎？我真的更喜歡更少的講座和更少基於理論的閱讀。如果課程能有更多實作的項目，那就太好了。",
-            "grammar": "主詞與動作執行者具有被動承受關係，需根據主詞人稱與時間提示選出符合之被動態。",
-            "options_analysis": {
-              "A": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "您如何評價這門課？",
-                "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。意為「您如何評價這門課？」。符合題幹文法句構，商務語境搭配最為精準通順。"
-              },
-              "B": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "你最喜歡這門課的什麼？",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「你最喜歡這門課的什麼？」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
-              }
+          "type": "group",
+          "group_id": "test1_g55_57",
+          "group_range": "Questions 55 - 57",
+          "group_part": "Part 7 閱讀理解（科普專題報導）",
+          "passages": [
+            {
+              "type": "article",
+              "title": "🐙 神奇的深海智者：章魚生理奧秘 (The Fascinating Biology of Octopuses)",
+              "content": "The octopus (in any form of subspecies) is a fascinating creature. [1] It's common knowledge that it has eight tentacles — hence the \"octo\" prefix in its name — but it also has three hearts, a beak, venom, ink which it can excrete for defense, and no bones. Being boneless allows the octopus to squeeze into incredibly small spaces. [2] The octopus can also propel itself by taking in and expelling water from its body. It can even regenerate lost limbs. But perhaps most impressively, the octopus possesses far and away the most rapid physical camouflage ability of any animal in the world. [3]\n\nThe octopus is also believed to be the most intelligent of all invertebrate creatures, demonstrating short-term and long-term memory as well as complex directional and problem-solving skills. Many who study octopuses assert that they also play, use tools, learn lessons from experience, and are capable of distinguishing between people. Octopuses even show preference, swimming up to people they like and squirting ink or water at people they don't. [4]"
             }
+          ],
+          "explanation": {
+            "mentor_takeaway": "💡【秒懂核心】第一段開門見山：章魚擁有三顆心臟（three hearts），也就是複數顆心臟！",
+            "mentor_analogy": "人類只有一顆心臟，但章魚得天獨厚擁有三顆心臟來為全身供血！multiple 就是複數、多個的意思，直擊第一段原文細節！",
+            "context_translation": "根據本文，下列關於章魚的敘述何者正確？——答案是：牠們擁有複數顆心臟（三顆）。",
+            "trap_analysis": {
+              "A": "【正解】第一段明確指出 'it also has three hearts'，三顆心臟即為 multiple hearts！",
+              "B": "【避坑】文中完全沒有提到章魚的壽命長短（life span）！",
+              "C": "【避坑】文章說 'Many who study octopuses assert...'，說明長期有許多科學家在深入研究牠們！",
+              "D": "【避坑】第二段第一句就強調章魚是所有無脊椎動物中『最聰明 (the most intelligent)』的，而非最笨！"
+            },
+            "key_vocab": [
+              {
+                "word": "multiple",
+                "meaning": "adj. 多重的、複數的",
+                "note": "多益高頻形容詞"
+              },
+              {
+                "word": "camouflage",
+                "meaning": "n./v. 偽裝、保護色",
+                "note": "軍事與生物科普核心字"
+              }
+            ],
+            "focus": "💡【秒懂核心】第一段開門見山：章魚擁有三顆心臟（three hearts），也就是複數顆心臟！",
+            "translation": "根據本文，下列關於章魚的敘述何者正確？——答案是：牠們擁有複數顆心臟（三顆）。"
+          }
+        },
+        {
+          "id": 57,
+          "question": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? \"The creature is capable of instantly changing its color to match complex pattern or scare away predators.\"",
+          "options": {
+            "A": "[1]",
+            "B": "[2]",
+            "C": "[3]",
+            "D": "[4]"
+          },
+          "answer": "C",
+          "type": "group",
+          "group_id": "test1_g55_57",
+          "group_range": "Questions 55 - 57",
+          "group_part": "Part 7 閱讀理解（科普專題報導）",
+          "passages": [
+            {
+              "type": "article",
+              "title": "🐙 神奇的深海智者：章魚生理奧秘 (The Fascinating Biology of Octopuses)",
+              "content": "The octopus (in any form of subspecies) is a fascinating creature. [1] It's common knowledge that it has eight tentacles — hence the \"octo\" prefix in its name — but it also has three hearts, a beak, venom, ink which it can excrete for defense, and no bones. Being boneless allows the octopus to squeeze into incredibly small spaces. [2] The octopus can also propel itself by taking in and expelling water from its body. It can even regenerate lost limbs. But perhaps most impressively, the octopus possesses far and away the most rapid physical camouflage ability of any animal in the world. [3]\n\nThe octopus is also believed to be the most intelligent of all invertebrate creatures, demonstrating short-term and long-term memory as well as complex directional and problem-solving skills. Many who study octopuses assert that they also play, use tools, learn lessons from experience, and are capable of distinguishing between people. Octopuses even show preference, swimming up to people they like and squirting ink or water at people they don't. [4]"
+            }
+          ],
+          "explanation": {
+            "mentor_takeaway": "💡【秒懂核心】句子在詳細解釋『瞬間變色偽裝、嚇阻掠食者』，完美銜接在 [3] 前面的 camouflage ability！",
+            "mentor_analogy": "就像寫作文，前一句剛提到『章魚擁有地表最驚人的偽裝能力』，緊接著下一句補充說明『牠能瞬間改變顏色來符合複雜圖樣』，兩句話就像齒輪一樣嚴絲合縫咬在一起！放在 [3] 承先啟後最順暢！",
+            "context_translation": "下列句子最適合插入 [1]、[2]、[3]、[4] 中的哪一個位置？『這種生物能夠瞬間改變體色以融入複雜圖案，或藉此嚇退掠食者。』——答案是：[3]。",
+            "trap_analysis": {
+              "A": "【避坑】[1] 前面在介紹觸手與命名起源，插入變色會突兀打斷思路！",
+              "B": "【避坑】[2] 後面在講噴水推進與肢體再生，跟變色嚇阻掠食者毫無關聯！",
+              "C": "【正解】[3] 前一句正是 'physical camouflage ability'（身體偽裝能力），插入這句話正好具體闡釋變色偽裝的機制！",
+              "D": "【避坑】[4] 位於文章末段，前面在描述章魚認人、喜歡誰就游向誰的社交行為，插入生理變色與掠食者語境完全脫節！"
+            },
+            "key_vocab": [
+              {
+                "word": "predator",
+                "meaning": "n. 掠食者、天敵",
+                "note": "生物科普題必備"
+              },
+              {
+                "word": "instantly",
+                "meaning": "adv. 瞬間地、即刻地",
+                "note": "相當於 immediately"
+              }
+            ],
+            "focus": "💡【秒懂核心】句子在詳細解釋『瞬間變色偽裝、嚇阻掠食者』，完美銜接在 [3] 前面的 camouflage ability！",
+            "translation": "下列句子最適合插入 [1]、[2]、[3]、[4] 中的哪一個位置？『這種生物能夠瞬間改變體色以融入複雜圖案，或藉此嚇退掠食者。』——答案是：[3]。"
           }
         },
         {
@@ -1518,127 +1883,208 @@ const TOEIC_DATA = {
           },
           "answer": "B",
           "explanation": {
-            "focus": "商務情境核心字彙與語意辨析",
-            "type": "詞彙與商務語境 (Business Vocabulary & Collocation)",
-            "translation": "學生最有可能的學習方式是什麼？",
-            "grammar": "需結合前後文商業溝通脈絡與專業搭配詞，辨析各選項含義並挑選最精準用詞。",
-            "options_analysis": {
-              "A": {
-                "pos": "adj. 形容詞",
-                "meaning": "視覺的",
-                "correct": false,
-                "reason": "【錯誤】adj. 形容詞。意為「視覺的」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
+            "mentor_takeaway": "💡【秒懂核心】學生狂推『hands-on projects（親手實作）』，熱愛動手操作就是『動覺型學習者 (Kinesthetic)』！",
+            "mentor_analogy": "有些人背單字要用眼睛看字卡（視覺型 Visual），有些人要聽錄音（聽覺型 Auditory），但這位同學一看到黑板理論就打瞌睡，唯獨把他丟到現場動手做專案（hands-on）他才精神百倍！這就是典型的『動手實作動覺型（Kinesthetic）』！",
+            "context_translation": "這位學生最可能的學習風格是什麼？——答案是：觸覺/動覺實作型學習（Kinesthetic）。",
+            "trap_analysis": {
+              "A": "【避坑】文中完全沒提到喜歡看圖表或投影片視覺學習！",
+              "B": "【正解】文中第 3 題與第 5 題反覆強調最愛 'hands-on work' 與 'hands-on projects'，動手操作就是 Kinesthetic 學習風格！",
+              "C": "【避坑】第 2 題抱怨教授講話太小聲（spoke too quietly），顯然不是純靠聽覺學習！",
+              "D": "【避坑】Negative 是『負面的、消極的』，根本不是一種學習風格分類！"
+            },
+            "key_vocab": [
+              {
+                "word": "kinesthetic",
+                "meaning": "adj. 動覺的、觸覺實作的",
+                "note": "教育心理學三大常見學習風格之一"
               },
-              "B": {
-                "pos": "adj. 形容詞",
-                "meaning": "動覺",
-                "correct": true,
-                "reason": "【正確】adj. 形容詞。意為「動覺」。符合題幹文法句構，商務語境搭配最為精準通順。"
-              },
-              "C": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "聽覺",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「聽覺」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
-              },
-              "D": {
-                "pos": "adj. 形容詞",
-                "meaning": "消極的",
-                "correct": false,
-                "reason": "【錯誤】adj. 形容詞。意為「消極的」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
+              {
+                "word": "hands-on",
+                "meaning": "adj. 親自動手實作的",
+                "note": "多益職場實習高頻詞"
               }
+            ],
+            "focus": "💡【秒懂核心】學生狂推『hands-on projects（親手實作）』，熱愛動手操作就是『動覺型學習者 (Kinesthetic)』！",
+            "translation": "這位學生最可能的學習風格是什麼？——答案是：觸覺/動覺實作型學習（Kinesthetic）。"
+          },
+          "type": "group",
+          "group_id": "test1_g58_60",
+          "group_range": "Questions 58 - 60",
+          "group_part": "Part 7 閱讀理解（問卷反饋評鑑）",
+          "passages": [
+            {
+              "type": "form",
+              "title": "📋 學生修課問卷與教學評鑑表 (Course Evaluation Form)",
+              "date": "June 16, 2016",
+              "course": "Entrepreneurship 101 (創業學入門)",
+              "sections": [
+                {
+                  "q": "1. How would you rate this class? (整體評分: 3/5)",
+                  "why": "Although I learned a lot, I feel that I could have studied more in the amount of time given, or the same amount in less time."
+                },
+                {
+                  "q": "2. How would you rate your professor? (教授評分: 3/5)",
+                  "why": "Though knowledgeable, he spoke too quietly, and sometimes he was late to class."
+                },
+                {
+                  "q": "3. What did you like best about the class? (最喜歡的部分)",
+                  "answer": "The hands-on work where we were given problems to solve in the field was very informative."
+                },
+                {
+                  "q": "4. What do you feel needs to be improved? (需要改善的部分)",
+                  "answer": "Some of the lectures were based only on theory and so did not seem relevant to the real world. As a result, I had trouble remembering what was taught."
+                },
+                {
+                  "q": "5. Additional comments or suggestions? (其他建議)",
+                  "answer": "I'd really prefer fewer lectures and less theory-based reading. If the course could have more hands-on projects, that would be great."
+                }
+              ]
             }
-          }
+          ]
         },
         {
           "id": 59,
           "range": "58 ",
           "page": 7,
-          "question": "How does the student seem to feel about theory- based learning?",
+          "question": "How does the student seem to feel about theory-based learning?",
           "options": {
             "A": "It has little practical application.",
             "B": "Being abstract, it is easy to remember.",
-            "C": "It is necessary for learning real-world skills",
+            "C": "It is necessary for learning real-world skills.",
             "D": "None of the above"
           },
           "answer": "A",
           "explanation": {
-            "focus": "動詞時態與主詞一致性",
-            "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "學生對基於理論的學習有何感受？",
-            "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
-            "options_analysis": {
-              "A": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "它的實際應用很少。",
-                "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。意為「它的實際應用很少。」。符合題幹文法句構，商務語境搭配最為精準通順。"
+            "mentor_takeaway": "💡【秒懂核心】學生直白吐槽：『純理論跟真實世界根本脫節 (not relevant to the real world)』！",
+            "mentor_analogy": "就像你去學開車，教練在黑板上講了三小時發動機熱力學公式，你只會覺得：『這對我實際上路開車有什麼幫助啊？』學生覺得光讀死書理論毫無實踐價值！",
+            "context_translation": "這位學生對於『理論導向的學習』感受如何？——答案是：他認為理論缺乏實務應用價值。",
+            "trap_analysis": {
+              "A": "【正解】第 4 點明確寫出 'based only on theory and so did not seem relevant to the real world'，意即缺乏實務應用 (little practical application)！",
+              "B": "【避坑】他明白寫了 'I had trouble remembering what was taught'，根本記不住，而非容易記住！",
+              "C": "【避坑】他認為實地實作才能學到真實技能，理論跟現實脫節！",
+              "D": "【避坑】A 選項完全符合文章主旨，不能選 None of the above。"
+            },
+            "key_vocab": [
+              {
+                "word": "practical application",
+                "meaning": "n. 實務應用",
+                "note": "多益學術與職場常見詞彙"
               },
-              "B": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "因為抽象，所以很容易記住。",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「因為抽象，所以很容易記住。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
-              },
-              "C": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "學習現實世界技能是必要的",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「學習現實世界技能是必要的」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
-              },
-              "D": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "以上都不是",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「以上都不是」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
+              {
+                "word": "relevant to",
+                "meaning": "phr. 與...相關切題",
+                "note": "相反詞為 irrelevant"
               }
+            ],
+            "focus": "💡【秒懂核心】學生直白吐槽：『純理論跟真實世界根本脫節 (not relevant to the real world)』！",
+            "translation": "這位學生對於『理論導向的學習』感受如何？——答案是：他認為理論缺乏實務應用價值。"
+          },
+          "type": "group",
+          "group_id": "test1_g58_60",
+          "group_range": "Questions 58 - 60",
+          "group_part": "Part 7 閱讀理解（問卷反饋評鑑）",
+          "passages": [
+            {
+              "type": "form",
+              "title": "📋 學生修課問卷與教學評鑑表 (Course Evaluation Form)",
+              "date": "June 16, 2016",
+              "course": "Entrepreneurship 101 (創業學入門)",
+              "sections": [
+                {
+                  "q": "1. How would you rate this class? (整體評分: 3/5)",
+                  "why": "Although I learned a lot, I feel that I could have studied more in the amount of time given, or the same amount in less time."
+                },
+                {
+                  "q": "2. How would you rate your professor? (教授評分: 3/5)",
+                  "why": "Though knowledgeable, he spoke too quietly, and sometimes he was late to class."
+                },
+                {
+                  "q": "3. What did you like best about the class? (最喜歡的部分)",
+                  "answer": "The hands-on work where we were given problems to solve in the field was very informative."
+                },
+                {
+                  "q": "4. What do you feel needs to be improved? (需要改善的部分)",
+                  "answer": "Some of the lectures were based only on theory and so did not seem relevant to the real world. As a result, I had trouble remembering what was taught."
+                },
+                {
+                  "q": "5. Additional comments or suggestions? (其他建議)",
+                  "answer": "I'd really prefer fewer lectures and less theory-based reading. If the course could have more hands-on projects, that would be great."
+                }
+              ]
             }
-          }
+          ]
         },
         {
           "id": 60,
           "range": "58 ",
           "page": 7,
-          "question": "What best summarizes the student's feelings towards the class? sometimes late Wasto ot tirne",
+          "question": "What best summarizes the student's feelings towards the class?",
           "options": {
-            "A": "Mostly satlsfled but still critical",
-            "B": "Mostly unsatistied but still hopeful",
-            "C": "Extremaly angry because the piofessorwas",
-            "D": "Completely unsatistied because the class was a"
+            "A": "Mostly satisfied but still critical",
+            "B": "Mostly unsatisfied but still hopeful",
+            "C": "Extremely angry because the professor was sometimes late",
+            "D": "Completely unsatisfied because the class was a waste of time"
           },
           "answer": "A",
           "explanation": {
-            "focus": "動詞時態與主詞一致性",
-            "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "什麼最能概括學生對班級的感受？有時晚了 Wasto ot tirne",
-            "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
-            "options_analysis": {
-              "A": {
-                "pos": "adj. 形容詞",
-                "meaning": "基本滿意，但仍持批評態度",
-                "correct": true,
-                "reason": "【正確】adj. 形容詞。意為「基本滿意，但仍持批評態度」。符合題幹文法句構，商務語境搭配最為精準通順。"
+            "mentor_takeaway": "💡【秒懂核心】分數給了中肯的 3 分（滿分 5），承認學到很多（learned a lot），但也直率點出缺點！",
+            "mentor_analogy": "就像你在 Google 評論給餐廳留了三星：『餐點滿好吃的我學到很多，但是上菜速度有點慢、有些菜太油需要改進！』這不是全盤否定，而是『總體還算滿意，但仍保有具體批評與建言』！",
+            "context_translation": "下列何者最能概括這位學生對該門課程的整體感受？——答案是：大致滿意但仍帶有批判性建議。",
+            "trap_analysis": {
+              "A": "【正解】開頭承認 'Although I learned a lot' 且給了中等及格分數，同時提出不少客觀批評，完美對應 Mostly satisfied but still critical！",
+              "B": "【避坑】學生並沒有『極度不滿意』，他的態度是建設性的反饋！",
+              "C": "【避坑】教授遲到只是順帶提及的小缺點，學生並沒有『極度憤怒 (extremely angry)』！",
+              "D": "【避坑】完全不是浪費時間（waste of time），他第一句就肯定學到了很多！"
+            },
+            "key_vocab": [
+              {
+                "word": "critical",
+                "meaning": "adj. 具批判性的、挑剔批評的",
+                "note": "be critical of 對...提出批評"
               },
-              "B": {
-                "pos": "adj. 形容詞",
-                "meaning": "大部分不滿意，但仍充滿希望",
-                "correct": false,
-                "reason": "【錯誤】adj. 形容詞。意為「大部分不滿意，但仍充滿希望」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
-              },
-              "C": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "非常生氣，因為老師是",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「非常生氣，因為老師是」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
-              },
-              "D": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "完全不滿意，因為這門課是",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「完全不滿意，因為這門課是」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
+              {
+                "word": "informative",
+                "meaning": "adj. 增長見聞的、獲益良多的",
+                "note": "形容課程內容充實"
               }
+            ],
+            "focus": "💡【秒懂核心】分數給了中肯的 3 分（滿分 5），承認學到很多（learned a lot），但也直率點出缺點！",
+            "translation": "下列何者最能概括這位學生對該門課程的整體感受？——答案是：大致滿意但仍帶有批判性建議。"
+          },
+          "type": "group",
+          "group_id": "test1_g58_60",
+          "group_range": "Questions 58 - 60",
+          "group_part": "Part 7 閱讀理解（問卷反饋評鑑）",
+          "passages": [
+            {
+              "type": "form",
+              "title": "📋 學生修課問卷與教學評鑑表 (Course Evaluation Form)",
+              "date": "June 16, 2016",
+              "course": "Entrepreneurship 101 (創業學入門)",
+              "sections": [
+                {
+                  "q": "1. How would you rate this class? (整體評分: 3/5)",
+                  "why": "Although I learned a lot, I feel that I could have studied more in the amount of time given, or the same amount in less time."
+                },
+                {
+                  "q": "2. How would you rate your professor? (教授評分: 3/5)",
+                  "why": "Though knowledgeable, he spoke too quietly, and sometimes he was late to class."
+                },
+                {
+                  "q": "3. What did you like best about the class? (最喜歡的部分)",
+                  "answer": "The hands-on work where we were given problems to solve in the field was very informative."
+                },
+                {
+                  "q": "4. What do you feel needs to be improved? (需要改善的部分)",
+                  "answer": "Some of the lectures were based only on theory and so did not seem relevant to the real world. As a result, I had trouble remembering what was taught."
+                },
+                {
+                  "q": "5. Additional comments or suggestions? (其他建議)",
+                  "answer": "I'd really prefer fewer lectures and less theory-based reading. If the course could have more hands-on projects, that would be great."
+                }
+              ]
             }
-          }
+          ]
         },
         {
           "id": 62,
@@ -1743,82 +2189,124 @@ const TOEIC_DATA = {
           },
           "answer": "A",
           "explanation": {
-            "focus": "動詞時態與主詞一致性",
-            "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "誰或什麼最有可能是發言者？",
-            "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
-            "options_analysis": {
-              "A": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "辦公室職員",
-                "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。意為「辦公室職員」。符合題幹文法句構，商務語境搭配最為精準通順。"
+            "mentor_takeaway": "💡【秒懂核心】深夜討論客戶簡報（client presentation）、財務投影片與主管脾氣，典型的社畜上班族！",
+            "mentor_analogy": "大半夜十點多還在通訊軟體裡哀號『簡報做不完、老闆會不會發飆、要不要通宵趕工』，這百分之百是職場社畜（Office workers）的真實血淚日常，絕對不是高中生或家庭成員！",
+            "context_translation": "這些對話者最可能是什麼身分？——答案是：辦公室上班族/企業員工（Office workers）。",
+            "evidence": "對話提及 client presentation（客戶簡報）、financial slides（財務投影片）與主管 deadline。",
+            "trap_analysis": {
+              "A": "【正解】對話討論客戶提案、財務簡報與主管 deadline，完全符合上班族情境！",
+              "B": "【避坑】雖然大學生也會做簡報，但這裡面對的是客戶 (client) 與嚴格主管，並非學校作業！",
+              "C": "【避坑】高中生不會在深夜加班討論客戶商業簡報！",
+              "D": "【避坑】通篇都是商業專案術語，絕非家庭成員日常閒聊。"
+            },
+            "key_vocab": [
+              {
+                "word": "client presentation",
+                "meaning": "n. 客戶簡報/提案",
+                "note": "多益職場核心活動"
               },
-              "B": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "大學生",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「大學生」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
-              },
-              "C": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "高中生",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「高中生」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
-              },
-              "D": {
-                "pos": "adv. 副詞",
-                "meaning": "家庭成員",
-                "correct": false,
-                "reason": "【錯誤】adv. 副詞。意為「家庭成員」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
+              {
+                "word": "pull an all-nighter",
+                "meaning": "phr. 熬夜通宵工作",
+                "note": "口語常見片語"
               }
+            ],
+            "focus": "💡【秒懂核心】深夜討論客戶簡報（client presentation）、財務投影片與主管脾氣，典型的社畜上班族！",
+            "translation": "這些對話者最可能是什麼身分？——答案是：辦公室上班族/企業員工（Office workers）。"
+          },
+          "type": "group",
+          "group_id": "test1_g65_67",
+          "group_range": "Questions 65 - 67",
+          "group_part": "Part 7 閱讀理解（辦公室即時訊息）",
+          "passages": [
+            {
+              "type": "chat",
+              "title": "💬 專案進度緊急通訊 (Office Emergency Chat)",
+              "messages": [
+                {
+                  "sender": "Chiang",
+                  "time": "10:35 p.m.",
+                  "text": "Hey everyone, do you think Peter will be upset if we push the client presentation to Friday? We really need more time to polish the financial slides."
+                },
+                {
+                  "sender": "M. Borton",
+                  "time": "10:39 p.m.",
+                  "text": "Are you kidding? Didn't you see how he reacted when Alex missed his deadline last month? He almost threw his coffee cup across the room."
+                },
+                {
+                  "sender": "Sarah Lin",
+                  "time": "10:41 p.m.",
+                  "text": "Agreed with Borton. Peter has zero tolerance for late work. Let's just pull an all-nighter and get it done tonight."
+                }
+              ]
             }
-          }
+          ]
         },
         {
           "id": 67,
           "range": "65. 67",
           "page": 8,
-          "question": "At 10:39 p.m., what does M.Borton lmply when he wrltes, \"Dldn't you see how he reacted when Alex mlssed hls deadline\"?",
+          "question": "At 10:39 p.m., what does M. Borton imply when he writes, \"Didn't you see how he reacted when Alex missed his deadline\"?",
           "options": {
-            "A": "Pater gol angry at an enmployee.",
-            "B": "Chiang doasn't pay attention at work.",
-            "C": "M.Borton wants to know how Peterreacted",
-            "D": "M. Borton wasn't sure ll his colleagues were at work."
+            "A": "Peter got angry at an employee.",
+            "B": "Chiang doesn't pay attention at work.",
+            "C": "M. Borton wants to know how Peter reacted.",
+            "D": "M. Borton wasn't sure if his colleagues were at work."
           },
           "answer": "A",
           "explanation": {
-            "focus": "動詞時態與主詞一致性",
-            "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "晚上 10 點 39 分，M.Borton 寫道：「難道你沒看到 Alex 錯過最後期限時他的反應嗎？」他暗示了什麼？",
-            "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
-            "options_analysis": {
-              "A": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "帕特·戈爾對一名員工感到憤怒。",
-                "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。意為「帕特·戈爾對一名員工感到憤怒。」。符合題幹文法句構，商務語境搭配最為精準通順。"
+            "mentor_takeaway": "💡【秒懂核心】反問句即是警告：『你忘記上次有人遲交被主管痛罵的慘狀了嗎？』",
+            "mentor_analogy": "就像同事想請假，你倒抽一口氣提醒他：『你難道忘了上次小陳請假被主管罵到狗血淋頭嗎？』這句話根本不是真的在問問題，而是在強烈暗示：『主管脾氣暴躁，上次把員工罵慘了，你千萬別去踩地雷！』",
+            "context_translation": "在 10:39 p.m.，M. Borton 寫下這句話暗示了什麼？——答案是：主管 Peter 曾因員工延誤工作而雷霆大怒。",
+            "evidence": "後一句寫道：'He almost threw his coffee cup across the room.'（他氣到差點把咖啡杯砸過房間）。",
+            "trap_analysis": {
+              "A": "【正解】藉由提 Alex 延遲時差點砸咖啡杯的往事，警告主管 Peter 會對遲交員工大發雷霆 (got angry)！",
+              "B": "【避坑】他只是在提醒同事別犯傻，並沒有批評 Chiang 工作不專心！",
+              "C": "【避坑】這是修辭性反問句（Rhetorical Question），他自己非常清楚反應，不需要別人回答！",
+              "D": "【避坑】文意與同事是否在辦公室無關。"
+            },
+            "key_vocab": [
+              {
+                "word": "miss a deadline",
+                "meaning": "phr. 錯過截止期限/延誤工期",
+                "note": "多益職場高頻片語"
               },
-              "B": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "蔣工作時不專心。",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「蔣工作時不專心。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
-              },
-              "C": {
-                "pos": "v.-ed 過去式/過去分詞",
-                "meaning": "博頓先生想知道彼得的反應",
-                "correct": false,
-                "reason": "【錯誤】v.-ed 過去式/過去分詞。意為「博頓先生想知道彼得的反應」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
-              },
-              "D": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "博頓先生不確定他的同事是否都在工作。",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「博頓先生不確定他的同事是否都在工作。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
+              {
+                "word": "zero tolerance",
+                "meaning": "n. 零容忍、絕不姑息",
+                "note": "形容嚴格標準"
               }
+            ],
+            "focus": "💡【秒懂核心】反問句即是警告：『你忘記上次有人遲交被主管痛罵的慘狀了嗎？』",
+            "translation": "在 10:39 p.m.，M. Borton 寫下這句話暗示了什麼？——答案是：主管 Peter 曾因員工延誤工作而雷霆大怒。"
+          },
+          "type": "group",
+          "group_id": "test1_g65_67",
+          "group_range": "Questions 65 - 67",
+          "group_part": "Part 7 閱讀理解（辦公室即時訊息）",
+          "passages": [
+            {
+              "type": "chat",
+              "title": "💬 專案進度緊急通訊 (Office Emergency Chat)",
+              "messages": [
+                {
+                  "sender": "Chiang",
+                  "time": "10:35 p.m.",
+                  "text": "Hey everyone, do you think Peter will be upset if we push the client presentation to Friday? We really need more time to polish the financial slides."
+                },
+                {
+                  "sender": "M. Borton",
+                  "time": "10:39 p.m.",
+                  "text": "Are you kidding? Didn't you see how he reacted when Alex missed his deadline last month? He almost threw his coffee cup across the room."
+                },
+                {
+                  "sender": "Sarah Lin",
+                  "time": "10:41 p.m.",
+                  "text": "Agreed with Borton. Peter has zero tolerance for late work. Let's just pull an all-nighter and get it done tonight."
+                }
+              ]
             }
-          }
+          ]
         },
         {
           "id": 71,
@@ -1873,87 +2361,97 @@ const TOEIC_DATA = {
           "options": {
             "A": "In his office",
             "B": "On the recycling bin",
-            "C": "Ontheperson'sdoor",
+            "C": "On the person's door",
             "D": "On top of the garbage"
           },
           "answer": "B",
           "explanation": {
-            "focus": "商務情境核心字彙與語意辨析",
-            "type": "詞彙與商務語境 (Business Vocabulary & Collocation)",
-            "translation": "布萊恩在哪裡留下了他的便條？",
-            "grammar": "需結合前後文商業溝通脈絡與專業搭配詞，辨析各選項含義並挑選最精準用詞。",
-            "options_analysis": {
-              "A": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "在他的辦公室裡",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「在他的辦公室裡」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
+            "mentor_takeaway": "💡【秒懂核心】抬頭直接指名『To Whoever Keeps Throwing Regular Trash in the Recycling Bin』，直接貼在回收桶上！",
+            "mentor_analogy": "這就像你在租屋處看到有人老是把廚餘丟進回收桶，你氣得寫了一張紅色警告紙條直接貼在『資源回收桶（On the recycling bin）』蓋子上，讓亂丟的人一掀開蓋子就看到！",
+            "context_translation": "Brian 把這張警告便條紙留在了哪裡？——答案是：留在資源回收桶上。",
+            "evidence": "信頭指涉與內文警告都是針對 recycling bin，且便條標題即是貼在回收處。",
+            "trap_analysis": {
+              "A": "【避坑】這是公寓大樓住戶間的糾紛，不是辦公室！",
+              "B": "【正解】貼在案發地點——紙類資源回收桶上最為醒目對焦！",
+              "C": "【避坑】Brian 不知道違規者是誰，不可能貼在對方門上！",
+              "D": "【避坑】貼在垃圾頂部會被運走或弄髒，便條是貼在公共回收設施上。"
+            },
+            "key_vocab": [
+              {
+                "word": "contaminated",
+                "meaning": "adj. 受污染的",
+                "note": "環保回收題型常見字"
               },
-              "B": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "在回收箱上",
-                "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。意為「在回收箱上」。符合題幹文法句構，商務語境搭配最為精準通順。"
-              },
-              "C": {
-                "pos": "n. 名詞",
-                "meaning": "在人家門口",
-                "correct": false,
-                "reason": "【錯誤】n. 名詞。意為「在人家門口」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
-              },
-              "D": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "在垃圾上面",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「在垃圾上面」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
+              {
+                "word": "sanitation department",
+                "meaning": "n. 環保清潔局",
+                "note": "市政公共服務"
               }
+            ],
+            "focus": "💡【秒懂核心】抬頭直接指名『To Whoever Keeps Throwing Regular Trash in the Recycling Bin』，直接貼在回收桶上！",
+            "translation": "Brian 把這張警告便條紙留在了哪裡？——答案是：留在資源回收桶上。"
+          },
+          "type": "group",
+          "group_id": "test1_g72_75",
+          "group_range": "Questions 72 - 75",
+          "group_part": "Part 7 閱讀理解（住戶投訴公告便條）",
+          "passages": [
+            {
+              "type": "notice",
+              "title": "🗑️ 資源回收桶上的住戶嚴正警告便條 (Handwritten Note on Recycling Bin)",
+              "content": "To Whoever Keeps Throwing Regular Trash in the Recycling Bin:\n\n[1] This is the fourth time this month that our paper recycling bin has been contaminated with greasy pizza boxes, half-eaten burgers, and plastic bags.\n\n[2] Because of your carelessness, the sanitation department refused to collect our entire floor's recycling and slapped our building with a heavy municipal fine. [3] Every time you do this, someone else has to go through your disgusting trash and sort it out by hand.\n\nI have installed a discreet security camera aimed directly at the disposal area. If you do not stop immediately, I will hand over the footage to the building management committee and the property owner to seek your immediate eviction. [4] Have some respect for your neighbors and our shared environment.\n\n— Brian (Apt 4B)"
             }
-          }
+          ]
         },
         {
           "id": 73,
           "range": "72 ",
           "page": 10,
-          "question": "How does Brian intend to find out who has been throwing garbage in the bin if he doesn't know who they are? personal information.",
+          "question": "How does Brian intend to find out who has been throwing garbage in the bin if he doesn't know who they are?",
           "options": {
-            "A": "He'il wait bythe bin",
+            "A": "He'll wait by the bin.",
             "B": "He'll ask the building's owners.",
             "C": "He'll consult his hidden camera.",
-            "D": "He'll look through the garbage to discover their"
+            "D": "He'll look through the garbage to discover their personal information."
           },
           "answer": "C",
           "explanation": {
-            "focus": "商務情境核心字彙與語意辨析",
-            "type": "詞彙與商務語境 (Business Vocabulary & Collocation)",
-            "translation": "如果布萊恩不知道誰在垃圾桶裡丟垃圾，他打算如何找出他們是誰？個人資訊。",
-            "grammar": "需結合前後文商業溝通脈絡與專業搭配詞，辨析各選項含義並挑選最精準用詞。",
-            "options_analysis": {
-              "A": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "他會在垃圾桶旁邊等著",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「他會在垃圾桶旁邊等著」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
+            "mentor_takeaway": "💡【秒懂核心】關鍵字：'installed a discreet security camera... hand over footage'，用針孔監視器調帶子逮人！",
+            "mentor_analogy": "就像社區抓亂丟垃圾的慣犯，管理員裝了一台隱密針孔攝影機（discreet security camera），錄下到底是幾樓的鄰居趁半夜亂丟，打算調監視器錄影畫面（footage）抓現行犯！",
+            "context_translation": "若 Brian 還不知道對方是誰，他打算如何查出到底是誰一直在回收桶亂丟垃圾？——答案是：查看他安裝的隱藏監視器畫面。",
+            "evidence": "原文：'I have installed a discreet security camera aimed directly at the disposal area.'",
+            "trap_analysis": {
+              "A": "【避坑】他沒有打算大半夜親自蹲在垃圾桶旁邊守株待兔！",
+              "B": "【避坑】大樓所有者也不知道是誰丟的，所以才被環保局罰款！",
+              "C": "【正解】明確寫出自己安裝了隱藏攝影機（discreet security camera），用錄影畫面追查！",
+              "D": "【避坑】翻垃圾只是不得不幫忙分類的苦差事，不是他抓人的主要手段。"
+            },
+            "key_vocab": [
+              {
+                "word": "discreet",
+                "meaning": "adj. 隱蔽不引人注意的、謹慎的",
+                "note": "discreet camera 針孔/隱密攝影機"
               },
-              "B": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "他會詢問大樓的業主。",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「他會詢問大樓的業主。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
-              },
-              "C": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "他會查閱他隱藏的攝影機。",
-                "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。意為「他會查閱他隱藏的攝影機。」。符合題幹文法句構，商務語境搭配最為精準通順。"
-              },
-              "D": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "他會翻遍垃圾來發現他們的",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「他會翻遍垃圾來發現他們的」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
+              {
+                "word": "eviction",
+                "meaning": "n. 驅逐、強制遷出",
+                "note": "租賃法律高頻字彙"
               }
+            ],
+            "focus": "💡【秒懂核心】關鍵字：'installed a discreet security camera... hand over footage'，用針孔監視器調帶子逮人！",
+            "translation": "若 Brian 還不知道對方是誰，他打算如何查出到底是誰一直在回收桶亂丟垃圾？——答案是：查看他安裝的隱藏監視器畫面。"
+          },
+          "type": "group",
+          "group_id": "test1_g72_75",
+          "group_range": "Questions 72 - 75",
+          "group_part": "Part 7 閱讀理解（住戶投訴公告便條）",
+          "passages": [
+            {
+              "type": "notice",
+              "title": "🗑️ 資源回收桶上的住戶嚴正警告便條 (Handwritten Note on Recycling Bin)",
+              "content": "To Whoever Keeps Throwing Regular Trash in the Recycling Bin:\n\n[1] This is the fourth time this month that our paper recycling bin has been contaminated with greasy pizza boxes, half-eaten burgers, and plastic bags.\n\n[2] Because of your carelessness, the sanitation department refused to collect our entire floor's recycling and slapped our building with a heavy municipal fine. [3] Every time you do this, someone else has to go through your disgusting trash and sort it out by hand.\n\nI have installed a discreet security camera aimed directly at the disposal area. If you do not stop immediately, I will hand over the footage to the building management committee and the property owner to seek your immediate eviction. [4] Have some respect for your neighbors and our shared environment.\n\n— Brian (Apt 4B)"
             }
-          }
+          ]
         },
         {
           "id": 74,
@@ -1961,44 +2459,49 @@ const TOEIC_DATA = {
           "page": 10,
           "question": "What does Brian think is the most irritating detail about this situation?",
           "options": {
-            "A": "Thathe has to write rude notes",
+            "A": "That he has to write rude notes",
             "B": "That he has to sort through garbage",
             "C": "That he may have to get someone evicted",
             "D": "That the person doesn't care about the environment"
           },
           "answer": "D",
           "explanation": {
-            "focus": "動詞時態與主詞一致性",
-            "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "布萊恩認為這種情況最惱人的細節是什麼？",
-            "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
-            "options_analysis": {
-              "A": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "他必須寫粗魯的筆記",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「他必須寫粗魯的筆記」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
+            "mentor_takeaway": "💡【秒懂核心】最令人氣憤的是對公共環境與鄰居毫無尊重：'Have some respect for our shared environment'！",
+            "mentor_analogy": "鄰居自私圖方便，把油膩披薩盒隨手亂扔，不僅害全棟被罰款，更展現了對大自然和公共環境毫不在乎的自私態度！結尾強烈呼籲尊重環境，直指核心痛點！",
+            "context_translation": "Brian 認為這起事件中最讓人惱火的核心問題是什麼？——答案是：那個人對環境保護毫不在乎且缺乏公德心。",
+            "evidence": "結尾重申：'Have some respect for your neighbors and our shared environment.'",
+            "trap_analysis": {
+              "A": "【避坑】寫便條只是發洩管道，並非最核心氣憤之處！",
+              "B": "【避坑】整理垃圾是無奈後果，但最令他痛恨的是這種破壞公共環境的自私心態！",
+              "C": "【避坑】驅逐對方是他要採取的反制手段，而非他惱火的原因！",
+              "D": "【正解】對方不在乎環境與公德心 (doesn't care about environment)，是整篇便條譴責的核心精神！"
+            },
+            "key_vocab": [
+              {
+                "word": "slap a fine",
+                "meaning": "phr. 處以重罰",
+                "note": "多益法律與市政法規俚語"
               },
-              "B": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "他必須對垃圾進行分類",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「他必須對垃圾進行分類」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
-              },
-              "C": {
-                "pos": "v.-ed 過去式/過去分詞",
-                "meaning": "他可能不得不驅逐某人",
-                "correct": false,
-                "reason": "【錯誤】v.-ed 過去式/過去分詞。意為「他可能不得不驅逐某人」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
-              },
-              "D": {
-                "pos": "n. 名詞",
-                "meaning": "這個人不關心環境",
-                "correct": true,
-                "reason": "【正確】n. 名詞。意為「這個人不關心環境」。符合題幹文法句構，商務語境搭配最為精準通順。"
+              {
+                "word": "shared environment",
+                "meaning": "n. 共有生活環境",
+                "note": "社區公德題型"
               }
+            ],
+            "focus": "💡【秒懂核心】最令人氣憤的是對公共環境與鄰居毫無尊重：'Have some respect for our shared environment'！",
+            "translation": "Brian 認為這起事件中最讓人惱火的核心問題是什麼？——答案是：那個人對環境保護毫不在乎且缺乏公德心。"
+          },
+          "type": "group",
+          "group_id": "test1_g72_75",
+          "group_range": "Questions 72 - 75",
+          "group_part": "Part 7 閱讀理解（住戶投訴公告便條）",
+          "passages": [
+            {
+              "type": "notice",
+              "title": "🗑️ 資源回收桶上的住戶嚴正警告便條 (Handwritten Note on Recycling Bin)",
+              "content": "To Whoever Keeps Throwing Regular Trash in the Recycling Bin:\n\n[1] This is the fourth time this month that our paper recycling bin has been contaminated with greasy pizza boxes, half-eaten burgers, and plastic bags.\n\n[2] Because of your carelessness, the sanitation department refused to collect our entire floor's recycling and slapped our building with a heavy municipal fine. [3] Every time you do this, someone else has to go through your disgusting trash and sort it out by hand.\n\nI have installed a discreet security camera aimed directly at the disposal area. If you do not stop immediately, I will hand over the footage to the building management committee and the property owner to seek your immediate eviction. [4] Have some respect for your neighbors and our shared environment.\n\n— Brian (Apt 4B)"
             }
-          }
+          ]
         },
         {
           "id": 75,
@@ -2013,37 +2516,42 @@ const TOEIC_DATA = {
           },
           "answer": "A",
           "explanation": {
-            "focus": "同源詞詞性辨析",
-            "type": "詞性選擇 (Parts of Speech)",
-            "translation": "以下句子最適合標記為 [1]、[2]、[3] 和 [4] 的位置中的哪一個？ “每次這樣做時，我都有責任進行回收並分類。”",
-            "grammar": "空格在句子中所屬成分（主詞、動詞、受詞或修飾語）決定所需正確詞性。",
-            "options_analysis": {
-              "A": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "位置標記 [1]",
-                "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。意為「[1] 的含義」。符合題幹文法句構，商務語境搭配最為精準通順。"
+            "mentor_takeaway": "💡【秒懂核心】插入句抱怨『每次你亂丟，我都得去翻回收桶重新分類』，放在 [1] 破題緊接在抱怨受污染之後！",
+            "mentor_analogy": "就像你跟室友抗議：『這已經是你這個月第四次把廚餘丟在水槽裡了（第1段）。每次你這樣搞，我都得忍著噁心幫你收拾（插入句）！』兩句話承上啟下、語氣連貫，放 [1] 是最合理的宣洩起點！",
+            "context_translation": "下列句子最適合插入 [1]、[2]、[3]、[4] 中的哪一個位置？『每次你這樣做，都變成是我的責任要去把回收桶裡的東西一件件翻出來重新分類。』——答案是：[1]。",
+            "evidence": "[1] 後面緊接著列舉被污染的油膩披薩盒與漢堡，完美對應去翻垃圾分類的情境。",
+            "trap_analysis": {
+              "A": "【正解】放在開篇引出自己的困擾與責任，最符合日常抗議信的邏輯推進！",
+              "B": "【避坑】[2] 後面在講環保局拒收與大樓罰款，轉向官方懲處，不適合插個人抱怨！",
+              "C": "【避坑】[3] 後面已有類似說法，若插在此處會造成重複堆疊！",
+              "D": "【避坑】[4] 是呼籲大家有公德心的收尾句，不能插在簽名前。"
+            },
+            "key_vocab": [
+              {
+                "word": "responsibility",
+                "meaning": "n. 責任、職責",
+                "note": "take responsibility for 承擔責任"
               },
-              "B": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "位置標記 [2]",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「[2] 的含義」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
-              },
-              "C": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "位置標記 [3]",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「[3] 的含義」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
-              },
-              "D": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "位置標記 [4]",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「[4] 的含義」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
+              {
+                "word": "sort",
+                "meaning": "v. 分類、揀選",
+                "note": "sort out 分類整理"
               }
+            ],
+            "focus": "💡【秒懂核心】插入句抱怨『每次你亂丟，我都得去翻回收桶重新分類』，放在 [1] 破題緊接在抱怨受污染之後！",
+            "translation": "下列句子最適合插入 [1]、[2]、[3]、[4] 中的哪一個位置？『每次你這樣做，都變成是我的責任要去把回收桶裡的東西一件件翻出來重新分類。』——答案是：[1]。"
+          },
+          "type": "group",
+          "group_id": "test1_g72_75",
+          "group_range": "Questions 72 - 75",
+          "group_part": "Part 7 閱讀理解（住戶投訴公告便條）",
+          "passages": [
+            {
+              "type": "notice",
+              "title": "🗑️ 資源回收桶上的住戶嚴正警告便條 (Handwritten Note on Recycling Bin)",
+              "content": "To Whoever Keeps Throwing Regular Trash in the Recycling Bin:\n\n[1] This is the fourth time this month that our paper recycling bin has been contaminated with greasy pizza boxes, half-eaten burgers, and plastic bags.\n\n[2] Because of your carelessness, the sanitation department refused to collect our entire floor's recycling and slapped our building with a heavy municipal fine. [3] Every time you do this, someone else has to go through your disgusting trash and sort it out by hand.\n\nI have installed a discreet security camera aimed directly at the disposal area. If you do not stop immediately, I will hand over the footage to the building management committee and the property owner to seek your immediate eviction. [4] Have some respect for your neighbors and our shared environment.\n\n— Brian (Apt 4B)"
             }
-          }
+          ]
         },
         {
           "id": 78,
@@ -2359,13 +2867,298 @@ const TOEIC_DATA = {
               }
             }
           }
+        },
+        {
+          "id": 96,
+          "question": "What can be assumed about Caleb Endurian?",
+          "options": {
+            "A": "He is being fired.",
+            "B": "He is a strict HR director.",
+            "C": "He is quitting due to salary issues.",
+            "D": "He intends to find his own replacement."
+          },
+          "answer": "D",
+          "type": "group",
+          "group_id": "test1_g96_100",
+          "group_range": "Questions 96 - 100",
+          "group_part": "Part 7 閱讀理解（多篇閱讀：職缺、求職信、面試邀請）",
+          "passages": [
+            {
+              "type": "notice",
+              "title": "📄 文件一：Miran 公司人資總監職缺公告 (Human Resources Director Position Opening at Miran Co.)",
+              "content": "Job Description:\nManaging the Human Resources Department at Miran Co.'s central office.\n\nResponsibilities of the position include:\n• Policy development\n• Handling employee health care and insurance claims\n• Preparing written communications\n\nQualifications:\n• Ability to work with a team\n• Strong leadership and managerial skills\n• A degree in business administration, finance, or economics\n• Must be a Canadian citizen\n• A master's degree in business administration (preferred)\n• Extensive linguistic abilities in both French and English (preferred)\n\nHow to Apply:\nSubmit a résumé and cover letter by mail or e-mail to:\nCaleb Endurian, (Current) Director of Human Resources\nMiran Company, 104 Avenue, 108 Street, Edmonton, Alberta, T5X 3SS\ncaleb.e@miran.com"
+            },
+            {
+              "type": "letter",
+              "title": "✉️ 文件二：Katy Catsby 的求職信 (Cover Letter from Katy Catsby)",
+              "content": "Katy Catsby\n124 Ave, 127 Street, Edmonton, AB CA. TX6 3VP\nPhone: 1-780 555, 4455 | E-mail: kcatsby@gmail.com\n\nDear Mr. Endurian,\nI am applying for the position of Human Resources Director at Miran Co.'s central office. I am a perfect fit for the position because I possess leadership skills, managerial experience, and a team-centric attitude.\n\nIn addition to having 10 years of managerial experience at Beyond Tech, where I ran the Business Development Department, I also hold both a bachelor of philosophy and MBA. I would be a valuable member of the Miran Co. team through innovating thinking, company loyalty, and enduring dedication to my career.\n\nPlease find attached to this e-mail my résumé to view my qualifications, experience, and references in greater detail. I look forward to hearing from you.\n\nSincerely,\nKaty Catsby"
+            },
+            {
+              "type": "email",
+              "title": "📧 文件三：Caleb Endurian 的面試邀請信 (Interview Invitation from Caleb Endurian)",
+              "content": "From: Caleb Endurian <caleb.e@miran.com>\nTo: Katy Catsby <kcatsby@gmail.com>\nDate: April 13\nSubject: Human Resources Director position\n\nDear Ms. Catsby,\nI'm pleased to inform you that your application has been accepted. I would like to invite you in for an interview this Thursday.\n\nWe're looking for a candidate with many years of relevant experience. A familiarity with managerial processes will ensure a smooth transition. I also place a lot of value on long-term stability. FYI—French skills are a must. We're willing to provide language courses that range from beginner to advanced level.\n\nI'm looking forward to our interview, and I hope it goes well.\n\nKind Regards,\nCaleb Endurian"
+            }
+          ],
+          "explanation": {
+            "mentor_takeaway": "💡【秒懂核心】Caleb 職稱寫著『(Current) Director of HR』，而他正在招募新任總監，顯然是在找自己的接班人！",
+            "mentor_analogy": "就像公司現任總經理親自登報應徵『新任總經理』，並在信中強調『希望交接過程順利（smooth transition）』，這代表他打算卸任交棒，親自面試挑選自己的繼任者！",
+            "context_translation": "關於 Caleb Endurian，可以做出何種合理推論？——答案是：他打算為自己挑選合適的接班職缺替換人選。",
+            "trap_analysis": {
+              "A": "【避坑】他親自主導面試與招募，完全不是被開除（being fired）！",
+              "B": "【避坑】信件語氣客氣和藹，看不出是嚴苛的主管！",
+              "C": "【避坑】文中完全沒有提到任何薪資糾紛問題！",
+              "D": "【正解】他在職稱上加註 (Current) 現任，並積極物色新人選以確保 smooth transition（順利交接過渡），顯然是在找接替自己的後繼者！"
+            },
+            "key_vocab": [
+              {
+                "word": "smooth transition",
+                "meaning": "phr. 平穩過渡、順利交接",
+                "note": "多益職場換屆交接高頻片語"
+              },
+              {
+                "word": "replacement",
+                "meaning": "n. 接替者、替代人選",
+                "note": "指接替某個職位的人"
+              }
+            ],
+            "focus": "💡【秒懂核心】Caleb 職稱寫著『(Current) Director of HR』，而他正在招募新任總監，顯然是在找自己的接班人！",
+            "translation": "關於 Caleb Endurian，可以做出何種合理推論？——答案是：他打算為自己挑選合適的接班職缺替換人選。"
+          }
+        },
+        {
+          "id": 97,
+          "question": "Which of the following would disqualify an applicant?",
+          "options": {
+            "A": "Being monolingual",
+            "B": "Being an American citizen",
+            "C": "Having a finance degree",
+            "D": "Experience with a competitor"
+          },
+          "answer": "B",
+          "type": "group",
+          "group_id": "test1_g96_100",
+          "group_range": "Questions 96 - 100",
+          "group_part": "Part 7 閱讀理解（多篇閱讀：職缺、求職信、面試邀請）",
+          "passages": [
+            {
+              "type": "notice",
+              "title": "📄 文件一：Miran 公司人資總監職缺公告 (Human Resources Director Position Opening at Miran Co.)",
+              "content": "Job Description:\nManaging the Human Resources Department at Miran Co.'s central office.\n\nResponsibilities of the position include:\n• Policy development\n• Handling employee health care and insurance claims\n• Preparing written communications\n\nQualifications:\n• Ability to work with a team\n• Strong leadership and managerial skills\n• A degree in business administration, finance, or economics\n• Must be a Canadian citizen\n• A master's degree in business administration (preferred)\n• Extensive linguistic abilities in both French and English (preferred)\n\nHow to Apply:\nSubmit a résumé and cover letter by mail or e-mail to:\nCaleb Endurian, (Current) Director of Human Resources\nMiran Company, 104 Avenue, 108 Street, Edmonton, Alberta, T5X 3SS\ncaleb.e@miran.com"
+            },
+            {
+              "type": "letter",
+              "title": "✉️ 文件二：Katy Catsby 的求職信 (Cover Letter from Katy Catsby)",
+              "content": "Katy Catsby\n124 Ave, 127 Street, Edmonton, AB CA. TX6 3VP\nPhone: 1-780 555, 4455 | E-mail: kcatsby@gmail.com\n\nDear Mr. Endurian,\nI am applying for the position of Human Resources Director at Miran Co.'s central office. I am a perfect fit for the position because I possess leadership skills, managerial experience, and a team-centric attitude.\n\nIn addition to having 10 years of managerial experience at Beyond Tech, where I ran the Business Development Department, I also hold both a bachelor of philosophy and MBA. I would be a valuable member of the Miran Co. team through innovating thinking, company loyalty, and enduring dedication to my career.\n\nPlease find attached to this e-mail my résumé to view my qualifications, experience, and references in greater detail. I look forward to hearing from you.\n\nSincerely,\nKaty Catsby"
+            },
+            {
+              "type": "email",
+              "title": "📧 文件三：Caleb Endurian 的面試邀請信 (Interview Invitation from Caleb Endurian)",
+              "content": "From: Caleb Endurian <caleb.e@miran.com>\nTo: Katy Catsby <kcatsby@gmail.com>\nDate: April 13\nSubject: Human Resources Director position\n\nDear Ms. Catsby,\nI'm pleased to inform you that your application has been accepted. I would like to invite you in for an interview this Thursday.\n\nWe're looking for a candidate with many years of relevant experience. A familiarity with managerial processes will ensure a smooth transition. I also place a lot of value on long-term stability. FYI—French skills are a must. We're willing to provide language courses that range from beginner to advanced level.\n\nI'm looking forward to our interview, and I hope it goes well.\n\nKind Regards,\nCaleb Endurian"
+            }
+          ],
+          "explanation": {
+            "mentor_takeaway": "💡【秒懂核心】職缺資格硬性規定：『Must be a Canadian citizen（必須具備加拿大公民身分）』！",
+            "mentor_analogy": "加拿大公司的敏感高階職位，門檻開宗明義寫著『非加拿大公民不得錄取』。如果你拿的是美國護照，資格審查第一關就會被直接刷掉失去資格（disqualified）！",
+            "context_translation": "下列哪一項條件會讓應徵者『直接失去資格』？——答案是：身為美國公民（因為硬性要求必須是加拿大公民）。",
+            "trap_analysis": {
+              "A": "【避坑】雙語只是 preferred（優先考慮），第三篇甚至說公司願意提供法語培訓課程，單語並不會直接被淘汰！",
+              "B": "【正解】文件一明確列出硬性條件：'Must be a Canadian citizen'，若是美國公民則直接不符合資格！",
+              "C": "【避坑】商管、金融 (finance) 或經濟學位正好是官方要求的學位之一！",
+              "D": "【避坑】同業經驗反而是加分資產，並不會取消資格。"
+            },
+            "key_vocab": [
+              {
+                "word": "disqualify",
+                "meaning": "v. 取消資格、使不合格",
+                "note": "dis- (否定) + qualify (具備資格)"
+              },
+              {
+                "word": "monolingual",
+                "meaning": "adj. 僅通曉單一語言的",
+                "note": "mono- (單一) + lingual (語言的)"
+              }
+            ],
+            "focus": "💡【秒懂核心】職缺資格硬性規定：『Must be a Canadian citizen（必須具備加拿大公民身分）』！",
+            "translation": "下列哪一項條件會讓應徵者『直接失去資格』？——答案是：身為美國公民（因為硬性要求必須是加拿大公民）。"
+          }
+        },
+        {
+          "id": 98,
+          "question": "Which of the following does Katy NOT infer about herself?",
+          "options": {
+            "A": "She's bilingual.",
+            "B": "She's a team player.",
+            "C": "She's highly skilled.",
+            "D": "She's a hard worker."
+          },
+          "answer": "D",
+          "type": "group",
+          "group_id": "test1_g96_100",
+          "group_range": "Questions 96 - 100",
+          "group_part": "Part 7 閱讀理解（多篇閱讀：職缺、求職信、面試邀請）",
+          "passages": [
+            {
+              "type": "notice",
+              "title": "📄 文件一：Miran 公司人資總監職缺公告 (Human Resources Director Position Opening at Miran Co.)",
+              "content": "Job Description:\nManaging the Human Resources Department at Miran Co.'s central office.\n\nResponsibilities of the position include:\n• Policy development\n• Handling employee health care and insurance claims\n• Preparing written communications\n\nQualifications:\n• Ability to work with a team\n• Strong leadership and managerial skills\n• A degree in business administration, finance, or economics\n• Must be a Canadian citizen\n• A master's degree in business administration (preferred)\n• Extensive linguistic abilities in both French and English (preferred)\n\nHow to Apply:\nSubmit a résumé and cover letter by mail or e-mail to:\nCaleb Endurian, (Current) Director of Human Resources\nMiran Company, 104 Avenue, 108 Street, Edmonton, Alberta, T5X 3SS\ncaleb.e@miran.com"
+            },
+            {
+              "type": "letter",
+              "title": "✉️ 文件二：Katy Catsby 的求職信 (Cover Letter from Katy Catsby)",
+              "content": "Katy Catsby\n124 Ave, 127 Street, Edmonton, AB CA. TX6 3VP\nPhone: 1-780 555, 4455 | E-mail: kcatsby@gmail.com\n\nDear Mr. Endurian,\nI am applying for the position of Human Resources Director at Miran Co.'s central office. I am a perfect fit for the position because I possess leadership skills, managerial experience, and a team-centric attitude.\n\nIn addition to having 10 years of managerial experience at Beyond Tech, where I ran the Business Development Department, I also hold both a bachelor of philosophy and MBA. I would be a valuable member of the Miran Co. team through innovating thinking, company loyalty, and enduring dedication to my career.\n\nPlease find attached to this e-mail my résumé to view my qualifications, experience, and references in greater detail. I look forward to hearing from you.\n\nSincerely,\nKaty Catsby"
+            },
+            {
+              "type": "email",
+              "title": "📧 文件三：Caleb Endurian 的面試邀請信 (Interview Invitation from Caleb Endurian)",
+              "content": "From: Caleb Endurian <caleb.e@miran.com>\nTo: Katy Catsby <kcatsby@gmail.com>\nDate: April 13\nSubject: Human Resources Director position\n\nDear Ms. Catsby,\nI'm pleased to inform you that your application has been accepted. I would like to invite you in for an interview this Thursday.\n\nWe're looking for a candidate with many years of relevant experience. A familiarity with managerial processes will ensure a smooth transition. I also place a lot of value on long-term stability. FYI—French skills are a must. We're willing to provide language courses that range from beginner to advanced level.\n\nI'm looking forward to our interview, and I hope it goes well.\n\nKind Regards,\nCaleb Endurian"
+            }
+          ],
+          "explanation": {
+            "mentor_takeaway": "💡【秒懂核心】仔細掃描 Katy 的求職信字眼：她自豪具備領導力、團隊精神、忠誠度，但從未自稱 hard worker！",
+            "mentor_analogy": "面試信裡有人主打『我有領導力、MBA學歷、熱愛團隊協作』，但他字裡行間從來沒有說過『我很勤奮刻苦、是個拚命三郎（hard worker）』，多益細節題就是要抓出哪項是文章沒提過的！",
+            "context_translation": "Katy 在信中『沒有』暗示自己具備下列哪一項特質？——答案是：她是個勤奮刻苦的員工（hard worker）。",
+            "trap_analysis": {
+              "A": "【避坑】招聘要求法語，Caleb 信中對她發出面試，暗示她的履歷展現了雙語能力！",
+              "B": "【避坑】信中明確自稱具有 'a team-centric attitude'（以團隊為中心的態度）！",
+              "C": "【避坑】信中強調擁有 10 年主管經驗與 MBA 學位，顯然具備高度專業技能！",
+              "D": "【正解】Katy 通篇未提及勤勞工作 (hard worker)，符合題目 NOT 的要求！"
+            },
+            "key_vocab": [
+              {
+                "word": "team-centric",
+                "meaning": "adj. 以團隊為核心的",
+                "note": "職場加分個人特質"
+              },
+              {
+                "word": "enduring dedication",
+                "meaning": "phr. 持久不懈的奉獻投入",
+                "note": "求職信高階用語"
+              }
+            ],
+            "focus": "💡【秒懂核心】仔細掃描 Katy 的求職信字眼：她自豪具備領導力、團隊精神、忠誠度，但從未自稱 hard worker！",
+            "translation": "Katy 在信中『沒有』暗示自己具備下列哪一項特質？——答案是：她是個勤奮刻苦的員工（hard worker）。"
+          }
+        },
+        {
+          "id": 99,
+          "question": "Which of Katy's traits or qualifications is least related to the position to which she is applying?",
+          "options": {
+            "A": "Her graduate degree",
+            "B": "Her work experience",
+            "C": "Her undergraduate degree",
+            "D": "Her work ethic and attitude"
+          },
+          "answer": "C",
+          "type": "group",
+          "group_id": "test1_g96_100",
+          "group_range": "Questions 96 - 100",
+          "group_part": "Part 7 閱讀理解（多篇閱讀：職缺、求職信、面試邀請）",
+          "passages": [
+            {
+              "type": "notice",
+              "title": "📄 文件一：Miran 公司人資總監職缺公告 (Human Resources Director Position Opening at Miran Co.)",
+              "content": "Job Description:\nManaging the Human Resources Department at Miran Co.'s central office.\n\nResponsibilities of the position include:\n• Policy development\n• Handling employee health care and insurance claims\n• Preparing written communications\n\nQualifications:\n• Ability to work with a team\n• Strong leadership and managerial skills\n• A degree in business administration, finance, or economics\n• Must be a Canadian citizen\n• A master's degree in business administration (preferred)\n• Extensive linguistic abilities in both French and English (preferred)\n\nHow to Apply:\nSubmit a résumé and cover letter by mail or e-mail to:\nCaleb Endurian, (Current) Director of Human Resources\nMiran Company, 104 Avenue, 108 Street, Edmonton, Alberta, T5X 3SS\ncaleb.e@miran.com"
+            },
+            {
+              "type": "letter",
+              "title": "✉️ 文件二：Katy Catsby 的求職信 (Cover Letter from Katy Catsby)",
+              "content": "Katy Catsby\n124 Ave, 127 Street, Edmonton, AB CA. TX6 3VP\nPhone: 1-780 555, 4455 | E-mail: kcatsby@gmail.com\n\nDear Mr. Endurian,\nI am applying for the position of Human Resources Director at Miran Co.'s central office. I am a perfect fit for the position because I possess leadership skills, managerial experience, and a team-centric attitude.\n\nIn addition to having 10 years of managerial experience at Beyond Tech, where I ran the Business Development Department, I also hold both a bachelor of philosophy and MBA. I would be a valuable member of the Miran Co. team through innovating thinking, company loyalty, and enduring dedication to my career.\n\nPlease find attached to this e-mail my résumé to view my qualifications, experience, and references in greater detail. I look forward to hearing from you.\n\nSincerely,\nKaty Catsby"
+            },
+            {
+              "type": "email",
+              "title": "📧 文件三：Caleb Endurian 的面試邀請信 (Interview Invitation from Caleb Endurian)",
+              "content": "From: Caleb Endurian <caleb.e@miran.com>\nTo: Katy Catsby <kcatsby@gmail.com>\nDate: April 13\nSubject: Human Resources Director position\n\nDear Ms. Catsby,\nI'm pleased to inform you that your application has been accepted. I would like to invite you in for an interview this Thursday.\n\nWe're looking for a candidate with many years of relevant experience. A familiarity with managerial processes will ensure a smooth transition. I also place a lot of value on long-term stability. FYI—French skills are a must. We're willing to provide language courses that range from beginner to advanced level.\n\nI'm looking forward to our interview, and I hope it goes well.\n\nKind Regards,\nCaleb Endurian"
+            }
+          ],
+          "explanation": {
+            "mentor_takeaway": "💡【秒懂核心】她大學讀的是哲學系（bachelor of philosophy），跟人資總監職位的關聯度最低！",
+            "mentor_analogy": "應徵人資總監，MBA 碩士學位（graduate degree）、10 年管理經驗（work experience）和團隊態度都超級對口；偏偏她大學念的是探討宇宙與人生的『哲學系（Philosophy）』，這在人資實務工作中相關性顯然最低！",
+            "context_translation": "Katy 的下列哪一項資歷或特質，與她所應徵的人資總監職位『關聯度最低』？——答案是：她的大學學士學位（哲學學士）。",
+            "trap_analysis": {
+              "A": "【避坑】MBA 碩士學位完全切合職缺偏好要求！",
+              "B": "【避坑】10 年業務發展部門管理經驗是非常重要的加分項！",
+              "C": "【正解】大學哲學系 (philosophy) 與企業人資勞資關係、保險給付等實務關聯度最低 (least related)！",
+              "D": "【避坑】良好的工作倫理與團隊心態是管理階層必備核心。"
+            },
+            "key_vocab": [
+              {
+                "word": "undergraduate degree",
+                "meaning": "n. 大學學士學位",
+                "note": "研究所為 graduate degree"
+              },
+              {
+                "word": "least related",
+                "meaning": "phr. 關聯度最低",
+                "note": "多益邏輯比較題核心問法"
+              }
+            ],
+            "focus": "💡【秒懂核心】她大學讀的是哲學系（bachelor of philosophy），跟人資總監職位的關聯度最低！",
+            "translation": "Katy 的下列哪一項資歷或特質，與她所應徵的人資總監職位『關聯度最低』？——答案是：她的大學學士學位（哲學學士）。"
+          }
+        },
+        {
+          "id": 100,
+          "question": "Which of the following is a quality that Katy possesses which would likely impress Mr. Endurian?",
+          "options": {
+            "A": "Company loyalty",
+            "B": "Innovative thinking",
+            "C": "French language ability",
+            "D": "Knowledge of government policy"
+          },
+          "answer": "A",
+          "type": "group",
+          "group_id": "test1_g96_100",
+          "group_range": "Questions 96 - 100",
+          "group_part": "Part 7 閱讀理解（多篇閱讀：職缺、求職信、面試邀請）",
+          "passages": [
+            {
+              "type": "notice",
+              "title": "📄 文件一：Miran 公司人資總監職缺公告 (Human Resources Director Position Opening at Miran Co.)",
+              "content": "Job Description:\nManaging the Human Resources Department at Miran Co.'s central office.\n\nResponsibilities of the position include:\n• Policy development\n• Handling employee health care and insurance claims\n• Preparing written communications\n\nQualifications:\n• Ability to work with a team\n• Strong leadership and managerial skills\n• A degree in business administration, finance, or economics\n• Must be a Canadian citizen\n• A master's degree in business administration (preferred)\n• Extensive linguistic abilities in both French and English (preferred)\n\nHow to Apply:\nSubmit a résumé and cover letter by mail or e-mail to:\nCaleb Endurian, (Current) Director of Human Resources\nMiran Company, 104 Avenue, 108 Street, Edmonton, Alberta, T5X 3SS\ncaleb.e@miran.com"
+            },
+            {
+              "type": "letter",
+              "title": "✉️ 文件二：Katy Catsby 的求職信 (Cover Letter from Katy Catsby)",
+              "content": "Katy Catsby\n124 Ave, 127 Street, Edmonton, AB CA. TX6 3VP\nPhone: 1-780 555, 4455 | E-mail: kcatsby@gmail.com\n\nDear Mr. Endurian,\nI am applying for the position of Human Resources Director at Miran Co.'s central office. I am a perfect fit for the position because I possess leadership skills, managerial experience, and a team-centric attitude.\n\nIn addition to having 10 years of managerial experience at Beyond Tech, where I ran the Business Development Department, I also hold both a bachelor of philosophy and MBA. I would be a valuable member of the Miran Co. team through innovating thinking, company loyalty, and enduring dedication to my career.\n\nPlease find attached to this e-mail my résumé to view my qualifications, experience, and references in greater detail. I look forward to hearing from you.\n\nSincerely,\nKaty Catsby"
+            },
+            {
+              "type": "email",
+              "title": "📧 文件三：Caleb Endurian 的面試邀請信 (Interview Invitation from Caleb Endurian)",
+              "content": "From: Caleb Endurian <caleb.e@miran.com>\nTo: Katy Catsby <kcatsby@gmail.com>\nDate: April 13\nSubject: Human Resources Director position\n\nDear Ms. Catsby,\nI'm pleased to inform you that your application has been accepted. I would like to invite you in for an interview this Thursday.\n\nWe're looking for a candidate with many years of relevant experience. A familiarity with managerial processes will ensure a smooth transition. I also place a lot of value on long-term stability. FYI—French skills are a must. We're willing to provide language courses that range from beginner to advanced level.\n\nI'm looking forward to our interview, and I hope it goes well.\n\nKind Regards,\nCaleb Endurian"
+            }
+          ],
+          "explanation": {
+            "mentor_takeaway": "💡【秒懂核心】跨篇比對送分題：Caleb 強調看重『long-term stability（長期穩定度）』，正好對接 Katy 信中的『company loyalty（公司忠誠度）』！",
+            "mentor_analogy": "這就像面試官在徵才條件裡特別備註：『我最受不了幹兩天就跳槽的人，我極度看重長期穩定性！』而 Katy 的求職信第一時間就拍胸脯保證：『我這個人最有公司忠誠度（company loyalty）！』兩者一拍即合！",
+            "context_translation": "Katy 具備的哪一項特質，最有可能讓面試官 Endurian 先生留下深刻印象？——答案是：對公司的忠誠度（呼應面試官看重的長期穩定度）。",
+            "trap_analysis": {
+              "A": "【正解】Caleb 在信中說 'I also place a lot of value on long-term stability'，Katy 在信中自薦 'company loyalty'，兩者概念完美契合！",
+              "B": "【避坑】Caleb 信中並未特別著墨創新思維！",
+              "C": "【避坑】Caleb 甚至提到公司可以提供法語入門課程，代表語言並非最能打動他的決定性特質！",
+              "D": "【避坑】文中未曾提及政府政策知識。"
+            },
+            "key_vocab": [
+              {
+                "word": "company loyalty",
+                "meaning": "n. 對公司的忠誠度",
+                "note": "多益職場跨篇對照常考點"
+              },
+              {
+                "word": "long-term stability",
+                "meaning": "n. 長期穩定性",
+                "note": "企業招募人資考量核心"
+              }
+            ],
+            "focus": "💡【秒懂核心】跨篇比對送分題：Caleb 強調看重『long-term stability（長期穩定度）』，正好對接 Katy 信中的『company loyalty（公司忠誠度）』！",
+            "translation": "Katy 具備的哪一項特質，最有可能讓面試官 Endurian 先生留下深刻印象？——答案是：對公司的忠誠度（呼應面試官看重的長期穩定度）。"
+          }
         }
       ]
     },
     {
       "test_id": "多益2",
       "title": "多益模擬測驗二 (Test 2)",
-      "total_questions": 40,
+      "total_questions": 42,
       "questions": [
         {
           "id": 1,
@@ -2380,37 +3173,31 @@ const TOEIC_DATA = {
           },
           "answer": "B",
           "explanation": {
-            "focus": "商務情境核心字彙與語意辨析",
-            "type": "詞彙與商務語境 (Business Vocabulary & Collocation)",
-            "translation": "我們將在早上聚集在一起，討論接下來幾天的策略。",
-            "grammar": "需結合前後文商業溝通脈絡與專業搭配詞，辨析各選項含義並挑選最精準用詞。",
-            "options_analysis": {
-              "A": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "從事",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「從事」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
+            "mentor_takeaway": "💡【秒懂核心】早上大家『集合、聚在一起』開晨會商討對策，用不及物動詞 gather！",
+            "mentor_analogy": "就像球隊教練一早吹哨子：『所有人集合！我們要來複習明天的戰術！』gather 就是大家從四面八方走過來聚在同一間會議室，自然流暢！",
+            "context_translation": "我們預計明天早上一同集合，仔細討論接下來幾天的業務策略方針。",
+            "trap_analysis": {
+              "A": "【避坑】engage 通常要接介系詞 in（如 engage in discussion），不能單獨當『聚集開會』使用！",
+              "B": "【正解】gather 為不及物動詞，意為『聚集、集合』，完美契合早晨召開策略會議的情境！",
+              "C": "【避坑】explain 是及物動詞（解釋某事），後面必須接被解釋的對象，不能直接接 in the morning！",
+              "D": "【避坑】wait 是等待，說大家明天早上一同去『等待』完全脫離商業常理！"
+            },
+            "key_vocab": [
+              {
+                "word": "gather",
+                "meaning": "v. 聚集、集合",
+                "note": "多益職場晨會高頻字"
               },
-              "B": {
-                "pos": "n. 名詞",
-                "meaning": "收集",
-                "correct": true,
-                "reason": "【正確】n. 名詞。意為「收集」。符合題幹文法句構，商務語境搭配最為精準通順。"
-              },
-              "C": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "解釋",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「解釋」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
-              },
-              "D": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "等待",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「等待」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
+              {
+                "word": "go over",
+                "meaning": "phr. 仔細檢查、複習回顧",
+                "note": "相當於 review thoroughly"
               }
-            }
-          }
+            ],
+            "focus": "💡【秒懂核心】早上大家『集合、聚在一起』開晨會商討對策，用不及物動詞 gather！",
+            "translation": "我們預計明天早上一同集合，仔細討論接下來幾天的業務策略方針。"
+          },
+          "type": "single"
         },
         {
           "id": 2,
@@ -2425,37 +3212,31 @@ const TOEIC_DATA = {
           },
           "answer": "B",
           "explanation": {
-            "focus": "動詞時態與主詞一致性",
-            "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "該男子太專注於電視節目，以至於沒有聽到有人叫他的名字。",
-            "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
-            "options_analysis": {
-              "A": {
-                "pos": "v.-ed 過去式/過去分詞",
-                "meaning": "輕鬆",
-                "correct": false,
-                "reason": "【錯誤】v.-ed 過去式/過去分詞。意為「輕鬆」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
+            "mentor_takeaway": "💡【秒懂核心】看電視看得太入迷、渾然忘我，固定片語是 be engaged in！",
+            "mentor_analogy": "就像你在追最愛的影集或打遊戲，整個人靈魂像被吸進螢幕裡一樣，旁邊有人叫你名字你完全聽不到！這種『全神貫注、深陷其中』在英文裡就是 be engaged in / be absorbed in！",
+            "context_translation": "那名男子看電視節目看得太過專注沉迷，以至於旁人叫他名字時他完全沒聽見。",
+            "trap_analysis": {
+              "A": "【避坑】relaxed 是放鬆悠閒，放鬆並不代表聽覺失靈聽不到別人喊叫！",
+              "B": "【正解】be engaged in 表『專心致志於...、全神貫注於...』，與後文沒聽到叫聲的情境完美契合！",
+              "C": "【避坑】engaging 是主動形容詞，意思是『迷人的、引人入勝的』，拿來形容人表示『這男子很迷人』，大鬧語意笑話！",
+              "D": "【避坑】engagement 是名詞（訂婚、約會），放在 was so 後面文法直接崩塌！"
+            },
+            "key_vocab": [
+              {
+                "word": "engaged in",
+                "meaning": "phr. 專注於、沉浸於",
+                "note": "也常指從事於某項工作"
               },
-              "B": {
-                "pos": "v.-ed 過去式/過去分詞",
-                "meaning": "已訂婚的",
-                "correct": true,
-                "reason": "【正確】v.-ed 過去式/過去分詞。意為「已訂婚的」。符合題幹文法句構，商務語境搭配最為精準通順。"
-              },
-              "C": {
-                "pos": "v.-ing 現在分詞/動名詞",
-                "meaning": "吸引人的",
-                "correct": false,
-                "reason": "【錯誤】v.-ing 現在分詞/動名詞。意為「吸引人的」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
-              },
-              "D": {
-                "pos": "n. 名詞",
-                "meaning": "訂婚",
-                "correct": false,
-                "reason": "【錯誤】n. 名詞。意為「訂婚」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
+              {
+                "word": "so... that...",
+                "meaning": "phr. 如此...以致於...",
+                "note": "多益結果子句核心句型"
               }
-            }
-          }
+            ],
+            "focus": "💡【秒懂核心】看電視看得太入迷、渾然忘我，固定片語是 be engaged in！",
+            "translation": "那名男子看電視節目看得太過專注沉迷，以至於旁人叫他名字時他完全沒聽見。"
+          },
+          "type": "single"
         },
         {
           "id": 3,
@@ -2470,38 +3251,31 @@ const TOEIC_DATA = {
           },
           "answer": "D",
           "explanation": {
-            "focus": "be 動詞後接形容詞作表語",
-            "type": "be comparable in...",
-            "translation": "這些產品在價格和品質上其實不相上下，因此完全取決於您個人對顏色和重量的偏好。",
-            "grammar": "空格位於 are really ______ in price and quality 之中，be 動詞後需要形容詞充當表語。comparable in 表示在某方面具有可比性、不相上下。",
-            "options_analysis": {
-              "A": {
-                "pos": "v. 動詞原形",
-                "meaning": "比較",
-                "correct": false,
-                "reason": "原形動詞不能直接接在 are 後面充當表語。"
+            "mentor_takeaway": "💡【秒懂核心】兩樣商品價格與品質『不相上下、旗鼓相當』，選形容詞 comparable！",
+            "mentor_analogy": "就像你在選兩台旗艦手機，性能跟價格幾乎一模一樣（不相上下），這時候買哪一台純粹看你喜歡什麼顏色或拿在手上的手感重量！這種『品質可相提並論、旗鼓相當』的形容詞就是 comparable！",
+            "context_translation": "這幾款商品的價格與品質實際上不相上下，因此最終純粹取決於您個人對顏色和重量的偏好了。",
+            "trap_analysis": {
+              "A": "【避坑】compare 是動詞原形，be 動詞 are 後面不能直接接動詞原形！",
+              "B": "【避坑】comparing 是現在分詞主動態，商品是無生命的，不會自己去拿放大鏡比對別人！",
+              "C": "【避坑】comparison 是名詞，放入 are really comparison 文法錯誤！",
+              "D": "【正解】comparable 作形容詞表示『可比較的、不相上下的、品質相當的』，完美修飾主詞 items！"
+            },
+            "key_vocab": [
+              {
+                "word": "comparable in",
+                "meaning": "phr. 在...方面相當、不相上下",
+                "note": "多益商品比較高頻搭配"
               },
-              "B": {
-                "pos": "v.-ing 現在分詞",
-                "meaning": "正在比較的",
-                "correct": false,
-                "reason": "comparing 表主動進行比較動作，產品無法主動比較自己。"
-              },
-              "C": {
-                "pos": "n. 名詞",
-                "meaning": "比較",
-                "correct": false,
-                "reason": "名詞 comparison 語法不合，若用名詞應為 a comparison。"
-              },
-              "D": {
-                "pos": "adj. 形容詞",
-                "meaning": "可相比的、相差無幾的",
-                "correct": true,
-                "reason": "be comparable in 是多益商務高頻片語，表示「在品質、性能或價格上相仿/旗鼓相當」。",
-                "example": "The two models are comparable in performance."
+              {
+                "word": "a matter of",
+                "meaning": "phr. 純粹是...的問題",
+                "note": "強調關鍵在於某事"
               }
-            }
-          }
+            ],
+            "focus": "💡【秒懂核心】兩樣商品價格與品質『不相上下、旗鼓相當』，選形容詞 comparable！",
+            "translation": "這幾款商品的價格與品質實際上不相上下，因此最終純粹取決於您個人對顏色和重量的偏好了。"
+          },
+          "type": "single"
         },
         {
           "id": 4,
@@ -2562,38 +3336,31 @@ const TOEIC_DATA = {
           },
           "answer": "C",
           "explanation": {
-            "focus": "必備資訊之形容詞搭配",
-            "type": "形容詞修飾不可數名詞 information",
-            "translation": "在您備齊所有必備資訊提出申請後約一週，應該就能領取駕照了。",
-            "grammar": "空格位於 the 與名詞 information 之間，需選擇修飾申請必要條件的形容詞。",
-            "options_analysis": {
-              "A": {
-                "pos": "adj. 形容詞",
-                "meaning": "穩定的、持續的",
-                "correct": false,
-                "reason": "steady information（穩定資訊）語意不合邏輯。"
+            "mentor_takeaway": "💡【秒懂核心】辦理駕照或正式證件，必須備齊所有『官方規定的必備資料』，鎖定 requisite！",
+            "mentor_analogy": "去監理站或政府機關辦護照駕照，櫃台一定會說：『請出示身分證、照片等各項必備文件！』requisite 來自 require（要求），意思就是『不可或缺的、規定必備的』！",
+            "context_translation": "只要您備妥所有申請必備的相關資訊送件後，大約一週的時間便能領取您的駕照。",
+            "trap_analysis": {
+              "A": "【避坑】steady 是『穩定的、穩固的』，資訊並不需要『站得很穩』！",
+              "B": "【避坑】asking 是動名詞或分詞，沒有 asking information 這種怪異說法！",
+              "C": "【正解】requisite 為正式商務公文高頻詞，意為『必備的、不可或缺的 (required / necessary)』！",
+              "D": "【避坑】desperate 是『絕望的、拚死的』，說帶上『絕望的資訊』去辦駕照令人啼笑皆非！"
+            },
+            "key_vocab": [
+              {
+                "word": "requisite",
+                "meaning": "adj. 必要的、必備的",
+                "note": "名詞同形，也可作必備物品"
               },
-              "B": {
-                "pos": "v.-ing 現在分詞",
-                "meaning": "詢問的",
-                "correct": false,
-                "reason": "asking information 搭配錯誤，申請需要的是必備規定資料。"
-              },
-              "C": {
-                "pos": "adj. 形容詞",
-                "meaning": "必要的、必不可少的 (requisite)",
-                "correct": true,
-                "reason": "requisite information 為正式公文與手續專用詞，表示「規定要求的必需資料」。",
-                "example": "Applicants must possess the requisite qualifications."
-              },
-              "D": {
-                "pos": "adj. 形容詞",
-                "meaning": "絕望的、拼命的",
-                "correct": false,
-                "reason": "desperate 表絕望失控，不能形容證照申請資料。"
+              {
+                "word": "file for",
+                "meaning": "phr. 提出...申請",
+                "note": "file for a permit/license 申請許可證"
               }
-            }
-          }
+            ],
+            "focus": "💡【秒懂核心】辦理駕照或正式證件，必須備齊所有『官方規定的必備資料』，鎖定 requisite！",
+            "translation": "只要您備妥所有申請必備的相關資訊送件後，大約一週的時間便能領取您的駕照。"
+          },
+          "type": "single"
         },
         {
           "id": 6,
@@ -3459,24 +4226,143 @@ const TOEIC_DATA = {
           "id": 51,
           "range": "",
           "page": 6,
-          "question": "From: penny@pennyanecom To. Subject: Looking for the digital version of A Story of Sirings Dear Ms. Lane. I recentty read your wondertul book A Story ol Strings and thoroughly enjoyed the way you wove so much historical maleral inlo an enjoyable personal narrative. I leamed so much aboul the hlstory of string instruments through your interviews with musidans and nistorians. I see thal you aiso made a documentary film of the same name: nowever. I can only find it on Dvo Is il possible to buy and download it as a digital file? As I am traveling abroad exlensively at the moment it's rather inconvenient to get physical mail or packages. Many thanks for your reply. Andrew Garison Announcing the 1Oth Annual Ensberg Film Festival! June 2017 marks the retum of the popular Ensberg Film Festival. Buy your month-long pass now and receive access to every showing for the entirety of the festival, with a total of eight films each weekend for the entire month. This year, the theme of the festival is family. As usual, every film must involve the annual theme in some way in order to be eligible for screening. However, just because the theme is family doesn't mean that every film shown will be famity friendly. See below for additional details. Festival Time: Every Saturday and Sunday of June 2017, from 2:00 p.m. to 11:00 p.m. Price per Pass: CS200 Location: The Grace Dougherty Theater 112Oxford Road,Ensberg British Columbia, Canada If you wish to submit a film for consideratlon,please send a physical copy to: 145UniblabStreet,Ensberg British Columbla, Canada T5466E Or, upload your digltal copy to our Dropbox folder Folder name:\"Ensbergfilm\" Accessible through the following -mail address: enserbergfilm@cinephlle.com We hope to see you alltherel",
+          "question": "What is the main purpose of the e-mail?",
           "options": {
-            "A": "gamson@mail.com"
+            "A": "To express admiration",
+            "B": "To get an expert opinion",
+            "C": "To inquire about a product",
+            "D": "To propose a collaboration"
           },
-          "answer": "A",
+          "answer": "C",
           "explanation": {
-            "focus": "同源詞詞性辨析",
-            "type": "詞性選擇 (Parts of Speech)",
-            "translation": "來自：penny@pennyanecom 至。主題：尋找《親愛的萊恩女士》的數位版《賽林斯的故事》。我最近讀了你的精彩著作《弦樂故事》，我非常喜歡你將如此多的歷史男性故事編織成令人愉快的個人敘述的方式。透過您對音樂家和歷史學家的採訪，我了解了很多弦樂器的歷史。我看到你也製作了一部同名紀錄片：永遠。我只能在 Dvo 上找到它 可以購買並下載它的數位檔案嗎？由於我目前經常出國旅行，因此取得實體郵件或包裹相當不方便。非常感謝您的回覆。安德魯加里森宣布舉辦第一屆恩斯伯格年度電影節！ 2017 年 6 月標誌著廣受歡迎的恩斯伯格影展的回歸。立即購買一個月的通行證，即可觀看整個電影節的每場放映，整個月每個週末總共有八部電影。今年節日的主題是家庭。像往常一樣，每部電影都必須以某種方式涉及年度主題才能獲得放映資格。然而，僅僅因為主題是家庭並不意味著每部電影都適合家庭觀看。請參閱下文以了解更多詳細資訊。節慶時間：2017年6月每週六、日下午2:00開始至晚上 11:00每張通票價格：CS200 地點：The Grace Dougherty Theatre 112Oxford Road,Ensberg British Columbia, Canada 如果您希望提交電影供考慮，請將實體副本發送至：14556E或者，將您的數位副本上傳到我們的 Dropbox 資料夾資料夾名稱：「Ensbergfilm」可透過以下郵件地址存取： enserbergfilm@cinephlle.com 我們希望見到您",
-            "grammar": "空格在句子中所屬成分（主詞、動詞、受詞或修飾語）決定所需正確詞性。",
-            "options_analysis": {
-              "A": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "gamson@mail.com 的含義",
-                "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。意為「gamson@mail.com 的含義」。符合題幹文法句構，商務語境搭配最為精準通順。"
+            "mentor_takeaway": "💡【秒懂核心】雖然開頭誇讚了幾句，但整封信真正的核心動作是：問能不能買到『數位版紀錄片』！",
+            "mentor_analogy": "就像你私訊網紅作家：『我很喜歡你的新書！想請問有沒有出電子書可以買？因為我在國外買不到紙本書！』讚美只是禮貌性客套，真正的目的（main purpose）是詢問商品購買形式（inquire about a product）！",
+            "context_translation": "這封電子郵件的主要目的是什麼？——答案是：詢問產品（紀錄片數位檔案）的購買事宜。",
+            "trap_analysis": {
+              "A": "【避坑】express admiration（表達讚賞）只是開場白，不是寫這封信的主要商業訴求！",
+              "B": "【避坑】他沒有向作者請教弦樂器的專業學術意見！",
+              "C": "【正解】信中明確詢問 'Is it possible to buy and download it as a digital file?'，完全切中詢問產品 (inquire about a product)！",
+              "D": "【避坑】他只是一個在外旅行的普通讀者，根本沒有要提商業合作案！"
+            },
+            "key_vocab": [
+              {
+                "word": "inquire about",
+                "meaning": "phr. 詢問、打聽",
+                "note": "多益商業信件核心目的動詞"
+              },
+              {
+                "word": "documentary film",
+                "meaning": "n. 紀錄片",
+                "note": "常考影視文化題型"
               }
+            ],
+            "focus": "💡【秒懂核心】雖然開頭誇讚了幾句，但整封信真正的核心動作是：問能不能買到『數位版紀錄片』！",
+            "translation": "這封電子郵件的主要目的是什麼？——答案是：詢問產品（紀錄片數位檔案）的購買事宜。"
+          },
+          "type": "group",
+          "group_id": "test2_g51_52",
+          "group_range": "Questions 51 - 52",
+          "group_part": "Part 7 閱讀理解（讀者諮詢郵件）",
+          "passages": [
+            {
+              "type": "email",
+              "title": "📧 讀者詢問《琴弦的故事》紀錄片數位下載 (Looking for digital version of A Story of Strings)",
+              "content": "From: a.garrison@mail.com\nTo: penny@pennylane.com\nSubject: Looking for the digital version of A Story of Strings\n\nDear Ms. Lane,\nI recently read your wonderful book A Story of Strings and thoroughly enjoyed the way you wove so much historical material into an enjoyable personal narrative. I learned so much about the history of string instruments through your interviews with musicians and historians.\n\nI see that you also made a documentary film of the same name; however, I can only find it on DVD. Is it possible to buy and download it as a digital file? As I am traveling abroad extensively at the moment, it's rather inconvenient to get physical mail or packages.\n\nMany thanks for your reply.\nAndrew Garrison"
             }
+          ]
+        },
+        {
+          "id": 52,
+          "question": "Why is Andrew Garrison looking for the digital version of the documentary?",
+          "options": {
+            "A": "The DVDs are sold out.",
+            "B": "His laptop doesn't have a DVD drive.",
+            "C": "He doesn't currently have a fixed address.",
+            "D": "He doesn't like to clutter his home with purchases."
+          },
+          "answer": "C",
+          "type": "group",
+          "group_id": "test2_g51_52",
+          "group_range": "Questions 51 - 52",
+          "group_part": "Part 7 閱讀理解（讀者諮詢郵件）",
+          "passages": [
+            {
+              "type": "email",
+              "title": "📧 讀者詢問《琴弦的故事》紀錄片數位下載 (Looking for digital version of A Story of Strings)",
+              "content": "From: a.garrison@mail.com\nTo: penny@pennylane.com\nSubject: Looking for the digital version of A Story of Strings\n\nDear Ms. Lane,\nI recently read your wonderful book A Story of Strings and thoroughly enjoyed the way you wove so much historical material into an enjoyable personal narrative. I learned so much about the history of string instruments through your interviews with musicians and historians.\n\nI see that you also made a documentary film of the same name; however, I can only find it on DVD. Is it possible to buy and download it as a digital file? As I am traveling abroad extensively at the moment, it's rather inconvenient to get physical mail or packages.\n\nMany thanks for your reply.\nAndrew Garrison"
+            }
+          ],
+          "explanation": {
+            "mentor_takeaway": "💡【秒懂核心】關鍵字：'traveling abroad extensively... inconvenient to get physical mail'，旅途中漂泊沒有固定收件地址！",
+            "mentor_analogy": "想像你當背包客在歐洲各國當數位遊牧，天天換青年旅館，你根本不可能在網路上訂購光碟片寄包裹過來，因為你根本沒有固定的通訊地址（no fixed address）！",
+            "context_translation": "為什麼 Andrew Garrison 希望尋找紀錄片的數位版本？——答案是：他目前正在海外頻繁旅行，沒有固定的居住地址以收取實體包裹。",
+            "trap_analysis": {
+              "A": "【避坑】DVD 根本沒賣完，是他自己買了沒地方收包裹！",
+              "B": "【避坑】文中完全沒提到他的筆記型電腦有沒有光碟機！",
+              "C": "【正解】信中表明目前正在海外各地廣泛旅行 (traveling abroad extensively)，收實體信件包裹極不方便，推論出居無定所、沒有固定地址 (no fixed address)！",
+              "D": "【避坑】文中未曾提及他討厭堆積雜物 (clutter home)。"
+            },
+            "key_vocab": [
+              {
+                "word": "fixed address",
+                "meaning": "n. 固定地址",
+                "note": "多益商旅題常見推論替換詞"
+              },
+              {
+                "word": "extensively",
+                "meaning": "adv. 廣泛地、大量地",
+                "note": "形容足跡遍佈多處"
+              }
+            ],
+            "focus": "💡【秒懂核心】關鍵字：'traveling abroad extensively... inconvenient to get physical mail'，旅途中漂泊沒有固定收件地址！",
+            "translation": "為什麼 Andrew Garrison 希望尋找紀錄片的數位版本？——答案是：他目前正在海外頻繁旅行，沒有固定的居住地址以收取實體包裹。"
+          }
+        },
+        {
+          "id": 53,
+          "question": "If there are four full weekends in the month of June, 2017, how many films will be shown at the festival in total?",
+          "options": {
+            "A": "8",
+            "B": "16",
+            "C": "32",
+            "D": "64"
+          },
+          "answer": "C",
+          "type": "group",
+          "group_id": "test2_g53_54",
+          "group_range": "Questions 53 - 54",
+          "group_part": "Part 7 閱讀理解（活動公告）",
+          "passages": [
+            {
+              "type": "notice",
+              "title": "🎬 第 10 屆恩斯伯格年度電影節公告 (Announcing the 10th Annual Ensberg Film Festival!)",
+              "content": "June 2017 marks the return of the popular Ensberg Film Festival. Buy your month-long pass now and receive access to every showing for the entirety of the festival, with a total of eight films each weekend for the entire month. This year, the theme of the festival is family. As usual, every film must involve the annual theme in some way in order to be eligible for screening. However, just because the theme is family doesn't mean that every film shown will be family friendly. See below for additional details.\n\nFestival Time:\nEvery Saturday and Sunday of June 2017, from 2:00 p.m. to 11:00 p.m.\n\nPrice per Pass:\nC$200\n\nLocation:\nThe Grace Dougherty Theater\n112 Oxford Road, Ensberg\nBritish Columbia, Canada\n\nIf you wish to submit a film for consideration, please send a physical copy to:\n145 Uniblab Street, Ensberg, British Columbia, Canada, T54 66E\nOr, upload your digital copy to our Dropbox folder:\nFolder name: \"Ensbergfilm\"\nAccessible through the following e-mail address: ensbergfilm@cinephile.com\n\nWe hope to see you all there!"
+            }
+          ],
+          "explanation": {
+            "mentor_takeaway": "💡【秒懂核心】多益經典數學乘法題：每週末放映 8 部片 × 4 個完整週末 ＝ 32 部！",
+            "mentor_analogy": "就像電影院貼出告示：『每個禮拜六日放映 8 部精選電影』。題目假定 6 月有 4 個週末，小學生乘法算式：8 × 4 ＝ 32 部片，一秒得分！",
+            "context_translation": "若 2017 年 6 月恰好有 4 個完整的週末，那麼影展期間總共將會放映多少部電影？——答案是：32 部。",
+            "trap_analysis": {
+              "A": "【避坑】8 是『單一週末』的放映數量！",
+              "B": "【避坑】16 只是兩個週末的數量！",
+              "C": "【正解】原文載明 'eight films each weekend'，4 個週末即為 8 × 4 = 32 部電影！",
+              "D": "【避坑】64 是多算了一倍，不需要把週六週日各自重複計算！"
+            },
+            "key_vocab": [
+              {
+                "word": "eligible for",
+                "meaning": "phr. 有資格獲得...、符合...條件",
+                "note": "多益極高頻片語"
+              },
+              {
+                "word": "screening",
+                "meaning": "n. （電影）放映、審查",
+                "note": "film screening 電影放映場次"
+              }
+            ],
+            "focus": "💡【秒懂核心】多益經典數學乘法題：每週末放映 8 部片 × 4 個完整週末 ＝ 32 部！",
+            "translation": "若 2017 年 6 月恰好有 4 個完整的週末，那麼影展期間總共將會放映多少部電影？——答案是：32 部。"
           }
         },
         {
@@ -3487,42 +4373,46 @@ const TOEIC_DATA = {
           "options": {
             "A": "At the Ensberg Theater",
             "B": "At a theater on Oxford Road",
-            "C": "At theBritishColumbiaTheater",
-            "D": "At a theateron Uniblab Street"
+            "C": "At the British Columbia Theater",
+            "D": "At a theater on Uniblab Street"
           },
           "answer": "B",
           "explanation": {
-            "focus": "商務情境核心字彙與語意辨析",
-            "type": "詞彙與商務語境 (Business Vocabulary & Collocation)",
-            "translation": "電影節在哪裡舉行？",
-            "grammar": "需結合前後文商業溝通脈絡與專業搭配詞，辨析各選項含義並挑選最精準用詞。",
-            "options_analysis": {
-              "A": {
-                "pos": "n. 名詞",
-                "meaning": "在恩斯伯格劇院",
-                "correct": false,
-                "reason": "【錯誤】n. 名詞。意為「在恩斯伯格劇院」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
+            "mentor_takeaway": "💡【秒懂核心】地址對照送分題：放映地點是位於 Oxford Road 的劇院，千萬別看錯成收件辦公室地址！",
+            "mentor_analogy": "文章清楚標示了兩組地址：一組是看電影的實體影院（Location: The Grace Dougherty Theater, 112 Oxford Road），另一組是給導演寄參賽母帶的辦公處（Uniblab Street）！觀眾看電影當然是去 Oxford Road 的戲院！",
+            "context_translation": "這個電影節活動是在何處舉行？——答案是：位於牛津路（Oxford Road）上的一家劇院。",
+            "trap_analysis": {
+              "A": "【避坑】劇院名字叫 The Grace Dougherty Theater，並非 Ensberg Theater（Ensberg 是城市名稱）！",
+              "B": "【正解】Location 欄位明確載明：112 Oxford Road，即 At a theater on Oxford Road！",
+              "C": "【避坑】British Columbia 是加拿大卑詩省名，不是劇院名稱！",
+              "D": "【避坑】Uniblab Street 是投稿參賽寄送電影拷貝母帶的辦公地址，不是現場放映活動地點！"
+            },
+            "key_vocab": [
+              {
+                "word": "take place",
+                "meaning": "phr. 舉行、發生",
+                "note": "不及物，無被動態"
               },
-              "B": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "在牛津路的一家劇院",
-                "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。意為「在牛津路的一家劇院」。符合題幹文法句構，商務語境搭配最為精準通順。"
-              },
-              "C": {
-                "pos": "n. 名詞",
-                "meaning": "在不列顛哥倫比亞劇院",
-                "correct": false,
-                "reason": "【錯誤】n. 名詞。意為「在不列顛哥倫比亞劇院」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
-              },
-              "D": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "在 Uniblab 街的一家劇院",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「在 Uniblab 街的一家劇院」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
+              {
+                "word": "submission",
+                "meaning": "n. 提交、參賽作品",
+                "note": "submit a film 遞交電影"
               }
+            ],
+            "focus": "💡【秒懂核心】地址對照送分題：放映地點是位於 Oxford Road 的劇院，千萬別看錯成收件辦公室地址！",
+            "translation": "這個電影節活動是在何處舉行？——答案是：位於牛津路（Oxford Road）上的一家劇院。"
+          },
+          "type": "group",
+          "group_id": "test2_g53_54",
+          "group_range": "Questions 53 - 54",
+          "group_part": "Part 7 閱讀理解（活動公告）",
+          "passages": [
+            {
+              "type": "notice",
+              "title": "🎬 第 10 屆恩斯伯格年度電影節公告 (Announcing the 10th Annual Ensberg Film Festival!)",
+              "content": "June 2017 marks the return of the popular Ensberg Film Festival. Buy your month-long pass now and receive access to every showing for the entirety of the festival, with a total of eight films each weekend for the entire month. This year, the theme of the festival is family. As usual, every film must involve the annual theme in some way in order to be eligible for screening. However, just because the theme is family doesn't mean that every film shown will be family friendly. See below for additional details.\n\nFestival Time:\nEvery Saturday and Sunday of June 2017, from 2:00 p.m. to 11:00 p.m.\n\nPrice per Pass:\nC$200\n\nLocation:\nThe Grace Dougherty Theater\n112 Oxford Road, Ensberg\nBritish Columbia, Canada\n\nIf you wish to submit a film for consideration, please send a physical copy to:\n145 Uniblab Street, Ensberg, British Columbia, Canada, T54 66E\nOr, upload your digital copy to our Dropbox folder:\nFolder name: \"Ensbergfilm\"\nAccessible through the following e-mail address: ensbergfilm@cinephile.com\n\nWe hope to see you all there!"
             }
-          }
+          ]
         },
         {
           "id": 59,
@@ -4159,52 +5049,46 @@ const TOEIC_DATA = {
     {
       "test_id": "多益3",
       "title": "多益模擬測驗三 (Test 3)",
-      "total_questions": 37,
+      "total_questions": 38,
       "questions": [
         {
           "id": 1,
           "range": "",
           "page": 1,
-          "question": "We're the first line of defense when it comes to ______ cybercrimes.",
+          "question": "The newly hired accountant was able to identify several ______ in the quarterly financial reports.",
           "options": {
-            "A": "preventing",
-            "B": "prevent",
-            "C": "prevention",
-            "D": "preventive"
+            "A": "discrepancies",
+            "B": "discrepancy",
+            "C": "discrepant",
+            "D": "discrepantly"
           },
           "answer": "A",
           "explanation": {
-            "focus": "動詞時態與主詞一致性",
-            "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "我們是預防網路犯罪的第一道防線。",
-            "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
-            "options_analysis": {
-              "A": {
-                "pos": "v.-ing 現在分詞/動名詞",
-                "meaning": "預防",
-                "correct": true,
-                "reason": "【正確】v.-ing 現在分詞/動名詞。意為「預防」。符合題幹文法句構，商務語境搭配最為精準通順。"
+            "mentor_takeaway": "💡【秒懂核心】看到 several（數個、好幾個），後面一定要加複數名詞！",
+            "mentor_analogy": "就像你去超市買了『好幾個（several）』蘋果，英文一定要講 several apples，絕對不能講單數 apple！several 後面直接鎖定複數名詞 discrepancies！",
+            "context_translation": "新進會計師成功在季度財務報表中指出了好幾處出入與帳目不符之處。",
+            "trap_analysis": {
+              "A": "【正解】discrepancies 為可數名詞複數型，完美配合 several 指稱多處帳目不一致！",
+              "B": "【避坑】discrepancy 是單數名詞，與 several 文法直接打架！",
+              "C": "【避坑】discrepant 是形容詞（不一致的），動詞 identify 後面需要名詞作受詞！",
+              "D": "【避坑】discrepantly 是副詞，不能當動詞的受詞！"
+            },
+            "key_vocab": [
+              {
+                "word": "discrepancy",
+                "meaning": "n. 不一致、出入、矛盾",
+                "note": "多益財務會計高頻考點"
               },
-              "B": {
-                "pos": "adj. 形容詞",
-                "meaning": "防止",
-                "correct": false,
-                "reason": "【錯誤】adj. 形容詞。意為「防止」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
-              },
-              "C": {
-                "pos": "n. 名詞",
-                "meaning": "預防",
-                "correct": false,
-                "reason": "【錯誤】n. 名詞。意為「預防」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
-              },
-              "D": {
-                "pos": "adj. 形容詞",
-                "meaning": "預防性的",
-                "correct": false,
-                "reason": "【錯誤】adj. 形容詞。意為「預防性的」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
+              {
+                "word": "quarterly",
+                "meaning": "adj./adv. 季度的、每季一次的",
+                "note": "quarterly report 季報"
               }
-            }
-          }
+            ],
+            "focus": "💡【秒懂核心】看到 several（數個、好幾個），後面一定要加複數名詞！",
+            "translation": "新進會計師成功在季度財務報表中指出了好幾處出入與帳目不符之處。"
+          },
+          "type": "single"
         },
         {
           "id": 2,
@@ -5518,31 +6402,56 @@ const TOEIC_DATA = {
           "id": 72,
           "range": "",
           "page": 11,
-          "question": "Liberty Air 450 Main Street NewYork,NY10024 DearLibertyAircustomers. 1]- I'd like to take this time to say to all our valued customers th we at Libery Air are deeply somy and embarassed for our pertormance overthe Christmas season. Last week was the worst operational week in Liberty Air's eleven-ye nistory. -2— The fact is we let you down. Nothing is more important than regainin your trust. 3]-- All of us here hope you will give us the opportunit to once again welcome you on board and provide you with the positi Liberty Air experience you have come to expect.-4]- Sincerely. David Cannon Chief ExecutiveOfficer",
+          "question": "What is the main purpose of David Cannon's letter?",
           "options": {
-            "A": "800-565-6000"
+            "A": "To inform customers about a flight delay",
+            "B": "To let customers know about a future flight cancellation",
+            "C": "To offer savings on future travels with Liberty Air",
+            "D": "To apologize for disappointing Liberty Air's customers"
           },
-          "answer": "A",
+          "answer": "D",
           "explanation": {
-            "focus": "同源詞詞性辨析",
-            "type": "詞性選擇 (Parts of Speech)",
-            "translation": "自由航空 450 Main Street NewYork,NY10024 尊敬的自由航空客戶。 1]- 我想藉此機會向我們所有尊貴的客戶表示，我們 Libery Air 對聖誕節期間的表現深感遺憾和尷尬。上週是自由航空十一年來營運最糟的一周。 -2－事實是我們讓您失望了。沒有什麼比重新獲得您的信任更重要的了。 3]-- 我們所有人都希望您能給我們機會，再次歡迎您登機，並為您提供您所期望的積極的自由航空體驗。 -4]- 此致。大衛坎農 首席執行官",
-            "grammar": "空格在句子中所屬成分（主詞、動詞、受詞或修飾語）決定所需正確詞性。",
-            "options_analysis": {
-              "A": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "800-565-6000 的含義",
-                "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。意為「800-565-6000 的含義」。符合題幹文法句構，商務語境搭配最為精準通順。"
+            "mentor_takeaway": "💡【秒懂核心】執行長親自寫信向大眾公開鞠躬致歉：'deeply sorry and embarrassed... we let you down'！",
+            "mentor_analogy": "航空公司在聖誕旺季大崩潰，執行長親筆發信開篇就是『我們深感愧疚與羞愧，我們讓各位失望了！』這就是標準的『道歉與信任挽回信函（To apologize）』！",
+            "context_translation": "David Cannon 撰寫這封信函的主要目的是什麼？——答案是：針對讓自由航空的顧客們感到失望而公開致歉。",
+            "trap_analysis": {
+              "A": "【避坑】這不是即時班機延誤通知簡訊，事情已經發生在過去一週（last week）！",
+              "B": "【避坑】並非預告未來的班機取消！",
+              "C": "【避坑】信中完全沒有提到機票優惠或打折（savings）！",
+              "D": "【正解】信中明確表示 'deeply sorry and embarrassed... The fact is we let you down'，核心意圖正是致歉 (To apologize)！"
+            },
+            "key_vocab": [
+              {
+                "word": "embarrassed",
+                "meaning": "adj. 感到羞愧尷尬的",
+                "note": "表深刻歉意"
+              },
+              {
+                "word": "regain trust",
+                "meaning": "phr. 重獲信任",
+                "note": "多益公關危機處理常見片語"
               }
+            ],
+            "focus": "💡【秒懂核心】執行長親自寫信向大眾公開鞠躬致歉：'deeply sorry and embarrassed... we let you down'！",
+            "translation": "David Cannon 撰寫這封信函的主要目的是什麼？——答案是：針對讓自由航空的顧客們感到失望而公開致歉。"
+          },
+          "type": "group",
+          "group_id": "test3_g72_75",
+          "group_range": "Questions 72 - 75",
+          "group_part": "Part 7 閱讀理解（商業致歉信函）",
+          "passages": [
+            {
+              "type": "letter",
+              "title": "✈️ 自由航空執行長致全體尊榮客戶公開信 (Liberty Air CEO Letter of Apology)",
+              "content": "Liberty Air\n450 Main Street\nNew York, NY 10024\n1-800-565-6000\n\nDear Liberty Air customers,\n\n—[1]— I'd like to take this time to say to all our valued customers that we at Liberty Air are deeply sorry and embarrassed for our performance over the Christmas season.\n\nLast week was the worst operational week in Liberty Air's eleven-year history. —[2]—\n\nThe fact is we let you down. Nothing is more important than regaining your trust. —[3]— All of us here hope you will give us the opportunity to once again welcome you on board and provide you with the positive Liberty Air experience you have come to expect. —[4]—\n\nSincerely,\nDavid Cannon\nChief Executive Officer"
             }
-          }
+          ]
         },
         {
           "id": 73,
           "range": "72 ",
           "page": 11,
-          "question": "How long has Liberty Air been in operation? ar ve",
+          "question": "How long has Liberty Air been in operation?",
           "options": {
             "A": "One season",
             "B": "One year",
@@ -5551,43 +6460,94 @@ const TOEIC_DATA = {
           },
           "answer": "C",
           "explanation": {
-            "focus": "動詞時態與主詞一致性",
-            "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "自由航空營運多久了？到達",
-            "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
-            "options_analysis": {
-              "A": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "一季",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「一季」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
+            "mentor_takeaway": "💡【秒懂核心】原文寫著：'eleven-year history'（11 年歷史），11 年就是超過十年（Over a decade）！",
+            "mentor_analogy": "英文中 10 年叫做 a decade。航空公司創立營運了 11 年，多益最愛考同義置換，11 年就是『超過一個年代（Over a decade）』！",
+            "context_translation": "自由航空已經營運了多長時間？——答案是：超過十年（內文提及已有 11 年歷史）。",
+            "trap_analysis": {
+              "A": "【避坑】One season 只是聖誕假期旺季，不是公司營運年限！",
+              "B": "【避坑】是一年（One year）後面加了個十，是 11 年！",
+              "C": "【正解】內文明確提及 'eleven-year history'，11 年即為 Over a decade（超過十年）！",
+              "D": "【避坑】Twenty years（二十年）過度誇大，原文只有 11 年。"
+            },
+            "key_vocab": [
+              {
+                "word": "decade",
+                "meaning": "n. 十年",
+                "note": "over a decade 超過十年"
               },
-              "B": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "一年",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「一年」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
-              },
-              "C": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "十多年來",
-                "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。意為「十多年來」。符合題幹文法句構，商務語境搭配最為精準通順。"
-              },
-              "D": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "二十年",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「二十年」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
+              {
+                "word": "in operation",
+                "meaning": "phr. 營運中、運作中",
+                "note": "相當於 in business"
               }
+            ],
+            "focus": "💡【秒懂核心】原文寫著：'eleven-year history'（11 年歷史），11 年就是超過十年（Over a decade）！",
+            "translation": "自由航空已經營運了多長時間？——答案是：超過十年（內文提及已有 11 年歷史）。"
+          },
+          "type": "group",
+          "group_id": "test3_g72_75",
+          "group_range": "Questions 72 - 75",
+          "group_part": "Part 7 閱讀理解（商業致歉信函）",
+          "passages": [
+            {
+              "type": "letter",
+              "title": "✈️ 自由航空執行長致全體尊榮客戶公開信 (Liberty Air CEO Letter of Apology)",
+              "content": "Liberty Air\n450 Main Street\nNew York, NY 10024\n1-800-565-6000\n\nDear Liberty Air customers,\n\n—[1]— I'd like to take this time to say to all our valued customers that we at Liberty Air are deeply sorry and embarrassed for our performance over the Christmas season.\n\nLast week was the worst operational week in Liberty Air's eleven-year history. —[2]—\n\nThe fact is we let you down. Nothing is more important than regaining your trust. —[3]— All of us here hope you will give us the opportunity to once again welcome you on board and provide you with the positive Liberty Air experience you have come to expect. —[4]—\n\nSincerely,\nDavid Cannon\nChief Executive Officer"
             }
+          ]
+        },
+        {
+          "id": 74,
+          "question": "What is NOT mentioned in the letter?",
+          "options": {
+            "A": "Expectations of customers flying with Liberty Air again",
+            "B": "An apology to customers for a week of poor service",
+            "C": "A money-back guarantee from Liberty Air",
+            "D": "The promise for better service in the future"
+          },
+          "answer": "C",
+          "type": "group",
+          "group_id": "test3_g72_75",
+          "group_range": "Questions 72 - 75",
+          "group_part": "Part 7 閱讀理解（商業致歉信函）",
+          "passages": [
+            {
+              "type": "letter",
+              "title": "✈️ 自由航空執行長致全體尊榮客戶公開信 (Liberty Air CEO Letter of Apology)",
+              "content": "Liberty Air\n450 Main Street\nNew York, NY 10024\n1-800-565-6000\n\nDear Liberty Air customers,\n\n—[1]— I'd like to take this time to say to all our valued customers that we at Liberty Air are deeply sorry and embarrassed for our performance over the Christmas season.\n\nLast week was the worst operational week in Liberty Air's eleven-year history. —[2]—\n\nThe fact is we let you down. Nothing is more important than regaining your trust. —[3]— All of us here hope you will give us the opportunity to once again welcome you on board and provide you with the positive Liberty Air experience you have come to expect. —[4]—\n\nSincerely,\nDavid Cannon\nChief Executive Officer"
+            }
+          ],
+          "explanation": {
+            "mentor_takeaway": "💡【秒懂核心】執行長只談了道歉、認錯與希望重獲信任，但從頭到尾隻字未提『全額退費保證』！",
+            "mentor_analogy": "很多公關信件只會打悲情牌說『請再給我們一次機會』，但就是不肯主動提賠償金或退款保證（money-back guarantee）！信裡根本找不到任何跟退錢相關的字句！",
+            "context_translation": "下列何者在信件內容中『完全未被提及』？——答案是：自由航空的退款/全額退費保證。",
+            "trap_analysis": {
+              "A": "【避坑】信尾明確寫了希望有機會再次歡迎顧客登機 (welcome you on board)！",
+              "B": "【避坑】第二段直接為過去一週最糟糕的營運致歉 (worst operational week)！",
+              "C": "【正解】信中通篇未提及任何金錢補償或退費保證 (money-back guarantee)，符合 NOT 要求！",
+              "D": "【避坑】信中承諾未來將提供符合預期的優質體驗 (positive experience you have come to expect)！"
+            },
+            "key_vocab": [
+              {
+                "word": "money-back guarantee",
+                "meaning": "n. 退款保證",
+                "note": "多益商業消費常見詞"
+              },
+              {
+                "word": "let down",
+                "meaning": "phr. 使...失望",
+                "note": "相當於 disappoint"
+              }
+            ],
+            "focus": "💡【秒懂核心】執行長只談了道歉、認錯與希望重獲信任，但從頭到尾隻字未提『全額退費保證』！",
+            "translation": "下列何者在信件內容中『完全未被提及』？——答案是：自由航空的退款/全額退費保證。"
           }
         },
         {
           "id": 75,
           "range": "72 ",
           "page": 11,
-          "question": "In which of the positions marked [1], [2]. [3], and [4] does the following sentence best belong? \"Many of you were either stranded, delayed or had flights canceled following the severe winter storm in the Southwest.\"",
+          "question": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? \"Many of you were either stranded, delayed or had flights canceled following the severe winter storm in the Southwest.\"",
           "options": {
             "A": "[1]",
             "B": "[2]",
@@ -5596,37 +6556,41 @@ const TOEIC_DATA = {
           },
           "answer": "B",
           "explanation": {
-            "focus": "同源詞詞性辨析",
-            "type": "詞性選擇 (Parts of Speech)",
-            "translation": "其中哪個位置標示為[1]、[2]。 [3]、[4]下面的句子最適合嗎？ 「在西南地區遭遇嚴重的冬季風暴後，你們中的許多人要么滯留、延誤，要么航班取消。”",
-            "grammar": "空格在句子中所屬成分（主詞、動詞、受詞或修飾語）決定所需正確詞性。",
-            "options_analysis": {
-              "A": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "位置標記 [1]",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「[1] 的含義」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
+            "mentor_takeaway": "💡【秒懂核心】插入句在具體說明旅客『被滯留、班機延誤或被取消』，完美銜接在 [2] 前面的『最糟糕的營運週』！",
+            "mentor_analogy": "前一句剛說：『上週是我們 11 年歷史中最慘澹混亂的一週。』聽的人一定會想知道『到底有多慘？發生了什麼事？』這時候緊接著放進：『西南地區發生暴風雪，導致許多旅客滯留機場、班機延宕與取消』，前因後果完美吻合！",
+            "context_translation": "下列句子最適合插入 [1]、[2]、[3]、[4] 中的哪一個位置？『在西南部遭遇強烈冬季暴風雪之後，你們當中有許多人被迫滯留在機場、行程延誤，或是班機直接遭到取消。』——答案是：[2]。",
+            "trap_analysis": {
+              "A": "【避坑】[1] 位於第一段開頭，信件剛要破題致歉，插入具體災情太過突兀！",
+              "B": "【正解】緊接在 'worst operational week' 後面，具體描述暴風雪災情與旅客滯留情況，承上啟下天衣無縫！",
+              "C": "【避坑】[3] 已經轉入結尾收尾與挽回信任的訴求，不宜回頭重新講災情！",
+              "D": "【避坑】[4] 是正式簽名前最後一句話，放這裡完全破壞結尾句型！"
+            },
+            "key_vocab": [
+              {
+                "word": "stranded",
+                "meaning": "adj. 滯留的、受困的",
+                "note": "航班延誤停飛高頻詞彙"
               },
-              "B": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "位置標記 [2]",
-                "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。意為「[2] 的含義」。符合題幹文法句構，商務語境搭配最為精準通順。"
-              },
-              "C": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "位置標記 [3]",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「[3] 的含義」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
-              },
-              "D": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "位置標記 [4]",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「[4] 的含義」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
+              {
+                "word": "severe winter storm",
+                "meaning": "n. 強烈冬季暴風雪",
+                "note": "不可抗力天候因素"
               }
+            ],
+            "focus": "💡【秒懂核心】插入句在具體說明旅客『被滯留、班機延誤或被取消』，完美銜接在 [2] 前面的『最糟糕的營運週』！",
+            "translation": "下列句子最適合插入 [1]、[2]、[3]、[4] 中的哪一個位置？『在西南部遭遇強烈冬季暴風雪之後，你們當中有許多人被迫滯留在機場、行程延誤，或是班機直接遭到取消。』——答案是：[2]。"
+          },
+          "type": "group",
+          "group_id": "test3_g72_75",
+          "group_range": "Questions 72 - 75",
+          "group_part": "Part 7 閱讀理解（商業致歉信函）",
+          "passages": [
+            {
+              "type": "letter",
+              "title": "✈️ 自由航空執行長致全體尊榮客戶公開信 (Liberty Air CEO Letter of Apology)",
+              "content": "Liberty Air\n450 Main Street\nNew York, NY 10024\n1-800-565-6000\n\nDear Liberty Air customers,\n\n—[1]— I'd like to take this time to say to all our valued customers that we at Liberty Air are deeply sorry and embarrassed for our performance over the Christmas season.\n\nLast week was the worst operational week in Liberty Air's eleven-year history. —[2]—\n\nThe fact is we let you down. Nothing is more important than regaining your trust. —[3]— All of us here hope you will give us the opportunity to once again welcome you on board and provide you with the positive Liberty Air experience you have come to expect. —[4]—\n\nSincerely,\nDavid Cannon\nChief Executive Officer"
             }
-          }
+          ]
         },
         {
           "id": 77,
@@ -5819,46 +6783,40 @@ const TOEIC_DATA = {
           "id": 1,
           "range": "",
           "page": 1,
-          "question": "The product will be successful; I stake my reputation as an ______ on it.",
+          "question": "The newly upgraded corporate software will allow employees to work ______ from remote locations.",
           "options": {
-            "A": "analyst",
-            "B": "analyze",
-            "C": "analysis",
-            "D": "analyses"
+            "A": "seamlessly",
+            "B": "seamless",
+            "C": "seam",
+            "D": "seamed"
           },
           "answer": "A",
           "explanation": {
-            "focus": "動詞時態與主詞一致性",
-            "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "產品一定會成功；我把自己作為分析師的聲譽押在了上面。",
-            "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
-            "options_analysis": {
-              "A": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "分析師",
-                "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。意為「分析師」。符合題幹文法句構，商務語境搭配最為精準通順。"
+            "mentor_takeaway": "💡【秒懂核心】修飾動詞 work，必須使用副詞形式 seamlessly！",
+            "mentor_analogy": "就像衣服的布料完全看不到針腳接縫（seamless），引申為『系統無縫接軌、順暢無阻』！用來修飾工作操作順暢（work seamlessly），一定要選字尾是 -ly 的副詞！",
+            "context_translation": "這次新升級的企業軟體系統，將使員工在遠距辦公時也能順暢無縫地協同作業。",
+            "trap_analysis": {
+              "A": "【正解】副詞 seamlessly 修飾前面的動詞 work，意為『無縫地、順暢地』，多益遠距辦公科技題超高頻！",
+              "B": "【避坑】seamless 是形容詞，不能用來修飾動詞 work！",
+              "C": "【避坑】seam 是名詞（衣服接縫），放在動詞後面語意文法完全破裂！",
+              "D": "【避坑】seamed 是過去分詞形容詞，同樣無法修飾一般動詞！"
+            },
+            "key_vocab": [
+              {
+                "word": "seamlessly",
+                "meaning": "adv. 無縫地、順暢銜接地下",
+                "note": "現代科技遠端協同高頻熱詞"
               },
-              "B": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "分析、研析",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「分析、研析」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
-              },
-              "C": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "分析、分析報告",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「分析、分析報告」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
-              },
-              "D": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "分析（複數）",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「分析（複數）」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
+              {
+                "word": "remote location",
+                "meaning": "n. 遠端地點、遠距工作處",
+                "note": "多益新制職場情境題"
               }
-            }
-          }
+            ],
+            "focus": "💡【秒懂核心】修飾動詞 work，必須使用副詞形式 seamlessly！",
+            "translation": "這次新升級的企業軟體系統，將使員工在遠距辦公時也能順暢無縫地協同作業。"
+          },
+          "type": "single"
         },
         {
           "id": 2,
@@ -6822,37 +7780,41 @@ const TOEIC_DATA = {
           },
           "answer": "D",
           "explanation": {
-            "focus": "動詞時態與主詞一致性",
-            "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "儘管這看起來可能適得其反，但每天運動一小時可能比僅僅坐著一小時並繼續努力完成工作能讓你完成更多的事情。",
-            "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
-            "options_analysis": {
-              "A": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "評估、核定",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「評估、核定」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
+            "mentor_takeaway": "💡【秒懂核心】每天去運動一小時看似浪費時間，實際上卻能讓你『完成、達成 (accomplish)』更多工作！",
+            "mentor_analogy": "俗話說『磨刀不誤砍柴工』！你坐在辦公桌前發呆八小時頭昏腦脹，不如去跑步一小時充電，回來反而能完成（accomplish）更多專案！",
+            "context_translation": "雖然看似違背直覺、反而降低效率，但每天運動一小時實際上可能使你『完成』比枯坐一小時苦撐還要多的工作量。",
+            "trap_analysis": {
+              "A": "【避坑】assess 是『評估、核定』，運動不會讓你評估更多工作！",
+              "B": "【避坑】oversee 是『監督主管』，去健身房不會讓你監督別人！",
+              "C": "【避坑】sustain 是『維持、承受』，搭配 more than trying to get work done 語義不合！",
+              "D": "【正解】accomplish more 表『達成/完成更多成果』，與後文 get work done 形成完美呼應！"
+            },
+            "key_vocab": [
+              {
+                "word": "counterproductive",
+                "meaning": "adj. 適得其反的、產生反效果的",
+                "note": "多益高階思維形容詞"
               },
-              "B": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "監督、指導",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「監督、指導」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
-              },
-              "C": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "維持、承受",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「維持、承受」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
-              },
-              "D": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "達成、完成",
-                "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。意為「達成、完成」。符合題幹文法句構，商務語境搭配最為精準通順。"
+              {
+                "word": "accomplish",
+                "meaning": "v. 達成、完成",
+                "note": "accomplishment 成就"
               }
+            ],
+            "focus": "💡【秒懂核心】每天去運動一小時看似浪費時間，實際上卻能讓你『完成、達成 (accomplish)』更多工作！",
+            "translation": "雖然看似違背直覺、反而降低效率，但每天運動一小時實際上可能使你『完成』比枯坐一小時苦撐還要多的工作量。"
+          },
+          "type": "group",
+          "group_id": "test4_g35_38",
+          "group_range": "Questions 35 - 38",
+          "group_part": "Part 6 段落填空（健康與職場生產力）",
+          "passages": [
+            {
+              "type": "article",
+              "title": "🏃 運動如何反直覺地倍增你的工作生產力 (How Exercise Boosts Workplace Productivity)",
+              "content": "Although it may seem counterproductive, an hour of exercise a day may allow you to [35] more than if you had simply sat for that hour and continued trying to get work done.\n\n[36] For one, exercise reduces stress and causes your brain to release endorphins and dopamine. Additionally, working [37] has been proven to increase creativity, focus, and memory capacity. So the next time you're feeling uninspired or [38] down, take some time (an hour or so) to run, do some push-ups, or tone that stomach."
             }
-          }
+          ]
         },
         {
           "id": 36,
@@ -6867,37 +7829,41 @@ const TOEIC_DATA = {
           },
           "answer": "B",
           "explanation": {
-            "focus": "動詞時態與主詞一致性",
-            "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "根據許多醫學和心理學研究，運動對人的心智能力的影響是有益且眾多的。其一，運動可以減輕壓力，使大腦釋放內啡肽和多巴胺。",
-            "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
-            "options_analysis": {
-              "A": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "如果您有大量工作要做，將其分成較小的任務組可能會幫助您更快更好地完成工作。",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「如果您有大量工作要做，將其分成較小的任務組可能會幫助您更快更好地完成工作。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
+            "mentor_takeaway": "💡【秒懂核心】第二段主題句引導：後文列舉釋放多巴胺、增加專注力，總起句正是『運動對大腦思維的好處極多且獲研究證實』！",
+            "mentor_analogy": "就像寫報告，第二段開宗明義先下一個結論：『醫學研究證實，運動對大腦心智能力有諸多好處！』接著後面才逐一說明：第一（For one），它能減壓釋放腦內啡；第二，它還能增強記憶力！B 選項作為段落總起句最合拍！",
+            "context_translation": "下列哪一句最適合做為第二段的開頭主題句？——答案是：B（根據許多醫學與心理學研究，運動對個人大腦心智能力的益處既顯著又多元）。",
+            "trap_analysis": {
+              "A": "【避坑】在講工作任務拆解，完全離題！",
+              "B": "【正解】完美概括段落主旨（運動對 mental capacity 的益處），後文的 endorphins（腦內啡）正是醫學研究佐證！",
+              "C": "【避坑】在講手腕手指伸展預防肌腱炎，偏離整體運動大腦的主題！",
+              "D": "【避坑】在講站立深蹲辦公技巧，並非全段宏觀總起句！"
+            },
+            "key_vocab": [
+              {
+                "word": "mental capacity",
+                "meaning": "n. 心智能力、大腦機能",
+                "note": "科普醫學題型"
               },
-              "B": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "根據許多醫學和心理學研究，運動對人的心智能力的影響是有益且眾多的。",
-                "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。意為「根據許多醫學和心理學研究，運動對人的心智能力的影響是有益且眾多的。」。符合題幹文法句構，商務語境搭配最為精準通順。"
-              },
-              "C": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "彎曲手腕、手和手指是防止重複性壓力傷害的關鍵。",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「彎曲手腕、手和手指是防止重複性壓力傷害的關鍵。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
-              },
-              "D": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "一種策略是在辦公桌前交替站立和蹲下，直到肌肉變暖。",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「一種策略是在辦公桌前交替站立和蹲下，直到肌肉變暖。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
+              {
+                "word": "for one",
+                "meaning": "phr. 首先、舉例來說",
+                "note": "常用於引導第一項論據"
               }
+            ],
+            "focus": "💡【秒懂核心】第二段主題句引導：後文列舉釋放多巴胺、增加專注力，總起句正是『運動對大腦思維的好處極多且獲研究證實』！",
+            "translation": "下列哪一句最適合做為第二段的開頭主題句？——答案是：B（根據許多醫學與心理學研究，運動對個人大腦心智能力的益處既顯著又多元）。"
+          },
+          "type": "group",
+          "group_id": "test4_g35_38",
+          "group_range": "Questions 35 - 38",
+          "group_part": "Part 6 段落填空（健康與職場生產力）",
+          "passages": [
+            {
+              "type": "article",
+              "title": "🏃 運動如何反直覺地倍增你的工作生產力 (How Exercise Boosts Workplace Productivity)",
+              "content": "Although it may seem counterproductive, an hour of exercise a day may allow you to [35] more than if you had simply sat for that hour and continued trying to get work done.\n\n[36] For one, exercise reduces stress and causes your brain to release endorphins and dopamine. Additionally, working [37] has been proven to increase creativity, focus, and memory capacity. So the next time you're feeling uninspired or [38] down, take some time (an hour or so) to run, do some push-ups, or tone that stomach."
             }
-          }
+          ]
         },
         {
           "id": 37,
@@ -6912,37 +7878,41 @@ const TOEIC_DATA = {
           },
           "answer": "B",
           "explanation": {
-            "focus": "同源詞詞性辨析",
-            "type": "詞性選擇 (Parts of Speech)",
-            "translation": "此外，運動已被證明可以提高創造力、注意力和記憶力。",
-            "grammar": "空格在句子中所屬成分（主詞、動詞、受詞或修飾語）決定所需正確詞性。",
-            "options_analysis": {
-              "A": {
-                "pos": "prep. 介系詞",
-                "meaning": "在",
-                "correct": false,
-                "reason": "【錯誤】prep. 介系詞。意為「在」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
+            "mentor_takeaway": "💡【秒懂核心】全民必備英文：健身、運動鍛鍊就是 work out！",
+            "mentor_analogy": "你去健身房重訓、跑步流汗，英文固定片語就是 work out！整篇文章都在講運動的效益，working out 就是運動鍛鍊！",
+            "context_translation": "此外，『運動健身（working out）』已被科學證實能提升創造力、專注力與記憶容量。",
+            "trap_analysis": {
+              "A": "【避坑】work in 沒有運動健身之意！",
+              "B": "【正解】work out 為固定動詞片語，專指『健身、體能鍛鍊』！",
+              "C": "【避坑】work down 意思不通！",
+              "D": "【避坑】work up 是激起情緒（如 work up an appetite 激起食慾），不能代指運動！"
+            },
+            "key_vocab": [
+              {
+                "word": "work out",
+                "meaning": "phr. 運動、健身鍛鍊",
+                "note": "名詞合寫為 workout"
               },
-              "B": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "出來、得知（found out）",
-                "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。意為「出來、得知（found out）」。符合題幹文法句構，商務語境搭配最為精準通順。"
-              },
-              "C": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "向下",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「向下」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
-              },
-              "D": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "向上、冒出（popping up）",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「向上、冒出（popping up）」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
+              {
+                "word": "memory capacity",
+                "meaning": "n. 記憶容量",
+                "note": "認知心理學詞彙"
               }
+            ],
+            "focus": "💡【秒懂核心】全民必備英文：健身、運動鍛鍊就是 work out！",
+            "translation": "此外，『運動健身（working out）』已被科學證實能提升創造力、專注力與記憶容量。"
+          },
+          "type": "group",
+          "group_id": "test4_g35_38",
+          "group_range": "Questions 35 - 38",
+          "group_part": "Part 6 段落填空（健康與職場生產力）",
+          "passages": [
+            {
+              "type": "article",
+              "title": "🏃 運動如何反直覺地倍增你的工作生產力 (How Exercise Boosts Workplace Productivity)",
+              "content": "Although it may seem counterproductive, an hour of exercise a day may allow you to [35] more than if you had simply sat for that hour and continued trying to get work done.\n\n[36] For one, exercise reduces stress and causes your brain to release endorphins and dopamine. Additionally, working [37] has been proven to increase creativity, focus, and memory capacity. So the next time you're feeling uninspired or [38] down, take some time (an hour or so) to run, do some push-ups, or tone that stomach."
             }
-          }
+          ]
         },
         {
           "id": 38,
@@ -6957,37 +7927,41 @@ const TOEIC_DATA = {
           },
           "answer": "D",
           "explanation": {
-            "focus": "動詞時態與主詞一致性",
-            "type": "動詞時態與變化 (Verb Tense & Agreement)",
-            "translation": "因此，下次當您感到沒有靈感或沮喪時，請花一些時間（一個小時左右）跑步，做一些俯臥撐，或調理腹部。",
-            "grammar": "需根據句中時間副詞、前後子句時態或假設定律，選出符合文法時態之正確動詞形態。",
-            "options_analysis": {
-              "A": {
-                "pos": "v.-ing 現在分詞/動名詞",
-                "meaning": "磨損、研磨",
-                "correct": false,
-                "reason": "【錯誤】v.-ing 現在分詞/動名詞。意為「磨損、研磨」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
+            "mentor_takeaway": "💡【秒懂核心】形容人被職場壓力折磨得『精疲力竭、被壓得喘不過氣』，固定成語是 ground down！",
+            "mentor_analogy": "就像一粒咖啡豆被磨豆機狠狠碾碎（grind -> 過去分詞 ground）！feel ground down 就是被生活的重擔磨得體無完膚、精疲力竭！這時候趕緊穿上跑鞋去流流汗吧！",
+            "context_translation": "因此，下一次當你感到缺乏靈感或是被生活與工作『磨得精疲力竭（ground down）』時，不妨抽出一小時去跑步、做伏地挺身或鍛鍊核心。",
+            "trap_analysis": {
+              "A": "【避坑】grinding down 是主動去研磨別人，人是被生活磨損，應用被動分詞！",
+              "B": "【避坑】grinds 是第三人稱單數動詞，放在 feeling 後面文法錯誤！",
+              "C": "【避坑】grind 是原形動詞，不能放在 feeling 後面充當情緒形容詞！",
+              "D": "【正解】ground down 是 grind down 的過去分詞轉形容詞，形容『身心俱疲、被壓垮磨損』，與 uninspired 完美並列！"
+            },
+            "key_vocab": [
+              {
+                "word": "ground down",
+                "meaning": "adj. 精疲力竭的、被生活重擔磨垮的",
+                "note": "源自 grind down"
               },
-              "B": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "研磨（單數）",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「研磨（單數）」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
-              },
-              "C": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "研磨、苦工",
-                "correct": false,
-                "reason": "【錯誤】v./adj./n. 核心詞彙。意為「研磨、苦工」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
-              },
-              "D": {
-                "pos": "v./adj./n. 核心詞彙",
-                "meaning": "磨損、壓垮（ground down）",
-                "correct": true,
-                "reason": "【正確】v./adj./n. 核心詞彙。意為「磨損、壓垮（ground down）」。符合題幹文法句構，商務語境搭配最為精準通順。"
+              {
+                "word": "uninspired",
+                "meaning": "adj. 毫無靈感的、索然無味的",
+                "note": "un- + inspired"
               }
+            ],
+            "focus": "💡【秒懂核心】形容人被職場壓力折磨得『精疲力竭、被壓得喘不過氣』，固定成語是 ground down！",
+            "translation": "因此，下一次當你感到缺乏靈感或是被生活與工作『磨得精疲力竭（ground down）』時，不妨抽出一小時去跑步、做伏地挺身或鍛鍊核心。"
+          },
+          "type": "group",
+          "group_id": "test4_g35_38",
+          "group_range": "Questions 35 - 38",
+          "group_part": "Part 6 段落填空（健康與職場生產力）",
+          "passages": [
+            {
+              "type": "article",
+              "title": "🏃 運動如何反直覺地倍增你的工作生產力 (How Exercise Boosts Workplace Productivity)",
+              "content": "Although it may seem counterproductive, an hour of exercise a day may allow you to [35] more than if you had simply sat for that hour and continued trying to get work done.\n\n[36] For one, exercise reduces stress and causes your brain to release endorphins and dopamine. Additionally, working [37] has been proven to increase creativity, focus, and memory capacity. So the next time you're feeling uninspired or [38] down, take some time (an hour or so) to run, do some push-ups, or tone that stomach."
             }
-          }
+          ]
         },
         {
           "id": 40,
