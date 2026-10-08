@@ -44,6 +44,83 @@
   -webkit-tap-highlight-color: transparent;
 }
 
+/* ==========================================================================
+   選取性控制：方塊/按鈕/裝飾無法選取防誤觸；所有題目/文章/解析文字皆可自由選取
+   ========================================================================== */
+
+/* 1. 所有按鈕、控制元件、題號盤方塊、標籤：嚴禁選取與反藍 */
+button,
+input[type="button"],
+select,
+.opt-btn,
+.mode-tab,
+.palette-btn,
+.btn-nav,
+.filter-btn,
+.btn-flag,
+.opt-badge,
+.subq-num-badge,
+.brand-badge,
+.passage-header-badge,
+.subq-header,
+.card-header,
+.exam-timer,
+.exam-controls,
+.progress-container,
+.test-selector-wrapper,
+.palette-header,
+.palette-legend,
+.practice-stat-item,
+.modal-overlay,
+.modal-actions,
+.score-ring,
+.toast,
+.sr-only {
+  user-select: none !important;
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  -webkit-touch-callout: none !important;
+}
+
+/* 2. 所有文章內容、題目文字、選項文字、導師解析、單字：100% 自由選取查詞 */
+.passage-pane,
+.passage-item-box,
+.passage-title-main,
+.passage-text-content,
+.chat-room-container,
+.chat-msg,
+.chat-sender,
+.chat-time,
+.recipe-box,
+.form-box,
+.email-box,
+.ingredient-list,
+.instruction-list,
+.question-prompt,
+.subq-prompt,
+.opt-text,
+.feedback-notes,
+.mentor-pedagogy-card,
+.takeaway-text,
+.analogy-title,
+.analogy-content,
+.translation-title,
+.translation-content,
+.evidence-title,
+.evidence-content,
+.traps-container,
+.trap-item,
+.vocab-container,
+.vocab-pill,
+.explain-item,
+.blank-slot {
+  user-select: text !important;
+  -webkit-user-select: text !important;
+  -moz-user-select: text !important;
+  -ms-user-select: text !important;
+}
+
 html {
   scroll-behavior: smooth;
   font-family: 'Inter', 'Noto Sans TC', system-ui, sans-serif;
@@ -1238,6 +1315,14 @@ body {
   color: var(--red);
 }
 
+.palette-btn.is-group-q {
+  border-bottom: 2.5px solid rgba(56, 189, 248, 0.7);
+}
+
+.palette-btn.is-group-q:hover {
+  border-bottom-color: #38bdf8;
+}
+
 /* ==========================================================================
    Exam Result Modal
    ========================================================================== */
@@ -1459,6 +1544,194 @@ body {
 
   .mode-tab {
     padding: 6px 10px;
+    font-size: 12px;
+  }
+}
+
+/* ==========================================================================
+   直立手機專屬極致適配 (Mobile Portrait Orientation Optimization)
+   ========================================================================== */
+@media screen and (max-width: 768px), screen and (orientation: portrait) and (max-width: 960px) {
+  /* 頂部導航空間精緻壓縮，直向螢幕不擁擠 */
+  .navbar {
+    padding: 8px 12px;
+  }
+
+  .nav-container {
+    gap: 8px;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .nav-brand {
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .nav-brand .brand-title h1 {
+    font-size: 18px;
+  }
+
+  .nav-brand .brand-title p {
+    display: none; /* 直向手機隱藏副標題節省空間 */
+  }
+
+  .brand-badge {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    font-size: 13px;
+  }
+
+  .test-selector-wrapper {
+    width: 100%;
+  }
+
+  .test-select {
+    width: 100%;
+    padding: 8px 12px;
+    font-size: 13.5px;
+    border-radius: 8px;
+  }
+
+  .mode-nav {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+  }
+
+  .mode-tab {
+    justify-content: center;
+    padding: 8px 4px;
+    font-size: 12px;
+    border-radius: 8px;
+  }
+
+  .mode-tab span {
+    white-space: nowrap;
+  }
+
+  /* 測驗區塊直立邊距微調 */
+  .test-layout {
+    padding: 10px 8px;
+    gap: 12px;
+  }
+
+  .card-header {
+    margin-bottom: 12px;
+  }
+
+  .card-q-num {
+    font-size: 19px;
+  }
+
+  .question-body p {
+    font-size: 16px;
+    line-height: 1.55;
+  }
+
+  /* 單題選項按鈕直立手機點擊熱區 */
+  .opt-btn {
+    min-height: 48px;
+    padding: 12px 14px;
+    font-size: 14.5px;
+    border-radius: 10px;
+  }
+
+  .opt-btn:active {
+    transform: scale(0.985);
+  }
+
+  /* 題組視窗在直立手機下的黃金佈局 */
+  .reading-group-stage {
+    grid-template-columns: 1fr !important;
+    gap: 14px !important;
+  }
+
+  /* 上方文章區塊：固定高度適中，留出充足視野給下方題目 */
+  .passage-pane {
+    position: sticky;
+    top: 58px;
+    z-index: 60;
+    max-height: 42vh !important;
+    padding: 16px 14px !important;
+    border-radius: var(--radius-md) !important;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.7);
+    border: 1px solid rgba(59, 130, 246, 0.35);
+  }
+
+  .passage-title-main {
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+  }
+
+  .passage-text-content {
+    font-size: 13.5px;
+    line-height: 1.65;
+  }
+
+  /* 下方子題面板在直立手機下的卡片樣式 */
+  .subquestions-pane {
+    gap: 14px;
+  }
+
+  .subquestion-card {
+    padding: 16px 12px !important;
+    border-radius: var(--radius-md) !important;
+    scroll-margin-top: calc(42vh + 72px);
+  }
+
+  .subq-num-badge {
+    font-size: 13px;
+    padding: 3px 10px;
+  }
+
+  .subq-prompt {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 12px;
+  }
+
+  .subq-options {
+    gap: 8px;
+  }
+
+  /* 導師解析在手機直立下的排版 */
+  .mentor-pedagogy-card {
+    padding: 14px;
+    margin-top: 14px;
+    border-radius: 12px;
+  }
+
+  .takeaway-text {
+    font-size: 13.5px;
+  }
+
+  .analogy-box, .traps-container {
+    padding: 10px 12px;
+  }
+
+  .analogy-content, .translation-content, .trap-item {
+    font-size: 13px;
+    line-height: 1.55;
+  }
+
+  /* 底部導航按鈕列 */
+  .stage-nav {
+    gap: 8px;
+    margin-top: 12px;
+  }
+
+  .btn-nav {
+    padding: 10px 16px;
+    font-size: 13.5px;
+    border-radius: 10px;
+  }
+
+  .btn-drawer-toggle {
+    padding: 8px 12px;
     font-size: 12px;
   }
 }

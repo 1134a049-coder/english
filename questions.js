@@ -897,7 +897,18 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】adj. 形容詞。意為「幾何的」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test1_g31_34",
+          "group_range": "Questions 31 - 34",
+          "group_part": "Part 6 段落填空（電影角色試鏡徵召公告）",
+          "passages": [
+            {
+              "type": "notice",
+              "title": "🎬 獨立電影劇組演員試鏡公告 (Casting Call: Supporting Role)",
+              "content": "CASTING CALL: INDEPENDENT FEATURE FILM\n\nProduction: 'Autumn in Brooklyn' (Shooting starts December 1st)\nDirector: Marcus Vance\n\nWe are currently casting for the supporting role of 'Leo', the quirky and loyal companion to our main character.\n\nWe are looking for a male character actor to play the funny, but not [31] best friend of the leading role in our upcoming film. We want someone who looks friendly, but not [32]. The person must also be wacky, but in a way that doesn't steal [33] from the male lead.\n\n[34] Please bring a current headshot, resume, and be prepared to read selected sides from the script."
+            }
+          ]
         },
         {
           "id": 32,
@@ -942,7 +953,18 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】n. 名詞。意為「恐嚇」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test1_g31_34",
+          "group_range": "Questions 31 - 34",
+          "group_part": "Part 6 段落填空（電影角色試鏡徵召公告）",
+          "passages": [
+            {
+              "type": "notice",
+              "title": "🎬 獨立電影劇組演員試鏡公告 (Casting Call: Supporting Role)",
+              "content": "CASTING CALL: INDEPENDENT FEATURE FILM\n\nProduction: 'Autumn in Brooklyn' (Shooting starts December 1st)\nDirector: Marcus Vance\n\nWe are currently casting for the supporting role of 'Leo', the quirky and loyal companion to our main character.\n\nWe are looking for a male character actor to play the funny, but not [31] best friend of the leading role in our upcoming film. We want someone who looks friendly, but not [32]. The person must also be wacky, but in a way that doesn't steal [33] from the male lead.\n\n[34] Please bring a current headshot, resume, and be prepared to read selected sides from the script."
+            }
+          ]
         },
         {
           "id": 35,
@@ -987,7 +1009,18 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】n. 名詞。意為「可能性」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test1_g35_38",
+          "group_range": "Questions 35 - 38",
+          "group_part": "Part 6 段落填空（心靈成長讀者來信諮詢）",
+          "passages": [
+            {
+              "type": "letter",
+              "title": "✉️ 讀者投書：尋找人生與職場的新方向 (Letter to Life Advice Column)",
+              "content": "Dear Dr. Stephanie,\n\nNormally I don't write in to advice columns, but lately I feel I have no [35]. I'm confused because there isn't really anything wrong [36] my life.\n\n[37] I like my job and I like where I live, I still feel sad and unfulfilled sometimes. I wake up every morning feeling like I am just going through the motions without any real passion.\n\n[38] I would greatly appreciate any guidance or recommended steps you could offer to help me regain my enthusiasm.\n\nSincerely,\nWandering in Seattle"
+            }
+          ]
         },
         {
           "id": 43,
@@ -1032,7 +1065,18 @@ const TOEIC_DATA = {
                 "reason": "【正確】adj. 形容詞。意為「歷史的」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test1_g43_46",
+          "group_range": "Questions 43 - 46",
+          "group_part": "Part 6 段落填空（辦公室租賃修繕通知）",
+          "passages": [
+            {
+              "type": "notice",
+              "title": "🏢 商業大樓水電管線預防性維護通知 (Building Maintenance Memo)",
+              "content": "To: All Commercial Tenants on Floors 3–7\nFrom: Highline Property Management\nDate: May 12\nSubject: Upcoming Plumbing and Electrical System Upgrades\n\nPlease be advised that our annual preventive infrastructure upgrade is scheduled for this coming Saturday, May 17, from 8:00 a.m. to 6:00 p.m.\n\nDuring this maintenance window, temporary interruptions to water and backup power may occur periodically. Technicians will be inspecting main pipelines on each floor. We kindly ask all office managers to ensure that sensitive electronic equipment and server racks are powered down by Friday evening.\n\nWe apologize for any inconvenience this temporary disruption may cause and thank you for your cooperation in keeping our premises safe and reliable."
+            }
+          ]
         },
         {
           "id": 44,
@@ -1077,7 +1121,18 @@ const TOEIC_DATA = {
                 "reason": "【正確】v.-ed 過去式/過去分詞。意為「被相信」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test1_g43_46",
+          "group_range": "Questions 43 - 46",
+          "group_part": "Part 6 段落填空（辦公室租賃修繕通知）",
+          "passages": [
+            {
+              "type": "notice",
+              "title": "🏢 商業大樓水電管線預防性維護通知 (Building Maintenance Memo)",
+              "content": "To: All Commercial Tenants on Floors 3–7\nFrom: Highline Property Management\nDate: May 12\nSubject: Upcoming Plumbing and Electrical System Upgrades\n\nPlease be advised that our annual preventive infrastructure upgrade is scheduled for this coming Saturday, May 17, from 8:00 a.m. to 6:00 p.m.\n\nDuring this maintenance window, temporary interruptions to water and backup power may occur periodically. Technicians will be inspecting main pipelines on each floor. We kindly ask all office managers to ensure that sensitive electronic equipment and server racks are powered down by Friday evening.\n\nWe apologize for any inconvenience this temporary disruption may cause and thank you for your cooperation in keeping our premises safe and reliable."
+            }
+          ]
         },
         {
           "id": 45,
@@ -1122,7 +1177,18 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】v./adj./n. 核心詞彙。意為「合併」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test1_g43_46",
+          "group_range": "Questions 43 - 46",
+          "group_part": "Part 6 段落填空（辦公室租賃修繕通知）",
+          "passages": [
+            {
+              "type": "notice",
+              "title": "🏢 商業大樓水電管線預防性維護通知 (Building Maintenance Memo)",
+              "content": "To: All Commercial Tenants on Floors 3–7\nFrom: Highline Property Management\nDate: May 12\nSubject: Upcoming Plumbing and Electrical System Upgrades\n\nPlease be advised that our annual preventive infrastructure upgrade is scheduled for this coming Saturday, May 17, from 8:00 a.m. to 6:00 p.m.\n\nDuring this maintenance window, temporary interruptions to water and backup power may occur periodically. Technicians will be inspecting main pipelines on each floor. We kindly ask all office managers to ensure that sensitive electronic equipment and server racks are powered down by Friday evening.\n\nWe apologize for any inconvenience this temporary disruption may cause and thank you for your cooperation in keeping our premises safe and reliable."
+            }
+          ]
         },
         {
           "id": 46,
@@ -1167,7 +1233,18 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】v./adj./n. 核心詞彙。意為「按照傳統，聖誕老人會帶給人們禮物」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test1_g43_46",
+          "group_range": "Questions 43 - 46",
+          "group_part": "Part 6 段落填空（辦公室租賃修繕通知）",
+          "passages": [
+            {
+              "type": "notice",
+              "title": "🏢 商業大樓水電管線預防性維護通知 (Building Maintenance Memo)",
+              "content": "To: All Commercial Tenants on Floors 3–7\nFrom: Highline Property Management\nDate: May 12\nSubject: Upcoming Plumbing and Electrical System Upgrades\n\nPlease be advised that our annual preventive infrastructure upgrade is scheduled for this coming Saturday, May 17, from 8:00 a.m. to 6:00 p.m.\n\nDuring this maintenance window, temporary interruptions to water and backup power may occur periodically. Technicians will be inspecting main pipelines on each floor. We kindly ask all office managers to ensure that sensitive electronic equipment and server racks are powered down by Friday evening.\n\nWe apologize for any inconvenience this temporary disruption may cause and thank you for your cooperation in keeping our premises safe and reliable."
+            }
+          ]
         },
         {
           "id": 47,
@@ -2129,7 +2206,18 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】adv. 副詞。意為「非法贏得總統職位」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test1_g61_64",
+          "group_range": "Questions 61 - 64",
+          "group_part": "Part 7 閱讀理解（商業科技產業分析報導）",
+          "passages": [
+            {
+              "type": "article",
+              "title": "📰 企業雲端遷移與資安防護新趨勢 (Enterprise Cloud Migration Trends)",
+              "content": "SAN FRANCISCO — As more global conglomerates transition their core business databases to decentralized cloud platforms, corporate cybersecurity protocols are undergoing a massive transformation.\n\nIndustry analysts estimate that over 78% of Fortune 500 enterprises have integrated automated threat detection systems over the past twelve months. Despite initial budgetary concerns, Chief Technology Officers emphasize that long-term savings in server maintenance far outweigh upfront licensing costs.\n\nHowever, smaller enterprises still face considerable challenges in training staff to navigate complex multi-cloud ecosystems, prompting software providers to launch simplified modular training suites."
+            }
+          ]
         },
         {
           "id": 63,
@@ -2174,7 +2262,18 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】adj. 形容詞。意為「她因政治原因被公眾驅逐」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test1_g61_64",
+          "group_range": "Questions 61 - 64",
+          "group_part": "Part 7 閱讀理解（商業科技產業分析報導）",
+          "passages": [
+            {
+              "type": "article",
+              "title": "📰 企業雲端遷移與資安防護新趨勢 (Enterprise Cloud Migration Trends)",
+              "content": "SAN FRANCISCO — As more global conglomerates transition their core business databases to decentralized cloud platforms, corporate cybersecurity protocols are undergoing a massive transformation.\n\nIndustry analysts estimate that over 78% of Fortune 500 enterprises have integrated automated threat detection systems over the past twelve months. Despite initial budgetary concerns, Chief Technology Officers emphasize that long-term savings in server maintenance far outweigh upfront licensing costs.\n\nHowever, smaller enterprises still face considerable challenges in training staff to navigate complex multi-cloud ecosystems, prompting software providers to launch simplified modular training suites."
+            }
+          ]
         },
         {
           "id": 65,
@@ -2351,7 +2450,18 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】v./adj./n. 核心詞彙。意為「它在山裡。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test1_g68_71",
+          "group_range": "Questions 68 - 71",
+          "group_part": "Part 7 閱讀理解（國際會展參展指南）",
+          "passages": [
+            {
+              "type": "notice",
+              "title": "🌐 亞洲國際綠能科技展參展商須知 (Asia Green Tech Expo Exhibitor Guide)",
+              "content": "Asia Green Tech Expo 2026\nTaipei Nangang Exhibition Center\nExhibitor Logistics & Booth Setup Guidelines\n\nAll registered exhibitors are allocated designated loading dock intervals starting Thursday, October 15, at 7:00 a.m. Freight vehicles exceeding 3.5 tons must display an official parking credential prominently on their windshield.\n\nElectrical wiring requests, high-speed fiber internet hookups, and specialized audiovisual rental equipment must be finalized through the exhibitor portal no later than Friday, October 2. On-site late requests are subject to an additional 25% administrative surcharge.\n\nOfficial badge pickup begins Wednesday afternoon at Hall 1 registration desk."
+            }
+          ]
         },
         {
           "id": 72,
@@ -2596,7 +2706,18 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】v./adj./n. 核心詞彙。意為「對於超級英雄電影來說太嚴肅」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test1_g76_80",
+          "group_range": "Questions 76 - 80",
+          "group_part": "Part 7 閱讀理解（飯店住宿評價與經理回覆）",
+          "passages": [
+            {
+              "type": "email",
+              "title": "⭐ 賓客入住體驗反饋 (Guest Experience Review: The Grand Horizon Hotel)",
+              "content": "Guest Review: Kal McKay (Stayed 3 nights in Junior Suite)\nRating: 4 / 5 Stars\n\nOverall, my stay at The Grand Horizon Hotel was pleasant and memorable. The ocean view from the terrace was breathtaking, and the concierge team went out of their way to book our restaurant reservations on short notice.\n\nHowever, I was disappointed by the slow Wi-Fi connection in the business center on the fourth floor, which made it nearly impossible to attend an urgent video conference. Additionally, breakfast room service took over 45 minutes to arrive on Sunday morning.\n\nI hope management addresses these minor operational hiccups, as the location and ambiance are truly top-tier."
+            }
+          ]
         },
         {
           "id": 80,
@@ -2641,7 +2762,18 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】v./adj./n. 核心詞彙。意為「審稿者的觀點一致」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test1_g76_80",
+          "group_range": "Questions 76 - 80",
+          "group_part": "Part 7 閱讀理解（飯店住宿評價與經理回覆）",
+          "passages": [
+            {
+              "type": "email",
+              "title": "⭐ 賓客入住體驗反饋 (Guest Experience Review: The Grand Horizon Hotel)",
+              "content": "Guest Review: Kal McKay (Stayed 3 nights in Junior Suite)\nRating: 4 / 5 Stars\n\nOverall, my stay at The Grand Horizon Hotel was pleasant and memorable. The ocean view from the terrace was breathtaking, and the concierge team went out of their way to book our restaurant reservations on short notice.\n\nHowever, I was disappointed by the slow Wi-Fi connection in the business center on the fourth floor, which made it nearly impossible to attend an urgent video conference. Additionally, breakfast room service took over 45 minutes to arrive on Sunday morning.\n\nI hope management addresses these minor operational hiccups, as the location and ambiance are truly top-tier."
+            }
+          ]
         },
         {
           "id": 81,
@@ -2686,7 +2818,23 @@ const TOEIC_DATA = {
                 "reason": "【正確】v./adj./n. 核心詞彙。意為「以上所有」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test1_g81_84",
+          "group_range": "Questions 81 - 84",
+          "group_part": "Part 7 閱讀理解（跨國零售採購訂單）",
+          "passages": [
+            {
+              "type": "form",
+              "title": "📋 商業採購發票與出貨單 (Purchase Order & Logistics Invoice #PO-9924)",
+              "order_number": "PO-9924",
+              "customer": {
+                "name": "Pacific Retail Distribution Group",
+                "email": "purchasing@pacificretail.com"
+              },
+              "content": "PACIFIC RETAIL DISTRIBUTION GROUP\n1088 Harbour View Boulevard, Seattle, WA\n\nVendor: Nordic Living Manufacturing ApS (Copenhagen, Denmark)\nOrder Date: August 14\nDelivery Deadline: September 20\nShipping Method: Sea Freight (Standard Cargo Container)\n\nItem Summary:\n1. Ergonomic Birch Desk Chairs — 150 units @ $120.00 each ($18,000.00)\n2. Minimalist Oak Coffee Tables — 80 units @ $210.00 each ($16,800.00)\n3. Brushed Brass Floor Lamps — 200 units @ $45.00 each ($9,000.00)\n\nSubtotal: $43,800.00\nVolume Discount (8%): -$3,504.00\nFreight & Customs Clearance: $2,800.00\nTotal Amount Payable: $43,096.00\n\nPayment Terms: Net 30 days upon arrival and quality inspection at Port of Tacoma."
+            }
+          ]
         },
         {
           "id": 84,
@@ -2731,7 +2879,23 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】v./adj./n. 核心詞彙。意為「如果你能解釋一下（使用適合我的修辭」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test1_g81_84",
+          "group_range": "Questions 81 - 84",
+          "group_part": "Part 7 閱讀理解（跨國零售採購訂單）",
+          "passages": [
+            {
+              "type": "form",
+              "title": "📋 商業採購發票與出貨單 (Purchase Order & Logistics Invoice #PO-9924)",
+              "order_number": "PO-9924",
+              "customer": {
+                "name": "Pacific Retail Distribution Group",
+                "email": "purchasing@pacificretail.com"
+              },
+              "content": "PACIFIC RETAIL DISTRIBUTION GROUP\n1088 Harbour View Boulevard, Seattle, WA\n\nVendor: Nordic Living Manufacturing ApS (Copenhagen, Denmark)\nOrder Date: August 14\nDelivery Deadline: September 20\nShipping Method: Sea Freight (Standard Cargo Container)\n\nItem Summary:\n1. Ergonomic Birch Desk Chairs — 150 units @ $120.00 each ($18,000.00)\n2. Minimalist Oak Coffee Tables — 80 units @ $210.00 each ($16,800.00)\n3. Brushed Brass Floor Lamps — 200 units @ $45.00 each ($9,000.00)\n\nSubtotal: $43,800.00\nVolume Discount (8%): -$3,504.00\nFreight & Customs Clearance: $2,800.00\nTotal Amount Payable: $43,096.00\n\nPayment Terms: Net 30 days upon arrival and quality inspection at Port of Tacoma."
+            }
+          ]
         },
         {
           "id": 92,
@@ -2776,7 +2940,34 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】v./adj./n. 核心詞彙。意為「珍妮愛游泳11」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test1_g91_95",
+          "group_range": "Questions 91 - 95",
+          "group_part": "Part 7 閱讀理解（線上社群公共討論串）",
+          "passages": [
+            {
+              "type": "chat",
+              "title": "💬 市立運動中心翻新提案公開論壇 (Community Recreation Center Forum)",
+              "messages": [
+                {
+                  "sender": "JennyLovesSwimming11",
+                  "time": "Oct 12, 09:14 AM",
+                  "text": "The city council's proposal to close the Olympic swimming pool for eight months during renovations is completely unacceptable! Hundreds of students and local athletes rely on this facility daily. Why can't the construction be phased so at least four lanes remain open?"
+                },
+                {
+                  "sender": "CouncilRep_Mark",
+                  "time": "Oct 12, 10:22 AM",
+                  "text": "@JennyLovesSwimming11 We completely understand your frustration. However, modernizing the filtration system requires completely draining the basin. We have negotiated free access for municipal pass holders to Northside Aquatic Center during the closure."
+                },
+                {
+                  "sender": "FitnessDad_Tom",
+                  "time": "Oct 12, 11:05 AM",
+                  "text": "Northside Aquatic is a 40-minute drive during rush hour! Will there be an express shuttle bus running between the two facilities for seniors and teenagers?"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 94,
@@ -2821,7 +3012,34 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】v./adj./n. 核心詞彙。意為「破碎的教育體系」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test1_g91_95",
+          "group_range": "Questions 91 - 95",
+          "group_part": "Part 7 閱讀理解（線上社群公共討論串）",
+          "passages": [
+            {
+              "type": "chat",
+              "title": "💬 市立運動中心翻新提案公開論壇 (Community Recreation Center Forum)",
+              "messages": [
+                {
+                  "sender": "JennyLovesSwimming11",
+                  "time": "Oct 12, 09:14 AM",
+                  "text": "The city council's proposal to close the Olympic swimming pool for eight months during renovations is completely unacceptable! Hundreds of students and local athletes rely on this facility daily. Why can't the construction be phased so at least four lanes remain open?"
+                },
+                {
+                  "sender": "CouncilRep_Mark",
+                  "time": "Oct 12, 10:22 AM",
+                  "text": "@JennyLovesSwimming11 We completely understand your frustration. However, modernizing the filtration system requires completely draining the basin. We have negotiated free access for municipal pass holders to Northside Aquatic Center during the closure."
+                },
+                {
+                  "sender": "FitnessDad_Tom",
+                  "time": "Oct 12, 11:05 AM",
+                  "text": "Northside Aquatic is a 40-minute drive during rush hour! Will there be an express shuttle bus running between the two facilities for seniors and teenagers?"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 95,
@@ -2866,7 +3084,34 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】n. 名詞。意為「透過改變父母的時代精神，政府」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test1_g91_95",
+          "group_range": "Questions 91 - 95",
+          "group_part": "Part 7 閱讀理解（線上社群公共討論串）",
+          "passages": [
+            {
+              "type": "chat",
+              "title": "💬 市立運動中心翻新提案公開論壇 (Community Recreation Center Forum)",
+              "messages": [
+                {
+                  "sender": "JennyLovesSwimming11",
+                  "time": "Oct 12, 09:14 AM",
+                  "text": "The city council's proposal to close the Olympic swimming pool for eight months during renovations is completely unacceptable! Hundreds of students and local athletes rely on this facility daily. Why can't the construction be phased so at least four lanes remain open?"
+                },
+                {
+                  "sender": "CouncilRep_Mark",
+                  "time": "Oct 12, 10:22 AM",
+                  "text": "@JennyLovesSwimming11 We completely understand your frustration. However, modernizing the filtration system requires completely draining the basin. We have negotiated free access for municipal pass holders to Northside Aquatic Center during the closure."
+                },
+                {
+                  "sender": "FitnessDad_Tom",
+                  "time": "Oct 12, 11:05 AM",
+                  "text": "Northside Aquatic is a 40-minute drive during rush hour! Will there be an express shuttle bus running between the two facilities for seniors and teenagers?"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 96,
@@ -3770,7 +4015,18 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】adv. 副詞。意為「會飛」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test2_g31_34",
+          "group_range": "Questions 31 - 34",
+          "group_part": "Part 6 段落填空（最佳航空亞太新航線優惠公告）",
+          "passages": [
+            {
+              "type": "notice",
+              "title": "✈️ 最佳航空公司：亞太航線全面拓展公告 (Best Airlines Route Expansion)",
+              "content": "BEST AIRLINES GLOBAL NETWORK EXPANSION\n\nBest Airlines is proud to announce route expansion in Asia and Oceania.\n\nStarting January 1, Best Airlines [32] from Tokyo to Singapore, Kuala Lumpur, Auckland, and Sydney with state-of-the-art Boeing 787 Dreamliners.\n\nThroughout the month of January, all [33] -class passengers will receive the premium service package at 50 percent off standard rates. This exclusive promotional bundle includes complimentary priority baggage handling, premium lounge access, and gourmet in-flight dining selections.\n\n[34] Early booking is strongly advised, as promotional seats are allocated on a strictly first-come, first-served basis."
+            }
+          ]
         },
         {
           "id": 33,
@@ -3815,7 +4071,18 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】v.-ed 過去式/過去分詞。意為「估計的」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test2_g31_34",
+          "group_range": "Questions 31 - 34",
+          "group_part": "Part 6 段落填空（最佳航空亞太新航線優惠公告）",
+          "passages": [
+            {
+              "type": "notice",
+              "title": "✈️ 最佳航空公司：亞太航線全面拓展公告 (Best Airlines Route Expansion)",
+              "content": "BEST AIRLINES GLOBAL NETWORK EXPANSION\n\nBest Airlines is proud to announce route expansion in Asia and Oceania.\n\nStarting January 1, Best Airlines [32] from Tokyo to Singapore, Kuala Lumpur, Auckland, and Sydney with state-of-the-art Boeing 787 Dreamliners.\n\nThroughout the month of January, all [33] -class passengers will receive the premium service package at 50 percent off standard rates. This exclusive promotional bundle includes complimentary priority baggage handling, premium lounge access, and gourmet in-flight dining selections.\n\n[34] Early booking is strongly advised, as promotional seats are allocated on a strictly first-come, first-served basis."
+            }
+          ]
         },
         {
           "id": 34,
@@ -3860,7 +4127,18 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】v./adj./n. 核心詞彙。意為「新公車路線的座位有限，所以請立即購買。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test2_g31_34",
+          "group_range": "Questions 31 - 34",
+          "group_part": "Part 6 段落填空（最佳航空亞太新航線優惠公告）",
+          "passages": [
+            {
+              "type": "notice",
+              "title": "✈️ 最佳航空公司：亞太航線全面拓展公告 (Best Airlines Route Expansion)",
+              "content": "BEST AIRLINES GLOBAL NETWORK EXPANSION\n\nBest Airlines is proud to announce route expansion in Asia and Oceania.\n\nStarting January 1, Best Airlines [32] from Tokyo to Singapore, Kuala Lumpur, Auckland, and Sydney with state-of-the-art Boeing 787 Dreamliners.\n\nThroughout the month of January, all [33] -class passengers will receive the premium service package at 50 percent off standard rates. This exclusive promotional bundle includes complimentary priority baggage handling, premium lounge access, and gourmet in-flight dining selections.\n\n[34] Early booking is strongly advised, as promotional seats are allocated on a strictly first-come, first-served basis."
+            }
+          ]
         },
         {
           "id": 35,
@@ -3905,7 +4183,18 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】v./adj./n. 核心詞彙。意為「旅行者可能有機會拍下這一罕見景象的照片。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test2_g35_38",
+          "group_range": "Questions 35 - 38",
+          "group_part": "Part 6 段落填空（觀光景區防範扒竊警告啟事）",
+          "passages": [
+            {
+              "type": "notice",
+              "title": "⚠️ 觀光休閒商場安全告示 (Visitor Safety Notice: Valuables Protection)",
+              "content": "VISITOR SAFETY ADVISORY\n\nATTENTION: [35] Please be extra vigilant while touring the crowded marketplace and observation deck areas.\n\nPlease take care of your valuables and do not leave your belongings [36] at dining tables or rest benches, even for a brief moment. Pickpockets frequently target unattended backpacks, cameras, and mobile phones during peak hours.\n\nIf you observe any suspicious activity, immediately notify the nearest security guard or contact the concierge desk."
+            }
+          ]
         },
         {
           "id": 36,
@@ -3950,7 +4239,18 @@ const TOEIC_DATA = {
                 "reason": "【正確】v.-ed 過去式/過去分詞。意為「無人看管的」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test2_g35_38",
+          "group_range": "Questions 35 - 38",
+          "group_part": "Part 6 段落填空（觀光景區防範扒竊警告啟事）",
+          "passages": [
+            {
+              "type": "notice",
+              "title": "⚠️ 觀光休閒商場安全告示 (Visitor Safety Notice: Valuables Protection)",
+              "content": "VISITOR SAFETY ADVISORY\n\nATTENTION: [35] Please be extra vigilant while touring the crowded marketplace and observation deck areas.\n\nPlease take care of your valuables and do not leave your belongings [36] at dining tables or rest benches, even for a brief moment. Pickpockets frequently target unattended backpacks, cameras, and mobile phones during peak hours.\n\nIf you observe any suspicious activity, immediately notify the nearest security guard or contact the concierge desk."
+            }
+          ]
         },
         {
           "id": 39,
@@ -3995,7 +4295,18 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】v./adj./n. 核心詞彙。意為「消費者」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test2_g39_42",
+          "group_range": "Questions 39 - 42",
+          "group_part": "Part 6 段落填空（航空公司營運受挫與旅客賠償）",
+          "passages": [
+            {
+              "type": "article",
+              "title": "📰 航空公司系統故障導致航班大規模延宕 (Flight Cancellations & Passenger Stranding)",
+              "content": "A critical server outage struck the regional aviation carrier yesterday morning, stranding more than 600 ticket [39] for the day and affecting 24 domestic and international routes.\n\nPassengers at Terminal 2 faced multi-hour check-in queues while gate staff worked manually to issue paper boarding passes.\n\n[40] The carrier has announced a comprehensive refund scheme alongside hotel accommodation vouchers for all impacted travelers as engineers work round the clock to restore server stability."
+            }
+          ]
         },
         {
           "id": 40,
@@ -4040,7 +4351,18 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】v./adj./n. 核心詞彙。意為「這在三年的時間裡被認為是不可接受的。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test2_g39_42",
+          "group_range": "Questions 39 - 42",
+          "group_part": "Part 6 段落填空（航空公司營運受挫與旅客賠償）",
+          "passages": [
+            {
+              "type": "article",
+              "title": "📰 航空公司系統故障導致航班大規模延宕 (Flight Cancellations & Passenger Stranding)",
+              "content": "A critical server outage struck the regional aviation carrier yesterday morning, stranding more than 600 ticket [39] for the day and affecting 24 domestic and international routes.\n\nPassengers at Terminal 2 faced multi-hour check-in queues while gate staff worked manually to issue paper boarding passes.\n\n[40] The carrier has announced a comprehensive refund scheme alongside hotel accommodation vouchers for all impacted travelers as engineers work round the clock to restore server stability."
+            }
+          ]
         },
         {
           "id": 42,
@@ -4085,7 +4407,18 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】adv. 副詞。意為「最後」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test2_g39_42",
+          "group_range": "Questions 39 - 42",
+          "group_part": "Part 6 段落填空（航空公司營運受挫與旅客賠償）",
+          "passages": [
+            {
+              "type": "article",
+              "title": "📰 航空公司系統故障導致航班大規模延宕 (Flight Cancellations & Passenger Stranding)",
+              "content": "A critical server outage struck the regional aviation carrier yesterday morning, stranding more than 600 ticket [39] for the day and affecting 24 domestic and international routes.\n\nPassengers at Terminal 2 faced multi-hour check-in queues while gate staff worked manually to issue paper boarding passes.\n\n[40] The carrier has announced a comprehensive refund scheme alongside hotel accommodation vouchers for all impacted travelers as engineers work round the clock to restore server stability."
+            }
+          ]
         },
         {
           "id": 46,
@@ -4457,7 +4790,18 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】adv. 副詞。意為「無限期」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test2_g58_60",
+          "group_range": "Questions 58 - 60",
+          "group_part": "Part 7 閱讀理解（影城會員春季放映優惠）",
+          "passages": [
+            {
+              "type": "notice",
+              "title": "🎟️ 大都會精品影城：春季精選片單與早鳥優惠 (Metropolis Cinema Spring Festival)",
+              "content": "METROPOLIS CINEMA LOUNGE\nExclusive Spring Film Retrospective & Member Privileges\nDates: March 15 – March 28\n\nCelebrate world cinema with curated masterworks remastered in 4K digital projection!\n\nSpecial Ticket Promotions:\n• Weekday Morning Matinees (Showings before 12:00 p.m.): All tickets $8.50.\n• Double Feature Pass: Buy tickets for any two consecutive evening films and receive 30% off concession combos.\n• Loyalty Club Members: Present your digital card at the box office for a complimentary gourmet popcorn.\n\nAdvance ticket purchases can be completed online at www.metropoliscinema.com or via our mobile smartphone application."
+            }
+          ]
         },
         {
           "id": 60,
@@ -4502,7 +4846,18 @@ const TOEIC_DATA = {
                 "reason": "【正確】v./adj./n. 核心詞彙。意為「光之畫家ABlographyottheArtis! movnas」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test2_g58_60",
+          "group_range": "Questions 58 - 60",
+          "group_part": "Part 7 閱讀理解（影城會員春季放映優惠）",
+          "passages": [
+            {
+              "type": "notice",
+              "title": "🎟️ 大都會精品影城：春季精選片單與早鳥優惠 (Metropolis Cinema Spring Festival)",
+              "content": "METROPOLIS CINEMA LOUNGE\nExclusive Spring Film Retrospective & Member Privileges\nDates: March 15 – March 28\n\nCelebrate world cinema with curated masterworks remastered in 4K digital projection!\n\nSpecial Ticket Promotions:\n• Weekday Morning Matinees (Showings before 12:00 p.m.): All tickets $8.50.\n• Double Feature Pass: Buy tickets for any two consecutive evening films and receive 30% off concession combos.\n• Loyalty Club Members: Present your digital card at the box office for a complimentary gourmet popcorn.\n\nAdvance ticket purchases can be completed online at www.metropoliscinema.com or via our mobile smartphone application."
+            }
+          ]
         },
         {
           "id": 61,
@@ -4547,7 +4902,34 @@ const TOEIC_DATA = {
                 "reason": "【正確】v./adj./n. 核心詞彙。意為「專案狀態」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test2_g61_64",
+          "group_range": "Questions 61 - 64",
+          "group_part": "Part 7 閱讀理解（專案資源調度跨部門會議紀錄）",
+          "passages": [
+            {
+              "type": "chat",
+              "title": "💬 季度專案檢討與資源分配討論 (Project Retrospective & Resource Chat)",
+              "messages": [
+                {
+                  "sender": "Miranda",
+                  "time": "15:20",
+                  "text": "Team, I wanted to review our third-quarter software release metrics. We completed all sprint goals with zero critical bugs on launch day."
+                },
+                {
+                  "sender": "Kevin",
+                  "time": "15:22",
+                  "text": "That's fantastic! The extra code review sessions really paid off. Did we stay within our freelance contractor budget?"
+                },
+                {
+                  "sender": "Miranda",
+                  "time": "15:25",
+                  "text": "We did a good job managing our resources this time around. In fact, we came in 8% under our allocated budget thanks to automated QA tests."
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 63,
@@ -4592,7 +4974,34 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】v./adj./n. 核心詞彙。意為「她希望將團隊的成功歸功於自己。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test2_g61_64",
+          "group_range": "Questions 61 - 64",
+          "group_part": "Part 7 閱讀理解（專案資源調度跨部門會議紀錄）",
+          "passages": [
+            {
+              "type": "chat",
+              "title": "💬 季度專案檢討與資源分配討論 (Project Retrospective & Resource Chat)",
+              "messages": [
+                {
+                  "sender": "Miranda",
+                  "time": "15:20",
+                  "text": "Team, I wanted to review our third-quarter software release metrics. We completed all sprint goals with zero critical bugs on launch day."
+                },
+                {
+                  "sender": "Kevin",
+                  "time": "15:22",
+                  "text": "That's fantastic! The extra code review sessions really paid off. Did we stay within our freelance contractor budget?"
+                },
+                {
+                  "sender": "Miranda",
+                  "time": "15:25",
+                  "text": "We did a good job managing our resources this time around. In fact, we came in 8% under our allocated budget thanks to automated QA tests."
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 65,
@@ -4637,7 +5046,18 @@ const TOEIC_DATA = {
                 "reason": "【正確】v./adj./n. 核心詞彙。意為「請求對投訴採取行動」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test2_g65_67",
+          "group_range": "Questions 65 - 67",
+          "group_part": "Part 7 閱讀理解（顧客採購退換貨與服務投訴信）",
+          "passages": [
+            {
+              "type": "letter",
+              "title": "✉️ 顧客針對延遲發貨與訂單短缺之正式投訴 (Formal Complaint: Order Discrepancy)",
+              "content": "To: Customer Care Director, Apex Office Furnishings\nFrom: Raymond Holt, Managing Director, Holt & Partners LLC\nDate: November 8\nSubject: Urgent: Unresolved Delays on Order #APX-4421\n\nDear Director,\n\nI am writing to formally register my extreme dissatisfaction regarding the handling of our corporate order placed on October 12.\n\nWe ordered 25 ergonomic mesh chairs for our new downtown branch. Not only did the delivery arrive three weeks later than promised, but five of the boxes contained incorrect armrest components. Despite three follow-up telephone inquiries with your representative, no replacement items have been dispatched.\n\nIf the missing components are not delivered to our offices by Friday, November 14, we will immediately cancel the charge on our corporate credit card and pursue alternative vendors."
+            }
+          ]
         },
         {
           "id": 72,
@@ -4682,7 +5102,18 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】v./adj./n. 核心詞彙。意為「平凡」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test2_g72_75",
+          "group_range": "Questions 72 - 75",
+          "group_part": "Part 7 閱讀理解（手寫書法與藝術紙藝工作室）",
+          "passages": [
+            {
+              "type": "article",
+              "title": "🖋️ 傳統手寫溫度的文藝復興：Genevieve 書法工坊專訪 (The Art of Handcrafted Lettering)",
+              "content": "In an age dominated by instantaneous digital messaging and generic emails, Genevieve Fontaine is championing the timeless charm of handwritten ink.\n\nHer Parisian-inspired studio, Ateliers Genevieve, produces bespoke party invitations, ornate wedding calligraphy, and custom monogrammed stationery for distinguished clients across the globe.\n\nAccording to Genevieve, handwritten letters convey an earnest personal sincerity that digital fonts can never replicate. In her weekend workshops, students learn ancient copperplate script, nib pressure control, and natural dye mixing techniques."
+            }
+          ]
         },
         {
           "id": 73,
@@ -4727,7 +5158,18 @@ const TOEIC_DATA = {
                 "reason": "【正確】v./adj./n. 核心詞彙。意為「如何創作書法」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test2_g72_75",
+          "group_range": "Questions 72 - 75",
+          "group_part": "Part 7 閱讀理解（手寫書法與藝術紙藝工作室）",
+          "passages": [
+            {
+              "type": "article",
+              "title": "🖋️ 傳統手寫溫度的文藝復興：Genevieve 書法工坊專訪 (The Art of Handcrafted Lettering)",
+              "content": "In an age dominated by instantaneous digital messaging and generic emails, Genevieve Fontaine is championing the timeless charm of handwritten ink.\n\nHer Parisian-inspired studio, Ateliers Genevieve, produces bespoke party invitations, ornate wedding calligraphy, and custom monogrammed stationery for distinguished clients across the globe.\n\nAccording to Genevieve, handwritten letters convey an earnest personal sincerity that digital fonts can never replicate. In her weekend workshops, students learn ancient copperplate script, nib pressure control, and natural dye mixing techniques."
+            }
+          ]
         },
         {
           "id": 74,
@@ -4772,7 +5214,18 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】v./adj./n. 核心詞彙。意為「申請表」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test2_g72_75",
+          "group_range": "Questions 72 - 75",
+          "group_part": "Part 7 閱讀理解（手寫書法與藝術紙藝工作室）",
+          "passages": [
+            {
+              "type": "article",
+              "title": "🖋️ 傳統手寫溫度的文藝復興：Genevieve 書法工坊專訪 (The Art of Handcrafted Lettering)",
+              "content": "In an age dominated by instantaneous digital messaging and generic emails, Genevieve Fontaine is championing the timeless charm of handwritten ink.\n\nHer Parisian-inspired studio, Ateliers Genevieve, produces bespoke party invitations, ornate wedding calligraphy, and custom monogrammed stationery for distinguished clients across the globe.\n\nAccording to Genevieve, handwritten letters convey an earnest personal sincerity that digital fonts can never replicate. In her weekend workshops, students learn ancient copperplate script, nib pressure control, and natural dye mixing techniques."
+            }
+          ]
         },
         {
           "id": 78,
@@ -4817,7 +5270,18 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】v./adj./n. 核心詞彙。意為「她將和她的朋友在台北過聖誕節」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test2_g76_80",
+          "group_range": "Questions 76 - 80",
+          "group_part": "Part 7 閱讀理解（台北捷運失物招領協尋通知）",
+          "passages": [
+            {
+              "type": "email",
+              "title": "📧 台北大眾捷運公司遺失物協尋與領取須知 (Lost & Found Notice: Reclaiming Outerwear)",
+              "content": "From: lostandfound@metro.taipei\nTo: miranda.smithers@globaltravel.com\nDate: December 18\nSubject: Notification Regarding Found Item (Case #LF-88402)\n\nDear Ms. Smithers,\n\nIn reference to your recent lost property inquiry regarding a beige wool winter jacket left on the Tamsui-Xinyi Line train, we are pleased to inform you that an item matching your description was turned in to our central lost and found office at Taipei Main Station.\n\nTo reclaim your property, please visit our service desk in person between 8:30 a.m. and 12:00 p.m. on any regular business weekday. You must present valid photo identification and your claim registration slip. Alternatively, you may authorize a local representative in Taipei by completing our proxy verification form online.\n\nSincerely,\nAdele Wang, Customer Relations Specialist\nTaipei Rapid Transit Corporation"
+            }
+          ]
         },
         {
           "id": 79,
@@ -4862,7 +5326,18 @@ const TOEIC_DATA = {
                 "reason": "【正確】v.-ing 現在分詞/動名詞。意為「平日早上去辦公室」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test2_g76_80",
+          "group_range": "Questions 76 - 80",
+          "group_part": "Part 7 閱讀理解（台北捷運失物招領協尋通知）",
+          "passages": [
+            {
+              "type": "email",
+              "title": "📧 台北大眾捷運公司遺失物協尋與領取須知 (Lost & Found Notice: Reclaiming Outerwear)",
+              "content": "From: lostandfound@metro.taipei\nTo: miranda.smithers@globaltravel.com\nDate: December 18\nSubject: Notification Regarding Found Item (Case #LF-88402)\n\nDear Ms. Smithers,\n\nIn reference to your recent lost property inquiry regarding a beige wool winter jacket left on the Tamsui-Xinyi Line train, we are pleased to inform you that an item matching your description was turned in to our central lost and found office at Taipei Main Station.\n\nTo reclaim your property, please visit our service desk in person between 8:30 a.m. and 12:00 p.m. on any regular business weekday. You must present valid photo identification and your claim registration slip. Alternatively, you may authorize a local representative in Taipei by completing our proxy verification form online.\n\nSincerely,\nAdele Wang, Customer Relations Specialist\nTaipei Rapid Transit Corporation"
+            }
+          ]
         },
         {
           "id": 80,
@@ -4907,7 +5382,18 @@ const TOEIC_DATA = {
                 "reason": "【正確】v./adj./n. 核心詞彙。意為「失物招領處的一名員工」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test2_g76_80",
+          "group_range": "Questions 76 - 80",
+          "group_part": "Part 7 閱讀理解（台北捷運失物招領協尋通知）",
+          "passages": [
+            {
+              "type": "email",
+              "title": "📧 台北大眾捷運公司遺失物協尋與領取須知 (Lost & Found Notice: Reclaiming Outerwear)",
+              "content": "From: lostandfound@metro.taipei\nTo: miranda.smithers@globaltravel.com\nDate: December 18\nSubject: Notification Regarding Found Item (Case #LF-88402)\n\nDear Ms. Smithers,\n\nIn reference to your recent lost property inquiry regarding a beige wool winter jacket left on the Tamsui-Xinyi Line train, we are pleased to inform you that an item matching your description was turned in to our central lost and found office at Taipei Main Station.\n\nTo reclaim your property, please visit our service desk in person between 8:30 a.m. and 12:00 p.m. on any regular business weekday. You must present valid photo identification and your claim registration slip. Alternatively, you may authorize a local representative in Taipei by completing our proxy verification form online.\n\nSincerely,\nAdele Wang, Customer Relations Specialist\nTaipei Rapid Transit Corporation"
+            }
+          ]
         },
         {
           "id": 81,
@@ -4952,7 +5438,18 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】v./adj./n. 核心詞彙。意為「截至目前」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test2_g81_85",
+          "group_range": "Questions 81 - 85",
+          "group_part": "Part 7 閱讀理解（企業專案總監徵才與往來信件）",
+          "passages": [
+            {
+              "type": "email",
+              "title": "📧 資深專案總監職缺面試邀請 (Interview Invitation: Senior Project Lead)",
+              "content": "From: hr@vanguardtechnologies.com\nTo: jackie.chen@consultant.org\nDate: September 4\nSubject: Application Follow-up: Senior Project Lead Position\n\nDear Jackie,\n\nThank you for submitting your resume for the Senior Project Lead role at Vanguard Technologies. Our executive committee was highly impressed by your portfolio and leadership track record.\n\nThe position is consultative in nature, primarily requiring candidate to coordinate cross-functional software initiatives across our London and Tokyo branches. You will be responsible for overseeing multimillion-dollar product rollouts and managing client communications.\n\nWe would like to invite you for a 45-minute virtual video interview with our department head next Tuesday, September 10, at 2:00 p.m. EST. Please confirm your availability by reply."
+            }
+          ]
         },
         {
           "id": 82,
@@ -4997,7 +5494,18 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】n. 名詞。意為「尋找傑基的替代者」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test2_g81_85",
+          "group_range": "Questions 81 - 85",
+          "group_part": "Part 7 閱讀理解（企業專案總監徵才與往來信件）",
+          "passages": [
+            {
+              "type": "email",
+              "title": "📧 資深專案總監職缺面試邀請 (Interview Invitation: Senior Project Lead)",
+              "content": "From: hr@vanguardtechnologies.com\nTo: jackie.chen@consultant.org\nDate: September 4\nSubject: Application Follow-up: Senior Project Lead Position\n\nDear Jackie,\n\nThank you for submitting your resume for the Senior Project Lead role at Vanguard Technologies. Our executive committee was highly impressed by your portfolio and leadership track record.\n\nThe position is consultative in nature, primarily requiring candidate to coordinate cross-functional software initiatives across our London and Tokyo branches. You will be responsible for overseeing multimillion-dollar product rollouts and managing client communications.\n\nWe would like to invite you for a 45-minute virtual video interview with our department head next Tuesday, September 10, at 2:00 p.m. EST. Please confirm your availability by reply."
+            }
+          ]
         },
         {
           "id": 88,
@@ -5042,7 +5550,18 @@ const TOEIC_DATA = {
                 "reason": "【正確】v./adj./n. 核心詞彙。意為「他在 2 月 1 日之前訂購了秤。」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test2_g86_90",
+          "group_range": "Questions 86 - 90",
+          "group_part": "Part 7 閱讀理解（電子體重計瑕疵保固與退換貨）",
+          "passages": [
+            {
+              "type": "form",
+              "title": "📦 智慧健康體重秤保固申訴表 (Warranty Replacement Claim #WR-7731)",
+              "content": "VITA-PRECISION ELECTRONICS\nCustomer Warranty Claim & Return Authorization Form\n\nCustomer Name: Walter Pinkman\nProduct: VitaScale Pro Smart Bluetooth Digital Scale (Model #VS-200)\nPurchase Date: January 18 (Order #VP-9021)\nClaim Submission Date: February 5\n\nCustomer Description of Defect:\n'The scale displays wildly inaccurate measurements and constantly disconnects from the mobile app. I weighed myself three times in five minutes, and the reading varied by over 15 pounds. I attempted to recalibrate the device following user manual instructions, but the error code Err-04 persists.'\n\nResolution Requested: Full Refund or New Replacement Unit."
+            }
+          ]
         }
       ]
     },
@@ -5676,7 +6195,18 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】v./adj./n. 核心詞彙。意為「遠的」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test3_g31_34",
+          "group_range": "Questions 31 - 34",
+          "group_part": "Part 6 段落填空（特斯拉銷量暴增與車載聯網科技）",
+          "passages": [
+            {
+              "type": "article",
+              "title": "🚗 特斯拉交付量創下新高與車聯網安全 (Tesla Delivery Surge & Connected Vehicles)",
+              "content": "PALO ALTO — Surprisingly, Tesla has [31] to turn a consistent annual profit as of 2016, despite commanding immense brand loyalty.\n\nIn recent industry tests, Chinese researchers demonstrated that the car could be hacked when they opened the car's doors without a physical key and controlled its brakes [32] from over twelve miles away.\n\nDespite these setbacks, Tesla has seen a notable [33] in deliveries during its third sales quarter of 2016, shipping over 24,500 electric vehicles worldwide.\n\n[34] This remarkable milestone has strengthened investor confidence in the brand's long-term commercial viability."
+            }
+          ]
         },
         {
           "id": 32,
@@ -5721,7 +6251,18 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】v./adj./n. 核心詞彙。意為「遙控器」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test3_g31_34",
+          "group_range": "Questions 31 - 34",
+          "group_part": "Part 6 段落填空（特斯拉銷量暴增與車載聯網科技）",
+          "passages": [
+            {
+              "type": "article",
+              "title": "🚗 特斯拉交付量創下新高與車聯網安全 (Tesla Delivery Surge & Connected Vehicles)",
+              "content": "PALO ALTO — Surprisingly, Tesla has [31] to turn a consistent annual profit as of 2016, despite commanding immense brand loyalty.\n\nIn recent industry tests, Chinese researchers demonstrated that the car could be hacked when they opened the car's doors without a physical key and controlled its brakes [32] from over twelve miles away.\n\nDespite these setbacks, Tesla has seen a notable [33] in deliveries during its third sales quarter of 2016, shipping over 24,500 electric vehicles worldwide.\n\n[34] This remarkable milestone has strengthened investor confidence in the brand's long-term commercial viability."
+            }
+          ]
         },
         {
           "id": 33,
@@ -5766,7 +6307,18 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】n. 名詞。意為「反射」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test3_g31_34",
+          "group_range": "Questions 31 - 34",
+          "group_part": "Part 6 段落填空（特斯拉銷量暴增與車載聯網科技）",
+          "passages": [
+            {
+              "type": "article",
+              "title": "🚗 特斯拉交付量創下新高與車聯網安全 (Tesla Delivery Surge & Connected Vehicles)",
+              "content": "PALO ALTO — Surprisingly, Tesla has [31] to turn a consistent annual profit as of 2016, despite commanding immense brand loyalty.\n\nIn recent industry tests, Chinese researchers demonstrated that the car could be hacked when they opened the car's doors without a physical key and controlled its brakes [32] from over twelve miles away.\n\nDespite these setbacks, Tesla has seen a notable [33] in deliveries during its third sales quarter of 2016, shipping over 24,500 electric vehicles worldwide.\n\n[34] This remarkable milestone has strengthened investor confidence in the brand's long-term commercial viability."
+            }
+          ]
         },
         {
           "id": 34,
@@ -5811,7 +6363,18 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】v./adj./n. 核心詞彙。意為「這些數字讓一些分析師相信今年可能是他們的最後一年。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test3_g31_34",
+          "group_range": "Questions 31 - 34",
+          "group_part": "Part 6 段落填空（特斯拉銷量暴增與車載聯網科技）",
+          "passages": [
+            {
+              "type": "article",
+              "title": "🚗 特斯拉交付量創下新高與車聯網安全 (Tesla Delivery Surge & Connected Vehicles)",
+              "content": "PALO ALTO — Surprisingly, Tesla has [31] to turn a consistent annual profit as of 2016, despite commanding immense brand loyalty.\n\nIn recent industry tests, Chinese researchers demonstrated that the car could be hacked when they opened the car's doors without a physical key and controlled its brakes [32] from over twelve miles away.\n\nDespite these setbacks, Tesla has seen a notable [33] in deliveries during its third sales quarter of 2016, shipping over 24,500 electric vehicles worldwide.\n\n[34] This remarkable milestone has strengthened investor confidence in the brand's long-term commercial viability."
+            }
+          ]
         },
         {
           "id": 37,
@@ -5856,7 +6419,18 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】adj. 形容詞。意為「合作社」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test3_g35_38",
+          "group_range": "Questions 35 - 38",
+          "group_part": "Part 6 段落填空（女性創業家與克服冒牌者心態）",
+          "passages": [
+            {
+              "type": "article",
+              "title": "💡 克服冒牌者症候群：科技女性創業者的心聲 (Overcoming Imposter Syndrome in Tech)",
+              "content": "Jessica Butcher is the pioneering co-founder of Blippar, a leading augmented reality enterprise.\n\nAccording to Butcher, numerous female entrepreneurs suffer from what psychologists define as 'imposter syndrome,' where accomplished professionals secretly harbor fears that they are merely lucky rather than genuinely competent.\n\nButcher asserts that women are also more likely to be perfectionists, and though this is [37] in ensuring product excellence, it can sometimes prevent innovative projects from gaining traction quickly.\n\n[38] She encourages budding founders to embrace imperfect iterative progress over paralyzed hesitation."
+            }
+          ]
         },
         {
           "id": 38,
@@ -5901,7 +6475,18 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】v./adj./n. 核心詞彙。意為「布徹相信女性——而不是男性——現在將成為農業的驅動力。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test3_g35_38",
+          "group_range": "Questions 35 - 38",
+          "group_part": "Part 6 段落填空（女性創業家與克服冒牌者心態）",
+          "passages": [
+            {
+              "type": "article",
+              "title": "💡 克服冒牌者症候群：科技女性創業者的心聲 (Overcoming Imposter Syndrome in Tech)",
+              "content": "Jessica Butcher is the pioneering co-founder of Blippar, a leading augmented reality enterprise.\n\nAccording to Butcher, numerous female entrepreneurs suffer from what psychologists define as 'imposter syndrome,' where accomplished professionals secretly harbor fears that they are merely lucky rather than genuinely competent.\n\nButcher asserts that women are also more likely to be perfectionists, and though this is [37] in ensuring product excellence, it can sometimes prevent innovative projects from gaining traction quickly.\n\n[38] She encourages budding founders to embrace imperfect iterative progress over paralyzed hesitation."
+            }
+          ]
         },
         {
           "id": 39,
@@ -5946,7 +6531,18 @@ const TOEIC_DATA = {
                 "reason": "【正確】v./adj./n. 核心詞彙。意為「以下概述了為什麼這種風格將使我們公司受益。」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test3_g39_42",
+          "group_range": "Questions 39 - 42",
+          "group_part": "Part 6 段落填空（人資小組面試評估技巧）",
+          "passages": [
+            {
+              "type": "notice",
+              "title": "📋 人力資源部面試策略指引 (HR Internal Memo: Panel Interview Guidelines)",
+              "content": "To: All Department Hiring Managers\nFrom: Global HR Talent Acquisition\nSubject: Enhancing Hiring Accuracy via Structured Panel Interviews\n\nWhile single-interviewer evaluations remain common, multi-member panel interviews provide a holistic 360-degree evaluation of prospective recruits.\n\n[39] The methodology ensures consistent assessment standards and mitigates individual hiring biases.\n\n[40] the structure of a panel interview may be more intimidating to a candidate than an informal one-on-one discussion, this format offers an authentic snapshot of how applicants communicate under real-world executive pressure."
+            }
+          ]
         },
         {
           "id": 40,
@@ -5991,7 +6587,18 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】v./adj./n. 核心詞彙。意為「僅當」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test3_g39_42",
+          "group_range": "Questions 39 - 42",
+          "group_part": "Part 6 段落填空（人資小組面試評估技巧）",
+          "passages": [
+            {
+              "type": "notice",
+              "title": "📋 人力資源部面試策略指引 (HR Internal Memo: Panel Interview Guidelines)",
+              "content": "To: All Department Hiring Managers\nFrom: Global HR Talent Acquisition\nSubject: Enhancing Hiring Accuracy via Structured Panel Interviews\n\nWhile single-interviewer evaluations remain common, multi-member panel interviews provide a holistic 360-degree evaluation of prospective recruits.\n\n[39] The methodology ensures consistent assessment standards and mitigates individual hiring biases.\n\n[40] the structure of a panel interview may be more intimidating to a candidate than an informal one-on-one discussion, this format offers an authentic snapshot of how applicants communicate under real-world executive pressure."
+            }
+          ]
         },
         {
           "id": 42,
@@ -6036,7 +6643,18 @@ const TOEIC_DATA = {
                 "reason": "【正確】v.-ing 現在分詞/動名詞。意為「識別」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test3_g39_42",
+          "group_range": "Questions 39 - 42",
+          "group_part": "Part 6 段落填空（人資小組面試評估技巧）",
+          "passages": [
+            {
+              "type": "notice",
+              "title": "📋 人力資源部面試策略指引 (HR Internal Memo: Panel Interview Guidelines)",
+              "content": "To: All Department Hiring Managers\nFrom: Global HR Talent Acquisition\nSubject: Enhancing Hiring Accuracy via Structured Panel Interviews\n\nWhile single-interviewer evaluations remain common, multi-member panel interviews provide a holistic 360-degree evaluation of prospective recruits.\n\n[39] The methodology ensures consistent assessment standards and mitigates individual hiring biases.\n\n[40] the structure of a panel interview may be more intimidating to a candidate than an informal one-on-one discussion, this format offers an authentic snapshot of how applicants communicate under real-world executive pressure."
+            }
+          ]
         },
         {
           "id": 45,
@@ -6126,7 +6744,18 @@ const TOEIC_DATA = {
                 "reason": "【正確】n. 名詞。意為「運動用品製造商」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test3_g58_60",
+          "group_range": "Questions 58 - 60",
+          "group_part": "Part 7 閱讀理解（建築師與公共空間設計）",
+          "passages": [
+            {
+              "type": "article",
+              "title": "🏛️ 人本主義都市建築：Bower 建築事務所特刊 (Sustainable Urban Spaces: Studio Bower)",
+              "content": "Bower Architects, an international design collective based in Melbourne, has been awarded the prestigious 2026 Waterfront Civic Trophy for their revitalization of the South Dock Marina.\n\nLed by principal architect Marcus Bower, the team transformed derelict shipping warehouses into a vibrant communal parkland featuring rainwater harvesting canopies and pedestrian-friendly timber boardwalks.\n\nThe judging panel praised the project's delicate equilibrium between environmental stewardship and urban commercial utility."
+            }
+          ]
         },
         {
           "id": 62,
@@ -6216,7 +6845,18 @@ const TOEIC_DATA = {
                 "reason": "【正確】n. 名詞。意為「國家援助」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test3_g65_67",
+          "group_range": "Questions 65 - 67",
+          "group_part": "Part 7 閱讀理解（投資理財資產配置指南）",
+          "passages": [
+            {
+              "type": "article",
+              "title": "📈 個人財富管理：生命週期資產配置原則 (Wealth Management: Lifecycle Asset Allocation)",
+              "content": "Navigating financial markets requires a strategic shift in asset allocation as investors mature.\n\nIn early career stages, allocating surplus capital to high-growth equity portfolios or diversified technology funds offers maximum long-term capital appreciation.\n\nHowever, as individuals approach retirement, financial advisors strongly recommend shifting capital out of volatile speculative assets into fixed-income securities and municipal bond instruments to preserve accumulated wealth."
+            }
+          ]
         },
         {
           "id": 67,
@@ -6261,7 +6901,18 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】n. 名詞。意為「在職業生涯的早期」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test3_g65_67",
+          "group_range": "Questions 65 - 67",
+          "group_part": "Part 7 閱讀理解（投資理財資產配置指南）",
+          "passages": [
+            {
+              "type": "article",
+              "title": "📈 個人財富管理：生命週期資產配置原則 (Wealth Management: Lifecycle Asset Allocation)",
+              "content": "Navigating financial markets requires a strategic shift in asset allocation as investors mature.\n\nIn early career stages, allocating surplus capital to high-growth equity portfolios or diversified technology funds offers maximum long-term capital appreciation.\n\nHowever, as individuals approach retirement, financial advisors strongly recommend shifting capital out of volatile speculative assets into fixed-income securities and municipal bond instruments to preserve accumulated wealth."
+            }
+          ]
         },
         {
           "id": 69,
@@ -6306,7 +6957,18 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】n. 名詞。意為「加拿大正在以更便宜的價格購買美國木材」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test3_g68_71",
+          "group_range": "Questions 68 - 71",
+          "group_part": "Part 7 閱讀理解（美加木材貿易關稅爭端報導）",
+          "passages": [
+            {
+              "type": "article",
+              "title": "🌲 美加針葉軟木貿易爭端全景解析 (The US-Canada Softwood Lumber Dispute)",
+              "content": "WASHINGTON — The longstanding bilateral trade friction between the United States and Canada regarding softwood lumber has flared up once again following new tariff announcements.\n\nAmerican lumber associations argue that Canadian provincial governments unfairly subsidize local timber harvesting by charging below-market stumpage fees on public lands. In contrast, Canadian producers maintain that their harvesting regulations strictly adhere to fair competitive trade conventions.\n\nThe dispute carries significant ramifications for the North American residential home construction industry, as increased timber tariffs directly elevate average single-family housing prices."
+            }
+          ]
         },
         {
           "id": 70,
@@ -6351,7 +7013,18 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】v./adj./n. 核心詞彙。意為「美國徵收反補貼稅」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test3_g68_71",
+          "group_range": "Questions 68 - 71",
+          "group_part": "Part 7 閱讀理解（美加木材貿易關稅爭端報導）",
+          "passages": [
+            {
+              "type": "article",
+              "title": "🌲 美加針葉軟木貿易爭端全景解析 (The US-Canada Softwood Lumber Dispute)",
+              "content": "WASHINGTON — The longstanding bilateral trade friction between the United States and Canada regarding softwood lumber has flared up once again following new tariff announcements.\n\nAmerican lumber associations argue that Canadian provincial governments unfairly subsidize local timber harvesting by charging below-market stumpage fees on public lands. In contrast, Canadian producers maintain that their harvesting regulations strictly adhere to fair competitive trade conventions.\n\nThe dispute carries significant ramifications for the North American residential home construction industry, as increased timber tariffs directly elevate average single-family housing prices."
+            }
+          ]
         },
         {
           "id": 71,
@@ -6396,7 +7069,18 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】adj. 形容詞。意為「儘管兩個國家看似國際化」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test3_g68_71",
+          "group_range": "Questions 68 - 71",
+          "group_part": "Part 7 閱讀理解（美加木材貿易關稅爭端報導）",
+          "passages": [
+            {
+              "type": "article",
+              "title": "🌲 美加針葉軟木貿易爭端全景解析 (The US-Canada Softwood Lumber Dispute)",
+              "content": "WASHINGTON — The longstanding bilateral trade friction between the United States and Canada regarding softwood lumber has flared up once again following new tariff announcements.\n\nAmerican lumber associations argue that Canadian provincial governments unfairly subsidize local timber harvesting by charging below-market stumpage fees on public lands. In contrast, Canadian producers maintain that their harvesting regulations strictly adhere to fair competitive trade conventions.\n\nThe dispute carries significant ramifications for the North American residential home construction industry, as increased timber tariffs directly elevate average single-family housing prices."
+            }
+          ]
         },
         {
           "id": 72,
@@ -6635,7 +7319,18 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】v./adj./n. 核心詞彙。意為「這間公寓完全禁止攜帶寵物。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test3_g76_80",
+          "group_range": "Questions 76 - 80",
+          "group_part": "Part 7 閱讀理解（消費者滿意度調查與諮詢）",
+          "passages": [
+            {
+              "type": "email",
+              "title": "📧 數位訂閱服務顧客回訪信函 (Subscription Experience Survey: StreamWave+)",
+              "content": "From: support@streamwaveplus.com\nTo: stephen.grant@freemail.com\nDate: July 19\nSubject: Follow-up on Your Recent Service Feedback\n\nDear Mr. Grant,\n\nThank you for completing our quarterly customer satisfaction questionnaire regarding StreamWave+ premium streaming service.\n\nWe noticed you expressed frustration regarding unexpected video buffering when watching live athletic broadcasts on Saturday afternoons. Our engineering team recently deployed upgraded localized content delivery server clusters that should resolve peak-hour network bottlenecks.\n\nTo thank you for your candid input, we have credited your account with one month of complimentary ultra-HD streaming."
+            }
+          ]
         },
         {
           "id": 78,
@@ -6680,7 +7375,18 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】v./adj./n. 核心詞彙。意為「“家具是完全堅不可摧的。”」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test3_g76_80",
+          "group_range": "Questions 76 - 80",
+          "group_part": "Part 7 閱讀理解（消費者滿意度調查與諮詢）",
+          "passages": [
+            {
+              "type": "email",
+              "title": "📧 數位訂閱服務顧客回訪信函 (Subscription Experience Survey: StreamWave+)",
+              "content": "From: support@streamwaveplus.com\nTo: stephen.grant@freemail.com\nDate: July 19\nSubject: Follow-up on Your Recent Service Feedback\n\nDear Mr. Grant,\n\nThank you for completing our quarterly customer satisfaction questionnaire regarding StreamWave+ premium streaming service.\n\nWe noticed you expressed frustration regarding unexpected video buffering when watching live athletic broadcasts on Saturday afternoons. Our engineering team recently deployed upgraded localized content delivery server clusters that should resolve peak-hour network bottlenecks.\n\nTo thank you for your candid input, we have credited your account with one month of complimentary ultra-HD streaming."
+            }
+          ]
         },
         {
           "id": 84,
@@ -7675,7 +8381,18 @@ const TOEIC_DATA = {
                 "reason": "【正確】v.-ing 現在分詞/動名詞。意為「多角化經營、分散投資」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test4_g31_34",
+          "group_range": "Questions 31 - 34",
+          "group_part": "Part 6 段落填空（匯率波動與跨國資產避險配置）",
+          "passages": [
+            {
+              "type": "article",
+              "title": "💱 貨幣匯率波動下的全球多元化投資策略 (Currency Volatility & Global Asset Fortification)",
+              "content": "SHANGHAI — If domestic currencies experience sudden downward valuation adjustments, wealthy private investors risk losing substantial amounts of purchasing power.\n\nThus, these investors have rushed to fortify their wealth by [32] their holdings via international real estate, offshore equities, and foreign index funds.\n\n[33] Despite these recent efforts on the government's part to stem currency outflow, market economists observe that outward investment channels remain vigorous.\n\nIndeed, many analysts [34] that cross-border wealth management services will experience robust double-digit growth over the coming decade."
+            }
+          ]
         },
         {
           "id": 33,
@@ -7720,7 +8437,18 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】v./adj./n. 核心詞彙。意為「儘管失去了一切，許多投資者表示，他們仍然毫不猶豫地追求在房地產市場累積財富。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test4_g31_34",
+          "group_range": "Questions 31 - 34",
+          "group_part": "Part 6 段落填空（匯率波動與跨國資產避險配置）",
+          "passages": [
+            {
+              "type": "article",
+              "title": "💱 貨幣匯率波動下的全球多元化投資策略 (Currency Volatility & Global Asset Fortification)",
+              "content": "SHANGHAI — If domestic currencies experience sudden downward valuation adjustments, wealthy private investors risk losing substantial amounts of purchasing power.\n\nThus, these investors have rushed to fortify their wealth by [32] their holdings via international real estate, offshore equities, and foreign index funds.\n\n[33] Despite these recent efforts on the government's part to stem currency outflow, market economists observe that outward investment channels remain vigorous.\n\nIndeed, many analysts [34] that cross-border wealth management services will experience robust double-digit growth over the coming decade."
+            }
+          ]
         },
         {
           "id": 34,
@@ -7765,7 +8493,18 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】adv. 副詞。意為「不出所料地」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test4_g31_34",
+          "group_range": "Questions 31 - 34",
+          "group_part": "Part 6 段落填空（匯率波動與跨國資產避險配置）",
+          "passages": [
+            {
+              "type": "article",
+              "title": "💱 貨幣匯率波動下的全球多元化投資策略 (Currency Volatility & Global Asset Fortification)",
+              "content": "SHANGHAI — If domestic currencies experience sudden downward valuation adjustments, wealthy private investors risk losing substantial amounts of purchasing power.\n\nThus, these investors have rushed to fortify their wealth by [32] their holdings via international real estate, offshore equities, and foreign index funds.\n\n[33] Despite these recent efforts on the government's part to stem currency outflow, market economists observe that outward investment channels remain vigorous.\n\nIndeed, many analysts [34] that cross-border wealth management services will experience robust double-digit growth over the coming decade."
+            }
+          ]
         },
         {
           "id": 35,
@@ -8006,7 +8745,18 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】n. 名詞。意為「偏好、優先權」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test4_g39_42",
+          "group_range": "Questions 39 - 42",
+          "group_part": "Part 6 段落填空（跨國公關雙語專家徵聘廣告）",
+          "passages": [
+            {
+              "type": "notice",
+              "title": "📢 國際通訊專員徵才啟事 (Job Opening: Bilingual Media Relations Specialist)",
+              "content": "GLOBAL HORIZON COMMUNICATIONS\nPosition: International Media & Public Relations Specialist\nLocation: Geneva, Switzerland (Hybrid remote flexibility)\n\nWe are seeking a highly articulate professional to coordinate international press briefings and author corporate statements.\n\nRequirements: Fluency in Farsi and English a must. A university degree in mass communications, corporate journalism, or a similar academic field is [40].\n\nCandidates should possess at least three years of proven media relations experience and demonstrate exceptional crisis communication agility."
+            }
+          ]
         },
         {
           "id": 41,
@@ -8051,7 +8801,18 @@ const TOEIC_DATA = {
                 "reason": "【正確】v./adj./n. 核心詞彙。意為「即時、實時」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test4_g39_42",
+          "group_range": "Questions 39 - 42",
+          "group_part": "Part 6 段落填空（跨國公關雙語專家徵聘廣告）",
+          "passages": [
+            {
+              "type": "notice",
+              "title": "📢 國際通訊專員徵才啟事 (Job Opening: Bilingual Media Relations Specialist)",
+              "content": "GLOBAL HORIZON COMMUNICATIONS\nPosition: International Media & Public Relations Specialist\nLocation: Geneva, Switzerland (Hybrid remote flexibility)\n\nWe are seeking a highly articulate professional to coordinate international press briefings and author corporate statements.\n\nRequirements: Fluency in Farsi and English a must. A university degree in mass communications, corporate journalism, or a similar academic field is [40].\n\nCandidates should possess at least three years of proven media relations experience and demonstrate exceptional crisis communication agility."
+            }
+          ]
         },
         {
           "id": 44,
@@ -8231,7 +8992,34 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】v./adj./n. 核心詞彙。意為「他們想要升級產品。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test4_g47_48",
+          "group_range": "Questions 47 - 48",
+          "group_part": "Part 7 閱讀理解（智慧家電安全召回與客服通訊）",
+          "passages": [
+            {
+              "type": "chat",
+              "title": "💬 智慧氣炸鍋過熱問題客服即時通訊 (Smart Air Fryer Recall Inquiries)",
+              "messages": [
+                {
+                  "sender": "Jesse V.",
+                  "time": "14:10",
+                  "text": "Hello, I read the voluntary safety recall announcement for the AeroCrisp Pro Fryer Model AF-300. Is it true the heating element can overheat?"
+                },
+                {
+                  "sender": "Support_Clara",
+                  "time": "14:12",
+                  "text": "Hi Jesse. Yes, out of an abundance of caution, we are recalling units manufactured between June and August due to a faulty thermal sensor. We provide free prepaid shipping boxes and immediate full replacements."
+                },
+                {
+                  "sender": "Jesse V.",
+                  "time": "14:14",
+                  "text": "Let me look into that. Where can I locate the serial number on my unit?"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 48,
@@ -8276,7 +9064,34 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】v./adj./n. 核心詞彙。意為「他想從該公司訂購一種新產品。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test4_g47_48",
+          "group_range": "Questions 47 - 48",
+          "group_part": "Part 7 閱讀理解（智慧家電安全召回與客服通訊）",
+          "passages": [
+            {
+              "type": "chat",
+              "title": "💬 智慧氣炸鍋過熱問題客服即時通訊 (Smart Air Fryer Recall Inquiries)",
+              "messages": [
+                {
+                  "sender": "Jesse V.",
+                  "time": "14:10",
+                  "text": "Hello, I read the voluntary safety recall announcement for the AeroCrisp Pro Fryer Model AF-300. Is it true the heating element can overheat?"
+                },
+                {
+                  "sender": "Support_Clara",
+                  "time": "14:12",
+                  "text": "Hi Jesse. Yes, out of an abundance of caution, we are recalling units manufactured between June and August due to a faulty thermal sensor. We provide free prepaid shipping boxes and immediate full replacements."
+                },
+                {
+                  "sender": "Jesse V.",
+                  "time": "14:14",
+                  "text": "Let me look into that. Where can I locate the serial number on my unit?"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 50,
@@ -8411,7 +9226,34 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】v./adj./n. 核心詞彙。意為「購物車領取時間」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test4_g61_64",
+          "group_range": "Questions 61 - 64",
+          "group_part": "Part 7 閱讀理解（市政街道餐車經營法規公聽會）",
+          "passages": [
+            {
+              "type": "chat",
+              "title": "💬 餐車業者權益自救會訊息群組 (Downtown Food Truck Owners Association)",
+              "messages": [
+                {
+                  "sender": "Hamid",
+                  "time": "08:45",
+                  "text": "Did everyone see the city council's updated mobile vendor zoning ordinance? They are restricting street carts to designated culinary plazas instead of curbside sidewalks."
+                },
+                {
+                  "sender": "Elena",
+                  "time": "08:48",
+                  "text": "That will drastically reduce our lunch rush foot traffic near the financial center! What about the requirement for quiet inverter generators?"
+                },
+                {
+                  "sender": "Hamid",
+                  "time": "08:52",
+                  "text": "Hopefully, the mayor will hear our petition before the final vote next Tuesday."
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 63,
@@ -8456,7 +9298,34 @@ const TOEIC_DATA = {
                 "reason": "【正確】v./adj./n. 核心詞彙。意為「新員工幾乎沒有經驗。」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test4_g61_64",
+          "group_range": "Questions 61 - 64",
+          "group_part": "Part 7 閱讀理解（市政街道餐車經營法規公聽會）",
+          "passages": [
+            {
+              "type": "chat",
+              "title": "💬 餐車業者權益自救會訊息群組 (Downtown Food Truck Owners Association)",
+              "messages": [
+                {
+                  "sender": "Hamid",
+                  "time": "08:45",
+                  "text": "Did everyone see the city council's updated mobile vendor zoning ordinance? They are restricting street carts to designated culinary plazas instead of curbside sidewalks."
+                },
+                {
+                  "sender": "Elena",
+                  "time": "08:48",
+                  "text": "That will drastically reduce our lunch rush foot traffic near the financial center! What about the requirement for quiet inverter generators?"
+                },
+                {
+                  "sender": "Hamid",
+                  "time": "08:52",
+                  "text": "Hopefully, the mayor will hear our petition before the final vote next Tuesday."
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 64,
@@ -8501,7 +9370,34 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】v./adj./n. 核心詞彙。意為「距離其他物體兩米」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test4_g61_64",
+          "group_range": "Questions 61 - 64",
+          "group_part": "Part 7 閱讀理解（市政街道餐車經營法規公聽會）",
+          "passages": [
+            {
+              "type": "chat",
+              "title": "💬 餐車業者權益自救會訊息群組 (Downtown Food Truck Owners Association)",
+              "messages": [
+                {
+                  "sender": "Hamid",
+                  "time": "08:45",
+                  "text": "Did everyone see the city council's updated mobile vendor zoning ordinance? They are restricting street carts to designated culinary plazas instead of curbside sidewalks."
+                },
+                {
+                  "sender": "Elena",
+                  "time": "08:48",
+                  "text": "That will drastically reduce our lunch rush foot traffic near the financial center! What about the requirement for quiet inverter generators?"
+                },
+                {
+                  "sender": "Hamid",
+                  "time": "08:52",
+                  "text": "Hopefully, the mayor will hear our petition before the final vote next Tuesday."
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 66,
@@ -8546,7 +9442,18 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】adj. 形容詞。意為「弗蘭克的公司現在正在從另一個地方採購」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test4_g65_67",
+          "group_range": "Questions 65 - 67",
+          "group_part": "Part 7 閱讀理解（海外跨國分公司重組與裁員通知）",
+          "passages": [
+            {
+              "type": "letter",
+              "title": "🏢 企業組織精簡與區域業務整合公文 (Corporate Restructuring Announcement)",
+              "content": "MEMORANDUM\nTo: All Personnel, Nordic Regional Sales Branch\nFrom: Executive Board, Summit Global Logistics\nDate: April 22\nSubject: Strategic Operational Consolidation\n\nAs part of our three-year digital optimization roadmap, Summit Global Logistics will be centralizing our Scandinavian customer support operations into our Copenhagen headquarters.\n\nConsequently, operations at our Stockholm satellite office will conclude at the end of next month. All qualified staff members will be extended competitive relocation packages or voluntary separation compensation."
+            }
+          ]
         },
         {
           "id": 67,
@@ -8591,7 +9498,18 @@ const TOEIC_DATA = {
                 "reason": "【正確】v./adj./n. 核心詞彙。意為「哈里特的公司將停止購買牙線」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test4_g65_67",
+          "group_range": "Questions 65 - 67",
+          "group_part": "Part 7 閱讀理解（海外跨國分公司重組與裁員通知）",
+          "passages": [
+            {
+              "type": "letter",
+              "title": "🏢 企業組織精簡與區域業務整合公文 (Corporate Restructuring Announcement)",
+              "content": "MEMORANDUM\nTo: All Personnel, Nordic Regional Sales Branch\nFrom: Executive Board, Summit Global Logistics\nDate: April 22\nSubject: Strategic Operational Consolidation\n\nAs part of our three-year digital optimization roadmap, Summit Global Logistics will be centralizing our Scandinavian customer support operations into our Copenhagen headquarters.\n\nConsequently, operations at our Stockholm satellite office will conclude at the end of next month. All qualified staff members will be extended competitive relocation packages or voluntary separation compensation."
+            }
+          ]
         },
         {
           "id": 68,
@@ -8636,7 +9554,18 @@ const TOEIC_DATA = {
                 "reason": "【正確】v./adj./n. 核心詞彙。意為「它是如此糟糕，以至於它是令人愉快的。」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test4_g68_71",
+          "group_range": "Questions 68 - 71",
+          "group_part": "Part 7 閱讀理解（知名導演新片影評專欄）",
+          "passages": [
+            {
+              "type": "article",
+              "title": "🎬 藝術電影院線影評：《沉默的鐘聲》評析 (Film Review: The Silent Chime by Victoria Rule)",
+              "content": "Acclaimed director Victoria Rule returns to cinema screens with 'The Silent Chime,' an atmospheric mystery set in an isolated Scottish coastal fishing village during the 1920s.\n\nWhile the cinematography and orchestral score are undeniably mesmerizing, several film critics note that Rule's deliberate pacing occasionally verges on sluggish.\n\nNevertheless, leading actor Marcus Stone delivers a riveting performance that elevates the narrative above conventional period drama tropes, making it essential viewing for arthouse enthusiasts."
+            }
+          ]
         },
         {
           "id": 70,
@@ -8681,7 +9610,18 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】v./adj./n. 核心詞彙。意為「不尊重」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test4_g68_71",
+          "group_range": "Questions 68 - 71",
+          "group_part": "Part 7 閱讀理解（知名導演新片影評專欄）",
+          "passages": [
+            {
+              "type": "article",
+              "title": "🎬 藝術電影院線影評：《沉默的鐘聲》評析 (Film Review: The Silent Chime by Victoria Rule)",
+              "content": "Acclaimed director Victoria Rule returns to cinema screens with 'The Silent Chime,' an atmospheric mystery set in an isolated Scottish coastal fishing village during the 1920s.\n\nWhile the cinematography and orchestral score are undeniably mesmerizing, several film critics note that Rule's deliberate pacing occasionally verges on sluggish.\n\nNevertheless, leading actor Marcus Stone delivers a riveting performance that elevates the narrative above conventional period drama tropes, making it essential viewing for arthouse enthusiasts."
+            }
+          ]
         },
         {
           "id": 71,
@@ -8726,7 +9666,18 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】v./adj./n. 核心詞彙。意為「她繼續扮演類似的角色。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test4_g68_71",
+          "group_range": "Questions 68 - 71",
+          "group_part": "Part 7 閱讀理解（知名導演新片影評專欄）",
+          "passages": [
+            {
+              "type": "article",
+              "title": "🎬 藝術電影院線影評：《沉默的鐘聲》評析 (Film Review: The Silent Chime by Victoria Rule)",
+              "content": "Acclaimed director Victoria Rule returns to cinema screens with 'The Silent Chime,' an atmospheric mystery set in an isolated Scottish coastal fishing village during the 1920s.\n\nWhile the cinematography and orchestral score are undeniably mesmerizing, several film critics note that Rule's deliberate pacing occasionally verges on sluggish.\n\nNevertheless, leading actor Marcus Stone delivers a riveting performance that elevates the narrative above conventional period drama tropes, making it essential viewing for arthouse enthusiasts."
+            }
+          ]
         },
         {
           "id": 78,
@@ -8771,7 +9722,18 @@ const TOEIC_DATA = {
                 "reason": "【正確】v.-ing 現在分詞/動名詞。意為「誘騙人們無償寄錢」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test4_g76_80",
+          "group_range": "Questions 76 - 80",
+          "group_part": "Part 7 閱讀理解（內部帳目稽核與假名詐欺調查）",
+          "passages": [
+            {
+              "type": "email",
+              "title": "🔒 內部法遵調查：虛假請款單調查進度 (Internal Audit: Fictitious Vendor Inquiry)",
+              "content": "CONFIDENTIAL — FOR INTERNAL COMPLIANCE USE ONLY\nFrom: Michelle Davies, Chief Internal Auditor\nTo: Arthur Pendelton, Chief Financial Officer\nDate: October 14\nSubject: Preliminary Findings Regarding Vendor 'Sue Doenim LLC'\n\nDear Mr. Pendelton,\n\nOur forensic accounting audit has verified that payments totaling $148,000 made over the preceding eight months to a vendor registered as 'Sue Doenim Consulting' correspond to non-existent promotional services.\n\nThe telephone numbers listed on invoices route to prepaid cellular lines, and the physical address is a commercial mail drop box. We suspect this is a fraudulent embezzlement scheme operated by a former accounting supervisor."
+            }
+          ]
         },
         {
           "id": 80,
@@ -8816,7 +9778,18 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】v./adj./n. 核心詞彙。意為「她現在的房東」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test4_g76_80",
+          "group_range": "Questions 76 - 80",
+          "group_part": "Part 7 閱讀理解（內部帳目稽核與假名詐欺調查）",
+          "passages": [
+            {
+              "type": "email",
+              "title": "🔒 內部法遵調查：虛假請款單調查進度 (Internal Audit: Fictitious Vendor Inquiry)",
+              "content": "CONFIDENTIAL — FOR INTERNAL COMPLIANCE USE ONLY\nFrom: Michelle Davies, Chief Internal Auditor\nTo: Arthur Pendelton, Chief Financial Officer\nDate: October 14\nSubject: Preliminary Findings Regarding Vendor 'Sue Doenim LLC'\n\nDear Mr. Pendelton,\n\nOur forensic accounting audit has verified that payments totaling $148,000 made over the preceding eight months to a vendor registered as 'Sue Doenim Consulting' correspond to non-existent promotional services.\n\nThe telephone numbers listed on invoices route to prepaid cellular lines, and the physical address is a commercial mail drop box. We suspect this is a fraudulent embezzlement scheme operated by a former accounting supervisor."
+            }
+          ]
         },
         {
           "id": 82,
@@ -8906,7 +9879,18 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】adv. 副詞。意為「僅有的」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test4_g86_90",
+          "group_range": "Questions 86 - 90",
+          "group_part": "Part 7 閱讀理解（住家翻新裝修工程報價與回饋）",
+          "passages": [
+            {
+              "type": "notice",
+              "title": "🔨 景觀庭院與廚房翻新工程估價單 (Home Renovation Estimate: Janice Kowalski)",
+              "content": "PRESTIGE HOME CRAFTSMEN\nContractor License #CON-88412\nCustom Residential Renovation & Demolition Services\n\nClient: Janice Kowalski, 442 Maplewood Drive\nProject Scope: Kitchen Wall Demolition & Hardwood Flooring Replacement\nDate: August 3\n\nItemized Breakdown:\n1. Interior non-loadbearing wall demo & debris disposal: $1,800.00\n2. Custom quartz countertop fabrication & installation: $4,200.00\n3. Premium white oak hardwood flooring (600 sq ft): $5,400.00\n4. Plumbing rerouting & electrical fixture hookups: $1,600.00\n\nTotal Estimated Cost: $13,000.00\nWork Duration: Approximately 10 business days."
+            }
+          ]
         },
         {
           "id": 90,
@@ -8951,7 +9935,18 @@ const TOEIC_DATA = {
                 "reason": "【正確】v.-ed 過去式/過去分詞。意為「需要多少人」。符合題幹文法句構，商務語境搭配最為精準通順。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test4_g86_90",
+          "group_range": "Questions 86 - 90",
+          "group_part": "Part 7 閱讀理解（住家翻新裝修工程報價與回饋）",
+          "passages": [
+            {
+              "type": "notice",
+              "title": "🔨 景觀庭院與廚房翻新工程估價單 (Home Renovation Estimate: Janice Kowalski)",
+              "content": "PRESTIGE HOME CRAFTSMEN\nContractor License #CON-88412\nCustom Residential Renovation & Demolition Services\n\nClient: Janice Kowalski, 442 Maplewood Drive\nProject Scope: Kitchen Wall Demolition & Hardwood Flooring Replacement\nDate: August 3\n\nItemized Breakdown:\n1. Interior non-loadbearing wall demo & debris disposal: $1,800.00\n2. Custom quartz countertop fabrication & installation: $4,200.00\n3. Premium white oak hardwood flooring (600 sq ft): $5,400.00\n4. Plumbing rerouting & electrical fixture hookups: $1,600.00\n\nTotal Estimated Cost: $13,000.00\nWork Duration: Approximately 10 business days."
+            }
+          ]
         },
         {
           "id": 91,
@@ -8996,7 +9991,18 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】v./adj./n. 核心詞彙。意為「面臨嚴峻挑戰的珠寶設計師」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test4_g91_95",
+          "group_range": "Questions 91 - 95",
+          "group_part": "Part 7 閱讀理解（智慧穿戴睡眠監測儀產品評測）",
+          "passages": [
+            {
+              "type": "article",
+              "title": "💤 科技新產品評測：SomnaRing 智慧睡眠監測戒指 (Product Review: SomnaRing Wearable)",
+              "content": "Wearable health tracking has entered a discreet new era with the SomnaRing, an ultra-lightweight titanium ring engineered to monitor vital signs during sleep.\n\nEquipped with medical-grade infrared photoplethysmography sensors, the device logs heart rate variability, skin temperature fluctuations, and sleep cycle staging with impressive clinical accuracy.\n\nAccording to long-term tester Wilma Scott, the accompanying smartphone app delivers actionable recovery coaching without intrusive vibrating alarms."
+            }
+          ]
         },
         {
           "id": 93,
@@ -9041,7 +10047,18 @@ const TOEIC_DATA = {
                 "reason": "【錯誤】v./adj./n. 核心詞彙。意為「她的訊息被鬥魂忽略了。」。放入句中與前後文商務語境不符，或無法構成正確慣用搭配。"
               }
             }
-          }
+          },
+          "type": "group",
+          "group_id": "test4_g91_95",
+          "group_range": "Questions 91 - 95",
+          "group_part": "Part 7 閱讀理解（智慧穿戴睡眠監測儀產品評測）",
+          "passages": [
+            {
+              "type": "article",
+              "title": "💤 科技新產品評測：SomnaRing 智慧睡眠監測戒指 (Product Review: SomnaRing Wearable)",
+              "content": "Wearable health tracking has entered a discreet new era with the SomnaRing, an ultra-lightweight titanium ring engineered to monitor vital signs during sleep.\n\nEquipped with medical-grade infrared photoplethysmography sensors, the device logs heart rate variability, skin temperature fluctuations, and sleep cycle staging with impressive clinical accuracy.\n\nAccording to long-term tester Wilma Scott, the accompanying smartphone app delivers actionable recovery coaching without intrusive vibrating alarms."
+            }
+          ]
         }
       ]
     }

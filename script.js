@@ -13,6 +13,7 @@
   let currentIndex = 0;
   let userAnswers = {}; // { qId: selectedOpt }
   let flaggedQuestions = new Set();
+  let currentRenderedGroupId = null; // 紀錄目前正在渲染的題組 ID，避免同題組切換時整頁重繪
   
   // Stats for Practice Mode
   let practiceStats = { correct: 0, wrong: 0 };
@@ -224,6 +225,7 @@
 
   // Filter Questions for Practice Mode
   function applyFilter(filterKey) {
+    currentRenderedGroupId = null;
     currentFilter = filterKey;
     
     // Update Filter Tab UI
@@ -252,6 +254,7 @@
 
   // Load Test Data
   function loadTest(testId) {
+    currentRenderedGroupId = null;
     currentTestId = testId;
     if (testSelect && testSelect.value !== testId) {
       testSelect.value = testId;
@@ -311,6 +314,10 @@
     questions.forEach((q, idx) => {
       const btn = document.createElement('button');
       btn.className = 'palette-btn';
+      if (q.group_id) {
+        btn.classList.add('is-group-q');
+        btn.dataset.group = q.group_id;
+      }
       btn.textContent = q.id || (idx + 1);
       btn.dataset.index = idx;
 
@@ -391,15 +398,20 @@
 
     // 檢查是否為題組題 (Reading Group)
     if (q.type === 'group' && q.passages && q.passages.length > 0) {
-      // 隱藏單題卡片，顯示題組舞台
       if (questionCard) questionCard.style.display = 'none';
       if (feedbackCard) feedbackCard.style.display = 'none';
       if (readingGroupStage) {
         readingGroupStage.style.display = 'grid';
-        renderReadingGroupStage(q);
+        if (currentRenderedGroupId === q.group_id) {
+          // 核心優化：同一個文章的題組已在頁面上，絕不銷毀重繪，只平滑聚焦當前子題！
+          updateReadingGroupSubQActive(q);
+        } else {
+          currentRenderedGroupId = q.group_id;
+          renderReadingGroupStage(q);
+        }
       }
     } else {
-      // 顯示單題卡片，隱藏題組舞台
+      currentRenderedGroupId = null;
       if (readingGroupStage) readingGroupStage.style.display = 'none';
       if (questionCard) questionCard.style.display = 'block';
       renderSingleQuestionStage(q);
@@ -503,6 +515,57 @@
     }
   }
 
+  // 平滑滾動與高亮當前子題卡片（不重繪頁面）
+  function updateReadingGroupSubQActive(currentQ) {
+    if (!readingGroupStage) return;
+    const cards = readingGroupStage.querySelectorAll('.subquestion-card');
+    cards.forEach(card => {
+      const isTarget = (card.id === `subqCard_${currentQ.id}`);
+      card.classList.toggle('active-subq', isTarget);
+    });
+
+    const targetEl = document.getElementById(`subqCard_${currentQ.id}`);
+    if (targetEl) {
+      targetEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+  }
+
+  // 局部即時更新小題作答狀態與解析（不刷新整頁）
+  function updateSingleSubQCardInDOM(subQ) {
+    const cardEl = document.getElementById(`subqCard_${subQ.id}`);
+    if (!cardEl) return;
+
+    const chosen = userAnswers[subQ.id];
+    const isAnswered = Boolean(chosen);
+    const isCorrect = (chosen === subQ.answer);
+
+    // 更新選項按鈕
+    const optBtns = cardEl.querySelectorAll('.subq-options button');
+    optBtns.forEach(btn => {
+      const optKey = btn.dataset.opt;
+      btn.className = 'opt-btn';
+      if (chosen === optKey) btn.classList.add('selected');
+      if (currentMode === 'practice' && chosen && showAnswerInPractice) {
+        if (optKey === subQ.answer) btn.classList.add('correct-choice');
+        else if (chosen === optKey) btn.classList.add('wrong-choice');
+      }
+    });
+
+    // 刷題模式下若已作答且開啟解析，即時注入導師解析卡片
+    let mentorCard = cardEl.querySelector('.mentor-pedagogy-card');
+    if (currentMode === 'practice' && isAnswered && showExplainInPractice) {
+      if (!mentorCard) {
+        const wrap = document.createElement('div');
+        wrap.innerHTML = generateMentorCard(subQ, isCorrect);
+        if (wrap.firstElementChild) {
+          cardEl.appendChild(wrap.firstElementChild);
+        }
+      }
+    } else if (mentorCard) {
+      mentorCard.remove();
+    }
+  }
+
   // 渲染題組連貫同頁視窗 (Reading Group Stage)
   function renderReadingGroupStage(currentQ) {
     if (!readingGroupStage) return;
@@ -525,7 +588,6 @@
       `;
 
       if (p.type === 'chat' && p.messages) {
-        // 即時通訊聊天室主題
         passageHtml += `<div class="chat-room-container">`;
         p.messages.forEach(msg => {
           passageHtml += `
@@ -540,7 +602,6 @@
         });
         passageHtml += `</div>`;
       } else if (p.type === 'recipe') {
-        // 食譜指引主題
         passageHtml += `
           <div class="recipe-box">
             <div class="section-label">🥣 食材清單 (Ingredients)</div>
@@ -555,7 +616,6 @@
           </div>
         `;
       } else if (p.type === 'form') {
-        // 訂單/表單主題
         passageHtml += `
           <div class="form-box">
             ${p.order_number ? `<div style="font-weight:700;color:var(--gold);margin-bottom:8px;">訂單編號：${escapeHtml(p.order_number)}</div>` : ''}
@@ -586,7 +646,6 @@
           </div>
         `;
       } else {
-        // 一般文章、公告、信件
         passageHtml += `
           <div class="passage-text-content">${escapeHtml(p.content || '')}</div>
         `;
@@ -597,7 +656,7 @@
 
     passageHtml += `</div>`; // 結束 passage-pane
 
-    // 2. 組裝右側小題面板 (Subquestions Pane)
+    // 2. 組裝右側小題面板 (Subquestions Pane - 同文章全部小題列出)
     let subqHtml = `<div class="subquestions-pane">`;
 
     groupQuestions.forEach(subQ => {
@@ -644,7 +703,6 @@
 
       subqHtml += `</div>`; // 結束 subq-options
 
-      // 刷題模式下若已作答且開啟解析，立即顯示導師解析卡片
       if (currentMode === 'practice' && isAnswered && showExplainInPractice) {
         subqHtml += generateMentorCard(subQ, isCorrect);
       }
@@ -656,13 +714,21 @@
 
     readingGroupStage.innerHTML = passageHtml + subqHtml;
 
-    // 綁定小題卡片事件
+    // 綁定小題卡片按鈕事件（支援在同一頁內點選切換與焦點轉移）
     readingGroupStage.querySelectorAll('.subq-options button').forEach(btn => {
       btn.addEventListener('click', (e) => {
         const targetSubQId = parseInt(btn.dataset.subqid, 10);
         const optKey = btn.dataset.opt;
         const targetQ = questions.find(item => item.id === targetSubQId);
         if (targetQ) {
+          const targetIdx = questions.findIndex(item => item.id === targetSubQId);
+          if (targetIdx !== -1) {
+            currentIndex = targetIdx;
+            cardQNum.textContent = `Question ${targetQ.id}`;
+            cardQPart.textContent = getQuestionPartLabel(targetQ);
+            saveCurrentState();
+            updateReadingGroupSubQActive(targetQ);
+          }
           selectOption(targetQ, optKey);
         }
       });
@@ -673,20 +739,20 @@
         const targetSubQId = parseInt(btn.dataset.subqid, 10);
         if (flaggedQuestions.has(targetSubQId)) {
           flaggedQuestions.delete(targetSubQId);
+          btn.classList.remove('flagged');
+          btn.querySelector('span').textContent = '標記';
         } else {
           flaggedQuestions.add(targetSubQId);
+          btn.classList.add('flagged');
+          btn.querySelector('span').textContent = '已標記';
         }
         saveCurrentState();
         updatePaletteStatus();
-        renderReadingGroupStage(currentQ);
       });
     });
 
-    // 自動聚焦捲動至當前子題
-    const currentSubqEl = document.getElementById(`subqCard_${currentQ.id}`);
-    if (currentSubqEl) {
-      currentSubqEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-    }
+    // 聚焦捲動至當前子題
+    updateReadingGroupSubQActive(currentQ);
   }
 
 
@@ -703,8 +769,15 @@
     }
 
     saveCurrentState();
-    renderQuestion(currentIndex);
-    updatePaletteStatus();
+
+    // 核心優化：若當前正在題組舞台內，局部更新該子題，保持同文章頁面穩定不跳頁！
+    if (q.type === 'group' && currentRenderedGroupId === q.group_id) {
+      updateSingleSubQCardInDOM(q);
+      updatePaletteStatus();
+    } else {
+      renderQuestion(currentIndex);
+      updatePaletteStatus();
+    }
   }
 
   // Clear current test answers & reset progress
@@ -771,6 +844,7 @@
 
   // Load Mistakes Mode
   function loadMistakesMode() {
+    currentRenderedGroupId = null;
     try {
       const stored = JSON.parse(localStorage.getItem(STORAGE_MISTAKES_KEY) || '[]');
       rawQuestions = [...stored];
@@ -793,6 +867,7 @@
 
   // Switch Modes (Practice / Exam / Mistakes)
   function switchMode(newMode) {
+    currentRenderedGroupId = null;
     currentMode = newMode;
     btnModePractice.classList.toggle('active', currentMode === 'practice');
     btnModeExam.classList.toggle('active', currentMode === 'exam');
